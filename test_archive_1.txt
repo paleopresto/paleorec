@@ -1,0 +1,11 @@
+tree
+MarineSediment
+Wood
+speleothem
+sclerosponge
+LakeSediment
+Coral
+MarineSediment
+Hybrid
+h
+GlacierIce
