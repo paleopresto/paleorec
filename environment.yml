@@ -41,6 +41,7 @@ dependencies:
   - entrypoints=0.3
   - ffmpeg=2.7.0
   - flake8=3.8.4
+  - freetype=2.5.3
   - future=0.18.2
   - graphviz=2.38
   - icu=58.2
