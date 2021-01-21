@@ -33,6 +33,7 @@ class MCpredict:
           model = json.load(f)
          
         self.archives_map = model['archives_map']
+        self.archive_types = model['archive_types']
       
         if chain_length == 3:
             self.initial_prob_dict = model['q0_chain1']
@@ -226,11 +227,11 @@ class MCpredict:
     # transition_prob_dict = transition_matrix_chain1
     # # transition_prob_dict = transition_matrix_chain2
     
-pred = MCpredict(3)
-test_data = open ('test_archive_1.txt', 'r', encoding='utf-8')    
-output_file = open ('output_archive_proxy_units.txt', 'w', encoding='utf-8')
-for line in test_data:
-    output_list = pred.predict_seq(line)
-    output_file.write(str(output_list) + '\n')
+# pred = MCpredict(3)
+# test_data = open ('test_archive_1.txt', 'r', encoding='utf-8')    
+# output_file = open ('output_archive_proxy_units.txt', 'w', encoding='utf-8')
+# for line in test_data:
+#     output_list = pred.predict_seq(line)
+#     output_file.write(str(output_list) + '\n')
 
   
