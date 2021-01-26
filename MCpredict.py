@@ -33,7 +33,7 @@ class MCpredict:
           model = json.load(f)
          
         self.archives_map = model['archives_map']
-        self.archive_types = model['archive_types']
+        self.names_set = {0 : set(model['archive_types']), 1: set(model['proxy_obs_types']), 2: set(model['units']), 3: set(model['int_var']), 4: set(model['int_var_det'])}
       
         if chain_length == 3:
             self.initial_prob_dict = model['q0_chain1']
@@ -100,7 +100,7 @@ class MCpredict:
         
         return out_dict
       
-    def back_track(self, data):
+    def back_track(self, data, name_list_ind):
         '''
         Function to get top 5 items for each item in sequence
     
@@ -120,20 +120,22 @@ class MCpredict:
         outlist = []
         if type(data) is list:
             for content in data:
-                outlist.append(self.back_track(content))
+                outlist.append(self.back_track(content, name_list_ind))
         else:
             prob, word = data
             if word not in self.transition_prob_dict:
                 return []
             pq = []
             heapify(pq)
+            temp_names_set = self.names_set[name_list_ind]
             for key, val in self.transition_prob_dict[word].items():
-                if len(pq) < 5:
-                    heappush(pq, ((prob+val), key))
-                else:
-                    if (prob+val) > pq[0][0]:
-                        blah = heappop(pq)
+                if key in temp_names_set:
+                    if len(pq) < 5:
                         heappush(pq, ((prob+val), key))
+                    else:
+                        if (prob+val) > pq[0][0]:
+                            blah = heappop(pq)
+                            heappush(pq, ((prob+val), key))
             
             temp = []
             while pq:
@@ -185,6 +187,7 @@ class MCpredict:
     
         '''
         sentence = sentence.strip().split(',')
+        sentence = [x for x in sentence if x!='Select']
         output_list = []
         for index, word in enumerate(sentence):
             #initial probability
@@ -204,8 +207,14 @@ class MCpredict:
                 # else:
                 # call API to add new word to the data
         
-        while len(output_list) < self.chain_length:
-            output_list.append(self.back_track(output_list[-1]))
+        while len(output_list) < self.chain_length:            
+            if self.chain_length == 3:
+                output_list.append(self.back_track(output_list[-1], len(output_list)))
+            else:
+                if len(output_list) >= 2:
+                    output_list.append(self.back_track(output_list[-1], len(output_list)+1))
+                else:
+                    output_list.append(self.back_track(output_list[-1], len(output_list)))
         
         out_dict = self.pretty_output(output_list)
         return out_dict

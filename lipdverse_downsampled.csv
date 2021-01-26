@@ -300,10 +300,10 @@ Wood,Trsgi,NA,T,Air Surface
 Wood,SE,NA,NA,NA
 Wood,Corrs,NA,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
@@ -317,24 +317,24 @@ Coral,D13C,permil,NA,NA
 MarineSediment,D18O,permil,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
-Speleothem,D18O,per mil VPDB,NA,NA
-Speleothem,D18O,per mil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
 Coral,Sr/Ca,mmol/mol,NA,NA
 Coral,Sr/Ca,mmol/mol,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 MarineSediment,TEX86,NotApplicable,Temperature,Sea Surface
-MarineSediment,D18O,per mil SMOW,NA,NA
+MarineSediment,D18O,permil SMOW,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 GlacierIce,D18O,permil,T,Air Condensationlevel
 GlacierIce,D18O,permil,T,Air Condensationlevel
 GlacierIce,D18O,permil,T,Air Condensationlevel
@@ -342,15 +342,15 @@ GlacierIce,D18O,permil,T,Air Condensationlevel
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,NotApplicable,NA,NA
-MarineSediment,D18O,per mil PDB,NA,NA
-MarineSediment,D18O,per mil PDB,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline
 GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
@@ -361,24 +361,23 @@ Coral,D18O,permil,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Density,g/cm^3,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
-MarineSediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Sclerosponge,D18O,permil,T,Sea Surface
-Coral,D18O,per mil,D18Osw,Sea Surface
-Coral,D18O,per mil,Temperature,Sea Surface
+Coral,D18O,permil,D18Osw,Sea Surface
+Coral,D18O,permil,Temperature,Sea Surface
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 LakeSediment,Depth,mm,NA,NA
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
 LakeSediment,Depth,cm,NA,NA
@@ -386,25 +385,25 @@ Coral,D18O,permil,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,NA,NA
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,NA,NA
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 LakeSediment,Thickness,cm,T,Air Surface
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Bottom Water
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Bottom Water
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
@@ -412,12 +411,12 @@ GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,NA
 GlacierIce,Dd,permil,T,Air Condensationlevel
 MarineSediment,Ba/Ca,NotApplicable,Salinity,Sea Surface
-MarineSediment,D18O,per mil PDB,Temperature,Sea Surface
-MarineSediment,D18O,per mil PDB,D18Osw,Sea Surface
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 Coral,Calcification,cm/yr,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
@@ -428,26 +427,26 @@ GlacierIce,Dd,permil,T,Air Condensationlevel
 GlacierIce,D18O,permil,T,Air Condensationlevel
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil PDB,NA,NA
-MarineSediment,D18O,per mil PDB,D18Osw,Sea Surface
-MarineSediment,D18O,per mil PDB,Temperature,Sea Surface
+MarineSediment,D18O,permil PDB,NA,NA
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
 GlacierIce,Thickness,mwe,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D18O,per mil VPDB,Temperature,Sea Surface
-MarineSediment,D18O,per mil VPDB,D18Osw,Sea Surface
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface
+MarineSediment,D18O,permil VPDB,D18Osw,Sea Surface
 MarineSediment,Ba/Ca,microm/m,NA,NA
 GlacierIce,Dd,permil,T,Air Condensationlevel
 Sclerosponge,D18O,permil,T,Sea Surface
@@ -459,14 +458,14 @@ GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,Calcification,mm/yr,NA,NA
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D18O,per mil VPDB,Temperature,Sea Surface
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface
 GlacierIce,Dd,permil,T,Air Condensationlevel
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 LakeSediment,Thickness,mm,T,NA
 Speleothem,D18O,permil,T,Air Condensationlevel
@@ -484,8 +483,8 @@ GlacierIce,Depth,m,NA,NA
 GlacierIce,D18O,permil,T,Air Condensationlevel
 GlacierIce,Dd,permil,T,Air Condensationlevel
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
@@ -494,8 +493,8 @@ Coral,D13C,permil,NA,NA
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 LakeSediment,Uk37,NA,NA,NA
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,D18Osw,Bottom Water
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,D18Osw,Bottom Water
 Coral,D18O,permil,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
@@ -523,35 +522,35 @@ MarineSediment,Ba/Ca,μmol/mol,NA,NA
 MarineSediment,Ba/Ca,μmol/mol,NA,NA
 GlacierIce,D18O,permil,T,Air Condensationlevel
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Depth,cm,NA,NA
 Coral,D18O,permil,T,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
-Speleothem,D18O,per mil VPDB,NA,NA
-Speleothem,D18O,per mil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
 Speleothem,D18O,permil,T,Air Condensationlevel
 Speleothem,SE,degC,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D13C,per mil,NA,NA
+MarineSediment,D13C,permil,NA,NA
 MarineSediment,D18O,permil,Temperature,Bottom Water
 MarineSediment,D18O,permil,D18Osw,Bottom Water
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Surface
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
-MarineSediment,D13C,per mil,NA,NA
-MarineSediment,D18O,per mil,Temperature,Subsurface
-MarineSediment,D18O,per mil,D18Osw,Subsurface
+MarineSediment,D13C,permil,NA,NA
+MarineSediment,D18O,permil,Temperature,Subsurface
+MarineSediment,D18O,permil,D18Osw,Subsurface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Subsurface
 Coral,D18O,permil,T,Sea Surface
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
@@ -572,13 +571,13 @@ LakeSediment,Depth,cm,NA,NA
 GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
@@ -593,8 +592,8 @@ MarineSediment,Depth,cm,NA,NA
 MarineSediment,Uk37Prime,unitless,Temperature,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,TEX86,unitless,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Depth,m,NA,NA
 GlacierIce,D18O,permil,T,Air Condensationlevel
@@ -618,7 +617,7 @@ Coral,Calcification,g/cm/yr,NA,NA
 Coral,Calcification,g/cm/yr,NA,NA
 h,D18O,cm,NA,NA
 h,Mg/Ca,mmol/mol,NA,NA
-h,D18O,per mil VPDB,NA,NA
+h,D18O,permil VPDB,NA,NA
 Coral,D18O,permil,Temperature And Salinity,Sea Surface
 Coral,D18O,permil,Temperature And Salinity,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
@@ -631,8 +630,8 @@ MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Ba/Ca,mmol/mol,NA,NA
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
@@ -669,28 +668,28 @@ Coral,D18O,permil,T,Sea Surface
 Coral,D18O,permil,T,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
 GlacierIce,D18O,permil,T,Air Condensationlevel
-Speleothem,D18O,per mil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Surface Water
-MarineSediment,D18O,per mil,D18Osw,Surface Water
-MarineSediment,D18O,per mil,Temperature,Thermocline
-MarineSediment,D18O,per mil,D18Osw,Thermocline
+MarineSediment,D18O,permil,Temperature,Surface Water
+MarineSediment,D18O,permil,D18Osw,Surface Water
+MarineSediment,D18O,permil,Temperature,Thermocline
+MarineSediment,D18O,permil,D18Osw,Thermocline
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Surface Water
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline
-MarineSediment,Ba/Ca,µmol/mol,Salinity,Surface Water
+MarineSediment,Ba/Ca,μmol/mol,Salinity,Surface Water
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 Coral,D18O,permil,NA,NA
 Coral,D13C,permil,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 Coral,D18O,permil,T,Sea Surface
-Speleothem,D18O,per mil VPDB,NA,NA
-Speleothem,D18O,per mil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA
 Sclerosponge,D18O,permil,T,Sea Surface
 MarineSediment,Depth,cm,NA,NA
 MarineSediment,TEX86,NotApplicable,NA,NA
@@ -702,15 +701,15 @@ Coral,D18O,permil,T,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Mg/Ca,NotApplicable,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,NA,NA
+MarineSediment,D18O,permil,NA,NA
 Coral,Calcification,g/cm/yr,NA,NA
 Coral,Calcification,g/cm/yr,NA,NA
 Coral,Calcification,g/cm/yr,NA,NA
 Coral,Composite,percent,T,Sea Surface
 Coral,Calcification,g/cm/yr,NA,NA
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel
 LakeSediment,Thickness,mm,T,Air Surface
@@ -725,8 +724,8 @@ Coral,Calcification,g/cm/yr,NA,NA
 Coral,Calcification,g/cm/yr,NA,NA
 LakeSediment,Core,NotApplicable,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 LakeSediment,Thickness,cm,NA,NA
 LakeSediment,Core,NotApplicable,NA,NA
@@ -737,15 +736,15 @@ GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,D18O,permil,T,Sea Surface
 Coral,D13C,permil,NA,NA
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
-MarineSediment,D18O,per mil,Temperature,Bottom Water
-MarineSediment,D18O,per mil,D18Osw,Bottom Water
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Bottom Water
+MarineSediment,D18O,permil,D18Osw,Bottom Water
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 GlacierIce,Dd,permil,T,Air Condensationlevel
 MarineSediment,Depth,cm,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,unitless,Temperature,Sea Surface
@@ -756,8 +755,8 @@ GlacierIce,D18O,permil,T,Air Condensationlevel
 Coral,D18O,permil,T,Sea Surface
 Coral,Sr/Ca,mmol/mol,T,Sea Surface
 MarineSediment,Depth,m,NA,NA
-MarineSediment,D18O,per mil,Temperature,Sea Surface
-MarineSediment,D18O,per mil,D18Osw,Sea Surface
+MarineSediment,D18O,permil,Temperature,Sea Surface
+MarineSediment,D18O,permil,D18Osw,Sea Surface
 MarineSediment,Depth,m,NA,NA
 MarineSediment,Uk37Prime,NA,Temperature,Sea Surface
 GlacierIce,D18O,permil,T,Air Condensationlevel

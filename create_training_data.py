@@ -22,6 +22,10 @@ common_lipdverse_df = common_lipdverse_df.replace('Depth_Cm', 'Depth', regex=Tru
 common_lipdverse_df = common_lipdverse_df.replace('Depth_M', 'Depth', regex=True)
 common_lipdverse_df = common_lipdverse_df.replace('per mille VPDB', 'per mil VPDB', regex=True)
 common_lipdverse_df = common_lipdverse_df.replace('per mil VPBD', 'per mil VPDB', regex=True)
+common_lipdverse_df = common_lipdverse_df.replace('per mil', 'permil', regex=True)
+common_lipdverse_df = common_lipdverse_df.replace('g/cm^3', 'g/cm3', regex=True)
+common_lipdverse_df = common_lipdverse_df.replace('per cent', 'percent', regex=True)
+common_lipdverse_df = common_lipdverse_df.replace('µmol/mol', 'μmol/mol', regex=True)
 common_lipdverse_df = common_lipdverse_df.replace('mmolmol', 'mmol/mol', regex=True)
 
 final_df = common_lipdverse_df.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail'], axis=1)
@@ -30,8 +34,11 @@ archives_map = {'marine sediment': 'MarineSediment', 'lake sediment': 'LakeSedim
 
 for i, row in final_df.iterrows():
     final_df.at[i,'archiveType'] = archives_map[row[0]] if row[0] in archives_map else row[0] 
+
+final_df = final_df[final_df.units != 'Mg/Ca']
     
 counter_proxy = collections.Counter(final_df['proxyObservationType'])
+counter_units = collections.Counter(final_df['units'])
 counter_int_var = collections.Counter(final_df['interpretation/variable'])
 counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
 

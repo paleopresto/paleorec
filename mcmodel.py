@@ -200,7 +200,7 @@ transition_matrix_chain2 = add_extra_keys(q0_chain2_set, transition_matrix_chain
 transition_matrix_chain2 = add_one_smoothing(transition_matrix_chain2)
 
 archives_map = {'marine sediment': 'MarineSediment', 'lake sediment': 'LakeSediment', 'glacier ice': 'GlacierIce', 'documents': 'Documents', 'borehole': 'Rock', 'tree': 'Wood', 'bivalve': 'MollusckShell', 'coral': 'Coral', '': '', 'speleothem': 'Speleothem', 'sclerosponge': 'Sclerosponge', 'hybrid': 'Hybrid', 'Sclerosponge': 'Sclerosponge', 'Speleothem': 'Speleothem', 'Coral': 'Coral', 'MarineSediment': 'MarineSediment', 'LakeSediment': 'LakeSediment', 'GlacierIce': 'GlacierIce', 'Documents': 'Documents', 'Hybrid': 'Hybrid', 'MolluskShell': 'MolluskShell', 'Lake': 'Lake'}
-model_dict = {'archive_types': list(counter_archive.keys()), 'archives_map':archives_map, 'q0_chain1' : q0_chain1, 'q0_chain2' : q0_chain2, 'transition_matrix_chain1' : transition_matrix_chain1, 'transition_matrix_chain2' : transition_matrix_chain2}
+model_dict = {'archive_types': list(counter_archive.keys()),'proxy_obs_types': list(counter_proxy.keys()),'units': list(counter_units.keys()),'int_var': list(counter_int_var.keys()),'int_var_det': list(counter_int_det.keys()), 'archives_map':archives_map, 'q0_chain1' : q0_chain1, 'q0_chain2' : q0_chain2, 'transition_matrix_chain1' : transition_matrix_chain1, 'transition_matrix_chain2' : transition_matrix_chain2}
 
 # write model to file 
 with open('model.txt', 'w') as json_file:
