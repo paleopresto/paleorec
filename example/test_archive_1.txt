@@ -1,0 +1,14 @@
+tree
+MarineSediment
+Wood
+speleothem
+sclerosponge
+LakeSediment
+Coral
+MarineSediment
+Hybrid
+h
+GlacierIce
+Wood,Trsgi,Temperature,Sea Surface,uncertainty_temperature
+MarineSediment,D18O,Temperature,Sea Surface
+Coral,Sr/Ca,Temperature And Salinity,Air Surface
