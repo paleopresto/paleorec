@@ -27,13 +27,8 @@ setup(
     keywords=['Paleoclimate, RecommendationSystem'],
     classifiers=[],
     install_requires=[
-        "ipython==7.19.0"
-        "ipywidgets=7.6.3"
-        "jupyter=1.0.0"
-        "notebook==6.1.4"
         "numpy>=1.18.5"
         "pandas>=1.0.5"
-        "requests==2.23.0"
     ],
     python_requires=">=3.8.0"
 )
