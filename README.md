@@ -7,5 +7,5 @@ We are currently considering 2 types of sequence chains
 2. archiveType -> proxyObservationType -> interpretation/variable -> interpretation/VariableDetail
 
 
-For a quick Demo, please run the cells in the MC_Demo.ipynb by launching the binder in the browser.<br>
+For a quick Demo, please run the cells in the demo\MC_Demo.ipynb by launching the binder in the browser.<br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD)
