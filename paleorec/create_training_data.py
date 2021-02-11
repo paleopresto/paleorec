@@ -14,7 +14,7 @@ from sklearn.utils import resample
  File to create class - balanced training data from wiki.linkedearth lipd files.
 
 '''
-common_lipdverse_df = pd.read_csv('merged_common_lipdverse_inferred.csv')
+common_lipdverse_df = pd.read_csv('..\merged_common_lipdverse_inferred.csv')
 
 
 # MANUAL TASK - TO SCAN THROUGH DATA AND CHECK WHICH FIELDS ARE ACTUALLY SIMILAR BUT HAVE BEEN ENTERED INCORRECTLY
@@ -104,14 +104,14 @@ df_marine_downsampled = resample(df_marine_sed,
 # MANUAL TASK - ADD DATA FOR WOOD FROM INFERRED VARIABLE TYPE CSV FILE,
 # BECAUSE THERE ARE NO SAMPLES WITH UNITS FOR INFERRED VARIABLE TYPE AND INFERRED VARIABLE TYPE UNITS FOR ARCHIVE = WOOD
 
-wood_inferred_df = pd.read_csv('wood_inferred_data.csv')
+wood_inferred_df = pd.read_csv('..\wood_inferred_data.csv')
 wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
 final_df_downsampled = pd.concat([df_wood_downsampled, wood_inferred_df, df_marine_downsampled, df_rest])
 
 final_df_downsampled = final_df_downsampled.sample(frac=1, random_state=2021).reset_index(drop=True)
 
 # write back the final training data to create the model.
-final_df_downsampled.to_csv('lipdverse_downsampled.csv', sep = ',', encoding = 'utf-8',index = False)
+final_df_downsampled.to_csv('..\lipdverse_downsampled.csv', sep = ',', encoding = 'utf-8',index = False)
 
 
 

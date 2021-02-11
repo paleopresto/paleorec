@@ -165,7 +165,7 @@ def add_one_smoothing(transition_matrix):
 
 
 
-final_df = pd.read_csv('lipdverse_downsampled.csv')
+final_df = pd.read_csv('..\lipdverse_downsampled.csv')
 final_df = final_df.replace(np.nan, 'NA', regex=True)
 
 counter_archive = collections.Counter(final_df['archiveType'])
@@ -322,5 +322,5 @@ archives_map = {'marine sediment': 'MarineSediment', 'lake sediment': 'LakeSedim
 model_dict = {'archive_types': list(counter_archive.keys()),'proxy_obs_types': list(counter_proxy.keys()),'units': list(counter_units.keys()),'int_var': list(counter_int_var.keys()),'int_var_det': list(counter_int_det.keys()), 'inf_var': list(counter_inf_var.keys()), 'inf_var_units': list(counter_inf_var_units.keys()), 'archives_map':archives_map, 'q0_chain1' : q0_chain1, 'q0_chain2' : q0_chain2, 'transition_matrix_chain1' : transition_matrix_chain1, 'transition_matrix_chain2' : transition_matrix_chain2}
 
 # write model to file 
-with open('model.txt', 'w') as json_file:
+with open('..\model.txt', 'w') as json_file:
   json.dump(model_dict, json_file)

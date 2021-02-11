@@ -6,7 +6,6 @@ Created on Tue Jan 19 17:21:35 2021
 """
 
 import json
-import numpy as np
 from heapq import heappop, heappush, heapify 
 
 class MCpredict:
@@ -30,7 +29,7 @@ class MCpredict:
 
         '''
         # read model file
-        with open('model.txt', 'r') as f:
+        with open('..\model.txt', 'r') as f:
             model = json.load(f)
          
         self.archives_map = model['archives_map']
@@ -321,8 +320,8 @@ class MCpredict:
         
 # pred = MCpredict(4, 5)
 # # pred = MCpredict(3, 5)
-# test_data = open ('example\\test_archive_1.txt', 'r', encoding='utf-8')    
-# output_file = open ('example\\output_archive_proxy_intVar_intVarDet.txt', 'w', encoding='utf-8')
+# test_data = open ('..\\example\\test_archive_1.txt', 'r', encoding='utf-8')    
+# output_file = open ('..\\example\\output_archive_proxy_intVar_intVarDet.txt', 'w', encoding='utf-8')
 # # output_file = open ('example\\output_archive_proxy_units.txt', 'w', encoding='utf-8')
 # for line in test_data:
 #     output_list = pred.predict_seq(line)
