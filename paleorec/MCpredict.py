@@ -29,7 +29,8 @@ class MCpredict:
 
         '''
         # read model file
-        with open('..\model.txt', 'r') as f:
+        # with open('..\model.txt', 'r') as f:
+        with open('../model.txt', 'r') as f:
             model = json.load(f)
          
         self.archives_map = model['archives_map']
