@@ -1,0 +1,2 @@
+lstmpred = LSTMpredict('..\..\data\model_lstm\\', '..\..\data\model_mc\\', 5)
+print(lstmpred.predictForSentence('Marine Sediment, Mg/Ca,mmol/mol'))  

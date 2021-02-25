@@ -1,0 +1,1005 @@
+archiveType,proxyObservationType,units,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits
+h,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Subsurface,Subsurface Temperature,degC
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Wood,Trsgi,NA,NA,NA,uncertainty_temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface,D18O,permil SMOW
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Wood,Density,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil VPDB,D180W,Sea Surface,Sea Surface D18Osw,NA
+MarineSediment,D18O,permil,Temperature,Thermocline,Thermocline Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,rep diff.,NA
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Density,g/cm^3,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,Ice Volume,Bottom Water,Bottom Water Ice Volume,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,Bsi,mg/g,NA,NA,Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Hybrid,Trsgi,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18Osw,permil
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Ba/Ca,microm/m,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil SMOW,NA,NA,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Core,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Density,count,NA,NA,Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Bottom Water,Bottom Water Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Notes,NotApplicable,NA,NA,Temperature,degC
+Wood,Trsgi,NA,Temperature,Air,Air Temperature,degC
+Sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil SMOW,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature And Salinity,Sea Surface,Sea Surface Temperature And Salinity,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NotApplicable,NA,NA,NA,NA
+LakeSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,Totalorganiccarbon,percent,NA,NA,Sedimentation Rate,cm/kyr
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+LakeSediment,Thickness,cm,NA,NA,uncertainty_temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,C/N,NotApplicable,NA,NA,period,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Ba/Ca,microm/m,NA,NA,D18O,permil VPDB
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+h,D18O,cm,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Uk37Prime,unitless,NA,NA,Sedimentation Rate,cm/kyr
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Subsurface,Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface,D18O,permil
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+LakeSediment,Core,NotApplicable,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,C/N,NotApplicable,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,permil
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Bottom Water,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,Temperature,Bottom Water,D18O,permil
+h,D18O,permil VPDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature And Salinity,Sea Surface,Sea Surface Temperature And Salinity,NA
+MarineSediment,Core,NotApplicable,NA,NA,Temperature,degC
+h,Mg/Ca,mmol/mol,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil SMOW
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Temperature,degC
+MarineSediment,D18O,permil,Temperature,Surface Water,Surface Water Temperature,degC
+MarineSediment,Sample Label,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,Ba/Ca,mmol/mol,NA,NA,D18Ocorr,permil
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Notes,NotApplicable,NA,NA,Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Thickness,mm,Temperature,NA,NA,NA
+h,D18O,permil VPDB,NA,NA,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Salinity,psu
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Relative Sea Level,m
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil VPDB
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,C/N,NA,NA,NA,NA,NA
+LakeSediment,Bsi,mg/g,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface,D18O,permil SMOW
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,NA,NA,NA,NA
+MarineSediment,Notes,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,SE,degC,NA,NA,NA,NA
+MarineSediment,C/N,NotApplicable,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+Coral,D18O,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,Thickness,mm,Temperature,NA,Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,TRW,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,Bsi,mg/cm2/yr,NA,NA,uncertainty_temperature,degC
+MarineSediment,D18O,permil VPDB,D180W,Sea Surface,D18O,permil SMOW
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,period,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Sclerosponge,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Thickness,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Subsurface,Temperature,degC
+MarineSediment,Caco3,percent,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,Thermocline Temperature,degC
+LakeSediment,TEX86,degC,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Ba/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,Core,NotApplicable,NA,NA,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,N,percent,NA,NA,Sedimentation Rate,cm/kyr
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil SMOW,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,unitless,NA,NA,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Sr/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface,Salinity,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sedimentation Rate,cm/kyr
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil VPDB,D18Osw,Sea Surface,D18O,permil VPDB
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+LakeSediment,R660_670,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Bottom Water,D18O,permil
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Sclerosponge,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,permil
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Density,g/cm^3,NA,NA,period,NA
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37,NotApplicable,NA,NA,NA,NA
+MarineSediment,N,percent,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+MarineSediment,Density,g/cm^3,NA,NA,Sedimentation Rate,cm/kyr
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+h,D18O,cm,NA,NA,D18O,permil SMOW
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+h,Mg/Ca,mmol/mol,NA,NA,D18O,permil SMOW
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+LakeSediment,Bsi,mg/cm2/yr,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Density,count,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,Totalorganiccarbon,percent,NA,NA,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+LakeSediment,Core,NotApplicable,NA,NA,Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,TEX86,NA,Temperature,Lake Surface,Lake Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,NA,NA,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Thickness,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,NA,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Samplecount,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Subsurface,Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Subsurface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Subsurface,D18O,permil
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,TRW,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Surface,D18O,permil
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+Coral,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+MarineSediment,Core,NotApplicable,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,TEX86,NotApplicable,NA,NA,Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air,Air Temperature,degC
+Coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,Density,g/cm3,NA,NA,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface,D18O,permil SMOW
+MarineSediment,TEX86,unitless,NA,NA,Subsurface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Bottom Water,Temperature,degC
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37,NotApplicable,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Bottom Water,Bottom Water D18Osw,permil
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Thermocline,Thermocline D18Osw,NA
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Surface,Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,NA,NA,Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Ba/Ca,μmol/mol,Salinity,Surface Water,Surface Water Salinity,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Temperature,Bottom Water,D18O,permil
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Salinity,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,Core,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Totalorganiccarbon,percent,NA,NA,NA,NA
+Speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,rep diff.,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Surface,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Bottom Water,Bottom Water D18Osw,permil
+Wood,SE,NA,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,TEX86,unitless,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NA,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+LakeSediment,Bsi,mg/cm2/yr,NA,NA,uncertainty_temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,period,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+h,D18O,permil VPDB,NA,NA,D18O,permil SMOW
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil VPDB,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Totalorganiccarbon,percent,NA,NA,period,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Sea Surface Salinity,psu
+Coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+h,D18O,cm,NA,NA,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+LakeSediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil VPDB,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,Rbar,NA,NA,NA,NA,NA
+LakeSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Subsurface,D18O,permil
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,D18O,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D13C,permil,NA,NA,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NA,Temperature,Sea Surface,Sedimentation Rate,cm/kyr
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,D18O,permil SMOW
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+LakeSediment,Thickness,cm,NA,NA,Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+LakeSediment,Thickness,cm,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Surface,Sea Surface Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+MarineSediment,Ba/Ca,μmol/mol,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Subsurface,D18O,permil
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18Ocorr,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,rep diff.,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,Bsi,percent,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Surface,Surface D18Osw,permil
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Bottom Water,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18Ocorr,permil
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+LakeSediment,TEX86,degC,NA,NA,Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+LakeSediment,Thickness,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Trsgi,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Density,g/cm^3,NA,NA,Sea Surface Temperature,degC
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,N,percent,NA,NA,period,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Subsurface,Subsurface D18Osw,permil
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,Thickness,mwe,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+LakeSediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,MXD,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Bottom Water,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Coral,Calcification,cm/yr,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,unitless,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Notes,NotApplicable,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Subsurface,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil VPDB,D180W,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Subsurface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+MarineSediment,Uk37Prime,NA,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Salinity,psu
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D13C,permil,NA,NA,Sea Surface Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MollusckShell,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Hybrid,Trsgi,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Relative Sea Level,m
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,Thickness,mwe,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,Sample Label,NotApplicable,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Temperature,degC
+MarineSediment,Ba/Ca,mmol/mol,NA,NA,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+Wood,MXD,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Sea Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,NA,NA,NA,NA
+LakeSediment,N,percent,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,NA,NA,NA,NA
+Wood,SD,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,TEX86,NotApplicable,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Surface Water,Surface Water Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil PDB,Temperature,Sea Surface,D18O,permil
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Rbar,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+Coral,Calcification,mm/yr,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil VPDB,Temperature,Sea Surface,D18O,permil VPDB
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Caco3,percent,NA,NA,Sedimentation Rate,cm/kyr
+LakeSediment,R660_670,NotApplicable,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Wood,TRW,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+MarineSediment,C/N,NotApplicable,NA,NA,Sedimentation Rate,cm/kyr
+LakeSediment,R660_670,NA,NA,NA,Temperature,degC
+MarineSediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Bottom Water,Bottom Water Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,N,percent,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Surface Water,Surface Water D18Osw,permil
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NA,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+LakeSediment,R660_670,NA,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18Osw,permil
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,NA,NA,Thermocline Temperature,degC
+MarineSediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+MarineSediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,D18O,permil
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,D18O,permil
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,NA,NA,Thermocline Temperature,degC
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC
+MarineSediment,D18O,permil PDB,D18Osw,Sea Surface,Salinity,NA
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uncorrected Depth,NotApplicable,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,EPS,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Ice Volume,Bottom Water,Sea Surface Temperature,degC
+MarineSediment,Ba/Ca,microm/m,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Samplecount,count,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,Relative Sea Level,m
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+LakeSediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sedimentation Rate,cm
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Salinity,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,SE,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+LakeSediment,Bsi,mg/g,NA,NA,uncertainty_temperature,degC
+Wood,EPS,NA,NA,NA,NA,NA
+LakeSediment,R660_670,NA,NA,NA,Temperature,degC
+LakeSediment,Bsi,mg/cm2/yr,NA,NA,Temperature,degC
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+Wood,SD,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Bottom Water,Sea Surface Temperature,degC
+Speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+Wood,ARS,NA,NA,NA,NA,NA
+MarineSediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil,D18Osw,Bottom Water,D18O,permil
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Ba/Ca,mmol/mol,NA,NA,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,N,percent,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC
+Wood,Trsgi,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature,Subsurface,Subsurface Temperature,degC
+MarineSediment,Uk37,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+LakeSediment,TEX86,NA,Temperature,Lake Surface,Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,R660_670,NA,NA,NA,Temperature,degC
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18Ocorr,permil
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Ringwidth,cm,NA,NA,NA,NA

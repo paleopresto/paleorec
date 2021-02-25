@@ -1,0 +1,3095 @@
+archiveType,proxyObservationType,units,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+speleothem,SE,degC,NA,NA,NA,NA
+lake sediment,Core,NotApplicable,NA,NA,NA,NA
+lake sediment,Depth,cm,NA,NA,NA,NA
+lake sediment,TEX86,NA,Temperature,Lake Surface,Lake Surface Temperature,deg C
+lake sediment,TEX86,degC,NA,NA,NA,NA
+lake sediment,Upper95,degC,NA,NA,NA,NA
+lake sediment,Lower95,degC,NA,NA,NA,NA
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Depth,m,NA,NA,NA,NA
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Thickness,mwe,NA,NA,NA,NA
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Na,ng/g,Sea Ice,NA,NA,NA
+tree,Density,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Blueintensity,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Density,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Layer Thickness,mm,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Layer Thickness,mm,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Thickness,cm,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,MXD,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+lake sediment,Thickness,cm,NA,NA,NA,NA
+lake sediment,Duration,AD,NA,NA,NA,NA
+lake sediment,Bsi,mg/g,NA,NA,NA,NA
+lake sediment,Thickness,cm,NA,NA,NA,NA
+lake sediment,VarveThickness,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Density,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Uk37,NA,NA,NA,NA,NA
+tree,MXD,NaN,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,TRW,NaN,NA,NA,NA,NA
+tree,Hindex,NaN,NA,NA,NA,NA
+lake sediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Ghostmeasured,NotApplicable,NA,NA,NA,NA
+lake sediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,X radiograph dark layer,dark_sum,NA,NA,NA,NA
+lake sediment,VarveProperty,dark_sum,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Massacum,g.cm-2.a-1,Temperature,Air 600M,Air 600M Temperature,NA
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Melt,percent,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Density,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+lake sediment,Thickness,mm,Temperature,NA,NA,NA
+marine sediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+tree,Density,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Density,count,NA,NA,NA,NA
+marine sediment,Ghostmeasured,NotApplicable,NA,NA,NA,NA
+glacier ice,Melt,percent,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dust,permil,P,NA,NA,NA
+glacier ice,Chloride,ppb,NA,NA,NA,NA
+glacier ice,Nitrate,ppb,NA,NA,NA,NA
+glacier ice,Sulfate,ppb,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Dust,count/mL,NA,NA,NA,NA
+glacier ice,Chloride,ppb,NA,NA,NA,NA
+glacier ice,Sulfate,ppb,NA,NA,NA,NA
+glacier ice,Nitrate,ppb,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+hybrid,Trsgi,NA,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Core,NotApplicable,NA,NA,NA,NA
+lake sediment,Sampleid,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth Top,mm,NA,NA,NA,NA
+marine sediment,Depth Bottom,mm,NA,NA,NA,NA
+marine sediment,Agemax,AD,NA,NA,NA,NA
+marine sediment,Agemin,AD,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,R650_700,NA,Temperature,Surface,Surface Temperature,deg C
+lake sediment,Depth,mm,NA,NA,NA,NA
+lake sediment,R570_630,NotApplicable,NA,NA,NA,NA
+lake sediment,R660_670,NotApplicable,NA,NA,NA,NA
+lake sediment,RABD660_670,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Watercontent,percent,NA,NA,NA,NA
+lake sediment,N,percent,NA,NA,NA,NA
+lake sediment,C,percent,NA,NA,NA,NA
+lake sediment,C/N,NA,NA,NA,NA,NA
+lake sediment,Bsi,percent,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+marine sediment,Mid-Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature And Salinity,Sea Surface,Sea Surface Temperature And Salinity,NA
+coral,D18O,permil,Temperature And Salinity,Sea Surface,Sea Surface Temperature And Salinity,NA
+marine sediment,Depth_M,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Depth_M,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+lake sediment,Sampleid,NotApplicable,NA,NA,NA,NA
+documents,Ghostmeasured,NotApplicable,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,MXD,NA,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,MXD,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+speleothem,D18O,permil,NA,NA,NA,NA
+marine sediment,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+documents,Julianday,days,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Diffusespectralreflectance,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,BIT,NotApplicable,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+MarineSediment,Depth,m,NA,NA,NA,NA
+MarineSediment,Uk37Prime,unitless,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Core Depth,cm,NA,NA,NA,NA
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,D18Osw,Bottom Water,Bottom Water D18Osw,permil
+marine sediment,Material,unitless,NA,NA,NA,NA
+marine sediment,Samplename,unitless,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+speleothem,Distance,mm,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,Distance,mm,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,Distance,mm,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+speleothem,D18O,per mil VPDB,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,B/Ca,umol/mol,Carbonate Ion Concentration,Deep Water,Deep Water Carbonate Ion Concentration,NA
+marine sediment,B/Ca,umol/mol,NA,NA,NA,NA
+marine sediment,Numberofobservations,NaN,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,B/Ca,umol/mol,Carbonate Ion Concentration,Deep Water,Deep Water Carbonate Ion Concentration,NA
+marine sediment,B/Ca,umol/mol,NA,NA,NA,NA
+marine sediment,Numberofobservations,NaN,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Ba/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Alkenoneabundance,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D13Cu,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Alkenoneabundance,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Density,g/cm^3,NA,NA,NA,NA
+marine sediment,Totalorganiccarbon,percent,NA,NA,NA,NA
+marine sediment,N,percent,NA,NA,NA,NA
+marine sediment,C/N,NotApplicable,NA,NA,NA,NA
+marine sediment,Caco3,percent,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+lake sediment,Depth,cm,NA,NA,NA,NA
+lake sediment,D13C,per mille VPDB,P/E,NA,NA,NA
+lake sediment,C,per cent,NA,NA,NA,NA
+lake sediment,N,per cent,NA,NA,NA,NA
+lake sediment,C/N,unitless,Organic Matter Source,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,37:3Alkenoneconcentration,ng/g,NA,NA,NA,NA
+marine sediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+marine sediment,Alkenoneconcentration,ng/g,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,permil,Temperature,Bottom Water,Bottom Water Temperature,deg C
+marine sediment,D18O,permil,D18Osw,Bottom Water,Bottom Water D18Osw,permil
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Surface,Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Subsurface,Subsurface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Subsurface,Subsurface D18Osw,permil
+marine sediment,Mg/Ca,mmolmol,Temperature,Subsurface,Subsurface Temperature,deg C
+marine sediment,Depth,NotApplicable,NA,NA,NA,NA
+marine sediment,D18O,per mil PDB,NA,NA,NA,NA
+marine sediment,D18O,per mil PDB,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Bottom Water,Bottom Water Temperature,deg C
+marine sediment,D18O,per mil,Ice Volume,Bottom Water,Bottom Water Ice Volume,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+MarineSediment,Depth,m,NA,NA,NA,NA
+MarineSediment,TEX86,unitless,NA,NA,NA,NA
+marine sediment,Depth,cm,Age,Calendar,Calendar Age,NA
+marine sediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Sea Surface Salinity,psu
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,G. Ruber,number,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Depth Top,m,NA,NA,NA,NA
+marine sediment,Depth Bottom,m,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Al/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Al/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Mn/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Mn/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Zn/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Zn/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Sr/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Sr/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Ba/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Ba/Ca,μmol/mol,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Depthnovoids,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPBD,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPBD,D180W,Sea Surface,Sea Surface D180W,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil PDB,NA,NA,NA,NA
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,MXD,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,MXD,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+lake sediment,Thickness,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+lake sediment,Samplecount,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+lake sediment,Effectivemoisture,cm,M,Eff,Eff M,NA
+lake sediment,Precipitation,mm,P,Surface,Surface P,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,MXD,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,MXD,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Unnamed,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,TRW,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Density,g/cm3,NA,NA,NA,NA
+tree,MXD,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+tree,Samplecount,count,NA,NA,NA,NA
+tree,Segment,NA,NA,NA,NA,NA
+tree,Ringwidth,cm,NA,NA,NA,NA
+tree,Trsgi,NA,NA,NA,NA,NA
+tree,Residual,NA,NA,NA,NA,NA
+tree,ARS,NA,NA,NA,NA,NA
+tree,Corrs,NA,NA,NA,NA,NA
+tree,Rbar,NA,NA,NA,NA,NA
+tree,SD,NA,NA,NA,NA,NA
+tree,SE,NA,NA,NA,NA,NA
+tree,EPS,NA,NA,NA,NA,NA
+tree,Core,NA,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+marine sediment,Uk37,NotApplicable,NA,NA,NA,NA
+marine sediment,Notes,NotApplicable,NA,NA,NA,NA
+marine sediment,Notes,NotApplicable,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+marine sediment,Notes,NotApplicable,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,Calcification,cm/yr,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+bivalve,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37,NotApplicable,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37,NotApplicable,NA,NA,NA,NA
+marine sediment,Notes,NotApplicable,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,Sr Ca,mmol/mol,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+coral,Sr Ca,mmol/mol,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,Calcification,mm/yr,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,NotApplicable,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,NA,NA,NA,NA
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,NA,NA,NA,NA
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,NA,NA,NA,NA
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37,NotApplicable,NA,NA,NA,NA
+marine sediment,Core,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Uk37,NotApplicable,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,Calcification,g/cm/yr,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+sclerosponge,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+sclerosponge,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+coral,D13C,permil,NA,NA,NA,NA
+coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,TEX86,NotApplicable,NA,NA,NA,NA
+coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,D13C,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,Dust,percent,NA,NA,NA,NA
+marine sediment,Drybulkdensity,g/cm^3,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Sample Label,NotApplicable,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,NA,NA,NA
+marine sediment,Depth_Cm,cm,NA,NA,NA,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil SMOW,NA,NA,NA,NA
+coral,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+coral,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+tree,Trsgi,NA,Temperature,Air,Air Temperature,deg C
+lake sediment,R660_670,NA,NA,NA,NA,NA
+lake sediment,Depth,cm,NA,NA,NA,NA
+lake sediment,R570_630,NA,NA,NA,NA,NA
+lake sediment,Bsi,mg/cm2/yr,NA,NA,NA,NA
+lake sediment,Depth,mm,NA,NA,NA,NA
+glacier ice,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,deg C
+glacier ice,Thickness,mwe,NA,NA,NA,NA
+glacier ice,Dust,permil,NA,NA,NA,NA
+glacier ice,F,ppb,NA,NA,NA,NA
+glacier ice,Cl,ppb,NA,NA,NA,NA
+glacier ice,Sulfate,ppb,NA,NA,NA,NA
+glacier ice,Nitrate,ppb,NA,NA,NA,NA
+glacier ice,Na,ppb,NA,NA,NA,NA
+glacier ice,Ammonium,ppb,NA,NA,NA,NA
+glacier ice,K,ppb,NA,NA,NA,NA
+glacier ice,Mg,ppb,NA,NA,NA,NA
+glacier ice,Ca,ppb,NA,NA,NA,NA
+marine sediment,Depth,m,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Surface Water,Surface Water Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Surface Water,Surface Water D18Osw,permil
+marine sediment,D18O,per mil,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Thermocline,Thermocline D18Osw,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Surface Water,Surface Water Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Ba/Ca,µmol/mol,Salinity,Surface Water,Surface Water Salinity,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPDB,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,Ba/Ca,microm/m,NA,NA,NA,NA
+h,D18O,cm,NA,NA,NA,NA
+h,Mg/Ca,mmol/mol,NA,NA,NA,NA
+h,D18O,per mil VPDB,NA,NA,NA,NA
+marine sediment,Depth,cm,NA,NA,NA,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface D18Osw,permil
+marine sediment,D18O,per mil,Temperature,Bottom Water,Bottom Water Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Bottom Water,Bottom Water D18Osw,permil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+lake sediment,Core,NotApplicable,NA,NA,Temperature,degC
+lake sediment,Depth,cm,NA,NA,Temperature,degC
+lake sediment,TEX86,NA,Temperature,Lake Surface,Temperature,degC
+lake sediment,TEX86,degC,NA,NA,Temperature,degC
+lake sediment,Upper95,degC,NA,NA,Temperature,degC
+lake sediment,Lower95,degC,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,uncertainty_temperature,degC
+lake sediment,Layer Thickness,mm,Temperature,Air Surface,Temperature,degC
+lake sediment,Layer Thickness,mm,Temperature,Air Surface,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+lake sediment,Thickness,cm,NA,NA,Temperature,degC
+lake sediment,Duration,AD,NA,NA,Temperature,degC
+lake sediment,Bsi,mg/g,NA,NA,Temperature,degC
+lake sediment,Thickness,cm,NA,NA,uncertainty_temperature,degC
+lake sediment,Duration,AD,NA,NA,uncertainty_temperature,degC
+lake sediment,Bsi,mg/g,NA,NA,uncertainty_temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+lake sediment,Uk37,NA,NA,NA,Temperature,degC
+glacier ice,D18O,permil,Temperature,Air Surface,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+lake sediment,Thickness,mm,Temperature,NA,Temperature,degC
+tree,Density,count,NA,NA,Temperature,degC
+tree,Density,count,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,uncertainty_temperature,degC
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+hybrid,Trsgi,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+lake sediment,Core,NotApplicable,NA,NA,Temperature,degC
+lake sediment,Sampleid,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Depth Top,mm,NA,NA,Temperature,degC
+marine sediment,Depth Bottom,mm,NA,NA,Temperature,degC
+marine sediment,Agemax,AD,NA,NA,Temperature,degC
+marine sediment,Agemin,AD,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,index
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Mid-Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Mid-Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mid-Depth,cm,NA,NA,rep diff.,NA
+marine sediment,D18O,per mil,Temperature,Sea Surface,rep diff.,NA
+marine sediment,D18O,per mil,D18Osw,Sea Surface,rep diff.,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,rep diff.,NA
+marine sediment,Mid-Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+lake sediment,Sampleid,NotApplicable,NA,NA,Temperature,degC
+lake sediment,Sampleid,NotApplicable,NA,NA,uncertainty_temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+documents,Julianday,days,NA,NA,Temperature,degC
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Relative Sea Level,m
+marine sediment,D18O,per mil,Temperature,Sea Surface,Relative Sea Level,m
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Relative Sea Level,m
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Relative Sea Level,m
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Relative Sea Level,m
+marine sediment,D18O,per mil,Temperature,Sea Surface,Relative Sea Level,m
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Relative Sea Level,m
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Relative Sea Level,m
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Sedimentation Rate,cm/kyr
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sedimentation Rate,cm/kyr
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Age,kyr BP
+marine sediment,D18O,per mil,NA,NA,Age,kyr BP
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Age,kyr BP
+marine sediment,D18O,per mil,NA,NA,Age,kyr BP
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Age,kyr BP
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Thermocline Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Depth,m,NA,NA,Thermocline Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Sea Surface Salinity,psu
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Salinity,psu
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Salinity,psu
+marine sediment,Depth,m,NA,NA,Sedimentation Rate,cm
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sedimentation Rate,cm
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,d18ow,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,d18ow,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,d18ow,per mil
+marine sediment,Depth,m,NA,NA,Sea Surface Salinity,psu
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Salinity,psu
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Salinity,psu
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,BIT,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,BIT,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+MarineSediment,Depth,m,NA,NA,Sedimentation Rate,cm/kyr
+MarineSediment,Uk37Prime,unitless,NA,NA,Sedimentation Rate,cm/kyr
+MarineSediment,Depth,m,NA,NA,Sea Surface Temperature,degC
+MarineSediment,Uk37Prime,unitless,NA,NA,Sea Surface Temperature,degC
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Samplename,unitless,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Samplename,unitless,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,d18ocorr,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,d18ocorr,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,d18ocorr,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,d18ocorr,per mil
+marine sediment,Ba/Ca,mmol/mol,NA,NA,d18ocorr,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Ba/Ca,mmol/mol,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Ba/Ca,mmol/mol,NA,NA,D18O,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Alkenoneabundance,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D13Cu,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Alkenoneabundance,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,Density,g/cm^3,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,Totalorganiccarbon,percent,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,N,percent,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,C/N,NotApplicable,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,Caco3,percent,NA,NA,acc rate toc,g/cm^2/kyr
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,acc rate toc,g/cm^2/kyr
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Density,g/cm^3,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Totalorganiccarbon,percent,NA,NA,Sea Surface Temperature,deg C
+marine sediment,N,percent,NA,NA,Sea Surface Temperature,deg C
+marine sediment,C/N,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Caco3,percent,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,k37 n toc,µg/g
+marine sediment,Density,g/cm^3,NA,NA,k37 n toc,µg/g
+marine sediment,Totalorganiccarbon,percent,NA,NA,k37 n toc,µg/g
+marine sediment,N,percent,NA,NA,k37 n toc,µg/g
+marine sediment,C/N,NotApplicable,NA,NA,k37 n toc,µg/g
+marine sediment,Caco3,percent,NA,NA,k37 n toc,µg/g
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,k37 n toc,µg/g
+marine sediment,Depth,m,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,Density,g/cm^3,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,Totalorganiccarbon,percent,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,N,percent,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,C/N,NotApplicable,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,Caco3,percent,NA,NA,acc rate k37,µg/cm^2/kyr
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,acc rate k37,µg/cm^2/kyr
+marine sediment,Depth,m,NA,NA,period,NA
+marine sediment,Density,g/cm^3,NA,NA,period,NA
+marine sediment,Totalorganiccarbon,percent,NA,NA,period,NA
+marine sediment,N,percent,NA,NA,period,NA
+marine sediment,C/N,NotApplicable,NA,NA,period,NA
+marine sediment,Caco3,percent,NA,NA,period,NA
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,period,NA
+marine sediment,Depth,m,NA,NA,sed rate,cm/kyr
+marine sediment,Density,g/cm^3,NA,NA,sed rate,cm/kyr
+marine sediment,Totalorganiccarbon,percent,NA,NA,sed rate,cm/kyr
+marine sediment,N,percent,NA,NA,sed rate,cm/kyr
+marine sediment,C/N,NotApplicable,NA,NA,sed rate,cm/kyr
+marine sediment,Caco3,percent,NA,NA,sed rate,cm/kyr
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,sed rate,cm/kyr
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NaN,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Radiocarbon Age,kyr BP
+marine sediment,D18O,per mil,Temperature,Sea Surface,Radiocarbon Age,kyr BP
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Radiocarbon Age,kyr BP
+marine sediment,37:3Alkenoneconcentration,ng/g,NA,NA,Radiocarbon Age,kyr BP
+marine sediment,37:2Alkenoneconcentration,ng/g,NA,NA,Radiocarbon Age,kyr BP
+marine sediment,Alkenoneconcentration,ng/g,NA,NA,Radiocarbon Age,kyr BP
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Radiocarbon Age,kyr BP
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,37:3Alkenoneconcentration,ng/g,NA,NA,Sea Surface Temperature,deg C
+marine sediment,37:2Alkenoneconcentration,ng/g,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Alkenoneconcentration,ng/g,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,permil,Temperature,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,D18O,permil,D18Osw,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Subsurface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Subsurface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmolmol,Temperature,Subsurface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,permil,Temperature,Bottom Water,D18O,per mil
+marine sediment,D18O,permil,D18Osw,Bottom Water,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Subsurface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Subsurface,D18O,per mil
+marine sediment,Mg/Ca,mmolmol,Temperature,Subsurface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Temperature,deg C
+marine sediment,D18O,permil,Temperature,Bottom Water,Temperature,deg C
+marine sediment,D18O,permil,D18Osw,Bottom Water,Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Surface,Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Temperature,deg C
+marine sediment,D13C,per mil,NA,NA,Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Subsurface,Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Subsurface,Temperature,deg C
+marine sediment,Mg/Ca,mmolmol,Temperature,Subsurface,Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,permil,Temperature,Bottom Water,D18O,per mil
+marine sediment,D18O,permil,D18Osw,Bottom Water,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,D13C,per mil,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Subsurface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Subsurface,D18O,per mil
+marine sediment,Mg/Ca,mmolmol,Temperature,Subsurface,D18O,per mil
+marine sediment,Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Sea Surface Temperature,deg C
+marine sediment,Depth,NotApplicable,NA,NA,Thermocline Temperature,deg C
+marine sediment,D18O,per mil PDB,NA,NA,Thermocline Temperature,deg C
+marine sediment,D18O,per mil PDB,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Thermocline,Thermocline Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Ice Volume,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+MarineSediment,Depth,m,NA,NA,Age,BP
+MarineSediment,TEX86,unitless,NA,NA,Age,BP
+MarineSediment,Depth,m,NA,NA,Subsurface Temperature,degC
+MarineSediment,TEX86,unitless,NA,NA,Subsurface Temperature,degC
+marine sediment,Depth,cm,Age,Calendar,D18O,per mil
+marine sediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,Age,Calendar,Salinity,NA
+marine sediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Salinity,NA
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,Salinity,NA
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,Salinity,NA
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Salinity,NA
+marine sediment,Depth,cm,Age,Calendar,Sea Surface Temperature,deg C
+marine sediment,Ba/Ca,NotApplicable,Salinity,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Thermocline Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depthnovoids,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,Depthnovoids,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,degC
+marine sediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,degC
+marine sediment,Uk37Prime,unitless,Temperature,Sea Surface,Sea Surface Temperature,degC
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Uncorrected Depth,NotApplicable,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,Mg/Ca,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,D18O,per mil SMOW
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil SMOW
+marine sediment,D18O,per mil VPBD,Temperature,Sea Surface,D18O,per mil SMOW
+marine sediment,D18O,per mil VPBD,D180W,Sea Surface,D18O,per mil SMOW
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPBD,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPBD,D180W,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,D18O,per mil SMOW
+marine sediment,D18O,per mil PDB,NA,NA,D18O,per mil SMOW
+marine sediment,D18O,per mil PDB,D18Osw,Sea Surface,D18O,per mil SMOW
+marine sediment,D18O,per mil PDB,Temperature,Sea Surface,D18O,per mil SMOW
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil SMOW
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+lake sediment,Effectivemoisture,cm,M,Eff,Temperature,degC
+lake sediment,Effectivemoisture,cm,M,Eff,Temperature,degC
+lake sediment,Precipitation,mm,P,Surface,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Notes,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Notes,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Notes,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Notes,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Core,NotApplicable,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,Uk37,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Temperature,degC
+marine sediment,TEX86,NotApplicable,NA,NA,Temperature,degC
+NA,NA,NA,NA,NA,Temperature,degC
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,Age,kyr BP
+marine sediment,Depth,m,NA,NA,Age,kyr BP
+marine sediment,D18O,per mil,Temperature,Sea Surface,Age,kyr BP
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Accumulation rate,g/cm^2/kyr
+marine sediment,Dust,percent,NA,NA,Accumulation rate,g/cm^2/kyr
+marine sediment,Drybulkdensity,g/cm^3,NA,NA,Accumulation rate,g/cm^2/kyr
+marine sediment,Sample Label,NotApplicable,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,NA,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,mg/ca,mmol/mol
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,mg/ca,mmol/mol
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,mg/ca,mmol/mol
+marine sediment,D18O,per mil SMOW,NA,NA,mg/ca,mmol/mol
+marine sediment,Depth_Cm,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil SMOW,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil SMOW,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth_Cm,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,TEX86,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil SMOW,NA,NA,Sea Surface Temperature,deg C
+lake sediment,R660_670,NA,NA,NA,Temperature,degC
+lake sediment,R660_670,NA,NA,NA,Temperature,degC
+lake sediment,R660_670,NA,NA,NA,Temperature,degC
+lake sediment,R660_670,NA,NA,NA,Temperature,degC
+lake sediment,Depth,cm,NA,NA,Temperature,degC
+lake sediment,R570_630,NA,NA,NA,Temperature,degC
+lake sediment,Depth,cm,NA,NA,Temperature,degC
+lake sediment,R570_630,NA,NA,NA,Temperature,degC
+lake sediment,Bsi,mg/cm2/yr,NA,NA,uncertainty_temperature,degC
+lake sediment,Depth,mm,NA,NA,uncertainty_temperature,degC
+lake sediment,Bsi,mg/cm2/yr,NA,NA,uncertainty_temperature,degC
+lake sediment,Depth,mm,NA,NA,uncertainty_temperature,degC
+lake sediment,Bsi,mg/cm2/yr,NA,NA,Temperature,degC
+lake sediment,Depth,mm,NA,NA,Temperature,degC
+marine sediment,Depth,cm,NA,NA,Age,kyr BP
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Age,kyr BP
+marine sediment,D18O,per mil VPDB,Temperature,Sea Surface,Age,kyr BP
+marine sediment,D18O,per mil VPDB,D18Osw,Sea Surface,Age,kyr BP
+marine sediment,Ba/Ca,microm/m,NA,NA,Age,kyr BP
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPDB,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil VPDB,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,Ba/Ca,microm/m,NA,NA,Sea Surface Temperature,deg C
+marine sediment,Depth,cm,NA,NA,D18O,per mil VPDB
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil VPDB
+marine sediment,D18O,per mil VPDB,Temperature,Sea Surface,D18O,per mil VPDB
+marine sediment,D18O,per mil VPDB,D18Osw,Sea Surface,D18O,per mil VPDB
+marine sediment,Ba/Ca,microm/m,NA,NA,D18O,per mil VPDB
+h,D18O,cm,NA,NA,Sea Surface Temperature,deg C
+h,Mg/Ca,mmol/mol,NA,NA,Sea Surface Temperature,deg C
+h,D18O,per mil VPDB,NA,NA,Sea Surface Temperature,deg C
+h,D18O,cm,NA,NA,D18O,per mil SMOW
+h,Mg/Ca,mmol/mol,NA,NA,D18O,per mil SMOW
+h,D18O,per mil VPDB,NA,NA,D18O,per mil SMOW
+marine sediment,Depth,cm,NA,NA,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Sea Surface,D18O,per mil
+marine sediment,D18O,per mil,Temperature,Bottom Water,D18O,per mil
+marine sediment,D18O,per mil,D18Osw,Bottom Water,D18O,per mil
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,per mil
+marine sediment,Depth,cm,NA,NA,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Sea Surface,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,Temperature,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,D18O,per mil,D18Osw,Bottom Water,Sea Surface Temperature,deg C
+marine sediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,deg C

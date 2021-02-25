@@ -1,0 +1,28 @@
+    # ********************** run locally ******************************
+    # initital probability dict according to the chain
+    # initial_prob_dict = q0_chain1
+    # # initial_prob_dict = q0_chain2
+    
+    # # chain length = archive -> proxyObservationType -> units (3)
+    # # chain length = archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail (4)
+    # chain_length = 3
+    # # chain_length = 4
+    
+    # # transition probability dict according to the chain
+    # transition_prob_dict = transition_matrix_chain1
+    # # transition_prob_dict = transition_matrix_chain2
+        
+# pred = MCpredict(4, 5)
+# # pred = MCpredict(3, 5)
+# test_data = open ('..\\example\\test_archive_1.txt', 'r', encoding='utf-8')    
+# output_file = open ('..\\example\\output_archive_proxy_intVar_intVarDet.txt', 'w', encoding='utf-8')
+# # output_file = open ('example\\output_archive_proxy_units.txt', 'w', encoding='utf-8')
+# for line in test_data:
+#     output_list = pred.predict_seq(line)
+#     output_file.write(str(output_list) + '\n')
+
+# pred = MCpredict(4, 5)
+# test_data = open ('..\\example\\test_archive_1.txt', 'r', encoding='utf-8')  
+# for line in test_data:
+#     output_list = pred.predict_seq(line, isInferred=True)
+#     print(output_list)

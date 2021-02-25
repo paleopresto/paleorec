@@ -1,0 +1,244 @@
+publication,filename,archiveType,variableType,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits,rank
+wiki_lipd_files,A7.Oppo.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1.0
+PAGES2kv2,Afr-LakeMalawi.Powers.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1.0
+PAGES2kv2,Afr-LakeTanganyika.Tierney.2010.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1.0
+PAGES2kv2,Afr-P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-DSS.DahlJensen.1999.lpd,borehole,inferred,Temperature,Ice Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-WAIS-Divide.Severinghaus.2012.lpd,borehole,inferred,Temperature,Ice Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-WAIS-Divide.Severinghaus.2012.lpd,borehole,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Arc-BigRoundLake.Thomas.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-GulfofAlaska.Wilson.2014.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-HalletLake.McKay.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-HalletLake.McKay.2008.lpd,lake sediment,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Arc-HudsonLake.Clegg.2011.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Iceland.Bergthorsson.1969.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+wiki_lipd_files,Arc-Kongressvatnet.D'Andrea.2012.lpd,lake sediment,inferred,NA,NA,Temperature,degC,NA
+PAGES2kv2,Arc-Lomonosovfonna.Divine.2011.lpd,glacier ice,inferred,Temperature,Air Condensationlevel,Temperature,degC,1
+PAGES2kv2,Arc-MackenzieDelta.Porter.2013.lpd,tree,inferred,N/A,NA,Temperature,degC,1
+PAGES2kv2,Arc-MD992275.Jiang.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Arc-SoperLake.Hughen.2000.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Yamalia.Briffa.2013.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Yamalia.Briffa.2013.lpd,tree,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Asi-CentralChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-EastChina.Wang.1990.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-EastChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Fujian.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Guangdong.Zheng.1982.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-GuangdongAndGuangxi.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Hunan-Jiangsu.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-KunashirIsland.Demezhko.2009.lpd,hybrid,inferred,Temperature,Ground Surface,Temperature,degC,1
+PAGES2kv2,Asi-LowerYangtzeRiver.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-MiddleYangtzeRiver.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-SihailongwaLake.Chu.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+wiki_lipd_files,Asi-SO90-39KG_SO130-275KL.Munz.2015.lpd,marine sediment,inferred,NA,NA,Temperature,degC,NA
+PAGES2kv2,Asi-SourthAndMiddleUrals.Demezhko.2007.lpd,borehole,inferred,Temperature,Ground Surface,Temperature,degC,1
+PAGES2kv2,Asi-SouthChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-ZhejiangAndFujian.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Aus-MtRead.Cook.2006.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Aus-Oroko.Cook.2002.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+wiki_lipd_files,BJ8-03-13GGC.Linsley.2010.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,BJ8-03-13GGC.Linsley.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,BJ8-03-13GGC.Linsley.2010.lpd,marine sediment,inferred,NA,NA,rep diff.,NA,NA
+wiki_lipd_files,BJ8-03-13GGC.Linsley.2010.lpd,marine sediment,inferred,NA,NA,Sea Surface Temperature,deg C,NA
+wiki_lipd_files,BJ8-03-70GGC.Linsley.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,BJ8-03-70GGC.Linsley.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+PAGES2kv2,Eur-CentralandEasternPyrenees.Pla.2004.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-CentralandEasternPyrenees.Pla.2004.lpd,lake sediment,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Eur-CoastofPortugal.Abrantes.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Eur-FinnishLakelands.Helama.2014.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-LakeSilvaplana.Larocque-Tobler.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-LakeSilvaplana.Trachsel.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Seebergsee.Larocque-Tobler.2012.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Stockholm.Leijonhufvud.2009.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Tallinn.Tarand.2001.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+wiki_lipd_files,GeoB10042-1.Setiawan.2016.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB10042-1.Setiawan.2016.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,GeoB10042-1.Setiawan.2016.lpd,marine sediment,inferred,NA,NA,Relative Sea Level,m,NA
+wiki_lipd_files,GeoB10043-3.Setiawan.2016.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB10043-3.Setiawan.2016.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,GeoB10043-3.Setiawan.2016.lpd,marine sediment,inferred,NA,NA,Relative Sea Level,m,NA
+wiki_lipd_files,GeoB10069-3.Gibbons.2014.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB10069-3.Gibbons.2014.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,GeoB10069-3.Gibbons.2014.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,GeoB1023-5.Kim.2002.lpd,marine sediment,inferred,NA,NA,Sedimentation Rate,cm/kyr,NA
+wiki_lipd_files,GeoB1023-5.Kim.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB12605-3.Kuhnert.2014.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB12605-3.Kuhnert.2014.lpd,marine sediment,inferred,D18Sw,NA,D18O,per mil,1
+wiki_lipd_files,GeoB12610-2.Rippert.2015.lpd,marine sediment,inferred,NA,NA,Age,kyr BP,NA
+wiki_lipd_files,GeoB12610-2.Rippert.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB12610-2.Rippert.2015.lpd,marine sediment,inferred,NA,NA,Sea Surface Temperature,deg C,NA
+wiki_lipd_files,GeoB12610-2.Rippert.2015.lpd,marine sediment,inferred,Temperature,Thermocline,Thermocline Temperature,deg C,1
+wiki_lipd_files,GeoB12610-2.Rippert.2015.lpd,marine sediment,inferred,NA,NA,Thermocline Temperature,deg C,NA
+wiki_lipd_files,GeoB3129-1.Weldeab.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB3129-1.Weldeab.2006.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,GeoB3129-1.Weldeab.2006.lpd,marine sediment,inferred,Salinity,Sea Surface,Sea Surface Salinity,psu,1
+wiki_lipd_files,GeoB33021.Kim.2002.lpd,marine sediment,inferred,NA,NA,Sedimentation Rate,cm,NA
+wiki_lipd_files,GeoB33021.Kim.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB3911-3.Weldeab.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB3911-3.Weldeab.2006.lpd,marine sediment,inferred,D18Osw,Sea Surface,d18ow,per mil,1
+wiki_lipd_files,GeoB3911-3.Weldeab.2006.lpd,marine sediment,inferred,Salinity,Sea Surface,Sea Surface Salinity,psu,1
+wiki_lipd_files,GeoB7702-3.Castaneda.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GeoB7702-3.Castaneda.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GIK16160-3.Wang.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,NA,NA,Sedimentation Rate,cm/kyr,NA
+Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,Temperature,NA,Sea Surface Temperature,degC,1
+wiki_lipd_files,GIK17940-2.Pelejero.1999.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,GIK17940-2.Pelejero.1999.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+wiki_lipd_files,JR51GC35.Bendle.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,JR51GC35.Bendle.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KNR166-2-26JPC.Schmidt.2011.lpd,marine sediment,inferred,D18Osw,Sea Surface,d18ocorr,per mil,2
+wiki_lipd_files,KNR166-2-26JPC.Schmidt.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KNR166-2-26JPC.Schmidt.2011.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,KNR166-2JPC51.Schmidt.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KNR166-2JPC51.Schmidt.2012.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,KNR166-2JPC51.Schmidt.2012.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,KNR195-5-CDH23.Bova.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KNR195-5_CDH26.Bova.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,NA,NA,acc rate toc,g/cm^2/kyr,NA
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,NA,NA,k37 n toc,µg/g,NA
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,NA,NA,acc rate k37,µg/cm^2/kyr,NA
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,NA,NA,period,NA,NA
+wiki_lipd_files,KT05-7_PC02.Kawahata.2009.lpd,marine sediment,inferred,NA,NA,sed rate,cm/kyr,NA
+wiki_lipd_files,LV29-114-3.Max.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,LV29-114-3.Max.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,LV29-114-3.Max.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,M25_4-KL1.Emeis.2000.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,M35003-4.Ruehlemann.1999.lpd,marine sediment,inferred,Age,Calendar,Radiocarbon Age,kyr BP,1
+wiki_lipd_files,M35003-4.Ruehlemann.1999.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,M77-2_056.Nurnberg.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,M77-2_056.Nurnberg.2015.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,M77-2_056.Nurnberg.2015.lpd,marine sediment,inferred,Temperature,Subsurface,Temperature,deg C,1
+wiki_lipd_files,M77-2_056.Nurnberg.2015.lpd,marine sediment,inferred,D18Osw,Subsurface,D18O,per mil,1
+wiki_lipd_files,MD01-2378.Xu.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2378.Xu.2008.lpd,marine sediment,inferred,Temperature,Thermocline,Thermocline Temperature,deg C,1
+wiki_lipd_files,MD01-2390.Steinke.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2390.Steinke.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2390.Steinke.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2390.Steinke.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2390.Steinke.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD01-2412.Harada.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD02-2575.Ziegler.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+Temp12k1_0_1,MD03-2601.Kim.2012.lpd,MarineSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MD03-2601.Kim.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Subsurface Temperature,degC,1
+wiki_lipd_files,MD03-2797.Weldeab.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD03-2797.Weldeab.2007.lpd,marine sediment,inferred,Salinity,Sea Surface,Salinity,NA,1
+wiki_lipd_files,MD03-2797.Weldeab.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD05-2904.Steinke.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD05-2904.Steinke.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Thermocline Temperature,deg C,1
+wiki_lipd_files,MD95-2015.Marchal.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD95-2043.Cacho.1999.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD97-2141.Rosentha.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD97-2141.Rosentha.2003.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD972120-MD972121.Pahnke.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,degC,1
+wiki_lipd_files,MD972120-MD972121.Pahnke.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,degC,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Ice,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD98-2165.Levi.2007.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD98-2170.Stott.2004.lpd,marine sediment,inferred,Salinity,Sea Surface,D18O,per mil SMOW,1
+wiki_lipd_files,MD98-2170.Stott.2004.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD982176.Stott.2004.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,MD982176.Stott.2004.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD982181.Khider.2014.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,MD982181.Khider.2014.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil,1
+wiki_lipd_files,ME0005A-43JC.Benway.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ME0005A-43JC.Benway.2006.lpd,marine sediment,inferred,D18Osw,Sea Surface,D18O,per mil SMOW,1
+PAGES2kv2,NAm-BasinPond.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-ClearPond.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-ConroyLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-DarkLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-HellsKitchenLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LacNoir.Paquette.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeoftheClouds.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LittlePineLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-RubyLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Ocn-AlboranSea384B.Nieto-Moreno.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-AlboranSea436B.Nieto-Moreno.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ArabianSea.Doose-Rolinski.2001.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeGhir.Doose-Rolinski.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeGhir.McGregor.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeHatteras.Cleroux.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CariacoBasin.Black.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CariacoBasin.Lea.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CH07-98-MC-22.Saenger.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ChileanMargin.Lamy.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-DryTortugas.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-DryTortugasA.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-EasternTropicalNorthAtlantic.Kuhnert.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-EmeraldBasin.Keigwin.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-FiskBasin.Richey.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GarrisonBasin.Richey.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBahamaBank.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBahamaBank.Richter.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBarrierReef.Hendy.2002.lpd,coral,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GulfofGuinea.Weldeab.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+wiki_lipd_files,Ocn-JacafFjord.Sepúlveda.2009.lpd,marine sediment,inferred,NA,NA,Temperature,degC,NA
+PAGES2kv2,Ocn-KuroshioCurrent.Isono.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-LaurentianFan.Keigwin.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MakassarStrait.Linsley.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MakassarStrait.Oppo.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD95-2011.Grimalt.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD98-2160.Newton.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD98-2177.Newton.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MinorcaContourite.Moreno.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-NorthIceland.Sicre.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-NorthwestPacificOcean.Harada.2004.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ODP984.Came.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-OkinawaTrough.Wu.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-Philippines.Stott.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-PigmyBasin.Richey.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-RAPiD-12-1K.Thornalley.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SantaBarbaraBasin.Zhao.2000.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthAtlanticWestAfrica.Leduc.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthernChileMargin.Mohtadi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthIceland.Sicre.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SubTropicalEasternNorthAtlantic.deMenocal.2000.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SWCoastOfIndia.Saraswat.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-TagusMudPatch.Abrantes.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WEqPacific.Stott.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WesternAntarcticPeninsula.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WesternSvalbard.Spielhagen.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+wiki_lipd_files,ODP1019.Barron.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ODP1098B.Shevenell.2011.lpd,marine sediment,inferred,NA,NA,Age,kyr BP,NA
+wiki_lipd_files,ODP1098B.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ODP1098B.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ODP1098B.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ODP1098B.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,ODP659.Tiedemann.1994.lpd,marine sediment,inferred,NA,NA,Accumulation rate,g/cm^2/kyr,NA
+wiki_lipd_files,ODP976.Jimenez-Amat.2015.lpd,marine sediment,inferred,Temperature,NA,Sea Surface Temperature,deg C,1
+wiki_lipd_files,P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,mg/ca,mmol/mol,1
+wiki_lipd_files,P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air,uncertainty_temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air,uncertainty_temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+wiki_lipd_files,SK237-GC04.Saraswat.2013.lpd,marine sediment,inferred,Age,Calendar,Age,kyr BP,1
+wiki_lipd_files,SK237-GC04.Saraswat.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
+wiki_lipd_files,SK237-GC04.Saraswat.2013.lpd,marine sediment,inferred,Salinity,Sea Surface,D18O,per mil VPDB,1
+wiki_lipd_files,TestDataset.2017.Khider.lpd,h,inferred,NA,NA,Sea Surface Temperature,deg C,NA
+wiki_lipd_files,TestDataset.2017.Khider.lpd,h,inferred,NA,NA,D18O,per mil SMOW,NA
+wiki_lipd_files,TR163-22.Lea.2006.lpd,marine sediment,inferred,Salinity,Sea Surface,D18O,per mil,1
+wiki_lipd_files,TR163-22.Lea.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Sea Surface Temperature,deg C,1
