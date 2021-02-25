@@ -11,15 +11,13 @@ We have 2 models <br>
 We have modeled the recommendation process as a Sequential Recommendation System problem.<br>
 Identifying 2 main sequence chains in the data : <br>
 1. archiveType -> proxyObservationType -> units
-2. archiveType -> proxyObservationType -> interpretation/variable -> interpretation/VariableDetail
+2. archiveType -> proxyObservationType -> interpretation/variable -> interpretation/VariableDetail -> inferredVariable -> inferredVariableUnits
 
 The repository structure is as follows:
 
 ```
-│   config.ini
 │   environment.yml
 │   LICENSE
-│   master.py
 │   README.md
 │   requirements.txt
 │   setup.cfg
@@ -91,11 +89,11 @@ The repository structure is as follows:
 │           mctrain.py
 │
 ├───utils
-│      fileutils.py
-│      inferredVarTypeutils.py
-│      proxyObsTypeutils.py
-│      readLipdFileutils.py
-│   
+       fileutils.py
+       inferredVarTypeutils.py
+       proxyObsTypeutils.py
+       readLipdFileutils.py
+   
 ```
 
 1. accuracy_calculation : Formulated an accuracy measure for the sequential prediction model. 
@@ -112,6 +110,6 @@ The repository structure is as follows:
     d. readLipdFileutils : code to read a list of lipd files and convert the data to pandas dataframe
 
 
-
+<br>
 For a quick Demo, please run the cells in the demo\MC_Demo.ipynb or demo\LSTM_Demo.ipynb by launching the binder in the browser.<br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD)
