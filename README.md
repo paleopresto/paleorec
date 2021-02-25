@@ -16,6 +16,7 @@ Identifying 2 main sequence chains in the data : <br>
 The repository structure is as follows:
 
 ```
+
 │   environment.yml
 │   LICENSE
 │   README.md
@@ -110,6 +111,6 @@ The repository structure is as follows:
     d. readLipdFileutils : code to read a list of lipd files and convert the data to pandas dataframe
 
 
-<br>
+
 For a quick Demo, please run the cells in the demo\MC_Demo.ipynb or demo\LSTM_Demo.ipynb by launching the binder in the browser.<br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD)
