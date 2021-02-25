@@ -29,6 +29,7 @@ setup(
     install_requires=[
         "numpy>=1.18.5"
         "pandas>=1.0.5"
+        "pytorch==1.7.1"
     ],
     python_requires=">=3.8.0"
 )
