@@ -10,12 +10,14 @@ from argparse import Namespace
 import json
 import os
 import glob
+import copy
 
+import sys
+# sys.path.insert(1, '..\prediction\lstm\\')
 from RNNModule import RNNModule
 
 def get_latest_file_with_path(path, *paths):
     fullpath = os.path.join(path, *paths)
-    print(fullpath)
     list_of_files = glob.iglob(fullpath)  
     if not list_of_files:                
         return None
@@ -117,13 +119,24 @@ class LSTMpredict:
         input_sent_list = sentence.strip().split(',')
         input_sent_list = [val.replace(' ', '') for val in input_sent_list]
         
-        if isInferred and len(input_sent_list) == 1:
+        if isInferred and len(input_sent_list) <= 2:
+            
+            inferredVar = None
+            if len(input_sent_list) == 2:
+                inferredVar = input_sent_list[1]
+                if inferredVar not in self.names_set[5]:
+                    return {'0': []}
+                del input_sent_list[1]
+                
             while(len(input_sent_list) < 4):
+                sentence = (',').join(input_sent_list)
                 if len(input_sent_list) == 2:
                     input_sent_list.append(self.predictForSentence(sentence)['1'][0])
                 else:
                     input_sent_list.append(self.predictForSentence(sentence)['0'][0])
-                sentence = (',').join(input_sent_list)
+                
+            if inferredVar:
+                input_sent_list.append(inferredVar)
             names_set_ind = len(input_sent_list) + 1 if len(input_sent_list) >= 2 else len(input_sent_list)
             results = self.predict(self.device, self.model, input_sent_list, self.vocab_to_int, self.int_to_vocab, self.names_set[names_set_ind])
             return {'0':results}
@@ -137,5 +150,3 @@ class LSTMpredict:
         else:
             results = self.predict(self.device, self.model, input_sent_list, self.vocab_to_int, self.int_to_vocab, self.names_set[names_set_ind])
             return {'0':results}
-            
-

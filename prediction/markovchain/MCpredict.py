@@ -289,9 +289,21 @@ class MCpredict:
     
         '''
         sentence = sentence.strip()
-        output_list, sent = self.get_ini_prob(sentence)
+        sent = sentence.split(',')
+        sent = [x.strip() for x in sent if x!='Select']
         
-        if isInferred and len(sent) == 1:
+        if isInferred and len(sent) <= 2:
+            
+            inferredVar = None
+            if len(sent) == 2:
+                inferredVar = sent[1]
+                if inferredVar not in self.names_set[5]:
+                    return {'0': []}
+                del sent[1]
+            
+            sentence = (',').join(sent[:1])
+            output_list, sent = self.get_ini_prob(sentence)
+            
             for i in range(3):
                 if len(output_list) >= 2:
                     result_list = self.back_track(output_list[-1], len(output_list)+1, sent)
@@ -301,6 +313,21 @@ class MCpredict:
                     output_list.append([result_list[0][0]])
                 else:
                     break
+                
+            if inferredVar:
+                prob = output_list[-1][0][0]
+                temp_names_set = self.names_set[6]
+                dict_key = (',').join(val[0][1] for val in output_list[1:])
+                
+                prob += self.transition_prob_dict[dict_key][inferredVar]
+                output_list.append([(prob, inferredVar)])
+                
+                output_list.append(self.get_max_prob(temp_names_set, self.transition_prob_dict[dict_key], prob))
+                
+                out_dict = self.pretty_output(output_list)
+                return {'0': out_dict['5']}
+                
+                
             if len(output_list) == 4:
                 prob = output_list[-1][0][0]
                 temp_names_set = self.names_set[5]
@@ -310,6 +337,8 @@ class MCpredict:
             return {'0': out_dict['4']}
         
         else:
+            
+            output_list, sent = self.get_ini_prob(sentence)
             
             prob = output_list[-1][0][0]
             if len(sent) == 4:

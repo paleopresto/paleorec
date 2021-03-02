@@ -63,7 +63,7 @@ for i, row in final_df.iterrows():
 
 final_df = final_df[final_df.units != 'Mg/Ca']
 
-print('before calculating counter')
+
 counter_arch = collections.Counter(final_df['archiveType'])
 counter_proxy = collections.Counter(final_df['proxyObservationType'])
 counter_units = collections.Counter(final_df['units'])
@@ -104,7 +104,7 @@ final_df.dropna(subset=['archiveType'], inplace=True)
 # MANUAL TASK - DECIDE WHICH ARCHIVES NEED TO BE DOWN-SAMPLED
 # CURRENTLY WE ARE ONLY DOING WOOD, BECAUSE WE HAVE AROUND 2000 SAMPLES.
 
-print('before downsammple df wood and marine')
+
 
 # downsample for archiveType = 'Wood' and 'MarineSediment'
 df_wood = final_df[final_df.archiveType=='Wood']
@@ -160,7 +160,7 @@ df_marine_test = resample(df_marine_downsampled,
 # MANUAL TASK - ADD DATA FOR WOOD FROM INFERRED VARIABLE TYPE CSV FILE,
 # BECAUSE THERE ARE NO SAMPLES WITH UNITS FOR INFERRED VARIABLE TYPE AND INFERRED VARIABLE TYPE UNITS FOR ARCHIVE = WOOD
 
-print('before wood inferred')
+
 # FOR WINDOWS
 # wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
 # FOR LINUX
@@ -198,7 +198,6 @@ timestr = time.strftime("%Y%m%d_%H%M%S")
 lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
 lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
 
-print('saving the downsampled files')
 
 final_df_downsampled.to_csv(lipd_downsampled_path, sep = ',', encoding = 'utf-8',index = False)
 # write back the final test data to calculate accuracy of the model.

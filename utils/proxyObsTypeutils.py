@@ -169,8 +169,12 @@ q_proxy_obs = '''DiffuseSpectralReflectance
 *WetBulkDensity'''
 q_proxy_obs = q_proxy_obs.split('\n*')
 
+# FOR WINDOWS
+periodic_table_path = '..\PeriodicTableJSON.json'
+# FOR LINUX
+periodic_table_path = '../PeriodicTableJSON.json'
 
-with open('D://annotating_paleoclimate_data//PeriodicTableJSON.json', 'r', encoding="utf8") as jsonfile:
+with open(periodic_table_path, 'r', encoding="utf8") as jsonfile:
     element_json = json.load(jsonfile)
 
 periodic_table_elements, periodic_table_name = [], []
