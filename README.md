@@ -121,8 +121,8 @@ For a quick Demo, please run the cells in the demo\MC_Demo.ipynb or demo\LSTM_De
 
 Things to remember while running the notebook:<br>
 1. After you launch the binder, navigate to the demo folder.
-2. Inside the demo folder choose LSTMDemo.
-3. In the File Menubar at the top, click on Run -> Run All
+2. Inside the demo folder choose LSTM_Demo.
+3. In the File Menubar at the top, click on Cell -> Run All
 4. Using the widgets simulate the selection process.
 5. To change any value from variableType onwards, please repeat from step3.
 <br>
