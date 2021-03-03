@@ -118,4 +118,17 @@ The repository structure is as follows:
 
 
 For a quick Demo, please run the cells in the demo\MC_Demo.ipynb or demo\LSTM_Demo.ipynb by launching the binder in the browser.<br>
+
+Things to remember while running the notebook:<br>
+1. After you launch the binder, navigate to the demo folder.
+2. Inside the demo folder choose LSTMDemo.
+3. In the File Menubar at the top, click on Run -> Run All
+4. Using the widgets simulate the selection process.
+5. To change any value from variableType onwards, please repeat from step3.
+<br>
+
+
+
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD)
