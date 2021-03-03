@@ -101,9 +101,9 @@ The repository structure is as follows:
 2. cleaning_wiki_data : Currently the data considered for training is a combination from wiki.linked_earth.com and lipdverse.org.<br>
     Cleaning involved checking for spelling errors, repeated values like Temperature1, Temperature2, and mapping all the values to a base form, eg d18O -> D18O, D180 -> D18O<br>
     <br>
-    Please download the required datasets from lipdverse.org.
-    Usage: python3 clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -i [path-to-iso2k-dataset] -pm [path-to-Palmod-dataset]
-    All the commandline arguments with '-' are optional.
+    Please download the required datasets from lipdverse.org. <br>
+    Usage: python3 clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -i [path-to-iso2k-dataset] -pm [path-to-Palmod-dataset] <br>
+    All the commandline arguments with '-' are optional.<br>
 
 3. creating_train_test_data : Training and Test data is a downsampled version of the entire dataset to prevent any class-imbalance problems
 4. data<br>
