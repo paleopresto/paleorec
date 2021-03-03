@@ -118,8 +118,11 @@ class LSTMpredict:
         
         input_sent_list = sentence.strip().split(',')
         input_sent_list = [val.replace(' ', '') for val in input_sent_list]
+        input_sent_list = [self.reference_dict.get(val, val) for val in input_sent_list]
         
         if isInferred and len(input_sent_list) <= 2:
+            
+            print('lstm input_sent_list = ', input_sent_list)
             
             inferredVar = None
             if len(input_sent_list) == 2:
@@ -137,6 +140,8 @@ class LSTMpredict:
                 
             if inferredVar:
                 input_sent_list.append(inferredVar)
+            
+            print('lstm final input_sent_list before prediction = ', input_sent_list)
             names_set_ind = len(input_sent_list) + 1 if len(input_sent_list) >= 2 else len(input_sent_list)
             results = self.predict(self.device, self.model, input_sent_list, self.vocab_to_int, self.int_to_vocab, self.names_set[names_set_ind])
             return {'0':results}
