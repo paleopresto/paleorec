@@ -19,9 +19,9 @@ import sys
 import time
 
 # FOR WINDOWS
-# sys.path.insert(1, '../../')
+# sys.path.insert(1, '..\..\\')
 # FOR LINUX
-sys.path.insert(1, '..\..\')
+sys.path.insert(1, '../../')
 from utils import fileutils
 
 

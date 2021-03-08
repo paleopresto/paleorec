@@ -87,6 +87,8 @@ class LSTMpredict:
                       5: set(model_mc['inf_var']), 6: set(model_mc['inf_var_units'])}
         for i in range(6):
             self.names_set[i] = {val.replace(' ', '') for val in self.names_set[i]}
+        
+        self.archives_map = model_mc['archives_map']
 
     
     def predict(self, device, net, words, vocab_to_int, int_to_vocab, names_set):

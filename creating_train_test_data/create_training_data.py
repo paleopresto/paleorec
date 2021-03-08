@@ -11,11 +11,12 @@ import collections
 from sklearn.utils import resample
 import sys
 import time
+import json
 
 # FOR WINDOWS
-# sys.path.insert(1, '..\\')
+sys.path.insert(1, '..\\')
 # FOR LINUX
-sys.path.insert(1, '../')
+# sys.path.insert(1, '../')
 from utils import fileutils
 
 '''
@@ -26,9 +27,9 @@ from utils import fileutils
 # READ LATESTED MERGED LIPDVERSE DATA USING UTLITIES
 
 # FOR WINDOWS
-# data_file_dir = '..\data\csv\\'
+data_file_dir = '..\data\csv\\'
 # FOR LINUX
-data_file_dir = ''../data/csv/'
+# data_file_dir = ''../data/csv/'
 
 data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'merged_common_lipdverse_inferred_*.csv')
 
@@ -71,6 +72,11 @@ counter_int_var = collections.Counter(final_df['interpretation/variable'])
 counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
 counter_inf_var = collections.Counter(final_df['inferredVariable'])
 counter_inf_var_units = collections.Counter(final_df['inferredVarUnits'])
+
+# Add to a file for autocomplete suggestions without removing any co 1
+names_set_dict = {'proxyObservationType' : list(counter_proxy.keys()), 'proxyObservationTypeUnits' : list(counter_units.keys()), 
+                  'interpretation/variable' : list(counter_int_var.keys()), 'interpretation/variableDetail' : list(counter_int_det.keys()), 
+                  'inferredVariable' : list(counter_inf_var.keys()), 'inferredVariableUnits' : list(counter_inf_var_units.keys())}
 
 counter_proxy_a = {key:value for key,value in dict(counter_proxy).items() if value > 5}
 counter_int_var_a = {key:value for key,value in dict(counter_int_var).items() if value > 1}
@@ -162,9 +168,9 @@ df_marine_test = resample(df_marine_downsampled,
 
 
 # FOR WINDOWS
-# wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
+wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
 # FOR LINUX
-wood_inferred_path = '../data/csv/wood_inferred_data.csv'
+# wood_inferred_path = '../data/csv/wood_inferred_data.csv'
 
 wood_inferred_df = pd.read_csv(wood_inferred_path)
 wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
@@ -192,15 +198,19 @@ timestr = time.strftime("%Y%m%d_%H%M%S")
 
 # write back the final training data to create the model.
 # FOR WINDOWS
-# lipd_downsampled_path = '..\data\csv\lipdverse_downsampled_'+timestr+'.csv'
-# lipd_test_path = '..\data\csv\lipdverse_test_'+timestr+'.csv'
+lipd_downsampled_path = '..\data\csv\lipdverse_downsampled_'+timestr+'.csv'
+lipd_test_path = '..\data\csv\lipdverse_test_'+timestr+'.csv'
+autocomplete_file_path = '..\\data\\autocomplete\\autocomplete_file_'+timestr+'.json'
 # FOR LINUX
-lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
-lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
+# lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
+# lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
+# autocomplete_file_path = '../data/autocomplete/autocomplete_file_'+timestr+'.json'
 
 
 final_df_downsampled.to_csv(lipd_downsampled_path, sep = ',', encoding = 'utf-8',index = False)
 # write back the final test data to calculate accuracy of the model.
 final_df_test.to_csv(lipd_test_path, sep = ',', encoding = 'utf-8',index = False)
 
+with open(autocomplete_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(names_set_dict, json_file)
 
