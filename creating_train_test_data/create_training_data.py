@@ -14,9 +14,9 @@ import time
 import json
 
 # FOR WINDOWS
-sys.path.insert(1, '..\\')
+# sys.path.insert(1, '..\\')
 # FOR LINUX
-# sys.path.insert(1, '../')
+sys.path.insert(1, '../')
 from utils import fileutils
 
 '''
@@ -27,9 +27,9 @@ from utils import fileutils
 # READ LATESTED MERGED LIPDVERSE DATA USING UTLITIES
 
 # FOR WINDOWS
-data_file_dir = '..\data\csv\\'
+# data_file_dir = '..\data\csv\\'
 # FOR LINUX
-# data_file_dir = ''../data/csv/'
+data_file_dir = ''../data/csv/'
 
 data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'merged_common_lipdverse_inferred_*.csv')
 
@@ -168,9 +168,9 @@ df_marine_test = resample(df_marine_downsampled,
 
 
 # FOR WINDOWS
-wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
+# wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
 # FOR LINUX
-# wood_inferred_path = '../data/csv/wood_inferred_data.csv'
+wood_inferred_path = '../data/csv/wood_inferred_data.csv'
 
 wood_inferred_df = pd.read_csv(wood_inferred_path)
 wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
@@ -198,13 +198,13 @@ timestr = time.strftime("%Y%m%d_%H%M%S")
 
 # write back the final training data to create the model.
 # FOR WINDOWS
-lipd_downsampled_path = '..\data\csv\lipdverse_downsampled_'+timestr+'.csv'
-lipd_test_path = '..\data\csv\lipdverse_test_'+timestr+'.csv'
-autocomplete_file_path = '..\\data\\autocomplete\\autocomplete_file_'+timestr+'.json'
+# lipd_downsampled_path = '..\data\csv\lipdverse_downsampled_'+timestr+'.csv'
+# lipd_test_path = '..\data\csv\lipdverse_test_'+timestr+'.csv'
+# autocomplete_file_path = '..\\data\\autocomplete\\autocomplete_file_'+timestr+'.json'
 # FOR LINUX
-# lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
-# lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
-# autocomplete_file_path = '../data/autocomplete/autocomplete_file_'+timestr+'.json'
+lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
+lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
+autocomplete_file_path = '../data/autocomplete/autocomplete_file_'+timestr+'.json'
 
 
 final_df_downsampled.to_csv(lipd_downsampled_path, sep = ',', encoding = 'utf-8',index = False)
