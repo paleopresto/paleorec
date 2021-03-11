@@ -1,0 +1,10 @@
+build
+.ipynb_checkpoints
+.DS_Store
+debug.log
+benchmark.log
+__pycache__
+
+./**/debug.log
+./**/benchmark.log
+./docs/build/**
