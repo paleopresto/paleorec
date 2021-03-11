@@ -38,10 +38,16 @@ archives_for_MC = {}
 archives_map = predLSTM.archives_map
 autocomplete_file_path = None
 
-time_map = {'age' : ['year B.P.','yr B.P.','yr BP','BP','yrs BP','years B.P.', 'yr. BP','yr. B.P.', 'cal. BP', 'cal B.P.', 'year BP','years BP'], 
-    'kage' : ['kyr BP','kaBP','ka BP','ky','kyr','kyr B.P.', 'ka B.P.', 'ky BP', 'kyrs BP','ky B.P.', 'kyrs B.P.', 'kyBP', 'kyrBP'],
-    'year' : ['AD','CE','year C.E.','year A.D.', 'year CE','year AD','years C.E.','years A.D.','yr CE','yr AD','yr C.E.','yr A.D.', 'yrs C.E.', 'yrs A.D.', 'yrs CE', 'yrs AD'],
-    'mage' : ['my BP', 'myr BP', 'myrs BP', 'ma BP', 'ma','my B.P.', 'myr B.P.', 'myrs B.P.', 'ma B.P.']}
+time_map = {'age' : ['year BP', 'cal year BP'], 
+    'kage' : ['ka BP'],
+    'year' : ['year CE','year AD'],
+    'mage' : ['my BP']}
+
+# other units for 
+# 'age' : ['year B.P.','yr B.P.','yr BP','BP','yrs BP','years B.P.', 'yr. BP','yr. B.P.', 'cal. BP', 'cal B.P.', 'year BP','years BP']
+# 'kage' : ['kyr BP','kaBP','ky','kyr','kyr B.P.', 'ka B.P.', 'ky BP', 'kyrs BP','ky B.P.', 'kyrs B.P.', 'kyBP', 'kyrBP']
+# 'year' : ['AD','CE','year C.E.','year A.D.','years C.E.','years A.D.','yr CE','yr AD','yr C.E.','yr A.D.', 'yrs C.E.', 'yrs A.D.', 'yrs CE', 'yrs AD']
+# 'mage' : ['myr BP', 'myrs BP', 'ma BP', 'ma','my B.P.', 'myr B.P.', 'myrs B.P.', 'ma B.P.']
 
 def get_average_len_for_autocomplete():
     avg_len_map = {}

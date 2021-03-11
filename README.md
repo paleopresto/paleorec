@@ -76,6 +76,7 @@ The repository structure is as follows:
 ├───prediction
 │   ├───lstm
 │   │       LSTMpredict.py
+|   |       RNNModule.py
 │   │
 │   └───markovchain
 │           MCpredict.py
@@ -101,7 +102,7 @@ The repository structure is as follows:
 2. cleaning_wiki_data : Currently the data considered for training is a combination from wiki.linked_earth.com and lipdverse.org.<br>
     Cleaning involved checking for spelling errors, repeated values like Temperature1, Temperature2, and mapping all the values to a base form, eg d18O -> D18O, D180 -> D18O<br>
     <br>
-    Please download the required datasets from lipdverse.org. <br>
+    Please download the required datasets from <a href="https://lipdverse.org/">lipdverse.org.</a> <br>
     Usage: python3 clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -i [path-to-iso2k-dataset] -pm [path-to-Palmod-dataset] <br>
     All the commandline arguments with '-' are optional.<br>
 
