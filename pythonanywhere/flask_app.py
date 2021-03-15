@@ -49,16 +49,47 @@ time_map = {'age' : ['year BP', 'cal year BP'],
 # 'year' : ['AD','CE','year C.E.','year A.D.','years C.E.','years A.D.','yr CE','yr AD','yr C.E.','yr A.D.', 'yrs C.E.', 'yrs A.D.', 'yrs CE', 'yrs AD']
 # 'mage' : ['myr BP', 'myrs BP', 'ma BP', 'ma','my B.P.', 'myr B.P.', 'myrs B.P.', 'ma B.P.']
 
-def get_average_len_for_autocomplete():
-    avg_len_map = {}
+def get_average_half_len_for_autocomplete():
+    """
+    names_set_dict from predict_object in LSTM contains the list of all the possible values for each fieldType
+    This method calculates half of the average length of value for each fieldType.
+    
+    Possible use case during autocomplete search, when a user enters half the characters for a fieldType, 
+    we can use edit distance to get the most similar words to the provided word.
+
+    Returns
+    -------
+    avg_half_len_map : dict
+        Stores the average half length for each fieldType.
+
+    """
+    avg_half_len_map = {}
     for key, in_set in predLSTM.names_set.items():
         sum_len_set = sum([len(word) for word in in_set])
-        avg_len_map[key] = sum_len_set//len(in_set)
-    return avg_len_map
+        avg_half_len_map[key] = sum_len_set//(len(in_set) * 2)
+    return avg_half_len_map
 
-avg_len_map = get_average_len_for_autocomplete()
+avg_half_len_map = get_average_half_len_for_autocomplete()
 
 def get_latest_file_with_path(path, *paths):
+    '''
+    Method to get the full path name for the latest file for the input parameter in paths.
+    This method uses the os.path.getctime function to get the most recently created file that matches the filename pattern in the provided path. 
+
+    Parameters
+    ----------
+    path : string
+        Root pathname for the files.
+    *paths : string list
+        These are the var args field, the optional set of strings to denote the full path to the file names.
+
+    Returns
+    -------
+    latest_file : string
+        Full path name for the latest file provided in the paths parameter.
+
+    '''
+    
     fullpath = os.path.join(path, *paths)
     list_of_files = glob.iglob(fullpath)  
     if not list_of_files:                
@@ -70,6 +101,19 @@ names_set_ind_map = {'proxyObservationType' : 1, 'proxyObservationTypeUnits' : 2
 
 names_set = {}
 def load_names_set_from_file(file_name):
+    '''
+    Method to load the dict containing the list of all possible values for each fieldType, used for autocomplete suggestions.
+
+    Parameters
+    ----------
+    file_name : string
+        File containing the data for autocomplete suggestions.
+
+    Returns
+    -------
+    None.
+
+    '''
     global names_set
     with open(file_name, 'r', encoding='utf-8') as autocomplete_file_:
         names_set = json.load(autocomplete_file_)
@@ -77,7 +121,7 @@ def load_names_set_from_file(file_name):
 @app.route('/test', methods=["GET"])
 @limiter.exempt
 def _test():
-    # logger_flask.info("You rang?")
+    logger_flask.info("You rang?")
     return "Wouldya look at that!"
 
 @app.route("/api/wikiquery", methods=["POST"])
@@ -136,6 +180,7 @@ def _noaa_start():
 @app.route('/predictNextValue', methods=['GET'])
 @limiter.exempt
 def predictNextValue():
+    
     inputstr  = request.args.get('inputstr', None)
     inputstr = inputstr.replace('_','/')
     variabletype  = request.args.get('variableType', 'measured')
@@ -177,6 +222,7 @@ def predictNextValue():
 @app.route('/autocomplete', methods=['GET'])
 @limiter.limit("2/second", override_defaults=False)
 def autocomplete_suggestion():
+    
     global autocomplete_file_path
 
     # Ensure that autocomplete always works on the latest autocomplete data
@@ -197,7 +243,7 @@ def autocomplete_suggestion():
         results.extend(py_.filter(fieldType_set, lambda word: word.lower().startswith(queryString)))
         # results.extend([word for word in fieldType_set if word.lower().startswith(queryString)])
 
-        if len(queryString) >= avg_len_map[names_set_ind_map[fieldType]]:
+        if len(queryString) >= avg_half_len_map[names_set_ind_map[fieldType]]:
             for word in fieldType_set:
                 if word not in results:
                     edist = editDistDP(queryString, word.lower(), len(queryString), len(word))
@@ -257,6 +303,22 @@ def __rm_wdc_url(d):
     return d
 
 def predict_using_markov_chains(variabletype, sentence):
+    '''
+    Method to return the list of top 5 values for a fieldType given the input sentence and the variableType using the model created for Markov Chains.
+
+    Parameters
+    ----------
+    variabletype : string
+        Either "measured" or "inferred".
+    sentence : string
+        Comma-separated input string containing values corresponding to the prediction chain.
+
+    Returns
+    -------
+    response
+        Json response to the API call predictNextValue.
+
+    '''
     output = {}
     inputs = sentence.split(',')
     if len(inputs) == 2 and variabletype == 'measured':
@@ -267,6 +329,22 @@ def predict_using_markov_chains(variabletype, sentence):
     return make_response(jsonify({'result': output}), 200) 
 
 def predict_using_lstm(variabletype, sentence):
+    '''
+    Method to return the list of top 5 values for a fieldType given the input sentence and the variableType using the model created for LSTM.
+
+    Parameters
+    ----------
+    variabletype : string
+        Either "measured" or "inferred".
+    sentence : string
+        Comma-separated input string containing values corresponding to the prediction chain.
+
+    Returns
+    -------
+    response
+        Json response to the API call predictNextValue.
+
+    '''
     
     inverse_ref_dict = {val:key for key,val in predLSTM.reference_dict.items()}
     inverse_ref_dict_units = {val:key for key,val in predLSTM.reference_dict_u.items()}
@@ -288,6 +366,26 @@ def predict_using_lstm(variabletype, sentence):
 
 
 def editDistDP(str1, str2, m, n):
+    '''
+    Calculates the edit distance between str1 and str2.
+
+    Parameters
+    ----------
+    str1 : string
+        Input string 1.
+    str2 : TYPE
+        Input string 2.
+    m : int
+        len of string 1
+    n : int
+        len of string 2
+
+    Returns
+    -------
+    int
+        Edit distance value between str1 and str2.
+
+    '''
     dp = [[0 for x in range(n + 1)] for x in range(m + 1)]
  
     for i in range(m + 1):
@@ -311,6 +409,20 @@ def editDistDP(str1, str2, m, n):
 
 @app.errorhandler(429)
 def ratelimit_handler(e):
+    '''
+    Method to return a json error response to the UI incase the rate of invoking the API is exceeded to more than 2/sec.
+
+    Parameters
+    ----------
+    e : error
+        Response code when the rate has been exceeded.
+
+    Returns
+    -------
+    response
+        Json response to UI when the rate limit has been exceeded.
+
+    '''
     return make_response(jsonify(error="ratelimit exceeded %s" % e.description), 429)
 
 

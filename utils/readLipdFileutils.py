@@ -10,16 +10,32 @@ import os
 import sys
 
 
-# FOR WINDOWS
-# sys.path.insert(1, '..\\')
-# FOR LINUX
-sys.path.insert(1, '../')
+from sys import platform as _platform
+
+if _platform == "win32":
+    sys.path.insert(1, '..\\')
+else:
+    sys.path.insert(1, '../')
 
 from utils import proxyObsTypeutils
 from utils import inferredVarTypeutils
 
 
 def get_char_string(string):
+    '''
+    Method to replace a non-ASCII char with a space.
+
+    Parameters
+    ----------
+    string : str
+        Input string.
+
+    Returns
+    -------
+    n_string : str
+        Updated string
+
+    '''
     n_string = ''
     for c in string:
         if 48 <= ord(c) <= 57 or 65 <= ord(c) <= 90 or 97 <= ord(c) <= 122:
@@ -28,40 +44,64 @@ def get_char_string(string):
             n_string += ' '
     return n_string
 
+inf_var_units_map, ignored_inferred_list = None, None
 
-inf_var_units_map = {'rep diff.': 'NA',
- 'Air Surface Temperature': 'deg C',
- 'Surface D18Osw': 'permil',
- 'NA': 'NA',
- 'Temperature': 'deg C',
- 'Sea Surface Temperature': 'deg C',
- 'Air Condensationlevel Temperature': 'deg C',
- 'Air Temperature': 'deg C',
- 'D18O': 'permil',
- 'Sedimentation Rate': 'cm/kyr',
- 'Thermocline Temperature': 'deg C',
- 'uncertainty_temperature': 'deg C',
- 'Sea Surface Salinity': 'psu',
- 'Sea Surface D18Osw': 'permil',
- 'Lake Surface Temperature': 'deg C',
- 'Sea Surface Temperature And Salinity': 'NA',
- 'Bottom Water D18Osw': 'permil',
- 'period': 'NA',
- 'D18Ocorr': 'permil',
- 'D18Osw': 'permil',
- 'Surface Water D18Osw': 'permil',
- 'Subsurface Temperature': 'deg C',
- 'Relative Sea Level': 'm',
- 'Subsurface D18Osw': 'permil',
- 'Surface Water Temperature': 'deg C',
- 'Bottom Water Temperature': 'deg C',
- 'Surface Temperature' : 'deg C'
-}
-ignore_inferred_list = ['age', 'depth', 'year', 'Age', 'Depth', 'Year']
+def initialize_data():
+    
+    global inf_var_units_map, ignored_inferred_list
+    
+    inf_var_units_map = {'rep diff.': 'NA',
+     'Air Surface Temperature': 'degC',
+     'Surface D18Osw': 'permil',
+     'NA': 'NA',
+     'Temperature': 'degC',
+     'Sea Surface Temperature': 'degC',
+     'Air Condensationlevel Temperature': 'degC',
+     'Air Temperature': 'degC',
+     'D18O': 'permil',
+     'Sedimentation Rate': 'cm/kyr',
+     'Thermocline Temperature': 'degC',
+     'uncertainty_temperature': 'degC',
+     'Sea Surface Salinity': 'psu',
+     'Sea Surface D18Osw': 'permil',
+     'Lake Surface Temperature': 'degC',
+     'Sea Surface Temperature And Salinity': 'NA',
+     'Bottom Water D18Osw': 'permil',
+     'period': 'NA',
+     'D18Ocorr': 'permil',
+     'D18Osw': 'permil',
+     'Surface Water D18Osw': 'permil',
+     'Subsurface Temperature': 'degC',
+     'Relative Sea Level': 'm',
+     'Subsurface D18Osw': 'permil',
+     'Surface Water Temperature': 'degC',
+     'Bottom Water Temperature': 'degC',
+     'Surface Temperature' : 'degC'
+    }
+    ignored_inferred_list = ['age', 'depth', 'year', 'Age', 'Depth', 'Year']
 
 
 
 def read_lipd_files_list(lipd_files_list):
+    '''
+    Method to iterate over a list of LiPD files to extract 'paleodata' from it.
+    We are currently focusing only on the following attributes from the file;
+    archiveType, proxyObservationType, proxyObservationTypeUnits, interpretation/variable, interpretation/variableDetail, inferredVariableType, inferredVariableUnits
+    
+
+    Parameters
+    ----------
+    lipd_files_list : list
+        List containing complete path of LiPD files to read.
+
+    Returns
+    -------
+    table_com : dataframe
+        Dataframe consisting of extracted data; filename, compilation, archiveType, proxyObservationType, proxyObservationTypeUnits, interpretation/variable, interpretation/variableDetail, predicted inferredVariableType, predicted inferredVariableUnits
+    inf_table_com : dataframe
+        Dataframe consisting of extracted data;  filename, compilation, archiveType, inferredVariableType, inferredVariableUnits
+
+    '''
     count = 0
     
     table = pd.DataFrame(columns = ['publication','filename','archiveType', 'variableType', 'proxyObservationType','units', 'rank', 'interpretation/variable','interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
@@ -152,7 +192,7 @@ def read_lipd_files_list(lipd_files_list):
             elif vtype == 'inferred':
                 if 'inferredVariableType' in path[key].keys() :
                     infVar = path[key]['inferredVariableType']
-                    if infVar in ignore_inferred_list:
+                    if infVar in ignored_inferred_list:
                         continue
                 if infVar == 'NA' and 'variableName' in path[key].keys() :
                     vname = path[key]['variableName']
@@ -192,3 +232,6 @@ def read_lipd_files_list(lipd_files_list):
     inf_table_com = inf_table_com.drop(columns = ['index'])
     
     return table_com, inf_table_com
+
+if __name__ == '__main__':
+    initialize_data()

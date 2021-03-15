@@ -18,10 +18,12 @@ from RNNModule import RNNModule
 import sys
 import time
 
-# FOR WINDOWS
-# sys.path.insert(1, '..\..\\')
-# FOR LINUX
-sys.path.insert(1, '../../')
+from sys import platform as _platform
+
+if _platform == "win32":
+    sys.path.insert(1, '..\..\\')
+else:
+    sys.path.insert(1, '../../')
 from utils import fileutils
 
 
@@ -29,9 +31,22 @@ device = None
 
 def convert_dataframe_to_list(dataframe_obj):
     '''
-    return : list of all the values in a single row separated by spaces from the dataframe.
-             all values that were space separated before are converted to a single word 
-             example. Sea Surface Temperature -> SeaSurfaceTemperature
+    Method to return list of all the values in a single row separated by spaces from the dataframe.
+    All values that were space separated before are converted to a single word.
+    example. Sea Surface Temperature -> SeaSurfaceTemperature
+
+    Parameters
+    ----------
+    dataframe_obj : pandas dataframe
+        Dataframe contains the training data.
+
+    Returns
+    -------
+    new_list : list
+        List of input sentences.
+    reference_dict : dict
+        Mapping of the word to its space-stripped version used for training.
+
     '''
     reference_dict = {}
     
@@ -49,6 +64,36 @@ def convert_dataframe_to_list(dataframe_obj):
     return new_list, reference_dict
 
 def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
+    '''
+    
+
+    Parameters
+    ----------
+    train_file : string
+        File path for the training data.
+    batch_size : int
+        Used to divide the training data into batches for training.
+    seq_size : int
+        Defines the sequence size for the training sentences.
+    for_units : boolean, optional
+        Flag to signify if model is training for the chain archiveType -> proxyObservationType -> units. The default is False.
+
+    Returns
+    -------
+    int_to_vocab : dict
+        Mapping of the Label Encoding int to text.
+    vocab_to_int : dict
+        Mapping of the Label Encoding text to int.
+    n_vocab : int
+        Size of the Label Encoding Dict.
+    in_text : list
+        Contains the input text for training.
+    out_text : list
+        Corresponding output for the input text.
+    reference_dict : dict
+        Mapping of the word to its space-stripped version used for training.
+
+    '''
 
     lipd_data = pd.read_csv(train_file)
     if for_units:
@@ -80,19 +125,85 @@ def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
     return int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict
 
 def get_batches(in_text, out_text, batch_size, seq_size):
+    '''
+    Returns a batch each for the input sequence and the expected output word.
+
+    Parameters
+    ----------
+    in_text : list
+        Label Encoded strings of text.
+    out_text : list
+        Label Encoded Output for each each input sequence.
+    batch_size : int
+        Parameter to signify the size of each batch.
+    seq_size : int
+        Parameter to signify length of each sequence. In our case we are considering 2 chains, one of length 3 and the other of length 6.
+
+    Yields
+    ------
+    list
+        batch of input text sequence each of seq_size.
+    list
+        batch of output text corresponding to each input.
+
+    '''
+    
     num_batches = np.prod(in_text.shape) // (seq_size * batch_size)
     # Increment the loop by seq_size, because we have unique sequence and not a continuation.
     for i in range(0, num_batches * seq_size, seq_size):
         yield in_text[:, i:i+seq_size], out_text[:, i:i+seq_size]
 
 def get_loss_and_train_op(net, lr=0.001):
+    '''
+    We are using CrossEntropy as a Loss Function for this RNN Model since this is a Multi-class classification kind of problem.
+    
+
+    Parameters
+    ----------
+    net : neural network instance
+        Loss function is set for the Neural Network.
+    lr : float, optional
+        Defines the learning rate for the neural network. The default is 0.001.
+
+    Returns
+    -------
+    criterion : Loss function instance
+        Loss Function instance for the neural network.
+    optimizer : Optimizing function instance
+        Optimizer used for the neural network.
+
+    '''
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=lr)
 
     return criterion, optimizer
 
-def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, for_units = False):
-    net = RNNModule(n_vocab, flags.seq_size,
+def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):
+    '''
+    Method to train an lstm model on in_text and out_text.
+    This method will save the model for the last epoch.
+    
+    Parameters
+    ----------
+    int_to_vocab : dict
+        Mapping of the Label Encoding int to text.
+    vocab_to_int : dict
+        Mapping of the Label Encoding text to int.
+    n_vocab : int
+        Size of the Label Encoding Dict.
+    in_text : list
+        Contains the input text for training.
+    out_text : list
+        Corresponding output for the input text.
+    for_units : boolean, optional
+        Flag to signify if model is training for the chain archiveType -> proxyObservationType -> units. The default is False.
+
+    Returns
+    -------
+    None.
+
+    '''
+    net = RNNModule(n_vocab, seq_size,
                     flags.embedding_size, flags.lstm_size)
     net = net.to(device)
 
@@ -102,7 +213,7 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, for_units 
     
     
     for e in range(50):
-        batches = get_batches(in_text, out_text, flags.batch_size, flags.seq_size)
+        batches = get_batches(in_text, out_text, flags.batch_size, seq_size)
         state_h, state_c = net.zero_state(flags.batch_size)
         
         # Transfer data to GPU
@@ -159,7 +270,7 @@ def main():
         flags.train_file, flags.batch_size, flags.seq_size)
     
     int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_file(
-        flags.train_file, flags.batch_size, flags.seq_size, for_units=True)
+        flags.train_file, flags.batch_size, flags.seq_size_u, for_units=True)
     
     timestr = time.strftime("%Y%m%d_%H%M%S")
     model_tokens = {'model_tokens' : int_to_vocab, 'model_tokens_u' : int_to_vocab_u, 'reference_dict': reference_dict, 'reference_dict_u': reference_dict_u}
@@ -167,24 +278,25 @@ def main():
           json.dump(model_tokens, json_file)
 
     # Train for archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
-    train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text)
+    train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, flags.seq_size)
 
     # Train for archive -> proxyObservationType -> units
-    train_RNN(int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, for_units=True)
+    train_RNN(int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, flags.seq_size_u, for_units=True)
     
 
-# FOR WINDOWS
-# data_file_dir = '..\..\data\csv\\'
-# model_file_path = '..\..\data\model_lstm\\' 
-# FOR LINUX
-data_file_dir = '../../data/csv/'
-model_file_path = '../../data/model_lstm/'
+if _platform == "win32":
+    data_file_dir = '..\..\data\csv\\'
+    model_file_path = '..\..\data\model_lstm\\' 
+else:
+    data_file_dir = '../../data/csv/'
+    model_file_path = '../../data/model_lstm/'
 
 train_path = fileutils.get_latest_file_with_path(data_file_dir, 'lipdverse_downsampled_*.csv')
 
 flags = Namespace(
     train_file = train_path,
-    seq_size=7,
+    seq_size_u=3,
+    seq_size=6,
     batch_size=16,
     embedding_size=64,
     lstm_size=64,

@@ -14,10 +14,12 @@ import itertools
 import sys
 import time
 
-# FOR WINDOWS
-# sys.path.insert(1, '..\..\\')
-# FOR LINUX
-sys.path.insert(1, '../../')
+from sys import platform as _platform
+
+if _platform == "win32":
+    sys.path.insert(1, '..\..\\')
+else:
+    sys.path.insert(1, '../../')
 from utils import fileutils
 
 def fill_q0(in_dict, dict_type):
@@ -171,10 +173,10 @@ def add_one_smoothing(transition_matrix):
             in_dict[in_key] = math.log((in_val + 1)) - math.log(len_in_dict)
     return transition_mat
 
-# FOR WINDOWS
-# data_file_dir = '..\..\data\csv\\'
-# FOR LINUX
-data_file_dir = '../../data/csv/'
+if _platform == "win32":
+    data_file_dir = '..\..\data\csv\\'
+else:
+    data_file_dir = '../../data/csv/'
 
 data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'lipdverse_downsampled_*.csv')
 final_df = pd.read_csv(data_file_path)
@@ -335,10 +337,11 @@ model_dict = {'archive_types': list(counter_archive.keys()),'proxy_obs_types': l
 
 # write model to file
 timestr = time.strftime("%Y%m%d_%H%M%S")
-# FOR WINDOWS
-# model_file_path = '..\..\data\model_mc\model_mc_'+timestr+'.txt'
-# FOR LINUX
-model_file_path = '../../data/model_mc/model_mc_'+timestr+'.txt'
+
+if _platform == "win32":
+    model_file_path = '..\..\data\model_mc\model_mc_'+timestr+'.txt'
+else:
+    model_file_path = '../../data/model_mc/model_mc_'+timestr+'.txt'
  
 with open(model_file_path, 'w') as json_file:
   json.dump(model_dict, json_file)
