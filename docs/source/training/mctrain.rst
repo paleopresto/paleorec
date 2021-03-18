@@ -107,7 +107,7 @@ To run the code execute the following command:
 
 .. code-block:: none
 
-   python3 mctrain.py
+   python mctrain.py
 
 Extensions
 ----------

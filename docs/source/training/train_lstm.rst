@@ -145,7 +145,7 @@ To run the code execute the following command:
 
 .. code-block:: none
 
-   python3 train_lstm.py
+   python train_lstm.py
 
 Extensions
 ----------

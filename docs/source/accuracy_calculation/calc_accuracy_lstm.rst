@@ -56,4 +56,4 @@ To run the code execute the following command:
 
 .. code-block:: none
 
-   python3 calc_accuracy_lstm.py
+   python calc_accuracy_lstm.py
