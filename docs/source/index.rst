@@ -30,9 +30,3 @@ Dependencies
 
 Dependencies for PaleoRec are `here <https://github.com/paleopresto/paleorec/blob/main/environment.yml>`_.
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
