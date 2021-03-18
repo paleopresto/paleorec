@@ -70,11 +70,11 @@ def get_data_from_lipd():
     
     This list of files is then passed to the readLipdFileutils which returns a dataframe with proxyObservationType chain and the inferredVariableType chain.
     
-    Sample Dataframe:
-    table_com:
-        
-    inf_table_com:
-        
+    Dataframes created
+    table_com: pandas dataframe
+        Contains information extracted for proxyObservationType        
+    inf_table_com:pandas dataframe
+        Contains information extracted for inferredVariableType
 
     Returns
     -------

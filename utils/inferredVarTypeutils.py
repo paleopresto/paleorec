@@ -121,3 +121,6 @@ def predict_inf_var_type_from_variable_name(vname):
 if __name__ == '__main__':
     initialize_input_data()
     create_inf_var_map()
+else:
+    initialize_input_data()
+    create_inf_var_map()

@@ -20,11 +20,6 @@ else:
     sys.path.insert(1, '../')
 from utils import fileutils
 
-'''
- File to create class - balanced training data from wiki.linkedearth lipd files.
-
-'''
-
 common_lipdverse_df, final_df = None, None
 names_set_dict = {}
 counter_arch = {}
@@ -322,3 +317,9 @@ def downsample_archives_create_final_train_test_data():
     with open(autocomplete_file_path, 'w', encoding='utf-8') as json_file:
         json.dump(names_set_dict, json_file)
 
+if __name__ == '__main__':
+    read_latest_data_for_training()
+    manually_clean_data_by_replacing_incorrect_values()
+    write_autocomplete_data_file()
+    discard_less_frequent_values_from_data()
+    downsample_archives_create_final_train_test_data()

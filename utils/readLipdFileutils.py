@@ -235,3 +235,6 @@ def read_lipd_files_list(lipd_files_list):
 
 if __name__ == '__main__':
     initialize_data()
+    print(proxyObsTypeutils.proxy_obs_map)
+else:
+    initialize_data()

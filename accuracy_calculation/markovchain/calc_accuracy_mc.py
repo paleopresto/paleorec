@@ -65,12 +65,14 @@ def getScoreForResult(test_val, result_list):
         Accuracy score depending on where the actual value is present in list of predicted values.
 
     '''
-    if test_val == result_list[0]:
-        return 10
-    elif test_val in result_list:
-        return 5
-    else:
-        return 0
+    if result_list:
+        if test_val == result_list[0]:
+            return 10
+        elif test_val in result_list:
+            return 5
+        else:
+            return 0
+    return 0
 
 def calculate_score_for_test_data():
     '''
@@ -147,6 +149,9 @@ def store_results_to_csv():
     df_test.to_csv(accuracy_data_path, sep = ',', encoding = 'utf-8',index = False)
 
 if __name__ == "__main__":
+    calculate_score_for_test_data()
+    store_results_to_csv()
+else:
     calculate_score_for_test_data()
     store_results_to_csv()
 

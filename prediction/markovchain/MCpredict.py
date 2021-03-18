@@ -12,6 +12,24 @@ import os
 import glob
 
 def get_latest_file_with_path(path, *paths):
+    '''
+    Method to get the full path name for the latest file for the input parameter in paths.
+    This method uses the os.path.getctime function to get the most recently created file that matches the filename pattern in the provided path. 
+
+    Parameters
+    ----------
+    path : string
+        Root pathname for the files.
+    *paths : string list
+        These are the var args field, the optional set of strings to denote the full path to the file names.
+
+    Returns
+    -------
+    latest_file : string
+        Full path name for the latest file provided in the paths parameter.
+
+    '''
+
     fullpath = os.path.join(path, *paths)
     list_of_files = glob.iglob(fullpath)  
     if not list_of_files:                
@@ -67,7 +85,6 @@ class MCpredict:
         in_list : list/ tuple
             Either a list object or tuple whose data is retreived.
             
-
         Returns
         -------
         list
@@ -105,8 +122,6 @@ class MCpredict:
             input: [[(-1.0286697494934511, 'Wood')], [(-1.8312012012793524, 'Trsgi')], 
                     [[(-2.5411555001556785, 'NA'), (-6.618692944061398, 'Wood'), (-6.618692944061398, 'MXD'), (-6.618692944061398, 'LakeSediment'), (-6.618692944061398, 'Composite')]]]
             output: {'0': ['Wood'], '1': ['Trsgi'], '2': ['NA', 'Wood', 'MXD', 'LakeSediment', 'Composite']}
-
-
         '''
         
         out_dict = {}
@@ -197,7 +212,8 @@ class MCpredict:
     
     def get_ini_prob(self, sentence):
         '''
-        
+        Method to find the transition probability for the given sentence.
+        For the first word we use the initial probability and for the rest of the sentence we use the transition probability for getting the next word.
 
         Parameters
         ----------

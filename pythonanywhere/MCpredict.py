@@ -17,6 +17,7 @@ def get_latest_file_with_path(path, *paths):
     if not list_of_files:                
         return None
     latest_file = max(list_of_files, key=os.path.getctime)
+    print(latest_file)
     return latest_file
 
 class MCpredict:
@@ -197,7 +198,8 @@ class MCpredict:
     
     def get_ini_prob(self, sentence):
         '''
-        
+        Method to find the transition probability for the given sentence.
+        For the first word we use the initial probability and for the rest of the sentence we use the transition probability for getting the next word.
 
         Parameters
         ----------

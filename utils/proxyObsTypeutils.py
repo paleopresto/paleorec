@@ -17,6 +17,8 @@ def initialize_input_data():
     None.
 
     '''
+    
+    global named_individuals, q_proxy_obs
     named_individuals = 'Al/Ca  Ar-Ar  B/Ca  Ba/Ca  C  Clay fraction  Color  d13C  d15N  d170  d180  d34S  dD  Density  Diffuse spectral reflectance  Faunal  Fe/Ca  Floral  Grain size  Historic  Layer thickness  Lead Isotope  Li/Ca  Lithics  Luminescence  Magnetic susceptibility  Mg/Ca  Mineral matter  Mn/Ca  Moisture Content  N  Neodymium  Organic matter  P  Permeability  Porosity  Radiocarbon  Resistivity  Sand fraction  Si  Silt fraction  Sr/Ca  TEX86  U-Th  Uk37\'  Uk37  X-Ray diffraction  X-ray fluorescence  Zn/Ca'
     named_individuals = set(named_individuals.split('  '))
     
@@ -193,7 +195,8 @@ def get_periodic_elements():
     
     global periodic_table_elements, periodic_table_name
     if _platform == "win32":
-        periodic_table_path = '..\PeriodicTableJSON.json'
+        # periodic_table_path = '..\PeriodicTableJSON.json'
+        periodic_table_path = 'D:\\annotating_paleoclimate_data\\paleorec\\utils\\PeriodicTableJSON.json'
     else:
         periodic_table_path = '../PeriodicTableJSON.json'
     
@@ -348,6 +351,11 @@ def predict_proxy_obs_type_from_variable_name(vname):
     return pred, rem
 
 if __name__ == '__main__':
+    initialize_input_data()
+    get_periodic_elements()
+    manual_additions_to_map()
+    create_proxy_obs_map()
+else:
     initialize_input_data()
     get_periodic_elements()
     manual_additions_to_map()

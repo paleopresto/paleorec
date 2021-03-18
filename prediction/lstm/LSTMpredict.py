@@ -116,7 +116,7 @@ class LSTMpredict:
         device : torch.device
             Device type to signify 'cpu' or 'gpu'.
         net : torch.module
-            DESCRIPTION.
+            Instance of LSTM created using RNN Module.
         words : list
             List of strings used for predicting the next string in the list of words.
         vocab_to_int : dict

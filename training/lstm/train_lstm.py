@@ -65,7 +65,9 @@ def convert_dataframe_to_list(dataframe_obj):
 
 def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
     '''
-    
+    Read training data into dataframe for training the model.
+    The training data needs to be Label Encoded because LSTM only works with float data.
+    Select only num_batches*seq_size*batch_size amount of data to work on.
 
     Parameters
     ----------
