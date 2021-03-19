@@ -66,7 +66,7 @@ To run the code execute the following command:
 
 .. code-block:: none
 
-   python creating_training_data.py
+   python create_training_data.py
 
 Extensions
 """"""""""

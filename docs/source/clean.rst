@@ -33,7 +33,7 @@ All the commandline arguments with '-' are optional.
 To run the code execute the following command:
 
 .. code-block:: none
-
+   cd cleaning_data
    python clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -i [path-to-iso2k-dataset] -pm [path-to-Palmod-dataset]
 
    OR

@@ -1,0 +1,51 @@
+archiveType,proxyObservationType,units,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits,accuracy_score,isMCGood
+MarineSediment,D18O,permil,NA,NA,NA,NA,7.857142857142857,True
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+MarineSediment,Uk37Prime,NotApplicable,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+Coral,Composite,percent,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,7.142857142857143,False
+Wood,EPS,NA,NA,NA,NA,NA,7.857142857142857,True
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,7.142857142857143,False
+GlacierIce,Dd,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,6.428571428571429,False
+Wood,Core,NA,NA,NA,NA,NA,7.142857142857143,False
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA,7.857142857142857,True
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA,7.857142857142857,True
+Speleothem,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,6.428571428571429,False
+Coral,Sr/Ca,mmol/mol,NA,NA,NA,NA,7.142857142857143,False
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC,7.857142857142857,True
+Wood,SE,NA,NA,NA,NA,NA,7.857142857142857,True
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA,7.857142857142857,True
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,7.142857142857143,False
+MarineSediment,D18O,permil,D18Osw,Sea Surface,D18O,permil,5.714285714285714,False
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+GlacierIce,D18O,permil,Temperature,Air Condensationlevel,Air Condensationlevel Temperature,degC,7.142857142857143,False
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+Wood,SD,NA,NA,NA,NA,NA,7.857142857142857,True
+MarineSediment,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+Sclerosponge,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+Coral,D13C,permil,NA,NA,NA,NA,7.857142857142857,True
+MarineSediment,Mg/Ca,mmol/mol,Temperature,Sea Surface,D18O,permil,5.714285714285714,False
+Wood,ARS,NA,NA,NA,NA,NA,7.142857142857143,False
+MarineSediment,D18O,permil,Temperature,Sea Surface,D18O,permil,6.428571428571429,False
+Wood,Rbar,NA,NA,NA,NA,NA,7.142857142857143,False
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC,7.142857142857143,False
+Wood,Samplecount,count,NA,NA,NA,NA,7.142857142857143,False
+LakeSediment,R660_670,NA,NA,NA,Temperature,degC,7.857142857142857,True
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+Wood,Trsgi,NA,Temperature,Air Surface,Air Surface Temperature,degC,7.142857142857143,False
+MarineSediment,Mg/Ca,NotApplicable,NA,NA,Temperature,degC,5.714285714285714,False
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+LakeSediment,Thickness,mm,Temperature,Air Surface,Air Surface Temperature,degC,7.142857142857143,False
+Coral,D18O,permil,NA,NA,NA,NA,7.857142857142857,True
+Coral,Sr/Ca,mmol/mol,Temperature,Sea Surface,Sea Surface Temperature,degC,6.428571428571429,False
+Coral,D13C,permil,NA,NA,NA,NA,7.857142857142857,True
+Wood,Trsgi,NA,Air Surface,Temperature,Temperature,degC,7.857142857142857,True
+Coral,D18O,permil,Temperature,Sea Surface,Sea Surface Temperature,degC,7.142857142857143,False
+Speleothem,D18O,permil VPDB,NA,NA,NA,NA,7.857142857142857,True
+Wood,Residual,NA,NA,NA,NA,NA,7.142857142857143,False
+MarineSediment,D18O,permil,D18Osw,Sea Surface,Sea Surface D18Osw,permil,5.714285714285714,False
