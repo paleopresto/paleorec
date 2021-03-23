@@ -2,7 +2,6 @@ name: lipd
 channels:
   - defaults
   - conda-forge
-  - pip
 dependencies:
   - ipython_genutils=0.2.0
   - ipywidgets=7.6.3
