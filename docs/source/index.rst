@@ -30,3 +30,9 @@ Dependencies
 
 Dependencies for PaleoRec are `here <https://github.com/paleopresto/paleorec/blob/main/environment.yml>`_.
 
+Repo Details
+============
+
+The command to link to git repo is `here <https://github.com/paleopresto/paleorec>`_.
+
+Or `click here <https://github.com/paleopresto/paleorec/archive/refs/heads/main.zip>`_ to directly download the zip file for the repo 

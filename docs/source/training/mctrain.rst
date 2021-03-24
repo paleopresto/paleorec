@@ -103,11 +103,13 @@ Functions
 
 Usage
 -----
+Please change the directory to /training/markovchain/
 To run the code execute the following command:
 
 .. code-block:: none
 
-   python mctrain.py
+    cd /training/markovchain/
+    python mctrain.py
 
 Extensions
 ----------

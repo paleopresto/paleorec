@@ -28,6 +28,16 @@ This module consists of following subroutines:
     Returns:
     None.
 
+**take_user_input():**
+
+    Method to take user input to eliminate any-co-k occurance of data.
+    This method validates the input to be a positive integer and returns it.
+
+    Returns:
+
+    int
+        Value for any-co-k elimination.
+
 **discard_less_frequent_values_from_data():**
     
     This method reduces the subset of data to the fields in the chain, 
@@ -45,6 +55,22 @@ This module consists of following subroutines:
     Returns:
     None.
 
+**downsample_archive(archiveType, downsample_val):**
+    
+    Method to downsample an archiveType to the provided value in the params.
+    This module also generates the test data for the given archiveType.
+
+    Parameters:
+
+    archiveType : str
+        Archive Type to downsample.
+
+    downsample_val : int
+        Number of samples the archiveType needs to be reduced to.
+
+    Returns:
+    None.
+
 **downsample_archives_create_final_train_test_data():**
     
     Manually decide based on the counter for archiveTypes which archiveTypes need to be downsampled.
@@ -57,3 +83,4 @@ This module consists of following subroutines:
     
     Returns:
     None.
+

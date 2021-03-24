@@ -23,6 +23,7 @@ from utils import fileutils
 common_lipdverse_df, final_df = None, None
 names_set_dict = {}
 counter_arch = {}
+downsampled_df_train_list, downsampled_df_test_list= [], []
 
 
 def read_latest_data_for_training():
@@ -103,6 +104,25 @@ def write_autocomplete_data_file():
     with open(autocomplete_file_path, 'w', encoding='utf-8') as json_file:
         json.dump(names_set_dict, json_file)
 
+def take_user_input():
+    '''
+    Method to take user input to eliminate any-co-k occurance of data.
+    This method validates the input to be a positive integer and returns it.
+
+    Returns
+    -------
+    int
+        Value for any-co-k elimination.
+
+    '''
+    
+    k = input('Please enter the value of \'k\' to replace any-co-k instances : ')
+    try:
+        k = int(k.strip())
+    except ValueError:
+        sys.exit('Please enter an integer value to elimate any-co-k')
+    return k if k > 0 else 0
+
 def discard_less_frequent_values_from_data():
     '''
     This method reduces the subset of data to the fields in the chain, 
@@ -139,16 +159,16 @@ def discard_less_frequent_values_from_data():
     # print('ARCHIVE TYPES : ', counter_arch)
     
     counter_proxy = collections.Counter(final_df['proxyObservationType'])
-    # print('PROXY OBSERVATION TYPES : ',counter_proxy)
+    
     
     counter_units = collections.Counter(final_df['units'])
     # print('PROXY OBSERVATION TYPE UNITS : ',counter_units)
     
     counter_int_var = collections.Counter(final_df['interpretation/variable'])
-    # print('INTERPRETATION/VARIABLE : ',counter_int_var)
+    
     
     counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
-    # print('INTERPRETATION/VARIABLE DETAIL : ',counter_int_det)
+    
     
     counter_inf_var = collections.Counter(final_df['inferredVariable'])
     # print('INFERRED VARIABLE : ', counter_inf_var)
@@ -162,12 +182,22 @@ def discard_less_frequent_values_from_data():
                       'inferredVariable' : list(counter_inf_var.keys()), 'inferredVariableUnits' : list(counter_inf_var_units.keys())}
     write_autocomplete_data_file()
     
-    
-    counter_proxy_a = {key:value for key,value in dict(counter_proxy).items() if value > 5}
-    counter_int_var_a = {key:value for key,value in dict(counter_int_var).items() if value > 1}
-    counter_int_det_a = {key:value for key,value in dict(counter_int_det).items() if value > 1}
-    
     # MANAUL TASK - SCAN THROUGH ALL THE COUNTER VARIABLES TO CHECK IF WE NEED TO OMIT ANY-CO-k( WHERE K CAN BE 1-5, DEPENDING ON THE USE-CASE)
+    
+    # PROXY OBSERVATION TYPE
+    print('Samples per instance of proxyObservationType : ',counter_proxy)
+    k = take_user_input()  
+    counter_proxy_a = {key:value for key,value in dict(counter_proxy).items() if value > k}
+    
+    # INTERPRETATION/VARIABLE
+    print('Samples per instance of interpretation/variable : ',counter_int_var)
+    k = take_user_input()
+    counter_int_var_a = {key:value for key,value in dict(counter_int_var).items() if value > k}
+    
+    # INTERPRETATION/VARIABLE DETAIL
+    print('Samples per instance of interpretation/variableDetail: ',counter_int_det)
+    k = take_user_input()
+    counter_int_det_a = {key:value for key,value in dict(counter_int_det).items() if value > k}
     
     # discard set for proxyObservationType
     discard_set = set(counter_proxy.keys()).difference(set(counter_proxy_a.keys()))
@@ -192,6 +222,74 @@ def discard_less_frequent_values_from_data():
     final_df = final_df[final_df.archiveType != 'NA']
     final_df.dropna(subset=['archiveType'], inplace=True)
 
+def downsample_archive(archiveType, downsample_val):
+    '''
+    Method to downsample an archiveType to the provided value in the params.
+    This module also generates the test data for the given archiveType.
+
+    Parameters
+    ----------
+    archiveType : str
+        Archive Type to downsample.
+    downsample_val : int
+        Number of samples the archiveType needs to be reduced to.
+
+    Returns
+    -------
+    None.
+
+    '''
+    global downsampled_df_train_list, downsampled_df_test_list
+    
+    df_arch = final_df[final_df.archiveType==archiveType]
+    
+    df_arch_downsampled = resample(df_arch, 
+                                     replace=False,    # sample without replacement
+                                     n_samples=downsample_val,
+                                     random_state=27,  # reproducibility
+                                     stratify=df_arch)
+    
+    # Add all unique values from the df_wood and df_marine_sed data frame into the downsampled dataframes.
+    # We intend to provide our model all the unique values that are currently present in the data
+    df_arch_nodup = df_arch.drop_duplicates()
+    df_arch_ds_no_dup = df_arch_downsampled.drop_duplicates()
+    
+    df_arch_extra = df_arch_nodup.merge(df_arch_ds_no_dup, how='left', indicator=True)
+    df_arch_extra = df_arch_extra[df_arch_extra['_merge']=='left_only']
+    df_arch_extra = df_arch_extra.drop(columns=['_merge'])
+    
+    df_arch_downsampled = df_arch_downsampled.append(df_arch_extra, ignore_index=True)
+    
+    df_arch_test = resample(df_arch_downsampled, 
+                            replace=False,    # sample without replacement
+                            n_samples=12,     # to match minority class
+                            random_state=123,  # reproducibility
+                            stratify=df_arch_downsampled)
+    
+    
+    downsampled_df_train_list.append(df_arch_downsampled)
+    downsampled_df_test_list.append(df_arch_test)
+    
+    if archiveType == 'Wood':
+        # MANUAL TASK - ADD DATA FOR WOOD FROM INFERRED VARIABLE TYPE CSV FILE,
+        # BECAUSE THERE ARE NO SAMPLES WITH UNITS FOR INFERRED VARIABLE TYPE AND INFERRED VARIABLE TYPE UNITS FOR ARCHIVE = WOOD
+                
+        if _platform == "win32":
+            wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
+        else:
+            wood_inferred_path = '../data/csv/wood_inferred_data.csv'
+        
+        wood_inferred_df = pd.read_csv(wood_inferred_path)
+        wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
+        
+        wood_inferred_test = resample(wood_inferred_df, 
+                                         replace=False,    # sample without replacement
+                                         n_samples=2,     # to match minority class
+                                         random_state=123)  # reproducibility
+        downsampled_df_train_list.append(wood_inferred_df)
+        downsampled_df_test_list.append(wood_inferred_test)
+        
+
 def downsample_archives_create_final_train_test_data():
     '''
     
@@ -209,113 +307,146 @@ def downsample_archives_create_final_train_test_data():
     None.
 
     '''
-
-    # MANUAL TASK - DECIDE WHICH ARCHIVES NEED TO BE DOWN-SAMPLED
-    # CURRENTLY WE ARE ONLY DOING WOOD, BECAUSE WE HAVE AROUND 2000 SAMPLES.
+    global downsampled_df_train_list, downsampled_df_test_list, counter_arch
     
-    print('ARCHIVE TYPES TO DOWNSAMPLE: ', counter_arch)
+    # MANUAL TASK - DECIDE WHICH ARCHIVES NEED TO BE DOWN-SAMPLED
+    counter_arch = dict(counter_arch)
+    if 'NA' in counter_arch:
+        del counter_arch['NA']
+    print('Count for each instance of Archive Type: ', counter_arch)
+    
+    discard_set = set()
+    archives = input('Please enter a list of archive Types to downsample separated by \',\' : ')
+    archives_list = archives.split(',')
+    for i,arch in enumerate(archives_list):
+        arch = arch.strip()
+
+        if arch not in counter_arch.keys() and arch.title() not in counter_arch.keys():
+            print('{} is not available in the list of Archive Types'.format(arch))
+            print('Please run the program again and enter the values from the displayed list of archive Types')
+            sys.exit()
+        archives_list[i] = arch if arch in counter_arch.keys() else arch.title()
+        discard_set.add(archives_list[i])
+        
+        
+    downsampled = input('Please enter the numeric value to downsampled the above list of Archive Types in same order :')
+    downsampled_list = downsampled.split(',')
+    for i, n in enumerate(downsampled_list):
+        try:
+            num = int(n.strip())
+            
+            if num > counter_arch[archives_list[i]]:
+                sys.exit('The downsample value provided; {} is greater than the samples available for the archive Type; {}'.format(num, counter_arch[archives_list[i]]))
+            
+            downsample_archive(archives_list[i], num)
+        except ValueError:
+            print("Error! {} is not a number.".format(n))
+            sys.exit('Please run the program with a valid integer.')
+    
     
     # downsample for archiveType = 'Wood' and 'MarineSediment'
-    df_wood = final_df[final_df.archiveType=='Wood']
-    df_marine_sed = final_df[final_df.archiveType=='MarineSediment']
-    discard_set = {'Wood', 'MarineSediment'}
-    df_rest = final_df[~final_df['archiveType'].isin(discard_set)]
+    # df_wood = final_df[final_df.archiveType=='Wood']
+    # df_marine_sed = final_df[final_df.archiveType=='MarineSediment']
     
-    df_wood_downsampled = resample(df_wood, 
-                                     replace=False,    # sample without replacement
-                                     n_samples=350,     # to match minority class
-                                     random_state=27,  # reproducibility
-                                     stratify=df_wood)
+    # 
     
-    df_marine_downsampled = resample(df_marine_sed, 
-                                     replace=False,    # sample without replacement
-                                     n_samples=350,     # to match minority class
-                                     random_state=100,  # reproducibility
-                                     stratify=df_marine_sed)
+    # df_wood_downsampled = resample(df_wood, 
+    #                                  replace=False,    # sample without replacement
+    #                                  n_samples=350,     # to match minority class
+    #                                  random_state=27,  # reproducibility
+    #                                  stratify=df_wood)
     
-    # Add all unique values from the df_wood and df_marine_sed data frame into the downsampled dataframes.
-    # We intend to provide our model all the unique values that are currently present in the data
-    df_wood_nodup = df_wood.drop_duplicates()
-    df_wood_ds_no_dup = df_wood_downsampled.drop_duplicates()
+    # df_marine_downsampled = resample(df_marine_sed, 
+    #                                  replace=False,    # sample without replacement
+    #                                  n_samples=350,     # to match minority class
+    #                                  random_state=100,  # reproducibility
+    #                                  stratify=df_marine_sed)
     
-    df_wood_extra = df_wood_nodup.merge(df_wood_ds_no_dup, how='left', indicator=True)
-    df_wood_extra = df_wood_extra[df_wood_extra['_merge']=='left_only']
-    df_wood_extra = df_wood_extra.drop(columns=['_merge'])
+    # # Add all unique values from the df_wood and df_marine_sed data frame into the downsampled dataframes.
+    # # We intend to provide our model all the unique values that are currently present in the data
+    # df_wood_nodup = df_wood.drop_duplicates()
+    # df_wood_ds_no_dup = df_wood_downsampled.drop_duplicates()
     
-    df_wood_downsampled = df_wood_downsampled.append(df_wood_extra, ignore_index=True)
+    # df_wood_extra = df_wood_nodup.merge(df_wood_ds_no_dup, how='left', indicator=True)
+    # df_wood_extra = df_wood_extra[df_wood_extra['_merge']=='left_only']
+    # df_wood_extra = df_wood_extra.drop(columns=['_merge'])
     
-    df_ms_nodup = df_marine_sed.drop_duplicates()
-    df_ms_ds_no_dup = df_marine_downsampled.drop_duplicates()
+    # df_wood_downsampled = df_wood_downsampled.append(df_wood_extra, ignore_index=True)
     
-    df_ms_extra = df_ms_nodup.merge(df_ms_ds_no_dup, how='left', indicator=True)
-    df_ms_extra = df_ms_extra[df_ms_extra['_merge']=='left_only']
-    df_ms_extra = df_ms_extra.drop(columns=['_merge'])
+    # df_ms_nodup = df_marine_sed.drop_duplicates()
+    # df_ms_ds_no_dup = df_marine_downsampled.drop_duplicates()
     
-    df_marine_downsampled = df_marine_downsampled.append(df_ms_extra, ignore_index=True)
+    # df_ms_extra = df_ms_nodup.merge(df_ms_ds_no_dup, how='left', indicator=True)
+    # df_ms_extra = df_ms_extra[df_ms_extra['_merge']=='left_only']
+    # df_ms_extra = df_ms_extra.drop(columns=['_merge'])
     
-    df_wood_test = resample(df_wood_downsampled, 
-                            replace=False,    # sample without replacement
-                            n_samples=10,     # to match minority class
-                            random_state=123,  # reproducibility
-                            stratify=df_wood_downsampled)
+    # df_marine_downsampled = df_marine_downsampled.append(df_ms_extra, ignore_index=True)
+    
+    # df_wood_test = resample(df_wood_downsampled, 
+    #                         replace=False,    # sample without replacement
+    #                         n_samples=10,     # to match minority class
+    #                         random_state=123,  # reproducibility
+    #                         stratify=df_wood_downsampled)
     
     
-    df_marine_test = resample(df_marine_downsampled, 
-                                replace=False,    # sample without replacement
-                                n_samples=12,     # to match minority class
-                                random_state=123,  # reproducibility 
-                                stratify=df_marine_downsampled)
+    # df_marine_test = resample(df_marine_downsampled, 
+    #                             replace=False,    # sample without replacement
+    #                             n_samples=12,     # to match minority class
+    #                             random_state=123,  # reproducibility 
+    #                             stratify=df_marine_downsampled)
      
     # MANUAL TASK - ADD DATA FOR WOOD FROM INFERRED VARIABLE TYPE CSV FILE,
     # BECAUSE THERE ARE NO SAMPLES WITH UNITS FOR INFERRED VARIABLE TYPE AND INFERRED VARIABLE TYPE UNITS FOR ARCHIVE = WOOD
     
     
-    if _platform == "win32":
-        wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
-    else:
-        wood_inferred_path = '../data/csv/wood_inferred_data.csv'
+    # if _platform == "win32":
+    #     wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
+    # else:
+    #     wood_inferred_path = '../data/csv/wood_inferred_data.csv'
     
-    wood_inferred_df = pd.read_csv(wood_inferred_path)
-    wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
+    # wood_inferred_df = pd.read_csv(wood_inferred_path)
+    # wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
     
-    wood_inferred_test = resample(wood_inferred_df, 
-                                     replace=False,    # sample without replacement
-                                     n_samples=2,     # to match minority class
-                                     random_state=123)  # reproducibility
+    # wood_inferred_test = resample(wood_inferred_df, 
+    #                                  replace=False,    # sample without replacement
+    #                                  n_samples=2,     # to match minority class
+    #                                  random_state=123)  # reproducibility
     
+    df_rest = final_df[~final_df['archiveType'].isin(discard_set)]
     df_rest_test = resample(df_rest, 
                             replace=False,    # sample without replacement
                             n_samples=26,     # to match minority class
                             random_state=123,  # reproducibility
                             stratify=df_rest)
     
-    final_df_downsampled = pd.concat([df_wood_downsampled, wood_inferred_df, df_marine_downsampled, df_rest])
-    final_df_test = pd.concat([df_wood_test, df_marine_test, wood_inferred_test, df_rest_test])
+    # final_df_downsampled = pd.concat([df_wood_downsampled, wood_inferred_df, df_marine_downsampled, df_rest])
+    # final_df_test = pd.concat([df_wood_test, df_marine_test, wood_inferred_test, df_rest_test])
+    
+    downsampled_df_train_list.append(df_rest)
+    downsampled_df_test_list.append(df_rest_test)
+    
+    final_df_downsampled = pd.concat(downsampled_df_train_list)
+    final_df_test = pd.concat(downsampled_df_test_list)
     
     final_df_downsampled = final_df_downsampled.sample(frac=1, random_state=2021).reset_index(drop=True)
     final_df_test = final_df_test.sample(frac=1, random_state=2021).reset_index(drop=True)
     
-    
-    
     timestr = time.strftime("%Y%m%d_%H%M%S")
-    
     
     if _platform == "win32":
         lipd_downsampled_path = '..\data\csv\lipdverse_downsampled_'+timestr+'.csv'
         lipd_test_path = '..\data\csv\lipdverse_test_'+timestr+'.csv'
-        autocomplete_file_path = '..\\data\\autocomplete\\autocomplete_file_'+timestr+'.json'
     else:
         lipd_downsampled_path = '../data/csv/lipdverse_downsampled_'+timestr+'.csv'
         lipd_test_path = '../data/csv/lipdverse_test_'+timestr+'.csv'
-        autocomplete_file_path = '../data/autocomplete/autocomplete_file_'+timestr+'.json'
     
     # write back the final training data to create the model.
+    print('\n Creating file {} at location {}'.format('lipdverse_downsampled_'+timestr+'.csv', lipd_downsampled_path[:lipd_downsampled_path.rindex('lipdverse_down')]))
     final_df_downsampled.to_csv(lipd_downsampled_path, sep = ',', encoding = 'utf-8',index = False)
     # write back the final test data to calculate accuracy of the model.
+    print('\n Creating file {} at location {}'.format('lipdverse_test_'+timestr+'.csv', lipd_test_path[:lipd_test_path.rindex('lipdverse_test')]))
     final_df_test.to_csv(lipd_test_path, sep = ',', encoding = 'utf-8',index = False)
     
-    with open(autocomplete_file_path, 'w', encoding='utf-8') as json_file:
-        json.dump(names_set_dict, json_file)
 
 if __name__ == '__main__':
     read_latest_data_for_training()

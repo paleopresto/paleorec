@@ -110,6 +110,21 @@ Functions
     optimizer : Optimizing function instance
         Optimizer used for the neural network.
 
+**print_save_loss_curve(loss_value_list, chain):**
+
+    Method to save the plot for the training loss curve.
+
+    Parameters:
+
+    loss_value_list : list
+        List with the training loss values.
+    
+    chain : str
+        To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType & interpretation/variable chain.
+
+    Returns:
+    None.
+
 **train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):**
 
     Method to train an lstm model on in_text and out_text.
@@ -141,11 +156,16 @@ Functions
 
 Usage
 -----
+1. Please change the directory to /training/lstm/
+2. The commandline takes as input 2 arguments '-e' for the number of epochs we want to train the model and '-l' the learning rate for the Recurrent Neural Network.
+3. To understand the training loss, this module also generates a loss curve. Depending on where the training file is executed from i.e. from jupyter notebook or commandline, the file will be saved or displayed on the GUI.
+   
 To run the code execute the following command:
 
 .. code-block:: none
 
-   python train_lstm.py
+    cd /training/lstm/
+    python train_lstm.py -e 100 -l 0.01
 
 Extensions
 ----------
@@ -153,5 +173,5 @@ Extensions
 1. Introduction of new fieldTypes to the sequence
 
     The only changes will be to the flags.seq_size field to indicate the new sequence size.
-    The model will be now trained on the new sentence length.
+    The model will now be trained on the new sentence length.
 

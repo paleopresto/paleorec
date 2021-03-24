@@ -117,8 +117,9 @@ def read_lipd_files_list(lipd_files_list):
         file_split = os.path.split(full_file_path)
         filen = file_split[1]
         publication = os.path.split(file_split[0])[1]
-        
+        cwd = os.getcwd()
         d = lipd.readLipd(line)
+        os.chdir(cwd)
         if 'paleoData' not in d:
             continue
         path = d['paleoData']['paleo0']['measurementTable']['paleo0measurement0']['columns']

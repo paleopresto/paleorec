@@ -20,8 +20,9 @@ Routines
    :maxdepth: 1
 
    /training/train_lstm.rst
-   /training/mctrain.rst  
-
+   /training/RNNmodule.rst
+   /training/mctrain.rst
+   
 Extensions
 ----------
 

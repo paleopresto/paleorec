@@ -14,6 +14,8 @@ Incorrect Value  - d18o -> D18O, D180 -> D18O
 
 For the current implementation we are considering the LiPDverse version of the file if available else we will consider the corresponding file from LinkedEarth Wiki.
 
+Going forward, we might not want to consider the LiPD files from wiki. Please see the Usage instructions to only use the datasets provided through the command line.
+
 Using utils.readLipdFilesList will generate 2 pandas dataframe; first consisting of the proxyObservationType related information and second consisting of inferredVariableType related information. These 2 pandas dataframes are converted to csv and saved as common_lipdverse_table_timestamp.csv and common_lipdverse_inferred_timestamp.csv. After further processing, the two dataframes will be merged to generate a final csv file named merged_common_lipdverse_inferred_timestamp.csv
 
 Routines
@@ -22,30 +24,44 @@ Routines
 .. toctree::
    :maxdepth: 1
 
-   /cleaning_wiki_data/clean_data.rst
+   /cleaning_data/clean_data.rst
 
 Usage
 """""
 
-We already have the LiPD files from the wiki to start off the project.
-To provide the files from LiPDverse, please download the files from `LiPDverse <http://lipdverse.org>`_.
-All the commandline arguments with '-' are optional.
-To run the code execute the following command:
+1. We already have the LiPD files from the wiki to start off the project.
+2. Pages2k and Temp12k files are necessary for creating the training data:
 
-.. code-block:: none
-   cd cleaning_data
-   python clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -i [path-to-iso2k-dataset] -pm [path-to-Palmod-dataset]
+      `Link for downloading PAGES2k dataset <http://lipdverse.org/Pages2kTemperature/current_version/>`_.
 
-   OR
+      `Link for downloading Temp12k dataset <http://lipdverse.org/Temp12k/current_version/>`_.
 
-   python clean_data.py -pages2k [path-to-PAGES2k-dataset] -temp12k [path-to-Temp12k-dataset] -iso2k [path-to-iso2k-dataset] -palmod [path-to-Palmod-dataset]
+3. To provide other datasets, use the command  \'-o\' and provide comma-separated list of dataset paths.
+4. Please change the directory to \'cleaning_data\'
 
-Please provide the path where you have downloaded the files on your machine for each of the datasets.
+   To run the code execute the following command:
+
+   .. code-block:: none
+   
+      cd cleaning_data
+      python clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -o [path-to-dataset1],[path-to-dataset2]
+
+5. You will be prompted asking if you would like to ignore files from the wiki: 
+   
+   .. code-block:: none
+      
+      Please enter Y if you would like to ignore the wiki files:    
+   
 
 Extensions
 """"""""""
 
 This module is created for the purpose of reading wiki files or corresponding versions in LiPDverse and extracting the required field for the recommendation purpose. 
-To extend it to other compilations we will require code changes to enable reading all files.
-The important part here would be to take the input and read file names and store them in a list. This list will be read by the utils.readLipdFilesList module.
-These code changes will be a part of the future release.
+The 2 possible extensions are:
+
+1. To extend this to other compilations.
+   The important part here would be to take the input and read file names and store them in a list. This list will be read by the utils.readLipdFilesList module.
+
+2. To read more fields from the lipd file.
+   This will require code changes to the utils.readLipdFilesList module.
+

@@ -3,6 +3,8 @@ Creating Training and Test Data
 
 The data collected from `The LinkedEarth Wiki <http://wiki.linked.earth>`_ and `LiPDverse <http://lipdverse.org>`_ have imbalance in data across each archiveType. Following is the distribution of the archives across the available compilations in LiPDverse.
 
+Data As of 03/19/2021
+
 PAGES2k::
 
     {'speleothem': 5,
@@ -47,9 +49,10 @@ As more compilations are added to LiPDverse, this distribution will change. Sinc
 To balance out the disribution of the archiveTypes, we downsample the data for the archiveTypes which have abundant samples.
 
 The input to this module is the latest file 'merged_common_lipdverse_inferred_timestamp.csv' created by the clean_data.py module.
-This module lists a distribution of the archiveType in the input data.
 
-Currently we are downsampling data for 'Wood' and 'MarineSediment'.
+There are many proxyObservationTypes, interpretation/variable and interpretation/variableDetail that appear only a few times. Since they do not contribute heavily to the recommendation system, we considered it best to remove them from the data as they are outliers. The user is presented with the count of samples for each of the proxyObservationType. The user is then requested for a number \'k\' to eliminate any-co-k occurances in the data. Similarly user is requested to enter the value of 'k' for interpretation/variable and interpretation/variableDetail.
+
+Running this module will list a number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of archiveTypes they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled.
 
 Routines
 """"""""
@@ -57,21 +60,28 @@ Routines
 .. toctree::
    :maxdepth: 1
 
-   /creating_training_test_data/create_training_data.rst
+   /creating_training_test_data/create_training_test_data.rst
 
 Usage
 """""
-
+Please change the directory to \'creating_training_test_data\'
 To run the code execute the following command:
 
 .. code-block:: none
 
-   python create_training_data.py
+    cd creating_training_test_data
+    python create_training_test_data.py
+
+    Please enter the value of 'k' to replace any-co-k instances : 5
+
+    Please enter a list of archive Types to downsample separated by ',' : wood, MarineSediment
+    Please enter the numeric value to downsampled the above list of Archive Types in same order :350,350
 
 Extensions
 """"""""""
 
 As more compilations are added, running this file will help in understanding the distribution of archiveTypes.
-Manually select which archiveTypes need to be downsampled.
 
-*Create method to handle this*
+Expert advise from the users of LiPD data is required to complete this module. User input is required to eliminate any-co-k values from proxyObservationType, interpretation/variable and interpretation/variableDetail.
+
+Apart from this user needs to ensure that the data is class-balanced by downsampling the archiveTypes that have abundant samples.

@@ -184,4 +184,9 @@ Functions
 Usage
 -----
 
-Execution of LSTMpredict code is available through Calculate Accuracy for LSTM.
+MCpredict.py module is used for accuracy calculation in the /accuracy_calc/markovchain directory. For more information check out the documentation for Accuracy Calculation.
+
+.. toctree::
+    :maxdepth: 1
+
+    /../accuracy_calculation/calc_accuracy_mc.rst

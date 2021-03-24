@@ -100,6 +100,10 @@ Functions
 Usage
 -----
 
-Execution of LSTMpredict code is available through Calculate Accuracy for LSTM.
+LSTMpredict.py module is used for accuracy calculation in the /accuracy_calc/lstm directory. For more information check out the documentation for Accuracy Calculation.
 
+.. toctree::
+    :maxdepth: 1
+
+    /../accuracy_calculation/calc_accuracy_lstm.rst
     

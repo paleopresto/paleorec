@@ -1,4 +1,5 @@
-# Paleorec
+# Paleorec [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paleopresto/paleorec/blob/main/LICENSE)
+
 ## Recommender system for paleoclimate data
 
 The <a href="https://lipd.net/playground" target="_blank">lipd.net playground</a> enables climate scientists and users of the lipd data format to create, edit and upload lipd files.

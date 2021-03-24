@@ -17,6 +17,9 @@ import json
 from RNNModule import RNNModule
 import sys
 import time
+import getopt
+import matplotlib
+import matplotlib.pyplot as plt
 
 from sys import platform as _platform
 
@@ -28,6 +31,21 @@ from utils import fileutils
 
 
 device = None
+epochs = 100
+learning_rate = 0.01
+
+options, remainder = getopt.getopt(sys.argv[1:], 'e:l:')
+for opt, arg in options:
+    if opt in ('-e'):
+        try:
+            epochs = int(arg.strip())
+        except ValueError:
+            sys.exit('Epoch has to be a positive integer.')
+    elif opt in ('-l'):
+        try:
+            learning_rate = float(arg.strip())
+        except ValueError:
+            sys.exit('Learning Rate has to be a numeric value.')
 
 def convert_dataframe_to_list(dataframe_obj):
     '''
@@ -180,6 +198,39 @@ def get_loss_and_train_op(net, lr=0.001):
 
     return criterion, optimizer
 
+def print_save_loss_curve(loss_value_list, chain):
+    '''
+    Method to save the plot for the training loss curve.
+
+    Parameters
+    ----------
+    loss_value_list : list
+        List with the training loss values.
+    chain : str
+        To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType & interpretation/variable chain.
+
+    Returns
+    -------
+    None.
+
+    '''
+    
+    plt.plot(loss_value_list, label='Train Loss')
+        
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    
+    plt.legend(loc='best')
+    fig = plt.gcf()
+    if not sys.stdin.isatty():    
+        plt.show()
+        
+    timestr = time.strftime("%Y%m%d_%H%M%S")    
+    final_path = loss_curve_path + chain + 'training_loss_e_' + str(epochs) + '_l_'+ str(learning_rate) + '_' + timestr + '.png'
+    print('\nSaving the plot at ', final_path)
+    fig.savefig(final_path, bbox_inches='tight')
+    plt.close()
+
 def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):
     '''
     Method to train an lstm model on in_text and out_text.
@@ -209,12 +260,17 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, 
                     flags.embedding_size, flags.lstm_size)
     net = net.to(device)
 
-    criterion, optimizer = get_loss_and_train_op(net, 0.01)
+    criterion, optimizer = get_loss_and_train_op(net, learning_rate)
 
     iteration = 0
+    loss_value_list = []
     
-    
-    for e in range(50):
+    if for_units:
+        print('\nTraining Data for the chain archiveType -> proxyObservationType -> proxyObservationTypeUnits\n')
+    else:
+        print('\nTraining Data for the chain archiveType -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits\n')
+        
+    for e in range(epochs):
         batches = get_batches(in_text, out_text, flags.batch_size, seq_size)
         state_h, state_c = net.zero_state(flags.batch_size)
         
@@ -240,6 +296,7 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, 
             state_c = state_c.detach()
 
             loss_value = loss.item()
+            
 
             # Perform back-propagation
             loss.backward()
@@ -251,15 +308,20 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, 
             optimizer.step()
             
             if iteration % 100 == 0:
+                loss_value_list.append(loss_value)
                 print('Epoch: {}/{}'.format(e, 200),
                       'Iteration: {}'.format(iteration),
                       'Loss: {}'.format(loss_value))
     timestr = time.strftime("%Y%m%d_%H%M%S")    
-    if for_units:    
+    if for_units:
+        print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_units_'+timestr+'.pth')
     else:
+        print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_interp_'+timestr+'.pth')
-                
+    
+    print_save_loss_curve(loss_value_list, 'proxy_units_' if for_units else 'proxy_interp_')
+
                 
 def main():
     
@@ -289,9 +351,11 @@ def main():
 if _platform == "win32":
     data_file_dir = '..\..\data\csv\\'
     model_file_path = '..\..\data\model_lstm\\' 
+    loss_curve_path = '..\..\data\loss\\'
 else:
     data_file_dir = '../../data/csv/'
     model_file_path = '../../data/model_lstm/'
+    loss_curve_path = '../../data/loss/'
 
 train_path = fileutils.get_latest_file_with_path(data_file_dir, 'lipdverse_downsampled_*.csv')
 
