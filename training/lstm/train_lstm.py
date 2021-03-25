@@ -309,7 +309,7 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, 
             
             if iteration % 100 == 0:
                 loss_value_list.append(loss_value)
-                print('Epoch: {}/{}'.format(e, 200),
+                print('Epoch: {}/{}'.format(e, epochs),
                       'Iteration: {}'.format(iteration),
                       'Loss: {}'.format(loss_value))
     timestr = time.strftime("%Y%m%d_%H%M%S")    
