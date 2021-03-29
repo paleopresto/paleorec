@@ -45,8 +45,9 @@ class LSTMpredict:
         
         
         flags = Namespace(
-            seq_size=7,
-            batch_size=16,
+            seq_size_u=3,
+            seq_size=6,
+            batch_size=32,
             embedding_size=64,
             lstm_size=64,
             gradients_norm=5,
@@ -58,6 +59,7 @@ class LSTMpredict:
         PATH = get_latest_file_with_path(model_file_path, 'model_lstm_interp_*.pth')
         PATH_UNITS = get_latest_file_with_path(model_file_path, 'model_lstm_units_*.pth')
         MODEL_TOKEN_INFO_PATH = get_latest_file_with_path(model_file_path, 'model_token_info_*.txt')
+        MODEL_TOKEN_UNITS_INFO_PATH = get_latest_file_with_path(model_file_path, 'model_token_units_info_*.txt')
         MODEL_CATEGORY_INFO_PATH = get_latest_file_with_path(mc_model_file_path, 'model_mc_*.txt')
             
         # Initialize device to load model onto
@@ -68,20 +70,23 @@ class LSTMpredict:
         # Read token info 
         with open(MODEL_TOKEN_INFO_PATH, 'r') as json_file:
             self.model_tokens = json.load(json_file)
-            
+        
         self.int_to_vocab = self.model_tokens['model_tokens']
         self.int_to_vocab = {int(k):v for k,v in self.int_to_vocab.items()}
         self.vocab_to_int = {v:k for k,v in self.int_to_vocab.items()}
         n_vocab = len(self.int_to_vocab)
         
+        self.reference_dict = self.model_tokens['reference_dict']
+        self.reference_dict_val = set(self.reference_dict.values())
+        
+        with open(MODEL_TOKEN_UNITS_INFO_PATH, 'r') as json_file:
+            self.model_tokens = json.load(json_file)
+            
         self.int_to_vocab_u = self.model_tokens['model_tokens_u']
         self.int_to_vocab_u = {int(k):v for k,v in self.int_to_vocab_u.items()}
         self.vocab_to_int_u = {v:k for k,v in self.int_to_vocab_u.items()}
         n_vocab_u = len(self.int_to_vocab_u)
         
-        self.reference_dict = self.model_tokens['reference_dict']
-        self.reference_dict_val = set(self.reference_dict.values())
-        self.reference_dict_u = self.model_tokens['reference_dict_u']
         
         # Initialize the model for archive -> proxyObservationType -> interpretation/variable -> 
         #                                         interpretation/variableDetail -> inferredVariable -> inferredVarUnits
@@ -90,7 +95,7 @@ class LSTMpredict:
         
         
         # Initialize the model for archive -> proxyObservationType -> units
-        self.model_u = RNNModule(n_vocab_u, flags.seq_size, flags.embedding_size, flags.lstm_size)
+        self.model_u = RNNModule(n_vocab_u, flags.seq_size_u, flags.embedding_size, flags.lstm_size)
         self.model_u.load_state_dict(torch.load(PATH_UNITS, map_location=self.device), strict=False)
         
         # Read file to get category names list information

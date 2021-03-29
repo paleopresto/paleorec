@@ -33,8 +33,9 @@ from utils import fileutils
 device = None
 epochs = 100
 learning_rate = 0.01
+for_units = False
 
-options, remainder = getopt.getopt(sys.argv[1:], 'e:l:')
+options, remainder = getopt.getopt(sys.argv[1:], 'e:l:u')
 for opt, arg in options:
     if opt in ('-e'):
         try:
@@ -46,6 +47,8 @@ for opt, arg in options:
             learning_rate = float(arg.strip())
         except ValueError:
             sys.exit('Learning Rate has to be a numeric value.')
+    elif opt in ('-u'):
+        for_units = True
 
 def convert_dataframe_to_list(dataframe_obj):
     '''
@@ -81,7 +84,8 @@ def convert_dataframe_to_list(dataframe_obj):
     
     return new_list, reference_dict
 
-def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
+# def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
+def get_data_from_file(train_file, batch_size, seq_size):
     '''
     Read training data into dataframe for training the model.
     The training data needs to be Label Encoded because LSTM only works with float data.
@@ -140,7 +144,6 @@ def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
     out_text[-1] = in_text[0]
     in_text = np.reshape(in_text, (batch_size, -1))
     out_text = np.reshape(out_text, (batch_size, -1))
-
 
     return int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict
 
@@ -231,7 +234,8 @@ def print_save_loss_curve(loss_value_list, chain):
     fig.savefig(final_path, bbox_inches='tight')
     plt.close()
 
-def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):
+# def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):
+def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
     '''
     Method to train an lstm model on in_text and out_text.
     This method will save the model for the last epoch.
@@ -307,11 +311,15 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, 
             # Update the network's parameters
             optimizer.step()
             
-            if iteration % 100 == 0:
-                loss_value_list.append(loss_value)
-                print('Epoch: {}/{}'.format(e, epochs),
-                      'Iteration: {}'.format(iteration),
-                      'Loss: {}'.format(loss_value))
+            # if iteration % 100 == 0:
+            #     loss_value_list.append(loss_value)
+            #     print('Epoch: {}/{}'.format(e, epochs),
+            #           'Iteration: {}'.format(iteration),
+            #           'Loss: {}'.format(loss_value))
+        
+        loss_value_list.append(loss_value)
+        print('Epoch: {}/{}'.format(e, epochs),
+                'Loss: {}'.format(loss_value))   
     timestr = time.strftime("%Y%m%d_%H%M%S")    
     if for_units:
         print('\nSaving the model file...')
@@ -329,25 +337,31 @@ def main():
     global int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    
-    int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_file(
-        flags.train_file, flags.batch_size, flags.seq_size)
-    
-    int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_file(
-        flags.train_file, flags.batch_size, flags.seq_size_u, for_units=True)
-    
     timestr = time.strftime("%Y%m%d_%H%M%S")
-    model_tokens = {'model_tokens' : int_to_vocab, 'model_tokens_u' : int_to_vocab_u, 'reference_dict': reference_dict, 'reference_dict_u': reference_dict_u}
-    with open(model_file_path+'model_token_info_'+timestr+'.txt', 'w') as json_file:
-          json.dump(model_tokens, json_file)
-
-    # Train for archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
-    train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, flags.seq_size)
-
-    # Train for archive -> proxyObservationType -> units
-    train_RNN(int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, flags.seq_size_u, for_units=True)
     
+    if not for_units:
+        int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_file(
+            flags.train_file, flags.batch_size, flags.seq_size)
+        
+        model_tokens = {'model_tokens' : int_to_vocab, 'reference_dict': reference_dict}
+        with open(model_file_path+'model_token_info_'+timestr+'.txt', 'w') as json_file:
+            json.dump(model_tokens, json_file)
 
+
+        # Train for archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
+        train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, flags.seq_size)
+    else:
+        int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_file(
+            flags.train_file, flags.batch_size, flags.seq_size_u)
+        
+        model_tokens = {'model_tokens_u' : int_to_vocab_u}
+        with open(model_file_path+'model_token_units_info_'+timestr+'.txt', 'w') as json_file:
+            json.dump(model_tokens, json_file)
+        
+        # Train for archive -> proxyObservationType -> units
+        train_RNN(int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, flags.seq_size_u)
+    
+    
 if _platform == "win32":
     data_file_dir = '..\..\data\csv\\'
     model_file_path = '..\..\data\model_lstm\\' 
@@ -363,7 +377,7 @@ flags = Namespace(
     train_file = train_path,
     seq_size_u=3,
     seq_size=6,
-    batch_size=16,
+    batch_size=32,
     embedding_size=64,
     lstm_size=64,
     gradients_norm=5,

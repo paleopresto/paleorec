@@ -185,17 +185,17 @@ def discard_less_frequent_values_from_data():
     # MANAUL TASK - SCAN THROUGH ALL THE COUNTER VARIABLES TO CHECK IF WE NEED TO OMIT ANY-CO-k( WHERE K CAN BE 1-5, DEPENDING ON THE USE-CASE)
     
     # PROXY OBSERVATION TYPE
-    print('Samples per instance of proxyObservationType : ',counter_proxy)
+    print('\nSamples per instance of proxyObservationType : ',counter_proxy)
     k = take_user_input()  
     counter_proxy_a = {key:value for key,value in dict(counter_proxy).items() if value > k}
     
     # INTERPRETATION/VARIABLE
-    print('Samples per instance of interpretation/variable : ',counter_int_var)
+    print('\nSamples per instance of interpretation/variable : ',counter_int_var)
     k = take_user_input()
     counter_int_var_a = {key:value for key,value in dict(counter_int_var).items() if value > k}
     
     # INTERPRETATION/VARIABLE DETAIL
-    print('Samples per instance of interpretation/variableDetail: ',counter_int_det)
+    print('\nSamples per instance of interpretation/variableDetail: ',counter_int_det)
     k = take_user_input()
     counter_int_det_a = {key:value for key,value in dict(counter_int_det).items() if value > k}
     
@@ -260,9 +260,10 @@ def downsample_archive(archiveType, downsample_val):
     
     df_arch_downsampled = df_arch_downsampled.append(df_arch_extra, ignore_index=True)
     
+    test_set_size_arch = downsample_val//5
     df_arch_test = resample(df_arch_downsampled, 
                             replace=False,    # sample without replacement
-                            n_samples=12,     # to match minority class
+                            n_samples=test_set_size_arch,     # to match minority class
                             random_state=123,  # reproducibility
                             stratify=df_arch_downsampled)
     
@@ -313,10 +314,10 @@ def downsample_archives_create_final_train_test_data():
     counter_arch = dict(counter_arch)
     if 'NA' in counter_arch:
         del counter_arch['NA']
-    print('Count for each instance of Archive Type: ', counter_arch)
+    print('\nCount for each instance of Archive Type: ', counter_arch)
     
     discard_set = set()
-    archives = input('Please enter a list of archive Types to downsample separated by \',\' : ')
+    archives = input('\nPlease enter a list of archive Types to downsample separated by \',\' : ')
     archives_list = archives.split(',')
     for i,arch in enumerate(archives_list):
         arch = arch.strip()
@@ -328,99 +329,30 @@ def downsample_archives_create_final_train_test_data():
         archives_list[i] = arch if arch in counter_arch.keys() else arch.title()
         discard_set.add(archives_list[i])
         
-        
-    downsampled = input('Please enter the numeric value to downsampled the above list of Archive Types in same order :')
-    downsampled_list = downsampled.split(',')
-    for i, n in enumerate(downsampled_list):
-        try:
-            num = int(n.strip())
-            
-            if num > counter_arch[archives_list[i]]:
-                sys.exit('The downsample value provided; {} is greater than the samples available for the archive Type; {}'.format(num, counter_arch[archives_list[i]]))
-            
-            downsample_archive(archives_list[i], num)
-        except ValueError:
-            print("Error! {} is not a number.".format(n))
-            sys.exit('Please run the program with a valid integer.')
-    
-    
-    # downsample for archiveType = 'Wood' and 'MarineSediment'
-    # df_wood = final_df[final_df.archiveType=='Wood']
-    # df_marine_sed = final_df[final_df.archiveType=='MarineSediment']
-    
-    # 
-    
-    # df_wood_downsampled = resample(df_wood, 
-    #                                  replace=False,    # sample without replacement
-    #                                  n_samples=350,     # to match minority class
-    #                                  random_state=27,  # reproducibility
-    #                                  stratify=df_wood)
-    
-    # df_marine_downsampled = resample(df_marine_sed, 
-    #                                  replace=False,    # sample without replacement
-    #                                  n_samples=350,     # to match minority class
-    #                                  random_state=100,  # reproducibility
-    #                                  stratify=df_marine_sed)
-    
-    # # Add all unique values from the df_wood and df_marine_sed data frame into the downsampled dataframes.
-    # # We intend to provide our model all the unique values that are currently present in the data
-    # df_wood_nodup = df_wood.drop_duplicates()
-    # df_wood_ds_no_dup = df_wood_downsampled.drop_duplicates()
-    
-    # df_wood_extra = df_wood_nodup.merge(df_wood_ds_no_dup, how='left', indicator=True)
-    # df_wood_extra = df_wood_extra[df_wood_extra['_merge']=='left_only']
-    # df_wood_extra = df_wood_extra.drop(columns=['_merge'])
-    
-    # df_wood_downsampled = df_wood_downsampled.append(df_wood_extra, ignore_index=True)
-    
-    # df_ms_nodup = df_marine_sed.drop_duplicates()
-    # df_ms_ds_no_dup = df_marine_downsampled.drop_duplicates()
-    
-    # df_ms_extra = df_ms_nodup.merge(df_ms_ds_no_dup, how='left', indicator=True)
-    # df_ms_extra = df_ms_extra[df_ms_extra['_merge']=='left_only']
-    # df_ms_extra = df_ms_extra.drop(columns=['_merge'])
-    
-    # df_marine_downsampled = df_marine_downsampled.append(df_ms_extra, ignore_index=True)
-    
-    # df_wood_test = resample(df_wood_downsampled, 
-    #                         replace=False,    # sample without replacement
-    #                         n_samples=10,     # to match minority class
-    #                         random_state=123,  # reproducibility
-    #                         stratify=df_wood_downsampled)
-    
-    
-    # df_marine_test = resample(df_marine_downsampled, 
-    #                             replace=False,    # sample without replacement
-    #                             n_samples=12,     # to match minority class
-    #                             random_state=123,  # reproducibility 
-    #                             stratify=df_marine_downsampled)
-     
-    # MANUAL TASK - ADD DATA FOR WOOD FROM INFERRED VARIABLE TYPE CSV FILE,
-    # BECAUSE THERE ARE NO SAMPLES WITH UNITS FOR INFERRED VARIABLE TYPE AND INFERRED VARIABLE TYPE UNITS FOR ARCHIVE = WOOD
-    
-    
-    # if _platform == "win32":
-    #     wood_inferred_path = '..\data\csv\wood_inferred_data.csv'
-    # else:
-    #     wood_inferred_path = '../data/csv/wood_inferred_data.csv'
-    
-    # wood_inferred_df = pd.read_csv(wood_inferred_path)
-    # wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
-    
-    # wood_inferred_test = resample(wood_inferred_df, 
-    #                                  replace=False,    # sample without replacement
-    #                                  n_samples=2,     # to match minority class
-    #                                  random_state=123)  # reproducibility
+    if archives_list:
+        downsampled = input('\nPlease enter the numeric value to downsampled the above list of Archive Types in same order :')
+        downsampled_list = downsampled.split(',')
+        for i, n in enumerate(downsampled_list):
+            try:
+                num = int(n.strip())
+                
+                if num > counter_arch[archives_list[i]]:
+                    print('The downsample value provided; {} is greater than the samples available for the archive Type; {}'.format(num, counter_arch[archives_list[i]]))
+                    print('Going ahead with current number of samples.')
+                    downsample_archive(archives_list[i], counter_arch[archives_list[i]])
+                else:
+                    downsample_archive(archives_list[i], num)
+            except ValueError:
+                print("Error! {} is not a number.".format(n))
+                sys.exit('Please run the program with a valid integer.')
     
     df_rest = final_df[~final_df['archiveType'].isin(discard_set)]
+    test_sample_size_rest = len(df_rest)//5
     df_rest_test = resample(df_rest, 
                             replace=False,    # sample without replacement
-                            n_samples=26,     # to match minority class
+                            n_samples=test_sample_size_rest,
                             random_state=123,  # reproducibility
                             stratify=df_rest)
-    
-    # final_df_downsampled = pd.concat([df_wood_downsampled, wood_inferred_df, df_marine_downsampled, df_rest])
-    # final_df_test = pd.concat([df_wood_test, df_marine_test, wood_inferred_test, df_rest_test])
     
     downsampled_df_train_list.append(df_rest)
     downsampled_df_test_list.append(df_rest_test)
