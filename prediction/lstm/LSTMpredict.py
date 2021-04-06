@@ -41,8 +41,7 @@ def get_latest_file_with_path(path, *paths):
 
 class LSTMpredict:
         
-    def __init__(self, model_file_path, mc_model_file_path, topk):
-        
+    def __init__(self, model_file_path, ground_truth_file_path, topk):
         
         flags = Namespace(
             seq_size_u=3,
@@ -60,7 +59,7 @@ class LSTMpredict:
         PATH_UNITS = get_latest_file_with_path(model_file_path, 'model_lstm_units_*.pth')
         MODEL_TOKEN_INFO_PATH = get_latest_file_with_path(model_file_path, 'model_token_info_*.txt')
         MODEL_TOKEN_UNITS_INFO_PATH = get_latest_file_with_path(model_file_path, 'model_token_units_info_*.txt')
-        MODEL_CATEGORY_INFO_PATH = get_latest_file_with_path(mc_model_file_path, 'model_mc_*.txt')
+        GROUND_TRUTH_FILE_PATH = get_latest_file_with_path(ground_truth_file_path, 'ground_truth_label_*.json')
             
         # Initialize device to load model onto
         # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -99,16 +98,16 @@ class LSTMpredict:
         self.model_u.load_state_dict(torch.load(PATH_UNITS, map_location=self.device), strict=False)
         
         # Read file to get category names list information
-        with open(MODEL_CATEGORY_INFO_PATH, 'r') as f:
-            model_mc = json.load(f)    
+        with open(GROUND_TRUTH_FILE_PATH, 'r') as f:
+            ground_truth = json.load(f)    
             
-        self.names_set = {0 : set(model_mc['archive_types']), 1: set(model_mc['proxy_obs_types']), 
-                      2: set(model_mc['units']), 3: set(model_mc['int_var']), 4: set(model_mc['int_var_det']), 
-                      5: set(model_mc['inf_var']), 6: set(model_mc['inf_var_units'])}
+        self.names_set = {0 : set(ground_truth['archive_types']), 1: set(ground_truth['proxy_obs_types']), 
+                      2: set(ground_truth['units']), 3: set(ground_truth['int_var']), 4: set(ground_truth['int_var_det']), 
+                      5: set(ground_truth['inf_var']), 6: set(ground_truth['inf_var_units'])}
         for i in range(6):
             self.names_set[i] = {val.replace(' ', '') for val in self.names_set[i]}
         
-        self.archives_map = model_mc['archives_map']
+        self.archives_map = ground_truth['archives_map']
 
     
     def predict(self, device, net, words, vocab_to_int, int_to_vocab, names_set):
@@ -137,6 +136,7 @@ class LSTMpredict:
             Top 5 recommendations for the next string in the sequence of words.
 
         '''
+        
         net.eval()
         top_k = 10
         state_h, state_c = net.zero_state(1)

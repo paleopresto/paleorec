@@ -18,7 +18,6 @@ from RNNModule import RNNModule
 import sys
 import time
 import getopt
-import matplotlib
 import matplotlib.pyplot as plt
 
 from sys import platform as _platform
@@ -85,7 +84,7 @@ def convert_dataframe_to_list(dataframe_obj):
     return new_list, reference_dict
 
 # def get_data_from_file(train_file, batch_size, seq_size, for_units = False):
-def get_data_from_file(train_file, batch_size, seq_size):
+def get_data_from_df(lipd_data_df, batch_size, seq_size):
     '''
     Read training data into dataframe for training the model.
     The training data needs to be Label Encoded because LSTM only works with float data.
@@ -93,15 +92,13 @@ def get_data_from_file(train_file, batch_size, seq_size):
 
     Parameters
     ----------
-    train_file : string
-        File path for the training data.
+    lipd_data_df : pandas dataframe
+        Dataframe containing either training or validation.
     batch_size : int
         Used to divide the training data into batches for training.
     seq_size : int
         Defines the sequence size for the training sentences.
-    for_units : boolean, optional
-        Flag to signify if model is training for the chain archiveType -> proxyObservationType -> units. The default is False.
-
+    
     Returns
     -------
     int_to_vocab : dict
@@ -119,11 +116,10 @@ def get_data_from_file(train_file, batch_size, seq_size):
 
     '''
 
-    lipd_data = pd.read_csv(train_file)
     if for_units:
-        lipd_data = lipd_data.filter(['archiveType', 'proxyObservationType', 'units'])
+        lipd_data = lipd_data_df.filter(['archiveType', 'proxyObservationType', 'units'])
     else:
-        lipd_data = lipd_data.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
+        lipd_data = lipd_data_df.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
     new_list, reference_dict = convert_dataframe_to_list(lipd_data)
     
     token_list = (',').join(new_list)
@@ -201,7 +197,7 @@ def get_loss_and_train_op(net, lr=0.001):
 
     return criterion, optimizer
 
-def print_save_loss_curve(loss_value_list, chain):
+def print_save_loss_curve(train_loss_list, chain):
     '''
     Method to save the plot for the training loss curve.
 
@@ -218,7 +214,7 @@ def print_save_loss_curve(loss_value_list, chain):
 
     '''
     
-    plt.plot(loss_value_list, label='Train Loss')
+    plt.plot(train_loss_list, label='Train Loss')
         
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
@@ -235,7 +231,7 @@ def print_save_loss_curve(loss_value_list, chain):
     plt.close()
 
 # def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):
-def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
+def train_RNN(train_label_dict, seq_size):
     '''
     Method to train an lstm model on in_text and out_text.
     This method will save the model for the last epoch.
@@ -260,6 +256,10 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
     None.
 
     '''
+    in_text = train_label_dict['in_text']
+    out_text = train_label_dict['out_text']
+    n_vocab = train_label_dict['n_vocab']
+    
     net = RNNModule(n_vocab, seq_size,
                     flags.embedding_size, flags.lstm_size)
     net = net.to(device)
@@ -267,7 +267,7 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
     criterion, optimizer = get_loss_and_train_op(net, learning_rate)
 
     iteration = 0
-    loss_value_list = []
+    train_loss_list = []
     
     if for_units:
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> proxyObservationTypeUnits\n')
@@ -275,12 +275,17 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits\n')
         
     for e in range(epochs):
+
+        # TRAIN PHASE
         batches = get_batches(in_text, out_text, flags.batch_size, seq_size)
         state_h, state_c = net.zero_state(flags.batch_size)
         
         # Transfer data to GPU
         state_h = state_h.to(device)
         state_c = state_c.to(device)
+        
+        train_loss = 0
+        iteration = 0
         for x, y in batches:
             iteration += 1
             
@@ -299,9 +304,8 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
             state_h = state_h.detach()
             state_c = state_c.detach()
 
-            loss_value = loss.item()
+            train_loss += loss.item()
             
-
             # Perform back-propagation
             loss.backward()
             
@@ -310,16 +314,12 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
 
             # Update the network's parameters
             optimizer.step()
-            
-            # if iteration % 100 == 0:
-            #     loss_value_list.append(loss_value)
-            #     print('Epoch: {}/{}'.format(e, epochs),
-            #           'Iteration: {}'.format(iteration),
-            #           'Loss: {}'.format(loss_value))
         
-        loss_value_list.append(loss_value)
+        train_loss_list.append(train_loss/iteration)
+
         print('Epoch: {}/{}'.format(e, epochs),
-                'Loss: {}'.format(loss_value))   
+                'Training Loss: {}'.format(train_loss_list[-1]))  
+
     timestr = time.strftime("%Y%m%d_%H%M%S")    
     if for_units:
         print('\nSaving the model file...')
@@ -328,9 +328,14 @@ def train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size):
         print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_interp_'+timestr+'.pth')
     
-    print_save_loss_curve(loss_value_list, 'proxy_units_' if for_units else 'proxy_interp_')
+    print_save_loss_curve(train_loss_list, 'proxy_units_' if for_units else 'proxy_interp_')
 
-                
+def add_items_to_dict(first_dict, second_dict):
+    for k,v in second_dict.items():
+        if k not in first_dict:
+            first_dict[k] = v
+
+
 def main():
     
     global int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, device
@@ -339,27 +344,29 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     timestr = time.strftime("%Y%m%d_%H%M%S")
     
+    train_df = pd.read_csv(flags.train_file)
+
     if not for_units:
-        int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_file(
-            flags.train_file, flags.batch_size, flags.seq_size)
+        int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_df(
+            train_df, flags.batch_size, flags.seq_size)
         
         model_tokens = {'model_tokens' : int_to_vocab, 'reference_dict': reference_dict}
         with open(model_file_path+'model_token_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
 
-
+        train_label_dict = {'n_vocab' : n_vocab, 'in_text' : in_text, 'out_text' : out_text}
         # Train for archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
-        train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, flags.seq_size)
+        train_RNN(train_label_dict, flags.seq_size)
     else:
-        int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_file(
-            flags.train_file, flags.batch_size, flags.seq_size_u)
+        int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_df(
+            train_df, flags.batch_size, flags.seq_size_u)
         
         model_tokens = {'model_tokens_u' : int_to_vocab_u}
         with open(model_file_path+'model_token_units_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
-        
+        train_label_dict = {'n_vocab' : n_vocab_u, 'in_text' : in_text_u, 'out_text' : out_text_u}
         # Train for archive -> proxyObservationType -> units
-        train_RNN(int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, flags.seq_size_u)
+        train_RNN(train_label_dict, flags.seq_size_u)
     
     
 if _platform == "win32":
@@ -377,7 +384,7 @@ flags = Namespace(
     train_file = train_path,
     seq_size_u=3,
     seq_size=6,
-    batch_size=32,
+    batch_size=48,
     embedding_size=64,
     lstm_size=64,
     gradients_norm=5,

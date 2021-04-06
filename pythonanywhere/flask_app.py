@@ -28,12 +28,12 @@ limiter = Limiter(
     key_func=get_remote_address,
     default_limits=["5000 per day", "500 per hour"]
 )
-
+flask_dir = "/home/cheiser/mysite/"
 model_mc_file_path=''
-pred3MC = MCpredict(3, 5, model_mc_file_path)
-pred4MC = MCpredict(4, 5, model_mc_file_path)
+pred3MC = MCpredict(3, 5, flask_dir)
+pred4MC = MCpredict(4, 5, flask_dir)
 
-predLSTM = LSTMpredict(model_file_path='', mc_model_file_path='', topk=5)
+predLSTM = LSTMpredict(model_file_path=flask_dir, ground_truth_file_path=flask_dir, topk=5)
 archives_for_MC = {}
 archives_map = predLSTM.archives_map
 autocomplete_file_path = None
@@ -97,9 +97,13 @@ def get_latest_file_with_path(path, *paths):
     latest_file = max(list_of_files, key=os.path.getctime)
     return latest_file
 
-names_set_ind_map = {'proxyObservationType' : 1, 'proxyObservationTypeUnits' : 2, 'interpretation/variable' : 3, 'interpretation/variableDetail' : 4, 'inferredVariable' : 5, 'inferredVariableUnits' : 6}
+ground_truth_file = get_latest_file_with_path('', 'ground_truth_label_*.json')
+with open(ground_truth_file, 'r') as json_file:
+    ground_truth_dict = json.load(json_file)
 
+names_set_ind_map = {'proxyObservationType' : 1, 'proxyObservationTypeUnits' : 2, 'interpretation/variable' : 3, 'interpretation/variableDetail' : 4, 'inferredVariable' : 5, 'inferredVariableUnits' : 6}
 names_set = {}
+
 def load_names_set_from_file(file_name):
     '''
     Method to load the dict containing the list of all possible values for each fieldType, used for autocomplete suggestions.
@@ -121,7 +125,7 @@ def load_names_set_from_file(file_name):
 @app.route('/test', methods=["GET"])
 @limiter.exempt
 def _test():
-    logger_flask.info("You rang?")
+    # logger_flask.info("You rang?")
     return "Wouldya look at that!"
 
 @app.route("/api/wikiquery", methods=["POST"])
@@ -176,10 +180,14 @@ def _noaa_start():
     logger_flask.info("Flask: Sending Response to Node")
     return json.dumps(out)
 
+@app.route('/getArchives', methods=['GET'])
+@limiter.exempt
+def get_archives():
+    return make_response(jsonify({'result': {'0' : list(sorted(ground_truth_dict['archive_types']))}}), 200)
 
 @app.route('/predictNextValue', methods=['GET'])
 @limiter.exempt
-def predictNextValue():
+def predict_next_value():
     
     inputstr  = request.args.get('inputstr', None)
     inputstr = inputstr.replace('_','/')
@@ -226,7 +234,7 @@ def autocomplete_suggestion():
     global autocomplete_file_path
 
     # Ensure that autocomplete always works on the latest autocomplete data
-    new_autocomplete_file_path = get_latest_file_with_path('', 'autocomplete_file_*.json')
+    new_autocomplete_file_path = get_latest_file_with_path(flask_dir, 'autocomplete_file_*.json')
     if autocomplete_file_path != new_autocomplete_file_path:
         autocomplete_file_path = new_autocomplete_file_path
         load_names_set_from_file(new_autocomplete_file_path)
@@ -347,14 +355,13 @@ def predict_using_lstm(variabletype, sentence):
     '''
     
     inverse_ref_dict = {val:key for key,val in predLSTM.reference_dict.items()}
-    inverse_ref_dict_units = {val:key for key,val in predLSTM.reference_dict_u.items()}
     
     output = {}
     inputs = sentence.split(',')
     if len(inputs) == 2 and variabletype == 'measured':
         result_list_units = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype =='inferred' else False))['0']
         result_list = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype=='inferred' else False))['1']
-        result_list_units = [(inverse_ref_dict_units[val] if val in inverse_ref_dict_units else val) for val in result_list_units]
+        result_list_units = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list_units]
         result_list = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list]
         output = {0: result_list_units, 1: result_list}
     else:

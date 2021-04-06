@@ -149,9 +149,13 @@ def read_lipd_files_list(lipd_files_list):
                 
                 if type(proxyOType) == str and not proxyOType.isupper():
                     proxyOType = proxyOType.title()
-                    
+
                 if 'units' in path[key].keys() :
                         unit = path[key]['units']
+                
+                if len(proxyOType) > 45:
+                    proxyOType = 'NA'
+                    unit = 'NA'
                         
                 inter_set = False
                 if 'interpretation' in path[key].keys() :
@@ -174,14 +178,19 @@ def read_lipd_files_list(lipd_files_list):
                                 rank = inter['rank']
                             else:
                                 rank = inter_len
-    
+                            
+                            if len(intVariable) > 45:
+                                intVariable = 'NA'
+                            if len(intVarDet) > 45:
+                                intVarDet = 'NA'
+                            
                             if infVar == 'NA' and intVariable != 'NA' and intVarDet != 'NA':
                                 inf_from_interp = (' ').join([intVarDet, intVariable])
                                 infVar = inf_from_interp
                                 infVarUnits = inf_var_units_map[infVar] if infVar in inf_var_units_map else 'NA'
                                     
     
-                            if unit != 'NotApplicable' or proxyOType != 'NA' or intVariable != 'NA' or intVarDet != 'NA' or infVar != 'NA' or infVarUnits != 'NA':
+                            if unit != 'NotApplicable' or proxyOType != 'NA':
                                 df = pd.DataFrame({'publication':[publication],'filename':[filen], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
                                 table = table.append(df, ignore_index = True)
                                 inter_set = True
@@ -200,6 +209,8 @@ def read_lipd_files_list(lipd_files_list):
                     infVar, rem = inferredVarTypeutils.predict_inf_var_type_from_variable_name(vname)
                     if infVar == 'NA':
                         infVar = vname
+                    elif len(infVar) > 45:
+                        infVar = 'NA'
                 if 'units' in path[key].keys() :
                         infVarUnits = path[key]['units']
                 
@@ -218,6 +229,12 @@ def read_lipd_files_list(lipd_files_list):
                             if 'variableDetail' in inter.keys() :
                                 intVarDet = get_char_string(inter['variableDetail'])
                                 intVarDet = intVarDet.title()
+                            
+                            if len(intVariable) > 45:
+                                intVariable = 'NA'
+                            if len(intVarDet) > 45:
+                                intVarDet = 'NA'
+
                             if 'rank' in inter.keys() :
                                 rank = inter['rank']
                             else:

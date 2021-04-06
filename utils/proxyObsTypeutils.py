@@ -17,7 +17,7 @@ def initialize_input_data():
     None.
 
     '''
-    
+
     global named_individuals, q_proxy_obs
     named_individuals = 'Al/Ca  Ar-Ar  B/Ca  Ba/Ca  C  Clay fraction  Color  d13C  d15N  d170  d180  d34S  dD  Density  Diffuse spectral reflectance  Faunal  Fe/Ca  Floral  Grain size  Historic  Layer thickness  Lead Isotope  Li/Ca  Lithics  Luminescence  Magnetic susceptibility  Mg/Ca  Mineral matter  Mn/Ca  Moisture Content  N  Neodymium  Organic matter  P  Permeability  Porosity  Radiocarbon  Resistivity  Sand fraction  Si  Silt fraction  Sr/Ca  TEX86  U-Th  Uk37\'  Uk37  X-Ray diffraction  X-ray fluorescence  Zn/Ca'
     named_individuals = set(named_individuals.split('  '))
@@ -181,7 +181,7 @@ def initialize_input_data():
     *BSiO2
     *CalciumCarbonate
     *WetBulkDensity'''
-    q_proxy_obs = q_proxy_obs.split('\n*')
+    q_proxy_obs = q_proxy_obs.split('\n    *')
 
 def get_periodic_elements():
     '''
@@ -192,7 +192,7 @@ def get_periodic_elements():
     None.
 
     '''
-    
+
     global periodic_table_elements, periodic_table_name
     if _platform == "win32":
         # periodic_table_path = '..\PeriodicTableJSON.json'
@@ -222,6 +222,7 @@ def manual_additions_to_map():
     proxy_obs_map['d2H'] = 'dD'
     proxy_obs_map['dD'] = 'dD'
     proxy_obs_map['d18o'] = 'd18O'
+    proxy_obs_map['Mgca'] = 'Mg/Ca'
 
 
 def create_proxy_obs_map():
@@ -292,6 +293,7 @@ def create_proxy_obs_map():
             unknown_proxy.add(proxy)
 
 
+
 def predict_proxy_obs_type_from_variable_name(vname):
     '''
     This method returns the corresponding mapping for the input string or the nearest corresponding value to the values in the cleaned data.
@@ -333,7 +335,11 @@ def predict_proxy_obs_type_from_variable_name(vname):
         else:
             vname = vname.replace('_', ' ')
             pred = proxy_obs_map.get(vname, 'NA')
-    else:
+    elif 'Planktonic.' in vname or 'Benthic.' in vname or 'planktonic.' in vname or 'benthic.' in vname:
+            ind = vname.index('.')
+            pred = vname[ind+1:]
+            rem = vname[:ind]
+    else:     
         for i in range(len(vname)):
             if vname[:i] in proxy_obs_map:
                 pred = vname[:i]
