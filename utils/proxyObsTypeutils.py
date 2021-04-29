@@ -5,6 +5,7 @@ from sys import platform as _platform
 named_individuals, q_proxy_obs = None, None
 periodic_table_elements, periodic_table_name = [], []
 proxy_obs_map = {}
+ignore_set = set()
 unknown_proxy = set()
 
 def initialize_input_data():
@@ -210,19 +211,60 @@ def get_periodic_elements():
 
 
 def manual_additions_to_map():
-    global proxy_obs_map
+    global proxy_obs_map, ignore_set
     
     # MANUAL ADDITIONS TO THE PROXY OBS MAP
     proxy_obs_map['Calcification'] = 'Calcification'
-    proxy_obs_map['Trsgi'] = 'Trsgi'
+    proxy_obs_map['Trsgi'] = 'Tree Ring Standardized Growth Index'
     proxy_obs_map['C37.concentration'] = '37:2AlkenoneConcentration'
-    proxy_obs_map['trsgi'] = 'Trsgi'
-    proxy_obs_map['d-excess'] = 'deuteriumExcess'
-    proxy_obs_map['deuteriumExcess'] = 'deuteriumExcess'
-    proxy_obs_map['d2H'] = 'dD'
-    proxy_obs_map['dD'] = 'dD'
+    proxy_obs_map['trsgi'] = 'Tree Ring Standardized Growth Index'
+    proxy_obs_map['d-excess'] = 'D-Excess'
+    proxy_obs_map['deuteriumExcess'] = 'D-Excess'
+    proxy_obs_map['Deuteriumexcess'] = 'D-Excess'
+    proxy_obs_map['d2H'] = 'Dd'
+    proxy_obs_map['dD'] = 'Dd'
     proxy_obs_map['d18o'] = 'd18O'
+    proxy_obs_map['d18O1'] = 'd18O'
     proxy_obs_map['Mgca'] = 'Mg/Ca'
+    proxy_obs_map['Blueintensity'] = 'Blue Intensity'
+    proxy_obs_map['MXD'] = 'maximum latewood density'
+    proxy_obs_map['TRW'] = 'Tree Ring Width'
+    proxy_obs_map['Watercontent'] = 'Water Content'
+    proxy_obs_map['Samplecount'] = 'Sample Count'
+    proxy_obs_map['Ringwidth'] = 'Tree Ring Width'
+    proxy_obs_map['Effectivemoisture'] = 'Effective Moisture'
+    proxy_obs_map['EPS'] = 'Expressed Population Signal'
+    proxy_obs_map['TOC'] = 'Total Organic Carbon'
+    proxy_obs_map['TN'] = 'Total Nitrogen'
+    proxy_obs_map['Laminathickness'] = 'Lamina Thickness'
+    proxy_obs_map['Foram.Abundance'] = 'Foraminifera Abundance'
+    proxy_obs_map['SE'] = 'Standard Error'
+    proxy_obs_map['Bsi'] = 'Biogenic Silica'
+    proxy_obs_map['Massacum'] = 'Mass Flux'
+    proxy_obs_map['R650_700'] = 'Trough area between 650 and 700 nm wavelength'
+    proxy_obs_map['R570_630'] = 'Ratio between reflectance at 570 and 630 nm wavelength'
+    proxy_obs_map['R660_670'] = 'Ratio between reflectance at 660 and 670 nm wavelength'
+    proxy_obs_map['RABD660_670'] = 'relative absorption band depth from 660 to 670 nm'
+    proxy_obs_map['ARS'] = 'ARSTAN chronology'
+    proxy_obs_map['Rbar'] = 'Rbar (mean pair correlation)'
+    proxy_obs_map['D50'] = 'Median, grain size (D50)'
+    proxy_obs_map['Grainsizemode'] = 'Mode, grain size'
+    proxy_obs_map['DBD'] = 'Dry Bulk Density'
+    proxy_obs_map['Dry Bulk Density'] = 'Dry Bulk Density'
+    proxy_obs_map['Brgdgt'] = 'brGDGT'
+    proxy_obs_map['Brgdgtiiia'] = 'brGDGT'
+    proxy_obs_map['Brgdgtiiib'] = 'brGDGT'
+    proxy_obs_map['Brgdgtiia'] = 'brGDGT'
+    proxy_obs_map['Brgdgtiib'] = 'brGDGT'
+    proxy_obs_map['Brgdgtia'] = 'brGDGT'
+    proxy_obs_map['Brgdgtib'] = 'brGDGT'
+    proxy_obs_map['N C24'] = 'n-alkane 24 carbon chain'
+    proxy_obs_map['N C26'] = 'n-alkane 26 carbon chain'
+    proxy_obs_map['N C28'] = 'n-alkane 28 carbon chain'
+    proxy_obs_map['IRD'] = 'Ice-rafted debris'
+
+
+    ignore_set = {'Upper95', 'Lower95', 'Sampleid', 'Julianday', 'SD', 'Elevation Sample', 'Repeats', 'Age', 'age', 'Year', 'year', 'Depth', 'depth', 'Hindex', 'Stdev C24', 'Stdev C26', 'Stdev C28', 'Surface.Temp'}
 
 
 def create_proxy_obs_map():
@@ -239,7 +281,40 @@ def create_proxy_obs_map():
     global proxy_obs_map, unknown_proxy
     
     for proxy in q_proxy_obs:
-        m = re.search(r'^\D+', proxy)
+        if proxy in proxy_obs_map or proxy.title() in proxy_obs_map or proxy.lower() in proxy_obs_map or proxy.upper() in proxy_obs_map:
+            if proxy.title() in proxy_obs_map:
+                proxy_obs_map[proxy] = proxy_obs_map[proxy.title()]
+            elif proxy.lower() in proxy_obs_map:
+                proxy_obs_map[proxy] = proxy_obs_map[proxy.lower()]
+            elif proxy.upper() in proxy_obs_map:
+                proxy_obs_map[proxy] = proxy_obs_map[proxy.upper()]
+            continue
+        elif 'Uk37' in proxy:
+            pass
+        elif proxy[-1].isdigit() and proxy[:-1] in proxy_obs_map:
+            proxy_obs_map[proxy] = proxy_obs_map[proxy[:-1]]
+            continue
+        elif (not proxy.islower() and not proxy.isupper()) and '/' not in proxy and ':' not in proxy:
+            new_proxy = []
+            for c in proxy:
+                if c.isupper():
+                    new_proxy.append(' ')
+                new_proxy.append(c)
+
+            new_proxy = ''.join(new_proxy).strip()
+            in_periodic = False
+            for n in new_proxy.split(' '):
+                if n in periodic_table_elements:
+                    in_periodic = True
+                    break
+            if not in_periodic:
+                if new_proxy in proxy_obs_map:
+                    pass
+                else:
+                    proxy_obs_map[proxy] = new_proxy
+                    proxy_obs_map[new_proxy] = new_proxy
+                continue
+        
         if len(proxy) <= 2:
             if proxy in periodic_table_elements:
                 proxy_obs_map[proxy] = proxy
@@ -253,8 +328,6 @@ def create_proxy_obs_map():
                 proxy_obs_map[proxy] = proxy
             else:
                 unknown_proxy.add(proxy)
-        elif m and m.group() in proxy_obs_map:
-                proxy_obs_map[proxy] = m.group()
         elif proxy.startswith('D') or proxy.startswith('d'):
             if proxy.isalpha():
                 proxy_obs_map[proxy] = proxy
@@ -267,7 +340,8 @@ def create_proxy_obs_map():
                     proxy_obs_map[proxy] = proxyl
                     proxy_obs_map[proxyl] = proxyl
                     unknown_proxy.add(proxy)
-                
+        elif proxy.startswith('R') and proxy.replace(' ', '_') in proxy_obs_map:
+            proxy_obs_map[proxy] = proxy_obs_map[proxy.replace(' ', '_')]
         elif ' ' in proxy:
             s = proxy.split(' ')
             if len(s) > 2:
@@ -291,6 +365,8 @@ def create_proxy_obs_map():
         else:  
             proxy_obs_map[proxy] = proxy
             unknown_proxy.add(proxy)
+    
+    # print(proxy_obs_map)
 
 
 
@@ -335,7 +411,7 @@ def predict_proxy_obs_type_from_variable_name(vname):
         else:
             vname = vname.replace('_', ' ')
             pred = proxy_obs_map.get(vname, 'NA')
-    elif 'Planktonic.' in vname or 'Benthic.' in vname or 'planktonic.' in vname or 'benthic.' in vname:
+    elif 'Planktonic.' in vname or 'Benthic.' in vname or 'planktonic.' in vname or 'benthic.' in vname or 'planktic' in vname or 'Planktic' in vname:
             ind = vname.index('.')
             pred = vname[ind+1:]
             rem = vname[:ind]
@@ -355,6 +431,23 @@ def predict_proxy_obs_type_from_variable_name(vname):
                 pred = possible_proxy
                 rem = rem[:-2]
     return pred, rem
+
+def validate_proxyObsType(proxyObsType):
+
+    if 'error' in proxyObsType.lower():
+        return 'NA'
+    
+    
+    if 'Depth' in proxyObsType.title() or 'Latitude' in proxyObsType.title() or 'Longitude' in proxyObsType.title():
+        return 'NA'
+    elif proxyObsType in ignore_set or proxyObsType.title() in ignore_set:
+        return 'NA'
+    elif proxyObsType in proxy_obs_map:
+        return proxy_obs_map[proxyObsType]
+    elif proxyObsType.title() in proxy_obs_map:
+        return proxy_obs_map[proxyObsType.title()]
+    
+    return proxyObsType
 
 if __name__ == '__main__':
     initialize_input_data()

@@ -181,6 +181,7 @@ else:
 data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'lipdverse_downsampled_*.csv')
 final_df = pd.read_csv(data_file_path)
 final_df = final_df.replace(np.nan, 'NA', regex=True)
+final_df = final_df.replace(',', '', regex=True)
 
 counter_archive = collections.Counter(final_df['archiveType'])
 counter_proxy = collections.Counter(final_df['proxyObservationType'])
@@ -332,8 +333,6 @@ transition_matrix_chain2.update(pr_int_var_det_inf_chain2)
 
 # inferredVariable = P[inferredVariable | interpretation/variable, interpretation/variableDetail, proxyObservationType]
 
-# archives_map = {'marine sediment': 'MarineSediment', 'lake sediment': 'LakeSediment', 'glacier ice': 'GlacierIce', 'documents': 'Documents', 'borehole': 'Rock', 'tree': 'Wood', 'bivalve': 'MollusckShell', 'coral': 'Coral', '': '', 'speleothem': 'Speleothem', 'sclerosponge': 'Sclerosponge', 'hybrid': 'Hybrid', 'Sclerosponge': 'Sclerosponge', 'Speleothem': 'Speleothem', 'Coral': 'Coral', 'MarineSediment': 'MarineSediment', 'LakeSediment': 'LakeSediment', 'GlacierIce': 'GlacierIce', 'Documents': 'Documents', 'Hybrid': 'Hybrid', 'MolluskShell': 'MolluskShell', 'Lake': 'Lake', 'molluskshell': 'MollusckShell', 'Wood': 'Wood', 'Rock': 'Rock'}
-# model_dict = {'archive_types': list(counter_archive.keys()),'proxy_obs_types': list(counter_proxy.keys()),'units': list(counter_units.keys()),'int_var': list(counter_int_var.keys()),'int_var_det': list(counter_int_det.keys()), 'inf_var': list(counter_inf_var.keys()), 'inf_var_units': list(counter_inf_var_units.keys()), 'archives_map':g['archives_map'], 'q0_chain1' : q0_chain1, 'q0_chain2' : q0_chain2, 'transition_matrix_chain1' : transition_matrix_chain1, 'transition_matrix_chain2' : transition_matrix_chain2}
 model_dict = {'q0_chain1' : q0_chain1, 'q0_chain2' : q0_chain2, 'transition_matrix_chain1' : transition_matrix_chain1, 'transition_matrix_chain2' : transition_matrix_chain2}
 
 # write model to file
@@ -343,6 +342,7 @@ if _platform == "win32":
     model_file_path = '..\..\data\model_mc\model_mc_'+timestr+'.txt'
 else:
     model_file_path = '../../data/model_mc/model_mc_'+timestr+'.txt'
- 
+
+print('Saving Model file at ', model_file_path)
 with open(model_file_path, 'w') as json_file:
   json.dump(model_dict, json_file)

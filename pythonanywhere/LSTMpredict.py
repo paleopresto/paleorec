@@ -46,7 +46,7 @@ class LSTMpredict:
         flags = Namespace(
             seq_size_u=3,
             seq_size=6,
-            batch_size=32,
+            batch_size=48,
             embedding_size=64,
             lstm_size=64,
             gradients_norm=5,
@@ -77,6 +77,8 @@ class LSTMpredict:
         
         self.reference_dict = self.model_tokens['reference_dict']
         self.reference_dict_val = set(self.reference_dict.values())
+
+        # self.len_dict = self.model_tokens['len_dict']
         
         with open(MODEL_TOKEN_UNITS_INFO_PATH, 'r') as json_file:
             self.model_tokens = json.load(json_file)
@@ -86,6 +88,7 @@ class LSTMpredict:
         self.vocab_to_int_u = {v:k for k,v in self.int_to_vocab_u.items()}
         n_vocab_u = len(self.int_to_vocab_u)
         
+        self.reference_dict_u = self.model_tokens['reference_dict_u']
         
         # Initialize the model for archive -> proxyObservationType -> interpretation/variable -> 
         #                                         interpretation/variableDetail -> inferredVariable -> inferredVarUnits
@@ -99,15 +102,15 @@ class LSTMpredict:
         
         # Read file to get category names list information
         with open(GROUND_TRUTH_FILE_PATH, 'r') as f:
-            ground_truth = json.load(f)    
+            self.ground_truth = json.load(f)    
             
-        self.names_set = {0 : set(ground_truth['archive_types']), 1: set(ground_truth['proxy_obs_types']), 
-                      2: set(ground_truth['units']), 3: set(ground_truth['int_var']), 4: set(ground_truth['int_var_det']), 
-                      5: set(ground_truth['inf_var']), 6: set(ground_truth['inf_var_units'])}
+        self.names_set = {0 : set(self.ground_truth['archive_types']), 1: set(self.ground_truth['proxy_obs_types']), 
+                      2: set(self.ground_truth['units']), 3: set(self.ground_truth['int_var']), 4: set(self.ground_truth['int_var_det']), 
+                      5: set(self.ground_truth['inf_var']), 6: set(self.ground_truth['inf_var_units'])}
         for i in range(6):
             self.names_set[i] = {val.replace(' ', '') for val in self.names_set[i]}
         
-        self.archives_map = ground_truth['archives_map']
+        self.archives_map = self.ground_truth['archives_map']
 
     
     def predict(self, device, net, words, vocab_to_int, int_to_vocab, names_set):
@@ -212,9 +215,16 @@ class LSTMpredict:
             while(len(input_sent_list) < 4):
                 sentence = (',').join(input_sent_list)
                 if len(input_sent_list) == 2:
-                    input_sent_list.append(self.predictForSentence(sentence)['1'][0])
+                    top_lstm_pred_res = self.predictForSentence(sentence)
+                    if not top_lstm_pred_res['1']:
+                        return {'0': []}
+                    input_sent_list.append(top_lstm_pred_res['1'][0])
                 else:
-                    input_sent_list.append(self.predictForSentence(sentence)['0'][0])
+                    top_lstm_pred_res = self.predictForSentence(sentence)
+                    if not top_lstm_pred_res['0']:
+                        return {'0': []}
+                    input_sent_list.append(top_lstm_pred_res['0'][0])
+                    
                 
             if inferredVar:
                 input_sent_list.append(inferredVar)

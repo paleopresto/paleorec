@@ -33,8 +33,6 @@ device = None
 epochs = 100
 learning_rate = 0.01
 for_units = False
-weights, weights_units, weight_tensor = [], [], None
-len_dict = {}
 
 options, remainder = getopt.getopt(sys.argv[1:], 'e:l:u')
 for opt, arg in options:
@@ -82,54 +80,19 @@ def convert_dataframe_to_list(dataframe_obj):
         lis = [val.replace(" ", "") for val in lis]
         lis = (',').join(lis)
         new_list.append(lis)
-
+    
     return new_list, reference_dict
-
-def calculate_unique_chains(dataframe_obj):
-
-    global weights, weights_units
-
-    chain1 = dataframe_obj[['archiveType', 'proxyObservationType','units']]
-    
-    chain2 = dataframe_obj.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail', 
-    'inferredVariable', 'inferredVarUnits'])
-    
-
-    chain1_list = chain1.values.tolist()
-
-    for lis in chain1_list:
-        lis = [val.replace(" ", "") for val in lis]
-        lis = (',').join(lis)
-        
-        com_ind = lis.find(',', lis.index(','))
-        while com_ind != -1:
-            weights.append(lis[:com_ind])
-            com_ind = lis.find(',', com_ind+1)
-        weights_units.append(lis)
-
-    chain2_list = chain2.values.tolist()
-    for lis in chain2_list:
-        lis = [val.replace(" ", "") for val in lis]
-        lis = (',').join(lis)
-        
-        com_ind = lis.find(',', lis.index(','))
-        while com_ind != -1:
-            weights.append(lis[:com_ind])
-            com_ind = lis.find(',', com_ind+1)
-        weights.append(lis)
-
-
 
 def get_data_from_df(lipd_data_df, batch_size, seq_size):
     '''
-    Read training data into dataframe for training the model.
+    
     The training data needs to be Label Encoded because LSTM only works with float data.
     Select only num_batches*seq_size*batch_size amount of data to work on.
 
     Parameters
     ----------
     lipd_data_df : pandas dataframe
-        Dataframe containing either training sdata.
+        Dataframe containing either training or validation data.
     batch_size : int
         Used to divide the training data into batches for training.
     seq_size : int
@@ -151,9 +114,6 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
         Mapping of the word to its space-stripped version used for training.
 
     '''
-    global len_dict
-
-    calculate_unique_chains(lipd_data_df)
 
     if for_units:
         lipd_data = lipd_data_df.filter(['archiveType', 'proxyObservationType', 'units'])
@@ -180,30 +140,8 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
     in_text = np.reshape(in_text, (batch_size, -1))
     out_text = np.reshape(out_text, (batch_size, -1))
 
-    weights_counter = Counter(weights)
-    weights_u_counter = Counter(weights_units)
-    
-
-    len_dict = {'1':[], '2':[], '3':[], '3_units':[], '4':[], '5':[], '6':[]}
-    for k,v in weights_counter.items():
-        k_l = k.split(',')
-        len_dict[str(len(k_l))].append(k)
-    
-    for k,v in weights_u_counter.items():
-        len_dict['3_units'].append(k)
-
-    l =  {k:len(v) for k,v in len_dict.items()}
-    print('list of len', l)
-
-    weights_counter.update(weights_u_counter)
-    print(len(weights_counter))
-    total_count = sum(weights_counter.values())
-    for k,v in weights_counter.items():
-        weights_counter[k] = v/total_count
-
-    weight_tensor = torch.FloatTensor(list(weights_counter.values()))
-
     return int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict
+
 
 def get_batches(in_text, out_text, batch_size, seq_size):
     '''
@@ -254,19 +192,21 @@ def get_loss_and_train_op(net, lr=0.01):
         Optimizer used for the neural network.
 
     '''
-    criterion = nn.CrossEntropyLoss(weight = weight_tensor)
+    criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=lr)
 
     return criterion, optimizer
 
-def print_save_loss_curve(train_loss_list, chain):
+def print_save_loss_curve(train_loss_list, val_loss_list, chain):
     '''
-    Method to save the plot for the training loss curve.
+    Method to save the plot for the training and validation loss curve.
 
     Parameters
     ----------
-    loss_value_list : list
+    train_loss_list : list
         List with the training loss values.
+    val_loss_list : list
+        List with the validation loss values.
     chain : str
         To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType & interpretation/variable chain.
 
@@ -277,6 +217,7 @@ def print_save_loss_curve(train_loss_list, chain):
     '''
     
     plt.plot(train_loss_list, label='Train Loss')
+    plt.plot(val_loss_list, label = 'Validation Loss')
         
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
@@ -302,17 +243,21 @@ def train_RNN(train_label_dict, seq_size):
     train_label_dict : dict
         Contains training information like the encoded input sequence, encoded output sequence information and number of words for training and validation data.
     seq_size : int
-        Parameter to signify length of each sequence. In our case we are considering 2 chains, one of length 3 and the other of length 6.
+        To serve different sequence chains.
 
     Returns
     -------
     None.
 
     '''
+        
     in_text = train_label_dict['in_text']
+    in_text_v = train_label_dict['in_text_v']
     out_text = train_label_dict['out_text']
+    out_text_v = train_label_dict['out_text_v']
     n_vocab = train_label_dict['n_vocab']
-    
+    n_vocab_v = train_label_dict['n_vocab_v']
+
     net = RNNModule(n_vocab, seq_size,
                     flags.embedding_size, flags.lstm_size)
     net = net.to(device)
@@ -321,6 +266,7 @@ def train_RNN(train_label_dict, seq_size):
 
     iteration = 0
     train_loss_list = []
+    val_loss_list = []
     
     if for_units:
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> proxyObservationTypeUnits\n')
@@ -328,7 +274,7 @@ def train_RNN(train_label_dict, seq_size):
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits\n')
         
     for e in range(epochs):
-
+        
         # TRAIN PHASE
         batches = get_batches(in_text, out_text, flags.batch_size, seq_size)
         state_h, state_c = net.zero_state(flags.batch_size)
@@ -369,10 +315,41 @@ def train_RNN(train_label_dict, seq_size):
             optimizer.step()
         
         train_loss_list.append(train_loss/iteration)
+        
+        # VALIDATION PHASE
+        batches_val = get_batches(in_text_v, out_text_v, flags.batch_size, seq_size)
+        state_h, state_c = net.zero_state(flags.batch_size)
+        
+        # Transfer data to GPU
+        state_h = state_h.to(device)
+        state_c = state_c.to(device)
+        
+        val_loss = 0
+        iteration = 0
+        #deactivates autograd
+        with torch.no_grad():
+            for x, y in batches_val:
+                iteration += 1
+                # Tell it we are in validation mode
+                net.eval()
+                
+                x = torch.tensor(x).to(device).long()
+                y = torch.tensor(y).to(device).long()
 
+                logits, (state_h, state_c) = net(x, (state_h, state_c))
+                loss = criterion(logits.transpose(1, 2), y)
+
+                state_h = state_h.detach()
+                state_c = state_c.detach()
+
+                val_loss += loss.item()
+                
+        val_loss_list.append(val_loss/iteration)
+        
         print('Epoch: {}/{}'.format(e, epochs),
-                'Training Loss: {}'.format(train_loss_list[-1]))  
-
+              'Training Loss: {}'.format(train_loss_list[-1]),
+              'Validation Loss: {}'.format(val_loss_list[-1]))
+        
     timestr = time.strftime("%Y%m%d_%H%M%S")    
     if for_units:
         print('\nSaving the model file...')
@@ -381,7 +358,30 @@ def train_RNN(train_label_dict, seq_size):
         print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_interp_'+timestr+'.pth')
     
-    print_save_loss_curve(train_loss_list, 'proxy_units_' if for_units else 'proxy_interp_')
+    print_save_loss_curve(train_loss_list, val_loss_list, 'proxy_units_' if for_units else 'proxy_interp_')
+
+                
+def add_items_to_dict(first_dict, second_dict):
+    '''
+    Mtethod to copy the items from second dict to the first if not already present.
+
+    Parameters
+    ----------
+    first_dict : dict
+        
+    second_dict : dict
+        
+
+    Returns
+    -------
+    dict
+        Updated with the items from second dict.
+
+    '''
+    for k,v in second_dict.items():
+        if k not in first_dict:
+            first_dict[k] = v
+    return first_dict
 
 def main():
     
@@ -391,29 +391,48 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     timestr = time.strftime("%Y%m%d_%H%M%S")
     
-    train_df = pd.read_csv(flags.train_file)
-    train_df = train_df.replace(np.nan, 'NA', regex=True)
+    lipd_data_df = pd.read_csv(flags.train_file)
+    train_df = lipd_data_df.sample(frac=0.8, random_state=2021)
+    valid_df = lipd_data_df.drop(train_df.index)
 
+    assert len(lipd_data_df) == len(train_df) + len(valid_df), "Dataset sizes don't add up"
+    
     if not for_units:
         int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_df(
             train_df, flags.batch_size, flags.seq_size)
         
-        model_tokens = {'model_tokens' : int_to_vocab, 'reference_dict': reference_dict, 'len_dict' : {k:len(v) for k,v in len_dict.items()}}
+        int_to_vocab_v, vocab_to_int_v, n_vocab_v, in_text_v, out_text_v, reference_dict_v = get_data_from_df(
+            valid_df, flags.batch_size, flags.seq_size)
+        
+        int_to_vocab = add_items_to_dict(int_to_vocab, int_to_vocab_v)
+        vocab_to_int = add_items_to_dict(vocab_to_int, vocab_to_int_v)
+        reference_dict = add_items_to_dict(reference_dict, reference_dict_v)
+        n_vocab = len(int_to_vocab)
+        
+        model_tokens = {'model_tokens' : int_to_vocab, 'reference_dict': reference_dict}
         with open(model_file_path+'model_token_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
 
-        train_label_dict = {'n_vocab' : n_vocab, 'in_text' : in_text, 'out_text' : out_text}
+        train_label_dict = {'n_vocab' : n_vocab, 'n_vocab_v' : n_vocab_v, 'in_text' : in_text, 'in_text_v' : in_text_v, 'out_text' : out_text, 'out_text_v' : out_text_v}
         # Train for archive -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
         train_RNN(train_label_dict, flags.seq_size)
     else:
         int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_df(
             train_df, flags.batch_size, flags.seq_size_u)
         
-        model_tokens = {'model_tokens_u' : int_to_vocab_u, 'reference_dict_u' : reference_dict_u, 'len_dict' : {k:len(v) for k,v in len_dict.items()}}
+        int_to_vocab_u_v, vocab_to_int_u_v, n_vocab_u_v, in_text_u_v, out_text_u_v, reference_dict_u_v = get_data_from_df(
+            valid_df, flags.batch_size, flags.seq_size_u)
+             
+        int_to_vocab_u = add_items_to_dict(int_to_vocab_u, int_to_vocab_u_v)
+        vocab_to_int_u = add_items_to_dict(vocab_to_int_u, vocab_to_int_u_v)
+        reference_dict_u = add_items_to_dict(reference_dict_u, reference_dict_u_v)
+        n_vocab = len(int_to_vocab_u)
         
+        model_tokens = {'model_tokens_u' : int_to_vocab_u, 'reference_dict_u' : reference_dict_u}
         with open(model_file_path+'model_token_units_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
-        train_label_dict = {'n_vocab' : n_vocab_u, 'in_text' : in_text_u, 'out_text' : out_text_u}
+        
+        train_label_dict = {'n_vocab' : n_vocab_u, 'n_vocab_v' : n_vocab_u_v, 'in_text' : in_text_u, 'in_text_v' : in_text_u_v, 'out_text' : out_text_u, 'out_text_v' : out_text_u_v}
         # Train for archive -> proxyObservationType -> units
         train_RNN(train_label_dict, flags.seq_size_u)
     

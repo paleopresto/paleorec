@@ -11,6 +11,8 @@ from heapq import heappop, heappush, heapify
 import os
 import glob
 
+top_k_dict = {}
+
 def get_latest_file_with_path(path, *paths):
     '''
     Method to get the full path name for the latest file for the input parameter in paths.
@@ -31,7 +33,7 @@ def get_latest_file_with_path(path, *paths):
     '''
 
     fullpath = os.path.join(path, *paths)
-    list_of_files = glob.iglob(fullpath)  
+    list_of_files = glob.iglob(fullpath)
     if not list_of_files:                
         return None
     latest_file = max(list_of_files, key=os.path.getctime)
@@ -39,7 +41,7 @@ def get_latest_file_with_path(path, *paths):
 
 class MCpredict:
 
-    def __init__(self, chain_length, top_k, model_file_path):
+    def __init__(self, chain_length, top_k, model_file_path, ground_truth_path):
         '''
         Constructor to define object of Predict class.
         Thus we will have to read the model only once instead of having to read it every time we call the predict function.
@@ -57,15 +59,24 @@ class MCpredict:
         None.
 
         '''
+        global global_archive, top_k_dict
         model_file_path = get_latest_file_with_path(model_file_path, 'model_mc_*.txt')
         with open(model_file_path, 'r') as f:
             model = json.load(f)
         
+        ground_truth_path = get_latest_file_with_path(ground_truth_path, 'ground_truth_label_*.json')
+        with open(ground_truth_path, 'r') as f:
+            ground_truth = json.load(f)
          
-        self.archives_map = model['archives_map']
-        self.names_set = {0 : set(model['archive_types']), 1: set(model['proxy_obs_types']), 
-                          2: set(model['units']), 3: set(model['int_var']), 4: set(model['int_var_det']), 
-                          5: set(model['inf_var']), 6: set(model['inf_var_units'])}
+        self.archives_map = ground_truth['archives_map']
+        self.names_set = {0 : set(ground_truth['archive_types']), 1: set(ground_truth['proxy_obs_types']), 
+                          2: set(ground_truth['units']), 3: set(ground_truth['int_var']), 4: set(ground_truth['int_var_det']), 
+                          5: set(ground_truth['inf_var']), 6: set(ground_truth['inf_var_units'])}
+        
+        for arch in set(ground_truth['archive_types']):
+            if arch in ground_truth['ground_truth']:
+                top_k_dict[arch] = len(ground_truth['ground_truth'][arch])
+
         self.top_k = top_k
         if chain_length == 3:
             self.initial_prob_dict = model['q0_chain1']
@@ -96,12 +107,8 @@ class MCpredict:
             for content in in_list:
                 outlist.append(self.get_inner_list(content))
         else:
-            # print(np.exp(in_list[0]))
             return in_list[1]
-            # if np.exp(in_list[0]) > 0.4:
-            #     return in_list[1]
-            # else:
-            #     return None
+
         return outlist
          
     def pretty_output(self, output_list):
@@ -239,6 +246,7 @@ class MCpredict:
                 if word in self.archives_map:
                     word = self.archives_map[word]
                     sentence[0] = word
+                    self.top_k = top_k_dict[word]
                 prob = self.initial_prob_dict[word]
                 output_list.append([(prob, word)])
                 
@@ -309,7 +317,8 @@ class MCpredict:
         sent = [x.strip() for x in sent if x!='Select']
         
         if isInferred and len(sent) <= 2:
-            
+            if len(sent) > 2:
+                return {'0': []}
             inferredVar = None
             if len(sent) == 2:
                 inferredVar = sent[1]
@@ -318,6 +327,7 @@ class MCpredict:
                 del sent[1]
             
             sentence = (',').join(sent[:1])
+
             output_list, sent = self.get_ini_prob(sentence)
             
             for i in range(3):
@@ -354,6 +364,9 @@ class MCpredict:
         
         else:
             
+            if len(sent) > 5:
+                return {'0': []}
+
             output_list, sent = self.get_ini_prob(sentence)
             
             prob = output_list[-1][0][0]
@@ -375,7 +388,7 @@ class MCpredict:
                         else:
                             output_list.append(self.back_track(output_list[-1], len(output_list)))   
         
-        
+        print('Direct output using probabilities', output_list)
         out_dict = self.pretty_output(output_list)
         return {'0': out_dict[str(len(sent))]}   
     

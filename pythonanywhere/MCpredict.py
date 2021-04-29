@@ -12,17 +12,34 @@ import os
 import glob
 
 def get_latest_file_with_path(path, *paths):
+    '''
+    Method to get the full path name for the latest file for the input parameter in paths.
+    This method uses the os.path.getctime function to get the most recently created file that matches the filename pattern in the provided path. 
+
+    Parameters
+    ----------
+    path : string
+        Root pathname for the files.
+    *paths : string list
+        These are the var args field, the optional set of strings to denote the full path to the file names.
+
+    Returns
+    -------
+    latest_file : string
+        Full path name for the latest file provided in the paths parameter.
+
+    '''
+
     fullpath = os.path.join(path, *paths)
-    list_of_files = glob.iglob(fullpath)  
+    list_of_files = glob.iglob(fullpath)
     if not list_of_files:                
         return None
     latest_file = max(list_of_files, key=os.path.getctime)
-    print(latest_file)
     return latest_file
 
 class MCpredict:
 
-    def __init__(self, chain_length, top_k, model_file_path):
+    def __init__(self, chain_length, top_k, model_file_path, ground_truth_path):
         '''
         Constructor to define object of Predict class.
         Thus we will have to read the model only once instead of having to read it every time we call the predict function.
@@ -44,11 +61,14 @@ class MCpredict:
         with open(model_file_path, 'r') as f:
             model = json.load(f)
         
+        ground_truth_path = get_latest_file_with_path(ground_truth_path, 'ground_truth_label_*.json')
+        with open(ground_truth_path, 'r') as f:
+            ground_truth = json.load(f)
          
-        self.archives_map = model['archives_map']
-        self.names_set = {0 : set(model['archive_types']), 1: set(model['proxy_obs_types']), 
-                          2: set(model['units']), 3: set(model['int_var']), 4: set(model['int_var_det']), 
-                          5: set(model['inf_var']), 6: set(model['inf_var_units'])}
+        self.archives_map = ground_truth['archives_map']
+        self.names_set = {0 : set(ground_truth['archive_types']), 1: set(ground_truth['proxy_obs_types']), 
+                          2: set(ground_truth['units']), 3: set(ground_truth['int_var']), 4: set(ground_truth['int_var_det']), 
+                          5: set(ground_truth['inf_var']), 6: set(ground_truth['inf_var_units'])}
         self.top_k = top_k
         if chain_length == 3:
             self.initial_prob_dict = model['q0_chain1']
@@ -68,7 +88,6 @@ class MCpredict:
         in_list : list/ tuple
             Either a list object or tuple whose data is retreived.
             
-
         Returns
         -------
         list
@@ -80,12 +99,8 @@ class MCpredict:
             for content in in_list:
                 outlist.append(self.get_inner_list(content))
         else:
-            # print(np.exp(in_list[0]))
             return in_list[1]
-            # if np.exp(in_list[0]) > 0.4:
-            #     return in_list[1]
-            # else:
-            #     return None
+
         return outlist
          
     def pretty_output(self, output_list):
@@ -106,8 +121,6 @@ class MCpredict:
             input: [[(-1.0286697494934511, 'Wood')], [(-1.8312012012793524, 'Trsgi')], 
                     [[(-2.5411555001556785, 'NA'), (-6.618692944061398, 'Wood'), (-6.618692944061398, 'MXD'), (-6.618692944061398, 'LakeSediment'), (-6.618692944061398, 'Composite')]]]
             output: {'0': ['Wood'], '1': ['Trsgi'], '2': ['NA', 'Wood', 'MXD', 'LakeSediment', 'Composite']}
-
-
         '''
         
         out_dict = {}
@@ -339,7 +352,7 @@ class MCpredict:
             return {'0': out_dict['4']}
         
         else:
-
+            
             output_list, sent = self.get_ini_prob(sentence)
             
             prob = output_list[-1][0][0]

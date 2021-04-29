@@ -12,11 +12,14 @@ Examples -
 Spelling errors, repeated values like Temperature1, Temperature2, Depth, Depth-cm, Mg_Ca
 Incorrect Value  - d18o -> D18O, D180 -> D18O
 
-For the current implementation we are considering the LiPDverse version of the file if available else we will consider the corresponding file from LinkedEarth Wiki.
+The current implementation offers the choice to consider files from the Linked Earth Wiki or to skip them.
+In the case where we consider the Linked Earth Wiki files, we are considering the LiPDverse version of the file, if available, since it has been annotated and provides more information than the corresponding file on the Wiki.
 
 Going forward, we might not want to consider the LiPD files from wiki. Please see the Usage instructions to only use the datasets provided through the command line.
 
-Using utils.readLipdFilesList will generate 2 pandas dataframe; first consisting of the proxyObservationType related information and second consisting of inferredVariableType related information. These 2 pandas dataframes are converted to csv and saved as common_lipdverse_table_timestamp.csv and common_lipdverse_inferred_timestamp.csv. After further processing, the two dataframes will be merged to generate a final csv file named merged_common_lipdverse_inferred_timestamp.csv
+The utils.readLipdFilesList python script will generate 2 pandas dataframe; first consisting of the proxyObservationType related information and second consisting of inferredVariableType related information. These 2 pandas dataframes are converted to csv and saved as common_lipdverse_table_timestamp.csv and common_lipdverse_inferred_timestamp.csv. After further processing, the two dataframes will be merged to generate a final csv file named merged_common_lipdverse_inferred_timestamp.csv
+
+We are using the concept that inferredVariable can be predicted based on the string concatenation of interpretation/variable and the interpretation/variableDetail in a few cases. While scanning the LiPD file we hence generate 2 separte csv files; first consists of the predicted inferredVariable using interpretation/variable and interpretation/variableDetail;second consists of the inferredVariable information from the LiPD file itself. Since the second file doesn't contain the proxyObservationType information, we use dataframe manipulation to get the corresponding proxyObservationType information for the file and the archiveType and append it with the inferredVariable Type information.
 
 Routines
 """"""""
@@ -32,11 +35,16 @@ Usage
 1. We already have the LiPD files from the wiki to start off the project.
 2. Pages2k and Temp12k files are necessary for creating the training data:
 
-      `Link for downloading PAGES2k dataset <http://lipdverse.org/Pages2kTemperature/current_version/>`_.
+      `Link for downloading PAGES2k dataset <https://lipdverse.org/Pages2kTemperature/current_version/PAGES2kv2.zip>`_.
 
-      `Link for downloading Temp12k dataset <http://lipdverse.org/Temp12k/current_version/>`_.
+      `Link for downloading Temp12k dataset <https://lipdverse.org/Temp12k/current_version/Temp12k1_0_1.zip>`_.
 
 3. To provide other datasets, use the command  \'-o\' and provide comma-separated list of dataset paths.
+
+      `Link for downloading ISO2k dataset <https://lipdverse.org/iso2k/current_version/iso2k1_0_0.zip>`_.
+
+      `Link for downloading PalMod dataset <https://lipdverse.org/PalMod/current_version/PalMod1_0_1.zip>`_.
+
 4. Please change the directory to \'cleaning_data\'
 
    To run the code execute the following command:

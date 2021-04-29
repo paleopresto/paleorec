@@ -18,7 +18,7 @@ if _platform == "win32":
     sys.path.insert(1, '..\\')
 else:
     sys.path.insert(1, '../')
-from utils import readLipdFileutils
+from utils import readLipdFileAuthorutils
 
 if _platform == "win32":
     input_path = '..\data\wiki_lipd_files\\'
@@ -99,6 +99,19 @@ def add_to_read_files_list(root_name, dataset_files_list):
             read_files_list.append(filename)
 
 def walk_error_handler(exception_instance):
+    '''
+    Exception raised by os.walk for an incorrect path name
+
+    Parameters
+    ----------
+    exception_instance : exception
+        exception instance whose information will be displayed to the user.
+
+    Returns
+    -------
+    None.
+
+    '''
     print(exception_instance.args.split(',')[2])
     sys.exit('Please run the program again with valid input')
 
@@ -152,7 +165,7 @@ def get_data_from_lipd():
                 line = os.path.join(root_name, line.strip())
                 read_files_list.append(line)
                
-    table_com, inf_table_com = readLipdFileutils.read_lipd_files_list(read_files_list)
+    table_com, inf_table_com = readLipdFileAuthorutils.read_lipd_files_list(read_files_list)
     os.chdir(cwd)
     
 def store_data_as_csv():
@@ -171,9 +184,9 @@ def store_data_as_csv():
     timestr = time.strftime("%Y%m%d_%H%M%S")
     
     if _platform == "win32":
-        table_com_data_path = r'..\data\csv\common_lipdverse_table_'+timestr+'.csv'
-        inf_table_com_data_path = r'..\data\csv\common_lipdverse_inferred_'+timestr+'.csv'
-        merged_data_path = r'..\data\csv\merged_common_lipdverse_inferred_'+timestr+'.csv'
+        table_com_data_path = r'..\data\csv\common_lipdverse_table_auth'+timestr+'.csv'
+        inf_table_com_data_path = r'..\data\csv\common_lipdverse_inferred_auth'+timestr+'.csv'
+        merged_data_path = r'..\data\csv\merged_common_lipdverse_inferred_auth'+timestr+'.csv'
     else:
         table_com_data_path = r'../data/csv/common_lipdverse_table_'+timestr+'.csv'
         inf_table_com_data_path = r'../data/csv/common_lipdverse_inferred_'+timestr+'.csv'
@@ -185,15 +198,15 @@ def store_data_as_csv():
     table1 = copy.deepcopy(table_com)
     table2 = copy.deepcopy(inf_table_com)
     
-    table1 = table1.filter(['filename','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail'], axis=1)
-    table2 = table2.filter(['filename','inferredVariable', 'inferredVarUnits'], axis=1)
+    table1 = table1.filter(['filename','authorName','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail'], axis=1)
+    table2 = table2.filter(['filename','authorName','inferredVariable', 'inferredVarUnits'], axis=1)
     
-    merged = pd.merge(table1, table2, on="filename",how='right')
+    merged = pd.merge(table1, table2, on=["filename", "authorName"],how='right')
     
     table1 = copy.deepcopy(table_com)
-    common_lipdverse_df = table1.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
+    common_lipdverse_df = table1.filter(['authorName','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
-    merged_filter = merged.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
+    merged_filter = merged.filter(['authorName','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
     frames = [common_lipdverse_df, merged_filter]
     common_lipdverse_df = pd.concat(frames)

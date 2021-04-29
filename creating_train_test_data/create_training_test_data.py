@@ -13,6 +13,7 @@ import sys
 import time
 import json
 from sys import platform as _platform
+from pandas import ExcelWriter
 
 if _platform == "win32":
     sys.path.insert(1, '..\\')
@@ -46,7 +47,7 @@ def read_latest_data_for_training():
         data_file_dir = '..\data\csv\\'
     else:
         data_file_dir = '../data/csv/'
-    
+    # changed for getting author data
     data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'merged_common_lipdverse_inferred_*.csv')
     
     common_lipdverse_df = pd.read_csv(data_file_path)
@@ -81,9 +82,12 @@ def manually_clean_data_by_replacing_incorrect_values():
     common_lipdverse_df = common_lipdverse_df.replace('deg C', 'degC', regex=True)
     common_lipdverse_df = common_lipdverse_df.replace('Sea Surface D180W', 'Sea Surface D18Osw', regex=True)
     common_lipdverse_df = common_lipdverse_df.replace('d18ow','D18Osw', regex=True)
-    common_lipdverse_df = common_lipdverse_df.replace('Surface P','Surface Pressure', regex=True)
     common_lipdverse_df = common_lipdverse_df.replace('sed rate','Sedimentation Rate', regex=True)
     common_lipdverse_df = common_lipdverse_df.replace('d18ocorr','D18Ocorr', regex=True)
+    common_lipdverse_df = common_lipdverse_df.replace('Thisshouldntbeempty','NA', regex=True)
+    common_lipdverse_df = common_lipdverse_df.replace(',', '', regex=True)
+    common_lipdverse_df = common_lipdverse_df.replace('unknown', 'NA', regex=True)
+    common_lipdverse_df = common_lipdverse_df.replace('NotApplicable', 'NA', regex=True)
 
 def write_autocomplete_data_file():
     '''
@@ -191,7 +195,7 @@ def discard_less_frequent_values_from_data():
     
     final_df = common_lipdverse_df.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
-    archives_map = {'marine sediment': 'MarineSediment', 'lake sediment': 'LakeSediment', 'glacier ice': 'GlacierIce', 'documents': 'Documents', 'borehole': 'Rock', 'tree': 'Wood', 'bivalve': 'MollusckShell', 'coral': 'Coral', '': '', 'speleothem': 'Speleothem', 'sclerosponge': 'Sclerosponge', 'hybrid': 'Hybrid', 'Sclerosponge': 'Sclerosponge', 'Speleothem': 'Speleothem', 'Coral': 'Coral', 'MarineSediment': 'MarineSediment', 'LakeSediment': 'LakeSediment', 'GlacierIce': 'GlacierIce', 'Documents': 'Documents', 'Hybrid': 'Hybrid', 'MolluskShell': 'MolluskShell', 'Lake': 'Lake', 'molluskshell': 'MollusckShell', 'Wood': 'Wood', 'Rock': 'Rock'}
+    archives_map = {"marine sediment": "MarineSediment", "lake sediment": "LakeSediment", "glacier ice": "GlacierIce", "documents": "Documents", "borehole": "Rock", "tree": "Wood", "bivalve": "MolluskShell", "mollusk shell": "MolluskShell", "coral": "Coral", "speleothem": "Speleothem", "sclerosponge": "Sclerosponge", "hybrid": "Hybrid", "Sclerosponge": "Sclerosponge", "Speleothem": "Speleothem", "Coral": "Coral", "MarineSediment": "MarineSediment", "LakeSediment": "LakeSediment", "GlacierIce": "GlacierIce", "Documents": "Documents", "Hybrid": "Hybrid", "MolluskShell": "MolluskShell", "Lake": "Lake", "molluskshell": "MolluskShell", "Wood": "Wood", "Rock": "Rock", "MollusckShell": "MolluskShell", "MolluskShells": "MolluskShell", "TerrestrialSediment": "TerrestrialSediment", "Midden": "Midden", "Peat": "Peat", "GroundIce": "GroundIce", "Ice-other": "Ice-other", "Marine Sediment" : "MarineSediment", "Lake Sediment" : "LakeSediment", "Mollusk Shell" : "MolluskShell", "Glacier Ice" : "GlacierIce", "Ground Ice" : "GroundIce", "Terrestrial Sediment" : "TerrestrialSediment"}
     new_archives = set()
     for i, row in final_df.iterrows():
         if row[0] in archives_map: 
@@ -202,7 +206,7 @@ def discard_less_frequent_values_from_data():
                     final_df.at[i,'archiveType'] = archives_map[w]
                 else:
                     new_archives.add(row[0])
-            # final_df.at[i,'archiveType'] = archives_map[row[0]] if row[0] in archives_map else row[0] 
+            
     
     if new_archives:
         print('Archives:{}'.format(new_archives))
@@ -211,32 +215,49 @@ def discard_less_frequent_values_from_data():
         if take_new_archives == 'y' or take_new_archives == 'yes':
             for arch in new_archives:
                 archives_map[arch] = arch
+        else:
+            print('\nRemoving corresponding data for the new Archive Types.')
+            final_df = final_df[~final_df['archiveType'].isin(new_archives)]
 
+    del archives_map['NA']
     final_ground_truth_dict['archives_map'] = archives_map
 
     final_df = final_df[final_df.units != 'Mg/Ca']
     
-    
     counter_arch = collections.Counter(final_df['archiveType'])
-    # print('ARCHIVE TYPES : ', counter_arch)
-    
     counter_proxy = collections.Counter(final_df['proxyObservationType'])
-    
-    
     counter_units = collections.Counter(final_df['units'])
-    # print('PROXY OBSERVATION TYPE UNITS : ',counter_units)
-    
     counter_int_var = collections.Counter(final_df['interpretation/variable'])
-    
-    
     counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
-    
-    
     counter_inf_var = collections.Counter(final_df['inferredVariable'])
-    # print('INFERRED VARIABLE : ', counter_inf_var)
-    
     counter_inf_var_units = collections.Counter(final_df['inferredVarUnits'])
-    # print('INFERRED VARIABLE UNITS : ',counter_inf_var_units)
+
+    
+    # CODE TO WRITE INITIAL VALUES TO DIFFERENT SHEETS IN EXCEL
+    # writer = pd.ExcelWriter("label_correction.xlsx", engine='xlsxwriter')
+
+    # arch_df = pd.DataFrame.from_dict(counter_arch, orient='index').reset_index()
+    # arch_df.to_excel(writer, sheet_name='archiveTypes')
+    
+    # pr_df = pd.DataFrame.from_dict(counter_proxy, orient='index').reset_index()
+    # pr_df.to_excel(writer, sheet_name='proxyObsType')
+    
+    # units_df = pd.DataFrame.from_dict(counter_units, orient='index').reset_index()
+    # units_df.to_excel(writer, sheet_name='proxyUnits')
+    
+    # int_df = pd.DataFrame.from_dict(counter_int_var, orient='index').reset_index()
+    # int_df.to_excel(writer, sheet_name='interpVariable')
+    
+    # int_det_df = pd.DataFrame.from_dict(counter_int_det, orient='index').reset_index()
+    # int_det_df.to_excel(writer, sheet_name='interpVarDet')
+    
+    # inf_df = pd.DataFrame.from_dict(counter_inf_var, orient='index').reset_index()
+    # inf_df.to_excel(writer, sheet_name='inferredVariable')
+    
+    # inf_units_df = pd.DataFrame.from_dict(counter_inf_var_units, orient='index').reset_index()
+    # inf_units_df.to_excel(writer, sheet_name='inferredVarUnits')
+
+    # writer.save()
     
     # Add to a file for autocomplete suggestions without removing any co 1
     names_set_dict = {'proxyObservationType' : list(counter_proxy.keys()), 'proxyObservationTypeUnits' : list(counter_units.keys()), 
@@ -272,13 +293,12 @@ def discard_less_frequent_values_from_data():
     
     # discard set for interpretation variable detail
     discard_set = set(counter_int_det.keys()).difference(set(counter_int_det_a.keys()))
-    final_df = final_df[~final_df['interpretation/variableDetail'].isin(discard_set)]
+    final_df = final_df[~final_df['interpretation/variableDetail'].isin(discard_set)]    
     
     # MANUAL TASK - REMOVE INFERRED VARIABLE TYPES RELATED TO AGE AND OTHER MEASURED VARIABLE TYPE VALUES ENTERED IN THE WIKI
     # discard set for inferredVariableType
     discard_set = {'Calendar Age', 'Accumulation rate', 'k37 n toc', 'acc rate k37', 'acc rate toc', 'Age', 'Radiocarbon Age', 'mg/ca'}
     final_df = final_df[~final_df['inferredVariable'].isin(discard_set)]
-    
     
     # DROP NA VALUES FROM THE ARCHIVE TYPE FIELD AS IT CAN NEVER CONTAIN NA
     final_df = final_df[final_df.archiveType != 'NA']
@@ -286,8 +306,8 @@ def discard_less_frequent_values_from_data():
 
 def get_label_set_for_input(dataframe_obj, col1, col2):
     '''
-    Calculate the frequency of items in col2 for each item in column 1.
-    Conditional Probability of col2 given column 1
+    Calculate the get items in col2 for each item in column 1.
+    
 
     Parameters
     ----------
@@ -296,14 +316,12 @@ def get_label_set_for_input(dataframe_obj, col1, col2):
     col1 : str
         Column for which data is being calculated.
     col2 : str
-        Column whose count is being taken.
-    ini_set : set
-        Contains all the items to be considered for the model.
-
+        Column whose item is being taken.
+    
     Returns
     -------
     counter_dict : dict
-        Containing count for all the items that appear against each item in col1.
+        Containing set of all the items that appear against each item in col1.
 
     '''
     counter_dict = {}
@@ -318,6 +336,20 @@ def get_label_set_for_input(dataframe_obj, col1, col2):
     return counter_dict
 
 def update_ground_truth_dict(temp_dict):
+    '''
+    Method to add values from one dict to another. 
+    If a key is present append the list of values to the already created list.
+
+    Parameters
+    ----------
+    temp_dict : dict
+        Dict whose values need to be added to the ground truth dict.
+
+    Returns
+    -------
+    None.
+
+    '''
     global ground_truth_dict
 
     for k, v in temp_dict.items():
@@ -327,13 +359,28 @@ def update_ground_truth_dict(temp_dict):
             ground_truth_dict[k] = v
 
 def generate_ground_truth_label_info(final_df_test):
+    '''
+    Method to collect the list of all possible next values for a given field.
+    Example:
+        Given Marine Sediment
+        Ouput for Proxy Observation Type  = ["Notes", "Mg/Ca", "Bsi", "Caco3", "Uk37", "Mgca", "IRD", "D18O", "37:2Alkenoneconcentration", "TOC", "D18O.Error", "DBD", "D13C", "Dd", "D13C.Error", "Foram.Abundance"]
+
+    Parameters
+    ----------
+    final_df_test : pandas dataframe
+        Final Dataframe on which Counts for the various fields are calculated.
+
+    Returns
+    -------
+    None.
+
+    '''
     global ground_truth_dict, final_ground_truth_dict
 
     archive_proxy = get_label_set_for_input(final_df_test, 'archiveType', 'proxyObservationType')
     update_ground_truth_dict(archive_proxy)
 
     proxy_units = get_label_set_for_input(final_df_test, 'proxyObservationType','units')
-    update_ground_truth_dict(proxy_units)
 
     proxy_int = get_label_set_for_input(final_df_test, 'proxyObservationType','interpretation/variable')
     update_ground_truth_dict(proxy_int)
@@ -348,10 +395,24 @@ def generate_ground_truth_label_info(final_df_test):
     update_ground_truth_dict(inf_var_units)
 
     ground_truth_dict = {k:list(v) for k,v in ground_truth_dict.items()}
+    ground_truth_dict['proxyUnits'] = {k:list(v) for k,v in proxy_units.items()}
     final_ground_truth_dict['ground_truth'] = ground_truth_dict
 
 
 def calculate_counter_info(final_df):
+    '''
+    Method to get list of all possible values for each fields in the recommendation system.
+
+    Parameters
+    ----------
+    final_df : pandas dataframe
+        Pandas dataframe consisting of training information.
+
+    Returns
+    -------
+    None.
+
+    '''
 
     global final_ground_truth_dict
 
@@ -361,8 +422,8 @@ def calculate_counter_info(final_df):
     counter_int_var = collections.Counter(final_df['interpretation/variable'])
     counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
     counter_inf_var = collections.Counter(final_df['inferredVariable'])
-    counter_inf_var_units = collections.Counter(final_df['inferredVarUnits'])  
-    
+    counter_inf_var_units = collections.Counter(final_df['inferredVarUnits']) 
+
     final_ground_truth_dict.update({'archive_types': list(counter_archive.keys()),'proxy_obs_types': list(counter_proxy.keys()),'units': list(counter_units.keys()),'int_var': list(counter_int_var.keys()),'int_var_det': list(counter_int_det.keys()), 'inf_var': list(counter_inf_var.keys()), 'inf_var_units': list(counter_inf_var_units.keys())}) 
 
 def downsample_archive(archiveType, downsample_val):
@@ -536,6 +597,5 @@ def downsample_archives_create_final_train_test_data():
 if __name__ == '__main__':
     read_latest_data_for_training()
     manually_clean_data_by_replacing_incorrect_values()
-    write_autocomplete_data_file()
     discard_less_frequent_values_from_data()
     downsample_archives_create_final_train_test_data()

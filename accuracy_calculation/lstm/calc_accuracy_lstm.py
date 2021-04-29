@@ -25,9 +25,9 @@ else:
 from utils import fileutils
 
 if _platform == "win32":
-    predict_obj = LSTMpredict(model_file_path='..\..\data\model_lstm\\', mc_model_file_path='..\..\data\model_mc\\', topk=5)
+    predict_obj = LSTMpredict(model_file_path='..\..\data\model_lstm\\', ground_truth_file_path='..\..\data\ground_truth_info\\', topk=5)
 else:
-    predict_obj = LSTMpredict(model_file_path='../../data/model_lstm/', mc_model_file_path='../../data/model_mc/', topk=5)
+    predict_obj = LSTMpredict(model_file_path='../../data/model_lstm/', ground_truth_file_path='../../data/ground_truth_info/', topk=5)
 
 if _platform == "win32":
     test_data_path = '..\..\data\csv\\'

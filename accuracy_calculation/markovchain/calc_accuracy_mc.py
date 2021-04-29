@@ -38,11 +38,13 @@ good_list = []
 
 if _platform == "win32":
     model_file_path='..\..\data\model_mc\\'
+    ground_truth_path = '..\..\data\ground_truth_info\\'
 else:
     model_file_path='../../data/model_lstm/'
+    ground_truth_path = '../../data/ground_truth_info/'
 
-pred3 = MCpredict(3, 5, model_file_path)
-pred4 = MCpredict(4, 5, model_file_path)
+pred3 = MCpredict(3, 5, model_file_path, ground_truth_path)
+pred4 = MCpredict(4, 5, model_file_path, ground_truth_path)
 
 def getScoreForResult(test_val, result_list):
     '''

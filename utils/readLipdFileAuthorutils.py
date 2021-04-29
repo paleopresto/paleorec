@@ -8,7 +8,7 @@ import lipd
 import pandas as pd
 import os
 import sys
-
+import collections
 
 from sys import platform as _platform
 
@@ -44,9 +44,279 @@ def get_char_string(string):
             n_string += ' '
     return n_string
 
+str_count, dict_count = 0,0
 inf_var_units_map, ignore_list = None, None
 interp_map = {}
 interp_det_discard,interp_ignore_set = set(), set()
+author_names_map ,reverse_index_author = {}, {}
+seed_author_list = {'Y': {'Yair Rosenthal',
+  'Yemane Asmerom',
+  'Yiming V. Wang',
+  'Youbin Sun',
+  'Yuan Lin',
+  'Yusuke Yokoyama'},
+ 'D': {'Da Hodgson',
+  'David A. Fisher',
+  'David Lund',
+  'David W. Lea',
+  'David M.W. Evans',
+  'Delia W. Oppo',
+  'Dierk Hebbeln',
+  'Dirk Nürnberg',
+  'Dorothy K. Pak',
+  'Dorthe Dahl-Jensen',
+  },
+ 'R': {'R.G. Fairbanks',
+  'Rainer Zahn',
+  'Ralf Tiedemann',
+  'Ralph R. Schneider',
+  'Reinhild Rosenberg',
+  'Richey J.N',
+  'Riza Yuliratno Setiawan',
+  'Rong Xiang',
+  'Rob Dunbar'},
+ 'W': {'W.L. Prell',
+  'Wei',
+  'Weiguo Liu',
+  'Wenyu Shang',
+  'William A. Weinlein',
+  'Wolfgang Kuhnt',
+  'Wu'},
+ 'S': {'S Lebreiro',
+  'Sylke Draschba',
+  'Samantha C. Bova',
+  'Severinghaus Jeff',
+  'Shirley Van Kreveld',
+  'Shu Gao',
+  'Stefan Löhr',
+  'Stefan Schouten',
+  'Stefano Bernasconi',
+  'Stephan Hetzinger',
+  'Stephan Steinke',
+  'Stephanie Heilig',
+  'Sun -- marine sediment, coral',
+  'Syee Weldeab'},
+ 'J': {'Jaap S. Sinninghe Damsté',
+  'Jaime Frigola',
+  'Jacek Raddatz',
+  'Jaime Nieto-Moreno',
+  'James A.P. Bendle',
+  'Jan-Rainer Riethdorf',
+  'Jana Zech',
+  'Jean Lynch-Stieglitz',
+  'Jean-Claude Duplessy',
+  'Jean-Louis Turon',
+  'Jeroen Groeneveld',
+  'Jessica E. Tierney',
+  'Jian Xu',
+  'Jiaqi Liu',
+  'Jimin Yu',
+  'Jiménez-Espejo Francisco',
+  'Joan O. Grimalt',
+  'John A. Barron',
+  'John Southon',
+  'John Tibby',
+  'Jonathan Tyler',
+  'Josette Duprat',
+  'José Abel Flores',
+  'Juan Pablo Belmonte',
+  'Juan Pablo Bernal',
+  'Juillet-Leclerc',
+  'Julene P. Marr',
+  'Julian P. Sachs',
+  'Julie Kalansky',
+  'Jun Cheng',
+  'Julia Cole',
+  'Jung-Hyun Kim',
+  'Jérôme Bonnin',
+  'Jürgen Pätzold'},
+ 'C': {'C Kissel',
+  'Caitlin Chazen',
+  'Camille Levi',
+  'Caren T Herbert',
+  'Celia Martín-Puertas',
+  'Carin Andersson',
+  'Carlos Sancho',
+  'Carles Pelejero',
+  'Carlos Cacho',
+  'Caroline Ummenhofer',
+  'Celia Corella',
+  'Charles D. Keeling',
+  'Chris Turney',
+  'Christian M. Zdanowicz',
+  'Christina L. Belanger',
+  'Christophe Kinnard',
+  'Christopher D. Charles',
+  'Christopher S. Moses',
+  'Claire Waelbroeck',
+  'Cornelia Glatz',
+  'Cyrus Karas'},
+ 'P': {'P Oliveira',
+  'Patricia Jiménez-Amat',
+  'Peer Helmke',
+  'Penélope González-Sampériz',
+  'Peter Demenocal',
+  'Peter J. Müller',
+  'Philippe Martinez'},
+ 'T': {'T Rodrigues',
+  'Tas Van Ommen',
+  'Thomas Damassa',
+  'Tatsuhiko Sakamoto',
+  'Tebke Böschen',
+  'Teresa Vegas-Vilarrúbia',
+  'Thibault De Garidel-Thoron',
+  'Thomas Blanz',
+  'Thomas F. Stocker',
+  'Thomas Larsen',
+  'Timothy Herbert',
+  'Tudhope'},
+ 'V': {
+  'Vasquez-Bedoya',
+  'Vanesa Nieto-Moreno',
+  'Veronica Willmott',
+  'Victor J. Polyak',
+  'Vin Morgan'},
+ 'A': {'Alan Elcheikh',
+  'Alexander Matul',
+  'Alan Wanamaker',
+  'Ana Moreno'
+  'Anais Orsi',
+  'Andreas Schmittner',
+  'Andrea Bagnato',
+  'Angel Mojarro',
+  'Ann Holbourn',
+  'Annette Bolton',
+  'Anderson Cooper',
+  'Antoni Rosell-Melé',
+  'Asami Tetsuo'},
+ 'B': {'Belen Martrat',
+  'Belén Rodríguez-Fonseca',
+  'Brad DeLong',
+  'Brad Linsley',
+  'Blas Valero-Garcés'
+  'Boiseau',
+  'Brad E. Rosenheim',
+  'Braddock K. Linsley',
+  'Bruce Cornuelle'},
+ 'E': {'Elfi Mollier-Vogel',
+  'Ellen R.M. Druffel',
+  'Elisabeth De Vernal',
+  'Elisabeth Isaksson',
+  'Eduardo Calvo Buendía',
+  'Elsa Cortijo',
+  'Enno Schefuß',
+  'Euan Smith',
+  'Eva Calvo',
+  'Eystein Jansen'},
+ 'L': {'Lars Max',
+  'Laura Sbaffi',
+  'Laurent Labeyrie',
+  'Lester Lembke-Jene',
+  'Linda Heusser',
+  'Lionel Carter',
+  'Lonnie G. Thompson',
+  'Lorenzo Vazquez-Selem',
+  'Lorraine E. Lisiecki',
+  'Lucas J. Lourens',
+  'Luejiang Wang'},
+ 'G': {'Gemma And Canals',
+  'Georgina Falster',
+  'Geraldine Jacobsen',
+  'Gerold Wefer',
+  'Gesine Mollenhauer',
+  'Guilderson',
+  'Guillaume Leduc',
+  'Guoqiang Chu'},
+ 'Q': {'Qianyu Li', 'Qing Sun', 'Quinn'},
+ 'X': {'Xavier Crosta', 'Xiaohua Wang'},
+ 'M': {'M Grosjean',
+  'M. Schulz ',
+  'Mario Morellón'
+  'Mahyar Mohtadi',
+  'Manman Xie',
+  'Mary B. Pfeiffer',
+  'Marcus Regenberg',
+  'Maria Smirnova',
+  'Mark Altabet',
+  'Maria Isabel Herrera',
+  'Mark Chapman',
+  'Markus Kienast',
+  'Marta Casado',
+  'Martin Ziegler',
+  'Maryline Vautravers',
+  'Matthew Lacerra',
+  'Matthew S. Lachniet',
+  'Matthew W. Schmidt',
+  'Maureen E. Raymo',
+  'Meimei Liu',
+  'Michael Sarnthein',
+  'Mike A. Hall',
+  'Miquel Grimalt',
+  'Miquel Canals',
+  'Marta Rodrigo-Gámiz',
+  'Mitch Lyle',
+  'Matthias Kuhnert',
+  'Morten Hald',
+  'Moustafa -- coral',
+  'Mototaka Nakamura',
+  'Mustafa O. Moammar',
+  'M. Kucera'},
+ 'K': {'Karl-Heinz Baumann',
+  'Katharina Pahnke',
+  'Katharine Grant',
+  'Katrine Husum',
+  'Katsunori Kimoto',
+  'Kay-Christian Emeis',
+  'Ken´Ichi Ohkushi',
+  'Kim M. Cobb',
+  'Kirsten Fahl',
+  'Km Saunders',
+  'Kristin Doering'},
+ 'F': {'F Abrantes',
+  'Thomas Felis -- coral',
+  'Fern T. Gibbons',
+  'Francisca Martinez-Ruiz',
+  'Francisca Martínez-Ruiz',
+  'Francisco J. Sierro',
+  'Franck Bassinot',
+  'Franco Marcantonio',
+  'François Guichard'},
+ 'Z': {'Zhengyu Liu', 'Zhimin Jian', 'Zinke'},
+ 'H': {'H B Bartels-Jonsdottir',
+  'Haase-Schramm',
+  'Hai Cheng',
+  'Halimeda Kilbourne',
+  'Hans Renssen',
+  'Hans-Martin Schulz',
+  'Harry Elderfield',
+  'Heiss -- coral',
+  'Helen C. Bostock',
+  'Helge Meggers',
+  'Helge W. Arz',
+  'Helmut Erlenkeuser',
+  'Henning Kuhnert',
+  'Hideki Ohshima',
+  'Hiroshi Kawamura',
+  'Hiroyuki Matsuzaki',
+  'Hisashi Yamamoto',
+  'Hodaka Kawahata',
+  'Holger Kuhlmann',
+  'Hollander D.J.',
+  'Howard J. Spero'},
+ 'N': {'Nerilie Abram',
+  'Nadine Rippert',
+  'Nalan Koç',
+  'Nathalie F. Goodkin',
+  'Nicholas J. Shackleton',
+  'Nicolas Caillon',
+  'Neil C. Swart',
+  'Nils Andersen'},
+ 'I': {'I M Gil', 'Isabel Cacho', 'Isla S. Castañeda'},
+ 'U': {'Ulrich Struck','U. Pflaumann',},
+ 'O': {'Olivier Marchal', 'Osborne'},
+ 'Á': {'Ánchel Belmonte'}}
+
+
 
 def initialize_data():
     
@@ -138,6 +408,104 @@ def initialize_data():
 
     interp_ignore_set = {'Seasonal', 'Annual', 'North', 'South', 'East', 'West', 'Northern', 'Southern', 'Eastern', 'Western', 'Tropical','China', 'India', 'Aleutian', 'Asia', 'Alps', 'Summer', 'Winter', 'Polar', 'Monsoon', 'Central'}
 
+def editDistance(str1, str2, m, n):
+    dp = [[0 for x in range(n + 1)] for x in range(m + 1)]
+ 
+    # Fill d[][] in bottom up manner
+    for i in range(m + 1):
+        for j in range(n + 1):
+ 
+            if i == 0:
+                dp[i][j] = j    # Min. operations = j
+ 
+            elif j == 0:
+                dp[i][j] = i    # Min. operations = i
+ 
+            elif str1[i-1] == str2[j-1]:
+                dp[i][j] = dp[i-1][j-1]
+
+            else:
+                dp[i][j] = 1 + min(dp[i][j-1],        # Insert
+                                   dp[i-1][j],        # Remove
+                                   dp[i-1][j-1])    # Replace
+ 
+    return dp[m][n]
+
+def check_fname(auth_list, rn_list):
+    if ('.' in auth_list[0] and rn_list[0][0] == auth_list[0][0]):
+        return True
+    elif rn_list[0] == auth_list[0]:
+        return True
+    else:
+        matching = 0
+        auth_fname, rn_fname = auth_list[0], rn_list[0]
+        ap, rp = 0, 0
+        while ap < len(auth_fname) and rp < len(rn_fname):
+            if auth_fname[ap] == rn_fname[rp]:
+                matching += 1
+                ap += 1
+                rp += 1
+            else:
+                break
+        if matching >= 2:
+            return True
+        return False
+
+def validate_author_name(auth_name):
+
+
+    global author_names_map
+
+    if auth_name in author_names_map:
+        return author_names_map[auth_name]
+    
+    auth = auth_name.title()
+    auth_list = auth.split()
+    auth_lastName = auth_list[-1]
+
+    if auth[0].upper in seed_author_list:
+        reference_names = seed_author_list[auth[0].upper()]
+
+        for rn in reference_names:
+
+            rn_list = rn.split()
+            rn_lastName = rn_list[-1]
+            # complete names are same
+            if rn_list == auth_list:
+                author_names_map[auth_name] = rn
+                break
+            # lastNames are completely equal
+            elif rn_lastName == auth_lastName:
+                if check_fname(auth_list, rn_list):
+                    author_names_map[auth_name] = rn
+                    break
+            # refernce lastName is a substring of input lastName
+            elif rn_lastName in auth_lastName:
+                if check_fname(auth_list, rn_list):
+                    author_names_map[auth_name] = rn
+                    break
+            # check where the characters of the lastName are different
+            if len(auth_lastName) >= 3 and len(rn_lastName) >= 3:     
+                edit_dist = editDistance(auth_lastName, rn_lastName, len(auth_lastName), len(rn_lastName))
+                if edit_dist <= 2:
+                    if check_fname(auth_list, rn_list):
+                        author_names_map[auth_name] = rn
+                        break
+    
+    if auth_name not in author_names_map:
+        author_names_map[auth_name] = auth
+    
+    if len(auth_list) == 2 and '.' in auth_list[1] and auth_name.isupper():
+        author_names_map[auth_name] = " ".join([auth_list[1], auth_list[0].title()])
+    
+    return author_names_map[auth_name]
+
+def add_to_reversed_index_author_map(names_list, archive):
+    global reverse_index_author
+
+    for a_name in names_list.split(','):
+        reverse_index_author.setdefault(a_name.strip(),[]).append(archive)
+
 def finalize_data(dataframe):
 
     dataframe = dataframe.replace('Nan', 'NA', regex=True)
@@ -146,6 +514,25 @@ def finalize_data(dataframe):
     dataframe = dataframe.replace('NotApplicable', 'NA', regex=True)
 
     return dataframe
+
+def generate_author_archive_distribution():
+    global reverse_index_author
+
+    for key in reverse_index_author.keys():
+        reverse_index_author[key] = dict(collections.Counter(reverse_index_author[key]))
+
+    new_author_arch_k = []
+    new_author_arch_v = []
+    for k,v in reverse_index_author.items():
+        l = []
+        for ki, vi in v.items():
+            l.append("{}({})".format(ki,vi))
+        new_author_arch_k.append(k)
+        new_author_arch_v.append(",".join(l))
+    
+    df = pd.DataFrame(list(zip(new_author_arch_k, new_author_arch_v)), columns =['Author', 'Archives'])
+    df.to_csv('author_list.csv', sep = ',', encoding = 'utf-8',index = False)
+
 
 def read_lipd_files_list(lipd_files_list):
     '''
@@ -169,8 +556,10 @@ def read_lipd_files_list(lipd_files_list):
     '''
     count = 0
     
-    table = pd.DataFrame(columns = ['coordinates','publication','filename','archiveType', 'variableType','description', 'proxyObservationType','units', 'rank', 'interpretation/variable','interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
-    inf_table = pd.DataFrame(columns = ['coordinates','publication','filename','archiveType', 'variableType','description','interpretation/variable','interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
+    table = pd.DataFrame(columns = ['coordinates','publication','filename','authorName','archiveType', 'variableType','description', 'proxyObservationType','units', 'rank', 'interpretation/variable','interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
+    inf_table = pd.DataFrame(columns = ['coordinates','publication','filename','authorName','archiveType', 'variableType','description','interpretation/variable','interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
+    author_info = set()
+    list_issue = {}
 
     for line in lipd_files_list:
         print(line)
@@ -191,9 +580,26 @@ def read_lipd_files_list(lipd_files_list):
         if 'geo' in d and 'geometry' in d['geo'] and 'coordinates' in d['geo']['geometry']:
             geo_coord = d['geo']['geometry']['coordinates']
 
+        a_name_list = []
+        archive = d['archiveType']        
+        if 'pub' in d:
+            path = d['pub'][0]
+            if 'author' in path:
+                author_list = path['author']
+                print(path['author'])
+                extract_author_info_from_path(author_list, a_name_list, archive)
+                author_info.add(line)
+
+        if line not in author_info and 'investigator' in d:
+            path_investigators = d['investigator']
+            print(path_investigators)
+            extract_author_info_from_path(path_investigators, a_name_list, archive)
+
         path = d['paleoData']['paleo0']['measurementTable']['paleo0measurement0']['columns']
-        archive = d['archiveType']
-        
+
+        if not a_name_list:
+            a_name_list.append('NA')
+
         for key in path.keys() :
             
             vtype = 'NA'
@@ -270,7 +676,6 @@ def read_lipd_files_list(lipd_files_list):
                             elif intVariable.title() in interp_map:
                                 intVariable = interp_map[intVariable.title()]
                             else:
-                                print('Couldn\'t find in map, {}'.format(intVariable))
                                 for name in intVariable.split(' '):
                                     if name in interp_ignore_set:
                                         accept = True
@@ -296,21 +701,22 @@ def read_lipd_files_list(lipd_files_list):
                             
                             intVarDet = intVarDet.title()
                             
-                            
                             if infVar == 'NA' and intVariable != 'NA' and intVarDet != 'NA':
                                 inf_from_interp = (' ').join([intVarDet, intVariable])
                                 infVar = inf_from_interp
                                 infVarUnits = inf_var_units_map[infVar] if infVar in inf_var_units_map else 'NA'
                                     
-    
+
                             if unit != 'NotApplicable' or proxyOType != 'NA':
-                                df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'description':[des],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
-                                table = table.append(df, ignore_index = True)
-                                inter_set = True
+                                for a_name in a_name_list:
+                                    df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen],'authorName':[a_name], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'description':[des],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
+                                    table = table.append(df, ignore_index = True)
+                                    inter_set = True
                                 
                 if not inter_set and (unit != 'NotApplicable' or proxyOType != 'NA'):
-                    df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'description':[des],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
-                    table = table.append(df, ignore_index = True) 
+                    for a_name in a_name_list:
+                        df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen],'authorName':[a_name], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'description':[des],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
+                        table = table.append(df, ignore_index = True)
                                 
             elif vtype == 'inferred':
                 if 'inferredVariableType' in path[key].keys() :
@@ -391,21 +797,80 @@ def read_lipd_files_list(lipd_files_list):
                                 rank = inter_len
                 
                 if infVar != 'NA':
-                    df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen], 'archiveType': [archive],'variableType':[vtype], 'rank':[rank],'description':[des],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
-                    inf_table = inf_table.append(df, ignore_index = True) 
+                    for a_name in a_name_list:
+                        df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen],'authorName':[a_name], 'archiveType': [archive],'variableType':[vtype], 'rank':[rank],'description':[des],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
+                        inf_table = inf_table.append(df, ignore_index = True)
     
-    table_com=table.explode('proxyObservationType').explode('units').explode('rank').explode('variableType').explode('description').explode('interpretation/variable').explode('interpretation/variableDetail').explode('inferredVariable').explode('inferredVarUnits').reset_index()
+    table_com=table.explode('authorName').explode('proxyObservationType').explode('units').explode('rank').explode('variableType').explode('description').explode('interpretation/variable').explode('interpretation/variableDetail').explode('inferredVariable').explode('inferredVarUnits').reset_index()
     table_com = table_com.drop(columns = ['index'])
-    inf_table_com=inf_table.explode('rank').explode('variableType').explode('interpretation/variable').explode('interpretation/variableDetail').explode('inferredVariable').explode('inferredVarUnits').explode('description').reset_index()
+    inf_table_com=inf_table.explode('authorName').explode('rank').explode('variableType').explode('interpretation/variable').explode('interpretation/variableDetail').explode('inferredVariable').explode('inferredVarUnits').explode('description').reset_index()
     inf_table_com = inf_table_com.drop(columns = ['index'])
 
     table_com = finalize_data(table_com)
     inf_table_com = finalize_data(inf_table_com)
+
+    generate_author_archive_distribution()
+    print('*********************************** LIST ISSUE **************************************')
+    print(list_issue)
     
+    print('Str type:', str_count)
+    print('dict type:', dict_count)
+
     return table_com, inf_table_com
+
+def extract_author_info_from_path(author_list, a_name_list, archive):
+    global str_count, dict_count
+
+    if type(author_list) == str:
+        print(type(author_list))
+        str_count += 1
+        parse_author_string(author_list, a_name_list, archive)
+    else:
+        dict_count += 1        
+        for auth in author_list:
+            if 'name' in auth:
+                if type(auth['name']) == list:
+                    for item in auth['name']:
+                        parse_author_string(item, a_name_list, archive)
+                else:
+                    parse_author_string(auth['name'], a_name_list, archive)
+
+def parse_author_string(author_list, a_name_list, archive):
+    author_list = author_list.replace(' abd ', ' AND ')
+    author_list = author_list.replace(' ABD ', ' AND ')
+    author_list = author_list.replace(' and ', ' AND ')
+    semicolon_sep_list = author_list.split(';')
+    and_sep_list = []
+    for part in semicolon_sep_list:
+        and_sep_list.extend(part.strip().split('AND'))
+
+    for part in and_sep_list:
+        part = part.strip(' ,')
+        p = part.split(',')
+        if len(p) == 2:
+            new_part = p[1].strip(' ,') + ' ' + p[0].strip(' ,')
+        elif len(p) == 4:
+            new_part = p[1].strip(' ,') + ' ' + p[0].strip(' ,')
+            new_part = validate_author_name(new_part)
+            a_name_list.append(new_part)
+            add_to_reversed_index_author_map(new_part, archive)
+
+            new_part = p[3].strip(' ,') + ' ' + p[2].strip(' ,')
+        elif len(p) > 2:
+            f_part = p[1:]
+            l_part = p[0]
+            f_part.extend(l_part)
+            new_part = ' '.join(f_part)
+        else:
+            if part.endswith('.')  and ' ' in part:
+                new_part = ' '.join([part[part.index(' ') + 1 :] ,part[:part.index(' ')]])
+            else:
+                new_part = part
+        new_part = validate_author_name(new_part)
+        a_name_list.append(new_part)
+        add_to_reversed_index_author_map(new_part, archive)
 
 if __name__ == '__main__':
     initialize_data()
-    print(proxyObsTypeutils.proxy_obs_map)
 else:
     initialize_data()

@@ -35,6 +35,18 @@ This module consists of two subroutines:
     Returns:
     None.
 
+**walk_error_handler(exception_instance):**
+
+    Exception raised by os.walk for an incorrect path name
+
+    Parameters:
+    
+    exception_instance : exception
+        exception instance whose information will be displayed to the user.
+
+    Returns:
+    None.
+
 
 **get_data_from_lipd():**
 

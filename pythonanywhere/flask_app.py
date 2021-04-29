@@ -28,14 +28,14 @@ limiter = Limiter(
     key_func=get_remote_address,
     default_limits=["5000 per day", "500 per hour"]
 )
-flask_dir = "/home/cheiser/mysite/"
+# flask_dir = "/home/cheiser/mysite/"
+flask_dir = ''
 model_mc_file_path=''
-pred3MC = MCpredict(3, 5, flask_dir)
-pred4MC = MCpredict(4, 5, flask_dir)
+pred3MC = MCpredict(3, 5, model_file_path=flask_dir, ground_truth_path=flask_dir)
+pred4MC = MCpredict(4, 5, model_file_path=flask_dir, ground_truth_path=flask_dir)
 
 predLSTM = LSTMpredict(model_file_path=flask_dir, ground_truth_file_path=flask_dir, topk=5)
 archives_for_MC = {}
-archives_map = predLSTM.archives_map
 autocomplete_file_path = None
 
 time_map = {'age' : ['year BP', 'cal year BP'], 
@@ -101,6 +101,7 @@ ground_truth_file = get_latest_file_with_path('', 'ground_truth_label_*.json')
 with open(ground_truth_file, 'r') as json_file:
     ground_truth_dict = json.load(json_file)
 
+archives_map = ground_truth_dict['archives_map']
 names_set_ind_map = {'proxyObservationType' : 1, 'proxyObservationTypeUnits' : 2, 'interpretation/variable' : 3, 'interpretation/variableDetail' : 4, 'inferredVariable' : 5, 'inferredVariableUnits' : 6}
 names_set = {}
 
@@ -125,8 +126,8 @@ def load_names_set_from_file(file_name):
 @app.route('/test', methods=["GET"])
 @limiter.exempt
 def _test():
-    # logger_flask.info("You rang?")
-    return "Wouldya look at that!"
+    #logger_flask.info("Flask API Test: Success")
+    return "Flask API Test response: Success"
 
 @app.route("/api/wikiquery", methods=["POST"])
 @limiter.exempt
@@ -183,12 +184,31 @@ def _noaa_start():
 @app.route('/getArchives', methods=['GET'])
 @limiter.exempt
 def get_archives():
-    return make_response(jsonify({'result': {'0' : list(sorted(ground_truth_dict['archive_types']))}}), 200)
+    if not archives_map:
+        return make_response(jsonify({'result': {}}), 200)
+    covered = {'MarineSediment', 'LakeSediment', 'GlacierIce', 'GroundIce', 'TerrestrialSediment', 'MollusckShell','MolluskShell', 'MolluskShells', 'molluskshell'}
+    final_arch = set()
+    for key,value in archives_map.items():
+        print(key,value)    
+        if key in covered:
+            continue
+        elif key.title() in archives_map:
+            final_arch.add(key.title())
+        elif key.title() is not value:
+            final_arch.add(key.title())
+    return make_response(jsonify({'result': {'0' : list(sorted(final_arch))}}), 200)
 
 @app.route('/predictNextValue', methods=['GET'])
 @limiter.exempt
 def predict_next_value():
+    '''
+    Method to predict the next value in the recommendation system chain.
     
+    REMEMBER:
+    1. If any component contains ',' it will cause a problem with the sentence being recommended. Replace the ',' with '' and then proceed to create the ',' separated sentence that will be fed to the API.
+        example: archive = Marine Sediment & proxy observation type = D18O, sea water. Please replace the ',' in the proxy observation type before creating the input sentence for the API
+        
+    '''
     inputstr  = request.args.get('inputstr', None)
     inputstr = inputstr.replace('_','/')
     variabletype  = request.args.get('variableType', 'measured')
@@ -201,7 +221,6 @@ def predict_next_value():
             present = False
             for key in archives_map.keys():
                 dist = editDistDP(inputs[0].lower(), key.lower(), len(inputs[0]), len(key))
-                print('input = {}, key = {}, dist = {}'.format(inputs[0], key, dist))
                 if dist <= 3:
                     inputs[0] = archives_map[key]
                     present = True
@@ -355,13 +374,14 @@ def predict_using_lstm(variabletype, sentence):
     '''
     
     inverse_ref_dict = {val:key for key,val in predLSTM.reference_dict.items()}
+    inverse_ref_dict_u = {val:key for key,val in predLSTM.reference_dict_u.items()}
     
     output = {}
     inputs = sentence.split(',')
     if len(inputs) == 2 and variabletype == 'measured':
         result_list_units = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype =='inferred' else False))['0']
         result_list = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype=='inferred' else False))['1']
-        result_list_units = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list_units]
+        result_list_units = [(inverse_ref_dict_u[val] if val in inverse_ref_dict_u else val) for val in result_list_units]
         result_list = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list]
         output = {0: result_list_units, 1: result_list}
     else:
