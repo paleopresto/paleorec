@@ -151,7 +151,7 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
         Mapping of the word to its space-stripped version used for training.
 
     '''
-    global len_dict
+    global len_dict, weight_tensor
 
     calculate_unique_chains(lipd_data_df)
 
@@ -201,7 +201,7 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
     for k,v in weights_counter.items():
         weights_counter[k] = v/total_count
 
-    weight_tensor = torch.FloatTensor(list(weights_counter.values()))
+    weight_tensor = torch.FloatTensor(list(weights_counter.values())).cuda()
 
     return int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict
 
@@ -254,7 +254,7 @@ def get_loss_and_train_op(net, lr=0.01):
         Optimizer used for the neural network.
 
     '''
-    criterion = nn.CrossEntropyLoss(weight = weight_tensor)
+    criterion = nn.CrossEntropyLoss(weight = None)
     optimizer = torch.optim.Adam(net.parameters(), lr=lr)
 
     return criterion, optimizer
@@ -382,6 +382,7 @@ def train_RNN(train_label_dict, seq_size):
         torch.save(net.state_dict(),model_file_path + 'model_lstm_interp_'+timestr+'.pth')
     
     print_save_loss_curve(train_loss_list, 'proxy_units_' if for_units else 'proxy_interp_')
+    print(net)
 
 def main():
     
