@@ -134,7 +134,7 @@ def initialize_data():
     interp_map['Et'] = 'Evapotranspiration'
     interp_map['Relative Humdity'] = 'Relative Humidity'
 
-    interp_det_discard = {'Air', 'Of Precipitation', 'Tropical Or North Pacific Moisture', 'Precipitation', 'Moisture Source', 'Indian Monsoon Strength', 'In The Venezuelan Andes', 'South China Sea', 'In The Southern Tropical Andes','Continental Sweden', 'Strength   Position Of Aleutian Low', 'Rain', 'D18Op', 'Southern Tibet', 'Qaidam Basin', 'Aleutian Low Westerly Storm Trajectories', 'Moisture', 'Enso Pdo', 'Enso  Pacific Ocean Atmosphere Dynamics ', 'E P Lake Water', 'Summer Monsoon', 'Central Asia', 'Central India', 'At  39 Degrees Lat', 'Coastal Lagoon Water', 'Lake  Winds In Eastern Patagonia', 'Relative Amount Of Winter Snowfall', 'Annual Amount Weighted Precipitation Isotopes', 'Evaporative Enrichment Of Leaf Water', '0 58    0 11Ppt Degrees C', 'Surface Waters Of Polar Origin', 'Amount Of Rainfall Change', 'East Asian Monsoon Strength', 'Variations In Winter Temperature In The Alps', 'Sam', 'Regional And Hemispheric Temperature', 'Monsoon Strength', 'Summer Monsoon Rainfall Amount', 'Australian Indonesian Monsoon Rainfall', '20 Mbsl', 'Seasonal  Annual', 'Seasonal', 'Soil Moisture Stress', 'D18O Of The Leaf Water', 'Soil Moisture', 'Precipitation D18O', 'Modelled Precipitation D18O', 'Leaf Water D18O', 'Maximum Air Temperature  Seasonal', 'Maximum Temperature', 'Relative Humidity', 'Atmospheric Surface Temperature', 'Soil Pdsi Conditions', 'Isotopic Composition Of Summer Rainfall', 'Souther Annular Mode  Sam ', 'Net Primary Productivity'}
+    interp_det_discard = {'Na', 'Air', 'Of Precipitation', 'Tropical Or North Pacific Moisture', 'Precipitation', 'Moisture Source', 'Indian Monsoon Strength', 'In The Venezuelan Andes', 'South China Sea', 'In The Southern Tropical Andes','Continental Sweden', 'Strength   Position Of Aleutian Low', 'Rain', 'D18Op', 'Southern Tibet', 'Qaidam Basin', 'Aleutian Low Westerly Storm Trajectories', 'Moisture', 'Enso Pdo', 'Enso  Pacific Ocean Atmosphere Dynamics ', 'E P Lake Water', 'Summer Monsoon', 'Central Asia', 'Central India', 'At  39 Degrees Lat', 'Coastal Lagoon Water', 'Lake  Winds In Eastern Patagonia', 'Relative Amount Of Winter Snowfall', 'Annual Amount Weighted Precipitation Isotopes', 'Evaporative Enrichment Of Leaf Water', '0 58    0 11Ppt Degrees C', 'Surface Waters Of Polar Origin', 'Amount Of Rainfall Change', 'East Asian Monsoon Strength', 'Variations In Winter Temperature In The Alps', 'Sam', 'Regional And Hemispheric Temperature', 'Monsoon Strength', 'Summer Monsoon Rainfall Amount', 'Australian Indonesian Monsoon Rainfall', '20 Mbsl', 'Seasonal  Annual', 'Seasonal', 'Soil Moisture Stress', 'D18O Of The Leaf Water', 'Soil Moisture', 'Precipitation D18O', 'Modelled Precipitation D18O', 'Leaf Water D18O', 'Maximum Air Temperature  Seasonal', 'Maximum Temperature', 'Relative Humidity', 'Atmospheric Surface Temperature', 'Soil Pdsi Conditions', 'Isotopic Composition Of Summer Rainfall', 'Souther Annular Mode  Sam ', 'Net Primary Productivity'}
 
     interp_ignore_set = {'Seasonal', 'Annual', 'North', 'South', 'East', 'West', 'Northern', 'Southern', 'Eastern', 'Western', 'Tropical','China', 'India', 'Aleutian', 'Asia', 'Alps', 'Summer', 'Winter', 'Polar', 'Monsoon', 'Central'}
 
@@ -281,10 +281,12 @@ def read_lipd_files_list(lipd_files_list):
                                 else:
                                     intVariable = 'NA'
                             
-                            intVariable = intVariable.title() if intVariable != 'NA' else intVariable
-                            intVarDet = intVarDet.title()
+                            intVariable = intVariable.title() if intVariable != 'NA' and not intVariable.isupper() else intVariable
+                            intVarDet = intVarDet.title() if intVarDet != 'NA' else intVarDet
+                            if intVariable.lower() in ['pdo', 'amo', 'pdsi']:
+                                intVariable = intVariable.upper()
 
-                            if intVarDet in interp_det_discard or intVarDet == 'Nan':
+                            if intVarDet in interp_det_discard or intVarDet == 'Nan' or intVarDet == 'Na':
                                 intVarDet = 'NA'
                             elif intVarDet == 'Surface Temperature' or intVarDet == 'Surface Relative Humidity':
                                 intVarDet = 'Surface'
@@ -292,14 +294,12 @@ def read_lipd_files_list(lipd_files_list):
                                 for name in intVarDet:
                                     if name in interp_ignore_set:
                                         intVarDet = 'NA'
-                                        break
+                                        break                            
                             
-                            intVarDet = intVarDet.title()
-                            
-                            
-                            if infVar == 'NA' and intVariable != 'NA' and intVarDet != 'NA':
+                            if infVar == 'NA' and intVariable != 'NA' and intVarDet != 'NA' and intVarDet != 'Na':
                                 inf_from_interp = (' ').join([intVarDet, intVariable])
-                                infVar = inf_from_interp
+                                infVar = inf_from_interp if not inf_from_interp.startswith('Na') else ''
+                                # infVar = inf_from_interp
                                 infVarUnits = inf_var_units_map[infVar] if infVar in inf_var_units_map else 'NA'
                                     
     
@@ -315,12 +315,13 @@ def read_lipd_files_list(lipd_files_list):
             elif vtype == 'inferred':
                 if 'inferredVariableType' in path[key].keys() :
                     infVar = path[key]['inferredVariableType']
-                    if infVar in ignore_list:
+                    if infVar in ignore_list or 'age' in infVar.lower():
+                        infVar = 'NA'
                         continue
                 if infVar == 'NA' and 'variableName' in path[key].keys() :
                     vname = path[key]['variableName']
                     infVar, rem = inferredVarTypeutils.predict_inf_var_type_from_variable_name(vname)
-                    if infVar == 'NA' and vname not in ignore_list:
+                    if infVar == 'NA' and vname not in ignore_list and 'age' not in vname.lower() and 'year' not in vname.lower():
                         infVar = vname
                     elif len(infVar) > 45:
                         infVar = 'NA'
@@ -370,10 +371,12 @@ def read_lipd_files_list(lipd_files_list):
                                 else:
                                     intVariable = 'NA'
                             
-                            intVariable = intVariable.title() if intVariable != 'NA' else intVariable
-                            intVarDet = intVarDet.title()
+                            intVariable = intVariable.title() if intVariable != 'NA' and not intVariable.isupper() else intVariable
+                            intVarDet = intVarDet.title() if intVarDet != 'NA' else intVarDet
+                            if intVariable.lower() in ['pdo', 'amo', 'pdsi']:
+                                intVariable = intVariable.upper()
 
-                            if intVarDet in interp_det_discard or intVarDet == 'Nan':
+                            if intVarDet in interp_det_discard or intVarDet == 'Nan' or intVarDet == 'Na':
                                 intVarDet = 'NA'
                             elif intVarDet == 'Surface Temperature' or intVarDet == 'Surface Relative Humidity':
                                 intVarDet = 'Surface'
@@ -382,8 +385,6 @@ def read_lipd_files_list(lipd_files_list):
                                     if name in interp_ignore_set:
                                         intVarDet = 'NA'
                                         break
-                            
-                            intVarDet = intVarDet.title()
 
                             if 'rank' in inter.keys() :
                                 rank = inter['rank']

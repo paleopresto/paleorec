@@ -17,9 +17,9 @@ In the case where we consider the Linked Earth Wiki files, we are considering th
 
 Going forward, we might not want to consider the LiPD files from wiki. Please see the Usage instructions to only use the datasets provided through the command line.
 
-The utils.readLipdFilesList python script will generate 2 pandas dataframe; first consisting of the proxyObservationType related information and second consisting of inferredVariableType related information. These 2 pandas dataframes are converted to csv and saved as common_lipdverse_table_timestamp.csv and common_lipdverse_inferred_timestamp.csv. After further processing, the two dataframes will be merged to generate a final csv file named merged_common_lipdverse_inferred_timestamp.csv
+The utils.readLipdFilesList python script will generate 2 pandas dataframe; first consisting of the proxyObservationType related information and second consisting of inferredVariableType related information. These 2 pandas dataframes are converted to csv and saved as **common_lipdverse_table_timestamp.csv** and **common_lipdverse_inferred_timestamp.csv**. After further processing, the two dataframes will be merged to generate a final csv file named **merged_common_lipdverse_inferred_timestamp.csv**
 
-We are using the concept that inferredVariable can be predicted based on the string concatenation of interpretation/variable and the interpretation/variableDetail in a few cases. While scanning the LiPD file we hence generate 2 separte csv files; first consists of the predicted inferredVariable using interpretation/variable and interpretation/variableDetail;second consists of the inferredVariable information from the LiPD file itself. Since the second file doesn't contain the proxyObservationType information, we use dataframe manipulation to get the corresponding proxyObservationType information for the file and the archiveType and append it with the inferredVariable Type information.
+We are using the concept that inferredVariable can be predicted based on the string concatenation of interpretation/variable and the interpretation/variableDetail in a few cases. While scanning the LiPD file we hence generate 2 separte csv files; first consists of the predicted inferredVariable using interpretation/variable and interpretation/variableDetail;second consists of the inferredVariable information from the LiPD file itself. Since the second file doesn't contain the proxyObservationType information, we use dataframe manipulation to get the corresponding proxyObservationType information for the file and the archiveType and append it with the inferredVariableType information.
 
 Routines
 """"""""
@@ -47,7 +47,7 @@ Usage
 
 4. Please change the directory to \'cleaning_data\'
 
-   To run the code execute the following command:
+   To run the code, execute the following command:
 
    .. code-block:: none
    
@@ -64,12 +64,15 @@ Usage
 Extensions
 """"""""""
 
-This module is created for the purpose of reading wiki files or corresponding versions in LiPDverse and extracting the required field for the recommendation purpose. 
+This module is created for the purpose of reading LiPD files from the provided datasets and extracting the required fields for the purpose of recommendation. 
 The 2 possible extensions are:
 
-1. To extend this to other compilations.
-   The important part here would be to take the input and read file names and store them in a list. This list will be read by the utils.readLipdFilesList module.
+1. New files added to existing compilations
+   Executing the clean_data.py script will read all the files within the datasets and generate new data to work with. Going forward, we would like the users to have an option to only read the additional files appended to the dataset and continue with the existing ones.
 
-2. To read more fields from the lipd file.
+2. To extend this to other compilations.
+   The important part here would be to take the input and read file names and store them in a list. This list will be read by the utils.readLipdFilesList module. This will not require any code changes.
+
+3. To read more fields from the lipd file.
    This will require code changes to the utils.readLipdFilesList module.
 

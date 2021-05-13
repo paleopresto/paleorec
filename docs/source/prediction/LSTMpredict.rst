@@ -105,5 +105,5 @@ LSTMpredict.py module is used for accuracy calculation in the /accuracy_calc/lst
 .. toctree::
     :maxdepth: 1
 
-    /../accuracy_calculation/calc_accuracy_lstm.rst
+    /../accuracy_calculation/fang_metrics.rst
     

@@ -18,11 +18,10 @@ def initialize_input_data():
     
     global q_inferred_var, inf_named_individuals
     
-    q_inferred_var = '''Year
+    q_inferred_var = '''
     *Radiocarbon Age
     *D18O
     *Sea Surface Temperature
-    *Age
     *Temperature
     *Salinity
     *Uncertainty temperature
@@ -43,7 +42,7 @@ def initialize_input_data():
     q_inferred_var = q_inferred_var.split('\n*')
     q_inferred_var.sort()
     
-    inf_named_individuals = '''Age  Arctic Oscillation (AO, AAO)  Atlantic Multi-decadal Oscillation (AMO)  Bottom water temperature  Carbon dioxide concentration  Carbonate ion concentration  Carbonate saturation  d180  DD  Deuterium excess (excessD)  Free oxygen levels  Julian day  Methane concentration  Moisture content  Nino 1  Nino 1+2  Nino 2  Nino 3  Nino 3.4  Nino 4  Nitrous oxide concentration  North Atlantic Oscillation (NAO)  Ocean mixed layer temperature  Palmer Drought Index  Palmer Drought Severity Index (PDSI)  PH  Precipitation amount  Radiocarbon age  Salinity  Sea surface temperature  Southern Annular Mode (SAM)  Southern oscillation index (SOI)  Surface air temperature  Temperature  Year'''
+    inf_named_individuals = '''Arctic Oscillation (AO, AAO)  Atlantic Multi-decadal Oscillation (AMO)  Bottom water temperature  Carbon dioxide concentration  Carbonate ion concentration  Carbonate saturation  d180  DD  Deuterium excess (excessD)  Free oxygen levels  Julian day  Methane concentration  Moisture content  Nino 1  Nino 1+2  Nino 2  Nino 3  Nino 3.4  Nino 4  Nitrous oxide concentration  North Atlantic Oscillation (NAO)  Ocean mixed layer temperature  Palmer Drought Index  Palmer Drought Severity Index (PDSI)  PH  Precipitation amount  Radiocarbon age  Salinity  Sea surface temperature  Southern Annular Mode (SAM)  Southern oscillation index (SOI)  Surface air temperature  Temperature'''
     inf_named_individuals = inf_named_individuals.split('  ')
 
 

@@ -86,6 +86,19 @@ def convert_dataframe_to_list(dataframe_obj):
     return new_list, reference_dict
 
 def calculate_unique_chains(dataframe_obj):
+    '''
+    Method to get unique chains of different lengths from the training data.
+
+    Parameters
+    ----------
+    dataframe_obj : pandas dataframe object
+        Data to generate unique chains from.
+
+    Returns
+    -------
+    None.
+
+    '''
 
     global weights, weights_units
 

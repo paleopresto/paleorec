@@ -3,7 +3,7 @@ Training the Models
 
 We have modeled our use case as follows:
    
-   Given an comma-separated input sequence, give next word for the fieldtype. 
+   Given a comma-separated input sequence, give next word for the fieldtype. 
    The two sequences we are currently using are:
    
    archiveType -> proxyObservationType -> proxyObservationTypeUnits
@@ -32,5 +32,9 @@ There are 2 possible extensions to the problem:
 
    The model will receive as input a comma-separated sequence of the chain. Given the input sequence, it should predict the next value for the next field type in the sequence.
    If any neural network is used, it will require Label Encoding of the input to train the model.
-   Using Glove Embeddings did not prove to be helpful to the formulation of the LSTM chain, since we do not have word embeddings in our case.
 
+Problems
+--------
+
+1. On adding more datasets and training the 2 models, Markov Chain models do not scale with increase in data. The model file created grows exponentially and demands immense prediction power. 
+2. Using Glove Embeddings did not prove to be helpful to the formulation of the LSTM chain, since we do not have word embeddings in our case. Instead Label Encoding the data proves to be an effective solution.

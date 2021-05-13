@@ -1,7 +1,7 @@
 Model Training for LSTM
 =======================
 
-LSTMs are a kind of RNN and function similarly to traditional RNNs, its Gating mechanism is what sets it apart.This feature addresses the “short-term memory” problem of RNNs. LSTM’s also has the ability to preserve long-term memory. This is especially important in the majority of Natural Language Processing (NLP) or time-series and sequential tasks.
+LSTMs are a kind of RNN and function similar to traditional RNNs, its Gating mechanism is what sets it apart.This feature addresses the “short-term memory” problem of RNNs. LSTM’s also has the ability to preserve long-term memory. This is especially important in the majority of Natural Language Processing (NLP) or time-series and sequential tasks.
 
 Functions
 ---------
@@ -24,43 +24,46 @@ Functions
     reference_dict : dict
         Mapping of the word to its space-stripped version used for training.
 
-**get_data_from_file(train_file, batch_size, seq_size, for_units = False):**
-    
-    Read training data into dataframe for training the model.
-    The training data needs to be Label Encoded because LSTM only works with float data.
-    Select only num_batches x seq_size x batch_size amount of data to work on.
+**calculate_unique_chains(dataframe_obj):**
+
+    Method to get unique chains of different lengths from the training data.
 
     Parameters:
 
-    train_file : string
-        File path for the training data.
+    dataframe_obj : pandas dataframe object
+        Data to generate unique chains from.
 
+    Returns:
+
+    None.
+
+**get_data_from_df(lipd_data_df, batch_size, seq_size):**
+
+    Read training data into dataframe for training the model.
+    The training data needs to be Label Encoded because LSTM only works with float data.
+    Select only num_batches*seq_size*batch_size amount of data to work on.
+
+    Parameters:
+
+    lipd_data_df : pandas dataframe
+        Dataframe containing either training sdata.
     batch_size : int
         Used to divide the training data into batches for training.
-
     seq_size : int
         Defines the sequence size for the training sentences.
-
-    for_units : boolean, optional
-        Flag to signify if model is training for the chain archiveType -> proxyObservationType -> units. The default is False.
 
     Returns:
 
     int_to_vocab : dict
         Mapping of the Label Encoding int to text.
-
     vocab_to_int : dict
         Mapping of the Label Encoding text to int.
-
     n_vocab : int
         Size of the Label Encoding Dict.
-
     in_text : list
         Contains the input text for training.
-
     out_text : list
         Corresponding output for the input text.
-
     reference_dict : dict
         Mapping of the word to its space-stripped version used for training.
 
@@ -123,6 +126,7 @@ Functions
         To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType & interpretation/variable chain.
 
     Returns:
+
     None.
 
 **train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):**
@@ -166,6 +170,15 @@ To run the code execute the following command:
 
     cd /training/lstm/
     python train_lstm.py -e 100 -l 0.01
+    python train_lstm.py -e 100 -l 0.01 -u (For Units)
+
+1. Alternatively, to execute from the jupyter notebook, launch the `binder <https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD>`_.
+   
+   a. Navigate to the **training** folder.
+   b. Within that open the **lstm** folder.
+   c. Click on the **run_train_lstm.ipynb**.
+   d. You can scroll down past to the end and run the latest commands in the last 2 cells.
+   e. Going over the output of the other cells will show the training loss for other epochs and learning rates. 
 
 Extensions
 ----------

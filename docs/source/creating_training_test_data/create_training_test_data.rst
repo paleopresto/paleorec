@@ -38,19 +38,37 @@ This module consists of following subroutines:
     int
         Value for any-co-k elimination.
 
+**editDistDP(str1, str2, m, n):**
+
+    Calculates the edit distance between str1 and str2.
+
+    Parameters:
+
+    str1 : string
+        Input string 1.
+    str2 : TYPE
+        Input string 2.
+    m : int
+        len of string 1
+    n : int
+        len of string 2
+
+    Returns:
+
+    int
+        Edit distance value between str1 and str2.
+
 **discard_less_frequent_values_from_data():**
     
     This method reduces the subset of data to the fields in the chain, 
     i.e archiveType, proxyObservationType, units, interpretation/variable, interpretation/variableDetail, inferredVariable, inferredVarUnits.
-    There are various tasks perfomed in this function.
-    
+
     Create a dict to store autocomplete information for each fieldType.
-    
+
     Generate a counter for the values in each column to understand the distribution of each individual field.
-    Manually decide whether to eliminate any co 1 values within each field.
-    Uncomment the code to print each of the counter fields to make the decision.
-    
-    Update the dataframe by discarding those values from there as well.
+    Manually decide whether to eliminate any co 1 values within each field by taking user input.
+
+    Update the dataframe by discarding values from there.
 
     Returns:
     None.
@@ -71,15 +89,98 @@ This module consists of following subroutines:
     Returns:
     None.
 
+**get_label_set_for_input(dataframe_obj, col1, col2):**
+
+    Calculate the get items in col2 for each item in column 1.
+
+    Parameters:
+
+    dataframe_obj : pandas dataframe
+        Dataframe object containing training data.
+    col1 : str
+        Column for which data is being calculated.
+    col2 : str
+        Column whose item is being taken.
+
+    Returns:
+
+    counter_dict : dict
+        Containing set of all the items that appear against each item in col1.
+
+**update_ground_truth_dict(temp_dict):**
+
+    Method to add values from one dict to another. 
+    If a key is present append the list of values to the already created list.
+
+    Parameters:
+
+    temp_dict : dict
+        Dict whose values need to be added to the ground truth dict.
+
+    Returns:
+
+    None.
+
+**generate_ground_truth_label_info(final_df_test):**
+
+    Method to collect the list of all possible next values for a given field.
+    Example:
+        Given Marine Sediment
+        Ouput for Proxy Observation Type  = ["Notes", "Mg/Ca", "Bsi", "Caco3", "Uk37", "Mgca", "IRD", "D18O", "37:2Alkenoneconcentration", "TOC", "D18O.Error", "DBD", "D13C", "Dd", "D13C.Error", "Foram.Abundance"]
+
+    Parameters:
+
+    final_df_test : pandas dataframe
+        Final Dataframe on which Counts for the various fields are calculated.
+
+    Returns:
+
+    None.
+
+**calculate_counter_info(final_df):**
+
+    Method to get list of all possible values for each fields in the recommendation system.
+
+    Parameters:
+
+    final_df : pandas dataframe
+        Pandas dataframe consisting of training information.
+
+    Returns
+
+    None.
+
+**downsample_archive(archiveType, downsample_val):**
+
+    Method to downsample an archiveType to the provided value in the params.
+    This module also generates the test data for the given archiveType.
+
+    Parameters:
+
+    archiveType : str
+        Archive Type to downsample.
+    downsample_val : int
+        Number of samples the archiveType needs to be reduced to.
+
+    Returns:
+
+    None.
+
 **downsample_archives_create_final_train_test_data():**
     
     Manually decide based on the counter for archiveTypes which archiveTypes need to be downsampled.
-    Currently we are downsampling Wood and Marine Sediment to include 350 samples of each.
-    We are including all samples for all the other archiveTypes.
-    
-    Simulataneously creating a test dataset by resampling from the training data.
+        
+    Two approaches were tried for creating the test data from the generated data.
+
+    First was creating a test dataset by resampling from the training data.
     Since we do not even distribution of data across each class, we have used 'stratify' during resample.
     This will help us even out the distribution of data across all classess in the provided dataset.
+
+    Second approach is to keep aside 20% of the generated data as unseen test data, while 80% of the data would be used as the training data.
+    Using a bar plot distribution tried to verify the ratio of the archives to proxyObservationType in the training and test data are nearly equal.
+
+    After the final training data is procured, the ground truth data file is created which is used in the final prediction.
+
     
     Returns:
     None.

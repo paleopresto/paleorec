@@ -122,6 +122,20 @@ def get_recall_score(grnd_truth_i, hxi):
     return r3, r5, r7, r10, r12, r14, r16
 
 def mean_recall(val):
+    '''
+    Method to calculate the average recall for all the examples in the test data for a particular chain length across all the recommendation set size.(3, 5, 7, 10 ,12, 14, 16)
+
+    Parameters
+    ----------
+    val : int
+        Chain length across which mean is calculated.
+
+    Returns
+    -------
+    res : list
+        List containing the average recall across a particular chain size for different recommendation set sizes.
+
+    '''
     objs_list = [avg_rec_3[val], avg_rec_5[val], avg_rec_7[val], avg_rec_10[val], avg_rec_12[val], avg_rec_14[val], avg_rec_16[val] ]
     res = []
     for obj in objs_list:
@@ -129,6 +143,21 @@ def mean_recall(val):
     return res
 
 def mean_mrr(val):
+    '''
+    Method to calculate the MRR for a chain sizes across different recommendation set sizes.(3, 5, 7, 10)
+
+    Parameters
+    ----------
+    val : int
+        Chain length across which mean is calculated
+
+    Returns
+    -------
+    res : list
+        list containing the average MRR across a particular chain length for different recommendation set sizes.
+
+    '''
+    
     objs_list = [avg_mrr_3[val], avg_mrr_5[val], avg_mrr_7[val], avg_mrr_10[val]]
     res = []
     for obj in objs_list:
@@ -136,6 +165,15 @@ def mean_mrr(val):
     return res
 
 def calculate_score_for_test_data_chain():
+    '''
+    Calculates the evaluation metrics for the provided test data by generating different length chains from the input.
+    Generates a line chart of the average recall and MRR across different recommednation set sizes.
+
+    Returns
+    -------
+    None.
+
+    '''
 
     global accuracy_list, precision_list, recall_list, df_test_list
     global total_acc, total_pres, total_rec

@@ -18,6 +18,7 @@ Routines
    :caption: Accuracy Calculation for Models
    :maxdepth: 1
 
-   /accuracy_calculation/calc_accuracy_lstm.rst
+   /accuracy_calculation/fang_metrics.rst
    /accuracy_calculation/calc_accuracy_mc.rst
+
 

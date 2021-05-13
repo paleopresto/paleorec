@@ -47,7 +47,7 @@ def read_latest_data_for_training():
         data_file_dir = '..\data\csv\\'
     else:
         data_file_dir = '../data/csv/'
-    # changed for getting author data
+    
     data_file_path = fileutils.get_latest_file_with_path(data_file_dir, 'merged_common_lipdverse_inferred_*.csv')
     
     common_lipdverse_df = pd.read_csv(data_file_path)
@@ -179,17 +179,15 @@ def discard_less_frequent_values_from_data():
     Create a dict to store autocomplete information for each fieldType.
     
     Generate a counter for the values in each column to understand the distribution of each individual field.
-    Manually decide whether to eliminate any co 1 values within each field.
-    Uncomment the code to print each of the counter fields to make the decision.
+    Manually decide whether to eliminate any co 1 values within each field by taking user input.
     
-    Update the dataframe by discarding those values from there as well.
+    Update the dataframe by discarding values from there.
 
     Returns
     -------
     None.
 
     '''
-    
     global final_df, names_set_dict, counter_arch, final_ground_truth_dict
     
     
@@ -206,18 +204,24 @@ def discard_less_frequent_values_from_data():
                     final_df.at[i,'archiveType'] = archives_map[w]
                 else:
                     new_archives.add(row[0])
+        if row[5] == 'Na':
+            final_df.at[i,'interpretation/variableDetail'] = 'NA'
+        if row[4] in {'Pdo', 'Amo', 'Pdsi'}:
+            final_df.at[i,'interpretation/variable'] = row[4].upper()
             
-    
-    if new_archives:
-        print('Archives:{}'.format(new_archives))
-        take_new_archives = input('Please enter \'Y\' if you want to add the following new archives to the data for recommendation:\n')
-        take_new_archives = take_new_archives.lower()
-        if take_new_archives == 'y' or take_new_archives == 'yes':
-            for arch in new_archives:
-                archives_map[arch] = arch
-        else:
-            print('\nRemoving corresponding data for the new Archive Types.')
-            final_df = final_df[~final_df['archiveType'].isin(new_archives)]
+    for arch in new_archives:
+        archives_map[arch] = arch
+        
+    # if new_archives:
+    #     print('Archives:{}'.format(new_archives))
+    #     take_new_archives = input('Please enter \'Y\' if you want to add the following new archives to the data for recommendation:\n')
+    #     take_new_archives = take_new_archives.lower()
+    #     if take_new_archives == 'y' or take_new_archives == 'yes':
+    #         for arch in new_archives:
+    #             archives_map[arch] = arch
+    #     else:
+    #         print('\nRemoving corresponding data for the new Archive Types.')
+    #         final_df = final_df[~final_df['archiveType'].isin(new_archives)]
 
     del archives_map['NA']
     final_ground_truth_dict['archives_map'] = archives_map
@@ -231,7 +235,6 @@ def discard_less_frequent_values_from_data():
     counter_int_det = collections.Counter(final_df['interpretation/variableDetail'])
     counter_inf_var = collections.Counter(final_df['inferredVariable'])
     counter_inf_var_units = collections.Counter(final_df['inferredVarUnits'])
-
     
     # CODE TO WRITE INITIAL VALUES TO DIFFERENT SHEETS IN EXCEL
     # writer = pd.ExcelWriter("label_correction.xlsx", engine='xlsxwriter')
@@ -297,7 +300,7 @@ def discard_less_frequent_values_from_data():
     
     # MANUAL TASK - REMOVE INFERRED VARIABLE TYPES RELATED TO AGE AND OTHER MEASURED VARIABLE TYPE VALUES ENTERED IN THE WIKI
     # discard set for inferredVariableType
-    discard_set = {'Calendar Age', 'Accumulation rate', 'k37 n toc', 'acc rate k37', 'acc rate toc', 'Age', 'Radiocarbon Age', 'mg/ca'}
+    discard_set = {'Calendar Age', 'Accumulation rate', 'k37 n toc', 'acc rate k37', 'acc rate toc', 'Age', 'Radiocarbon Age', 'mg/ca',' Year'}
     final_df = final_df[~final_df['inferredVariable'].isin(discard_set)]
     
     # DROP NA VALUES FROM THE ARCHIVE TYPE FIELD AS IT CAN NEVER CONTAIN NA
@@ -428,6 +431,7 @@ def calculate_counter_info(final_df):
 
 def downsample_archive(archiveType, downsample_val):
     '''
+    
     Method to downsample an archiveType to the provided value in the params.
     This module also generates the test data for the given archiveType.
 
@@ -465,13 +469,18 @@ def downsample_archive(archiveType, downsample_val):
     df_arch_downsampled = df_arch_downsampled.append(df_arch_extra, ignore_index=True)
     
     test_set_size_arch = downsample_val//5
-    df_arch_test = resample(df_arch_downsampled, 
+    # df_arch_test = resample(df_arch_downsampled, 
+    #                         replace=False,    # sample without replacement
+    #                         n_samples=test_set_size_arch,     # to match minority class
+    #                         random_state=123,  # reproducibility
+    #                         stratify=df_arch_downsampled)
+    df_arch_test = df_arch_downsampled.sample( 
                             replace=False,    # sample without replacement
-                            n_samples=test_set_size_arch,     # to match minority class
-                            random_state=123,  # reproducibility
-                            stratify=df_arch_downsampled)
+                            frac=0.2,     # to match minority class
+                            random_state=2021)  # reproducibility
     
-    
+    df_arch_downsampled = df_arch_downsampled.drop(df_arch_test.index)
+
     downsampled_df_train_list.append(df_arch_downsampled)
     downsampled_df_test_list.append(df_arch_test)
     
@@ -499,13 +508,17 @@ def downsample_archives_create_final_train_test_data():
     '''
     
     Manually decide based on the counter for archiveTypes which archiveTypes need to be downsampled.
-    Currently we are downsampling Wood and Marine Sediment to include 350 samples of each.
-    We are including all samples for all the other archiveTypes.
     
-    Simulataneously creating a test dataset by resampling from the training data.
+    Two approaches were tried for creating the test data from the generated data.
+    
+    First was creating a test dataset by resampling from the training data.
     Since we do not even distribution of data across each class, we have used 'stratify' during resample.
     This will help us even out the distribution of data across all classess in the provided dataset.
     
+    Second approach is to keep aside 20% of the generated data as unseen test data, while 80% of the data would be used as the training data.
+    Using a bar plot distribution tried to verify the ratio of the archives to proxyObservationType in the training and test data are nearly equal.
+    
+    After the final training data is procured, the ground truth data file is created which is used in the final prediction.
     
     Returns
     -------
@@ -554,11 +567,16 @@ def downsample_archives_create_final_train_test_data():
     
     df_rest = final_df[~final_df['archiveType'].isin(discard_set)]
     test_sample_size_rest = len(df_rest)//5
-    df_rest_test = resample(df_rest, 
+    # df_rest_test = resample(df_rest, 
+    #                         replace=False,    # sample without replacement
+    #                         n_samples=test_sample_size_rest,
+    #                         random_state=123,  # reproducibility
+    #                         stratify=df_rest)
+    df_rest_test = df_rest.sample( 
                             replace=False,    # sample without replacement
-                            n_samples=test_sample_size_rest,
-                            random_state=123,  # reproducibility
-                            stratify=df_rest)
+                            frac=0.2,     # to match minority class
+                            random_state=2021)  # reproducibility
+    df_rest = df_rest.drop(df_rest_test.index)
     
     downsampled_df_train_list.append(df_rest)
     downsampled_df_test_list.append(df_rest_test)
