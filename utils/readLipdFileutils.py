@@ -46,11 +46,12 @@ def get_char_string(string):
 
 inf_var_units_map, ignore_list = None, None
 interp_map = {}
+inf_map = {}
 interp_det_discard,interp_ignore_set = set(), set()
 
 def initialize_data():
     
-    global inf_var_units_map, ignore_list, interp_map, interp_det_discard,interp_ignore_set
+    global inf_var_units_map, ignore_list, interp_map, interp_det_discard,interp_ignore_set, inf_map
     
     inf_var_units_map = {'rep diff.': 'NA',
      'Air Surface Temperature': 'degC',
@@ -80,7 +81,7 @@ def initialize_data():
      'Bottom Water Temperature': 'degC',
      'Surface Temperature' : 'degC'
     }
-    ignore_list = ['age', 'depth', 'year', 'Age', 'Depth', 'Year', 'Not Clear', 'No Isotopic Analyes Here']
+    ignore_list = ['age', 'depth', 'year', 'Age', 'Depth', 'Year', 'Not Clear', 'No Isotopic Analyes Here', 'nonReliableTemperature 1', 'sampleID']
 
     interp_map['P_Isotope'] = 'Precipitation Isotope'
     interp_map['T_Water'] = 'Water Temperature'
@@ -93,7 +94,7 @@ def initialize_data():
     interp_map['D18Op'] = 'D18O Of Precipitation'
     interp_map['P/E'] = 'Precipitation and Evaporation'
     interp_map['?18O.Precipitation'] = 'D18O Of Precipitation'
-    interp_map['Pdo'] = 'PDO'
+    interp_map['Pdo'] = 'Pacific Decadal Oscillation'
     interp_map['Rainfall Source Area'] = 'Source Region'
     interp_map['P_Amount'] = 'Precipitation Amount'
     interp_map['Moisture Balance (P-E)'] = 'Precipitation and Evaporation'
@@ -114,7 +115,7 @@ def initialize_data():
     interp_map['Carbonate_Ion_Concentration'] = 'Carbonate Ion Concentration'
     interp_map['Regional Rainfall Amount'] = 'Precipitation Amount'
     interp_map['Temperature/Salinity'] = 'Temperature And Salinity'
-    interp_map['Amo'] = 'AMO'
+    interp_map['Amo'] = 'Atlantic Multi-decadal Oscillation'
     interp_map['Rainfall Seasonality'] = 'Precipitation Seasonality'
     interp_map['Temperature_Air'] = 'Air Temperature'
     interp_map['Precipitation_Amount Temperature_Air'] = 'Temperature and Precipitation'
@@ -128,7 +129,7 @@ def initialize_data():
     interp_map['Precipitation D18O'] = 'D18O Of Precipitation'
     interp_map['P_Amount Rh'] = 'Precipitation amount and humidity'
     interp_map['P_Amount Rh T_Air P_E'] = 'Precipitation and evaporation; temperature'
-    interp_map['Pdsi'] = 'PDSI'
+    interp_map['Pdsi'] = 'Palmer Drought Severity Index'
     interp_map['T_Air P_Amount Drought Index Spei'] = 'SPEI'
     interp_map['T_Air P_Amount'] = 'Temperature and Precipitation'
     interp_map['Et'] = 'Evapotranspiration'
@@ -138,12 +139,51 @@ def initialize_data():
 
     interp_ignore_set = {'Seasonal', 'Annual', 'North', 'South', 'East', 'West', 'Northern', 'Southern', 'Eastern', 'Western', 'Tropical','China', 'India', 'Aleutian', 'Asia', 'Alps', 'Summer', 'Winter', 'Polar', 'Monsoon', 'Central'}
 
+    inf_map = {'deep.temp': 'Deep Water Temperature', 'soilTemp' : 'Soil Temperature', 'temperatureComposite' : 'Temperature', 'temperature1' : 'Temperature', 'tempSource' : 'Temperature at the source', 'Lake Water Water Temperature' : 'Lake Water Temperature', 'Lake Water D18O Of Precipitation' : 'Precipitation D18O', 'Surface Relative Humidity': 'Relative Humidity', 'Air Surface Precipitation Amount':'Precipitation Amount'}
+
+def validate_inf_after_appending(inf_var):
+
+    if inf_var in ignore_list or 'age' in inf_var.lower() or 'error' in inf_var.lower() or 'uncertainty' in inf_var.lower() or 'sampleid' in inf_var.lower():
+        return 'NA'
+    elif 'Precipitation Isotope' in inf_var:
+        return 'Precipitation Isotope'
+    elif 'Precipitation And Evaporation' in inf_var:
+        return 'Precipitation And Evaporation'
+    elif 'Pacific Decadal Oscillation' in inf_var:
+        return 'Pacific Decadal Oscillation'
+    elif 'DBD' == inf_var:
+        return 'Dry Bulk Density'
+    elif inf_var in inf_map:
+        return inf_map[inf_var]
+
+    inf_var = inf_var.replace('Water', '')
+
+    if 'sub' in inf_var.lower():
+        new_inf_var = []
+        for word in inf_var.split(' '):
+            if word != 'D18O' and any(map(str.isdigit, inf_var)):
+                continue
+            new_inf_var.append(word)
+
+        new_inf_var = ' '.join(new_inf_var)
+        return new_inf_var
+    elif 'mixed' in inf_var.lower():
+        return inf_var
+    elif inf_var.startswith('Surface') and 'sea' not in inf_var.lower():
+        inf_var = inf_var.split(' ')
+        inf_var.insert(0, 'Sea')
+        inf_var = ' '.join(inf_var)
+        return inf_var
+
+    return inf_var
+
 def finalize_data(dataframe):
 
     dataframe = dataframe.replace('Nan', 'NA', regex=True)
     dataframe = dataframe.replace('g.cm-2.a-1', 'g/cm2a', regex=True)
     dataframe = dataframe.replace('mcm', 'microm', regex=True)
     dataframe = dataframe.replace('NotApplicable', 'NA', regex=True)
+    dataframe = dataframe.replace('Sub Surface', 'Subsurface', regex=True)
 
     return dataframe
 
@@ -284,6 +324,12 @@ def read_lipd_files_list(lipd_files_list):
                             intVariable = intVariable.title() if intVariable != 'NA' and not intVariable.isupper() else intVariable
                             intVarDet = intVarDet.title() if intVarDet != 'NA' else intVarDet
                             if intVariable.lower() in ['pdo', 'amo', 'pdsi']:
+                                if intVariable.lower() == 'pdsi':
+                                    intVariable = 'Palmer Drought Severity Index'
+                                elif intVariable.lower() == 'pdo':
+                                    intVariable = 'Pacific Decadal Oscillation'
+                                elif intVariable.lower() == 'amo':
+                                    intVariable = 'Atlantic Multi-decadal Oscillation'
                                 intVariable = intVariable.upper()
 
                             if intVarDet in interp_det_discard or intVarDet == 'Nan' or intVarDet == 'Na':
@@ -301,7 +347,12 @@ def read_lipd_files_list(lipd_files_list):
                                 infVar = inf_from_interp if not inf_from_interp.startswith('Na') else ''
                                 # infVar = inf_from_interp
                                 infVarUnits = inf_var_units_map[infVar] if infVar in inf_var_units_map else 'NA'
-                                    
+                            
+                            if infVar != 'NA':
+                                if infVar == 'surface.temp' and archive.lower() in ['marinesediment', 'marine sediment']:
+                                    infVar = 'Sea Surface Temperature'
+                                else:
+                                    infVar = validate_inf_after_appending(infVar)
     
                             if unit != 'NotApplicable' or proxyOType != 'NA':
                                 df = pd.DataFrame({'coordinates':[geo_coord],'publication':[publication],'filename':[filen], 'archiveType': [archive],'variableType':[vtype], 'units':[unit],'description':[des],'proxyObservationType':[proxyOType],'rank':[rank],'interpretation/variable':[intVariable],'interpretation/variableDetail':[intVarDet], 'inferredVariable':[infVar], 'inferredVarUnits':[infVarUnits]})
@@ -315,16 +366,24 @@ def read_lipd_files_list(lipd_files_list):
             elif vtype == 'inferred':
                 if 'inferredVariableType' in path[key].keys() :
                     infVar = path[key]['inferredVariableType']
-                    if infVar in ignore_list or 'age' in infVar.lower():
+                    if infVar in ignore_list or 'age' in infVar.lower() or 'error' in infVar.lower() or 'uncertainty' in infVar.lower() or 'sampleid' in infVar.lower():
+                        infVar = 'NA'
+                        continue
+                    elif 'nonreliable' in infVar.lower():
+                        infVar = 'NA'
+                        continue
+                    elif 'sampleID' == infVar:
                         infVar = 'NA'
                         continue
                 if infVar == 'NA' and 'variableName' in path[key].keys() :
                     vname = path[key]['variableName']
                     infVar, rem = inferredVarTypeutils.predict_inf_var_type_from_variable_name(vname)
-                    if infVar == 'NA' and vname not in ignore_list and 'age' not in vname.lower() and 'year' not in vname.lower():
+                    if infVar == 'NA' and vname not in ignore_list and 'age' not in vname.lower() and 'year' not in vname.lower() and 'sampleid' in vname.lower():
                         infVar = vname
                     elif len(infVar) > 45:
                         infVar = 'NA'
+                
+                infVar = validate_inf_after_appending(infVar)
                 if 'units' in path[key].keys() :
                         infVarUnits = path[key]['units']
                         if '_' in infVarUnits:
@@ -374,6 +433,12 @@ def read_lipd_files_list(lipd_files_list):
                             intVariable = intVariable.title() if intVariable != 'NA' and not intVariable.isupper() else intVariable
                             intVarDet = intVarDet.title() if intVarDet != 'NA' else intVarDet
                             if intVariable.lower() in ['pdo', 'amo', 'pdsi']:
+                                if intVariable.lower() == 'pdsi':
+                                    intVariable = 'Palmer Drought Severity Index'
+                                elif intVariable.lower() == 'pdo':
+                                    intVariable = 'Pacific Decadal Oscillation'
+                                elif intVariable.lower() == 'amo':
+                                    intVariable = 'Atlantic Multi-decadal Oscillation'
                                 intVariable = intVariable.upper()
 
                             if intVarDet in interp_det_discard or intVarDet == 'Nan' or intVarDet == 'Na':

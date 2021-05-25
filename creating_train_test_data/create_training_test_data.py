@@ -237,30 +237,30 @@ def discard_less_frequent_values_from_data():
     counter_inf_var_units = collections.Counter(final_df['inferredVarUnits'])
     
     # CODE TO WRITE INITIAL VALUES TO DIFFERENT SHEETS IN EXCEL
-    # writer = pd.ExcelWriter("label_correction.xlsx", engine='xlsxwriter')
+    writer = pd.ExcelWriter("label_correction.xlsx", engine='xlsxwriter')
 
-    # arch_df = pd.DataFrame.from_dict(counter_arch, orient='index').reset_index()
-    # arch_df.to_excel(writer, sheet_name='archiveTypes')
+    arch_df = pd.DataFrame.from_dict(counter_arch, orient='index').reset_index()
+    arch_df.to_excel(writer, sheet_name='archiveTypes')
     
-    # pr_df = pd.DataFrame.from_dict(counter_proxy, orient='index').reset_index()
-    # pr_df.to_excel(writer, sheet_name='proxyObsType')
+    pr_df = pd.DataFrame.from_dict(counter_proxy, orient='index').reset_index()
+    pr_df.to_excel(writer, sheet_name='proxyObsType')
     
-    # units_df = pd.DataFrame.from_dict(counter_units, orient='index').reset_index()
-    # units_df.to_excel(writer, sheet_name='proxyUnits')
+    units_df = pd.DataFrame.from_dict(counter_units, orient='index').reset_index()
+    units_df.to_excel(writer, sheet_name='proxyUnits')
     
-    # int_df = pd.DataFrame.from_dict(counter_int_var, orient='index').reset_index()
-    # int_df.to_excel(writer, sheet_name='interpVariable')
+    int_df = pd.DataFrame.from_dict(counter_int_var, orient='index').reset_index()
+    int_df.to_excel(writer, sheet_name='interpVariable')
     
-    # int_det_df = pd.DataFrame.from_dict(counter_int_det, orient='index').reset_index()
-    # int_det_df.to_excel(writer, sheet_name='interpVarDet')
+    int_det_df = pd.DataFrame.from_dict(counter_int_det, orient='index').reset_index()
+    int_det_df.to_excel(writer, sheet_name='interpVarDet')
     
-    # inf_df = pd.DataFrame.from_dict(counter_inf_var, orient='index').reset_index()
-    # inf_df.to_excel(writer, sheet_name='inferredVariable')
+    inf_df = pd.DataFrame.from_dict(counter_inf_var, orient='index').reset_index()
+    inf_df.to_excel(writer, sheet_name='inferredVariable')
     
-    # inf_units_df = pd.DataFrame.from_dict(counter_inf_var_units, orient='index').reset_index()
-    # inf_units_df.to_excel(writer, sheet_name='inferredVarUnits')
+    inf_units_df = pd.DataFrame.from_dict(counter_inf_var_units, orient='index').reset_index()
+    inf_units_df.to_excel(writer, sheet_name='inferredVarUnits')
 
-    # writer.save()
+    writer.save()
     
     # Add to a file for autocomplete suggestions without removing any co 1
     names_set_dict = {'proxyObservationType' : list(counter_proxy.keys()), 'proxyObservationTypeUnits' : list(counter_units.keys()), 

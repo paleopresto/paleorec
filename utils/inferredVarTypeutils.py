@@ -105,6 +105,12 @@ def predict_inf_var_type_from_variable_name(vname):
     pred, rem = 'NA', 'NA'
     if vname in inf_var_map or vname.title() in inf_var_map:
         pred = vname.title()
+    elif 'error' in vname.lower() or 'uncertainty' in vname.lower() or 'sampleid' in vname.lower():
+        pass
+    elif 'nonreliable' in vname.lower():
+        pass
+    elif 'sampleid' == vname.lower():
+        pass
     else:
         for i in range(len(vname)):
             if vname[:i] in inf_var_map:
