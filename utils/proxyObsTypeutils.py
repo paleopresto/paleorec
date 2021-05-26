@@ -22,7 +22,7 @@ def initialize_input_data():
     global named_individuals, q_proxy_obs
     named_individuals = 'Al/Ca  Ar-Ar  B/Ca  Ba/Ca  C  Clay fraction  Color  d13C  d15N  d170  d180  d34S  dD  Density  Diffuse spectral reflectance  Faunal  Fe/Ca  Floral  Grain size  Historic  Layer thickness  Lead Isotope  Li/Ca  Lithics  Luminescence  Magnetic susceptibility  Mg/Ca  Mineral matter  Mn/Ca  Moisture Content  N  Neodymium  Organic matter  P  Permeability  Porosity  Radiocarbon  Resistivity  Sand fraction  Si  Silt fraction  Sr/Ca  TEX86  U-Th  Uk37\'  Uk37  X-Ray diffraction  X-ray fluorescence  Zn/Ca'
     named_individuals = set(named_individuals.split('  '))
-    
+
     q_proxy_obs = '''DiffuseSpectralReflectance
     *JulianDay
     *Al/Ca
@@ -199,12 +199,12 @@ def get_periodic_elements():
         # periodic_table_path = '..\PeriodicTableJSON.json'
         periodic_table_path = 'D:\\annotating_paleoclimate_data\\paleorec\\utils\\PeriodicTableJSON.json'
     else:
-        periodic_table_path = '../PeriodicTableJSON.json'
-    
+        periodic_table_path = '../utils/PeriodicTableJSON.json'
+
     with open(periodic_table_path, 'r', encoding="utf8") as jsonfile:
         element_json = json.load(jsonfile)
-    
-    
+
+
     for ele in element_json['elements']:
         periodic_table_elements.append(ele['symbol'])
         periodic_table_name.append(ele['name'])
@@ -212,7 +212,7 @@ def get_periodic_elements():
 
 def manual_additions_to_map():
     global proxy_obs_map, ignore_set
-    
+
     # MANUAL ADDITIONS TO THE PROXY OBS MAP
     proxy_obs_map['Calcification'] = 'Calcification'
     proxy_obs_map['Trsgi'] = 'Tree Ring Standardized Growth Index'
@@ -279,7 +279,7 @@ def create_proxy_obs_map():
 
     '''
     global proxy_obs_map, unknown_proxy
-    
+
     for proxy in q_proxy_obs:
         if proxy in proxy_obs_map or proxy.title() in proxy_obs_map or proxy.lower() in proxy_obs_map or proxy.upper() in proxy_obs_map:
             if proxy.title() in proxy_obs_map:
@@ -314,7 +314,7 @@ def create_proxy_obs_map():
                     proxy_obs_map[proxy] = new_proxy
                     proxy_obs_map[new_proxy] = new_proxy
                 continue
-        
+
         if len(proxy) <= 2:
             if proxy in periodic_table_elements:
                 proxy_obs_map[proxy] = proxy
@@ -362,10 +362,10 @@ def create_proxy_obs_map():
                 proxy_obs_map[proxy] = str(s[0] + "\'")
         elif proxy.lower() in named_individuals or proxy in named_individuals:
             proxy_obs_map[proxy] = proxy if proxy in named_individuals else proxy.lower()
-        else:  
+        else:
             proxy_obs_map[proxy] = proxy
             unknown_proxy.add(proxy)
-    
+
     # print(proxy_obs_map)
 
 
@@ -394,13 +394,13 @@ def predict_proxy_obs_type_from_variable_name(vname):
     if vname in proxy_obs_map:
         pred = proxy_obs_map[vname]
     elif vname.title() in proxy_obs_map:
-        pred = proxy_obs_map[vname.title()]    
+        pred = proxy_obs_map[vname.title()]
     elif vname.isupper():
         pass
     elif '\'' in vname:
         pred = vname
     elif 'bubbleNumberDensity' in vname:
-        proxy_obs_map[vname] = vname 
+        proxy_obs_map[vname] = vname
         pred = vname
     elif vname in periodic_table_name:
         pred = vname
@@ -415,7 +415,7 @@ def predict_proxy_obs_type_from_variable_name(vname):
             ind = vname.index('.')
             pred = vname[ind+1:]
             rem = vname[:ind]
-    else:     
+    else:
         for i in range(len(vname)):
             if vname[:i] in proxy_obs_map:
                 pred = vname[:i]
@@ -436,8 +436,8 @@ def validate_proxyObsType(proxyObsType):
 
     if 'error' in proxyObsType.lower():
         return 'NA'
-    
-    
+
+
     if 'Depth' in proxyObsType.title() or 'Latitude' in proxyObsType.title() or 'Longitude' in proxyObsType.title():
         return 'NA'
     elif proxyObsType in ignore_set or proxyObsType.title() in ignore_set:
@@ -446,7 +446,7 @@ def validate_proxyObsType(proxyObsType):
         return proxy_obs_map[proxyObsType]
     elif proxyObsType.title() in proxy_obs_map:
         return proxy_obs_map[proxyObsType.title()]
-    
+
     return proxyObsType
 
 if __name__ == '__main__':

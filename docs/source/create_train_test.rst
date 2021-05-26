@@ -45,14 +45,14 @@ PalMod::
 
     {'marine sediment': 924}
 
-As more compilations are added to LiPDverse, this distribution will change. Since we are modeling the recommendation system as a sequential prediction model, the training data should contain nearly equal number of samples for each archive to have an unbiased model. 
+As more compilations are added to LiPDverse, this distribution will change. Since we are modeling the recommendation system as a sequential prediction model, the training data should contain nearly equal number of samples for each archive to have an unbiased model.
 To balance out the disribution of the archiveTypes, we downsample the data for the archiveTypes which have abundant samples.
 
 The input to this module is the latest file 'merged_common_lipdverse_inferred_timestamp.csv' created by the clean_data.py module.
 
 There are many proxyObservationTypes, interpretation/variable and interpretation/variableDetail that appear only a few times. Since they do not contribute heavily to the recommendation system, we considered it best to remove them from the data as they are outliers. The user is presented with the count of samples for each of the proxyObservationType. The user is then requested for a number \'k\' to eliminate any-co-k occurances in the data. Similarly user is requested to enter the value of 'k' for interpretation/variable and interpretation/variableDetail.
 
-Running this module will list a number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of archiveTypes they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled.
+Running this module will list a number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of archiveTypes they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled to.
 
 Routines
 """"""""
@@ -69,7 +69,7 @@ To run the code execute the following command:
 
 .. code-block:: none
 
-    cd creating_training_test_data
+    cd creating_train_test_data
     python create_training_test_data.py
 
     Please enter the value of 'k' to replace any-co-k instances : 5
@@ -85,3 +85,12 @@ As more compilations are added, running this file will help in understanding the
 Expert advise from the users of LiPD data is required to complete this module. User input is required to eliminate any-co-k values from proxyObservationType, interpretation/variable and interpretation/variableDetail.
 
 Apart from this user needs to ensure that the data is class-balanced by downsampling the archiveTypes that have abundant samples.
+
+Check your work
+"""""""""""""""
+
+You will be creating two files that can be found in `data/csv`:
+* lipdverse_downsampled_timestamp.csv
+* lipdverse_test_timestamp.csv
+
+where  `timestamp` takes the form: mmddyyyy_hhmmss (e.g., 05252021_143300 for a file created on May 25th 2021 at 2:33pm).

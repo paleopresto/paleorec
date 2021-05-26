@@ -7,7 +7,7 @@ Functions
 ---------
 
 **convert_dataframe_to_list(dataframe_obj):**
-    
+
     Method to return list of all the values in a single row separated by spaces from the dataframe.
     All values that were space separated before are converted to a single word.
     example. Sea Surface Temperature -> SeaSurfaceTemperature
@@ -68,7 +68,7 @@ Functions
         Mapping of the word to its space-stripped version used for training.
 
 **get_batches(in_text, out_text, batch_size, seq_size):**
-    
+
     Returns a batch each for the input sequence and the expected output word.
 
     Parameters:
@@ -96,7 +96,7 @@ Functions
 **get_loss_and_train_op(net, lr=0.001):**
 
     We are using CrossEntropy as a Loss Function for this RNN Model since this is a Multi-class classification kind of problem.
-    
+
     Parameters:
 
     net : neural network instance
@@ -121,7 +121,7 @@ Functions
 
     loss_value_list : list
         List with the training loss values.
-    
+
     chain : str
         To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType & interpretation/variable chain.
 
@@ -133,7 +133,7 @@ Functions
 
     Method to train an lstm model on in_text and out_text.
     This method will save the model for the last epoch.
-    
+
     Parameters:
 
     int_to_vocab : dict
@@ -163,22 +163,24 @@ Usage
 1. Please change the directory to /training/lstm/
 2. The commandline takes as input 2 arguments '-e' for the number of epochs we want to train the model and '-l' the learning rate for the Recurrent Neural Network.
 3. To understand the training loss, this module also generates a loss curve. Depending on where the training file is executed from i.e. from jupyter notebook or commandline, the file will be saved or displayed on the GUI.
-   
+
 To run the code execute the following command:
 
 .. code-block:: none
 
     cd /training/lstm/
-    python train_lstm.py -e 100 -l 0.01
-    python train_lstm.py -e 100 -l 0.01 -u (For Units)
+    python train_lstm.py -e 150 -l 0.01
+    python train_lstm.py -e 100 -l 0.001 -u (For Units)
 
-1. Alternatively, to execute from the jupyter notebook, launch the `binder <https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD>`_.
-   
+1. Alternatively, to execute from the jupyter notebook:
+
    a. Navigate to the **training** folder.
    b. Within that open the **lstm** folder.
    c. Click on the **run_train_lstm.ipynb**.
    d. You can scroll down past to the end and run the latest commands in the last 2 cells.
-   e. Going over the output of the other cells will show the training loss for other epochs and learning rates. 
+   e. Going over the output of the other cells will show the training loss for other epochs and learning rates.
+
+There is an existing `binder <https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD>`_., just remember to commit the data to GitHub before launching.
 
 Extensions
 ----------
@@ -188,3 +190,11 @@ Extensions
     The only changes will be to the flags.seq_size field to indicate the new sequence size.
     The model will now be trained on the new sentence length.
 
+Check your work: Learning curves
+--------------------------------
+
+If you did not perform this step in a Jupyter Notebook, the learning curves were saved at data/loss:
+* proxy_interp_training_loss_e_100_l_0.01_timestamp.png
+* proxy_units_training_loss_e_100_l_0.01_timestamp.png
+
+where `timestamp` takes the form: mmddyyyy_hhmmss (e.g., 05252021_143300 for a file created on May 25th 2021 at 2:33pm).

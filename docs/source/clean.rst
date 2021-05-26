@@ -8,7 +8,7 @@ archiveType, proxyObservationType, units, interpretation/variable, interpretatio
 
 To ensure that we were utilizing all the available data, we used the data queried from the Wiki using SPARQL queries. Apart from this, the data curated in the `Linked Earth Ontology <http://linked.earth/ontology/>`_ for Paleoclimate Data is used.
 Cleaning the data involved creating a mapping of the incorrect input to its correct value.
-Examples - 
+Examples -
 Spelling errors, repeated values like Temperature1, Temperature2, Depth, Depth-cm, Mg_Ca
 Incorrect Value  - d18o -> D18O, D180 -> D18O
 
@@ -50,21 +50,21 @@ Usage
    To run the code, execute the following command:
 
    .. code-block:: none
-   
+
       cd cleaning_data
       python clean_data.py -p [path-to-PAGES2k-dataset] -t [path-to-Temp12k-dataset] -o [path-to-dataset1],[path-to-dataset2]
 
-5. You will be prompted asking if you would like to ignore files from the wiki: 
-   
+5. You will be prompted asking if you would like to ignore files from the wiki:
+
    .. code-block:: none
-      
-      Please enter Y if you would like to ignore the wiki files:    
-   
+
+      Please enter Y if you would like to ignore the wiki files:
+
 
 Extensions
 """"""""""
 
-This module is created for the purpose of reading LiPD files from the provided datasets and extracting the required fields for the purpose of recommendation. 
+This module is created for the purpose of reading LiPD files from the provided datasets and extracting the required fields for the purpose of recommendation.
 The 2 possible extensions are:
 
 1. New files added to existing compilations
@@ -76,3 +76,12 @@ The 2 possible extensions are:
 3. To read more fields from the lipd file.
    This will require code changes to the utils.readLipdFilesList module.
 
+Check your work
+""""""""""""""""
+
+After you executed the code, go to the `data/csv` and check that the follwing files have been added:
+* common_lipdverse_table_timestamp.csv
+*common_lipdverse_inferred_timestamp.csv
+*merged_common_lipdverse_inferred_timestamp.csv
+
+where  `timestamp` takes the form: mmddyyyy_hhmmss (e.g., 05252021_143300 for a file created on May 25th 2021 at 2:33pm).

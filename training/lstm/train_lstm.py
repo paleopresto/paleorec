@@ -71,7 +71,7 @@ def convert_dataframe_to_list(dataframe_obj):
 
     '''
     reference_dict = {}
-    
+
     dataframe_obj = dataframe_obj.replace(np.nan, 'NA', regex=True)
     lipd_data_list = dataframe_obj.values.tolist()
 
@@ -103,17 +103,17 @@ def calculate_unique_chains(dataframe_obj):
     global weights, weights_units
 
     chain1 = dataframe_obj[['archiveType', 'proxyObservationType','units']]
-    
-    chain2 = dataframe_obj.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail', 
+
+    chain2 = dataframe_obj.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail',
     'inferredVariable', 'inferredVarUnits'])
-    
+
 
     chain1_list = chain1.values.tolist()
 
     for lis in chain1_list:
         lis = [val.replace(" ", "") for val in lis]
         lis = (',').join(lis)
-        
+
         com_ind = lis.find(',', lis.index(','))
         while com_ind != -1:
             weights.append(lis[:com_ind])
@@ -124,7 +124,7 @@ def calculate_unique_chains(dataframe_obj):
     for lis in chain2_list:
         lis = [val.replace(" ", "") for val in lis]
         lis = (',').join(lis)
-        
+
         com_ind = lis.find(',', lis.index(','))
         while com_ind != -1:
             weights.append(lis[:com_ind])
@@ -147,7 +147,7 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
         Used to divide the training data into batches for training.
     seq_size : int
         Defines the sequence size for the training sentences.
-    
+
     Returns
     -------
     int_to_vocab : dict
@@ -173,7 +173,7 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
     else:
         lipd_data = lipd_data_df.filter(['archiveType', 'proxyObservationType', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'])
     new_list, reference_dict = convert_dataframe_to_list(lipd_data)
-    
+
     token_list = (',').join(new_list)
 
     text = token_list.split(',')
@@ -195,13 +195,13 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
 
     weights_counter = Counter(weights)
     weights_u_counter = Counter(weights_units)
-    
+
 
     len_dict = {'1':[], '2':[], '3':[], '3_units':[], '4':[], '5':[], '6':[]}
     for k,v in weights_counter.items():
         k_l = k.split(',')
         len_dict[str(len(k_l))].append(k)
-    
+
     for k,v in weights_u_counter.items():
         len_dict['3_units'].append(k)
 
@@ -214,7 +214,7 @@ def get_data_from_df(lipd_data_df, batch_size, seq_size):
     for k,v in weights_counter.items():
         weights_counter[k] = v/total_count
 
-    weight_tensor = torch.FloatTensor(list(weights_counter.values())).cuda()
+    #weight_tensor = torch.FloatTensor(list(weights_counter.values())).cuda()
 
     return int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict
 
@@ -241,7 +241,7 @@ def get_batches(in_text, out_text, batch_size, seq_size):
         batch of output text corresponding to each input.
 
     '''
-    
+
     num_batches = np.prod(in_text.shape) // (seq_size * batch_size)
     # Increment the loop by seq_size, because we have unique sequence and not a continuation.
     for i in range(0, num_batches * seq_size, seq_size):
@@ -250,7 +250,7 @@ def get_batches(in_text, out_text, batch_size, seq_size):
 def get_loss_and_train_op(net, lr=0.01):
     '''
     We are using CrossEntropy as a Loss Function for this RNN Model since this is a Multi-class classification kind of problem.
-    
+
 
     Parameters
     ----------
@@ -288,18 +288,18 @@ def print_save_loss_curve(train_loss_list, chain):
     None.
 
     '''
-    
+
     plt.plot(train_loss_list, label='Train Loss')
-        
+
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
-    
+
     plt.legend(loc='best')
     fig = plt.gcf()
-    if not sys.stdin.isatty():    
+    if not sys.stdin.isatty():
         plt.show()
-        
-    timestr = time.strftime("%Y%m%d_%H%M%S")    
+
+    timestr = time.strftime("%Y%m%d_%H%M%S")
     final_path = loss_curve_path + chain + 'training_loss_e_' + str(epochs) + '_l_'+ str(learning_rate) + '_' + timestr + '.png'
     print('\nSaving the plot at ', final_path)
     fig.savefig(final_path, bbox_inches='tight')
@@ -325,7 +325,7 @@ def train_RNN(train_label_dict, seq_size):
     in_text = train_label_dict['in_text']
     out_text = train_label_dict['out_text']
     n_vocab = train_label_dict['n_vocab']
-    
+
     net = RNNModule(n_vocab, seq_size,
                     flags.embedding_size, flags.lstm_size)
     net = net.to(device)
@@ -334,33 +334,33 @@ def train_RNN(train_label_dict, seq_size):
 
     iteration = 0
     train_loss_list = []
-    
+
     if for_units:
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> proxyObservationTypeUnits\n')
     else:
         print('\nTraining Data for the chain archiveType -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits\n')
-        
+
     for e in range(epochs):
 
         # TRAIN PHASE
         batches = get_batches(in_text, out_text, flags.batch_size, seq_size)
         state_h, state_c = net.zero_state(flags.batch_size)
-        
+
         # Transfer data to GPU
         state_h = state_h.to(device)
         state_c = state_c.to(device)
-        
+
         train_loss = 0
         iteration = 0
         for x, y in batches:
             iteration += 1
-            
+
             # Tell it we are in training mode
             net.train()
 
             # Reset all gradients
             optimizer.zero_grad()
-            
+
             x = torch.tensor(x).to(device).long()
             y = torch.tensor(y).to(device).long()
 
@@ -371,47 +371,47 @@ def train_RNN(train_label_dict, seq_size):
             state_c = state_c.detach()
 
             train_loss += loss.item()
-            
+
             # Perform back-propagation
             loss.backward()
-            
+
             _ = torch.nn.utils.clip_grad_norm_(
                 net.parameters(), flags.gradients_norm)
 
             # Update the network's parameters
             optimizer.step()
-        
+
         train_loss_list.append(train_loss/iteration)
 
         print('Epoch: {}/{}'.format(e, epochs),
-                'Training Loss: {}'.format(train_loss_list[-1]))  
+                'Training Loss: {}'.format(train_loss_list[-1]))
 
-    timestr = time.strftime("%Y%m%d_%H%M%S")    
+    timestr = time.strftime("%Y%m%d_%H%M%S")
     if for_units:
         print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_units_'+timestr+'.pth')
     else:
         print('\nSaving the model file...')
         torch.save(net.state_dict(),model_file_path + 'model_lstm_interp_'+timestr+'.pth')
-    
+
     print_save_loss_curve(train_loss_list, 'proxy_units_' if for_units else 'proxy_interp_')
     print(net)
 
 def main():
-    
+
     global int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, device
     global int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u
-    
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     timestr = time.strftime("%Y%m%d_%H%M%S")
-    
+
     train_df = pd.read_csv(flags.train_file)
     train_df = train_df.replace(np.nan, 'NA', regex=True)
 
     if not for_units:
         int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, reference_dict = get_data_from_df(
             train_df, flags.batch_size, flags.seq_size)
-        
+
         model_tokens = {'model_tokens' : int_to_vocab, 'reference_dict': reference_dict, 'len_dict' : {k:len(v) for k,v in len_dict.items()}}
         with open(model_file_path+'model_token_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
@@ -422,19 +422,19 @@ def main():
     else:
         int_to_vocab_u, vocab_to_int_u, n_vocab_u, in_text_u, out_text_u, reference_dict_u = get_data_from_df(
             train_df, flags.batch_size, flags.seq_size_u)
-        
+
         model_tokens = {'model_tokens_u' : int_to_vocab_u, 'reference_dict_u' : reference_dict_u, 'len_dict' : {k:len(v) for k,v in len_dict.items()}}
-        
+
         with open(model_file_path+'model_token_units_info_'+timestr+'.txt', 'w') as json_file:
             json.dump(model_tokens, json_file)
         train_label_dict = {'n_vocab' : n_vocab_u, 'in_text' : in_text_u, 'out_text' : out_text_u}
         # Train for archive -> proxyObservationType -> units
         train_RNN(train_label_dict, flags.seq_size_u)
-    
-    
+
+
 if _platform == "win32":
     data_file_dir = '..\..\data\csv\\'
-    model_file_path = '..\..\data\model_lstm\\' 
+    model_file_path = '..\..\data\model_lstm\\'
     loss_curve_path = '..\..\data\loss\\'
 else:
     data_file_dir = '../../data/csv/'
