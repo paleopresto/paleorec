@@ -1,0 +1,407 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Model Training for LSTM &mdash; PaleoRec 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="RNN module" href="RNNmodule.html" />
+    <link rel="prev" title="Training the Models" href="../train.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> PaleoRec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../clean.html">Cleaning the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../create_train_test.html">Creating Training and Test Data</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../train.html">Training the Models</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../train.html#routines">Routines</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Model Training for LSTM</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#functions">Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extensions">Extensions</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="RNNmodule.html">RNN module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mctrain.html">Model Training for Markov Chains</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../train.html#extensions">Extensions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../train.html#problems">Problems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../predict.html">Making predictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accuracy_calc.html">Accuracy Calculation for the PaleoClimate Recommendation System</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaleoRec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../train.html">Training the Models</a> &raquo;</li>
+        
+      <li>Model Training for LSTM</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/training/train_lstm.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="model-training-for-lstm">
+<h1>Model Training for LSTM<a class="headerlink" href="#model-training-for-lstm" title="Permalink to this headline">¶</a></h1>
+<p>LSTMs are a kind of RNN and function similar to traditional RNNs, its Gating mechanism is what sets it apart.This feature addresses the “short-term memory” problem of RNNs. LSTM’s also has the ability to preserve long-term memory. This is especially important in the majority of Natural Language Processing (NLP) or time-series and sequential tasks.</p>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<p><strong>convert_dataframe_to_list(dataframe_obj):</strong></p>
+<blockquote>
+<div><p>Method to return list of all the values in a single row separated by spaces from the dataframe.
+All values that were space separated before are converted to a single word.
+example. Sea Surface Temperature -&gt; SeaSurfaceTemperature</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>dataframe_obj<span class="classifier">pandas dataframe</span></dt><dd><p>Dataframe contains the training data.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>new_list<span class="classifier">list</span></dt><dd><p>List of input sentences.</p>
+</dd>
+<dt>reference_dict<span class="classifier">dict</span></dt><dd><p>Mapping of the word to its space-stripped version used for training.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>calculate_unique_chains(dataframe_obj):</strong></p>
+<blockquote>
+<div><p>Method to get unique chains of different lengths from the training data.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>dataframe_obj<span class="classifier">pandas dataframe object</span></dt><dd><p>Data to generate unique chains from.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<p>None.</p>
+</div></blockquote>
+<p><strong>get_data_from_df(lipd_data_df, batch_size, seq_size):</strong></p>
+<blockquote>
+<div><p>Read training data into dataframe for training the model.
+The training data needs to be Label Encoded because LSTM only works with float data.
+Select only num_batches*seq_size*batch_size amount of data to work on.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>lipd_data_df<span class="classifier">pandas dataframe</span></dt><dd><p>Dataframe containing either training sdata.</p>
+</dd>
+<dt>batch_size<span class="classifier">int</span></dt><dd><p>Used to divide the training data into batches for training.</p>
+</dd>
+<dt>seq_size<span class="classifier">int</span></dt><dd><p>Defines the sequence size for the training sentences.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>int_to_vocab<span class="classifier">dict</span></dt><dd><p>Mapping of the Label Encoding int to text.</p>
+</dd>
+<dt>vocab_to_int<span class="classifier">dict</span></dt><dd><p>Mapping of the Label Encoding text to int.</p>
+</dd>
+<dt>n_vocab<span class="classifier">int</span></dt><dd><p>Size of the Label Encoding Dict.</p>
+</dd>
+<dt>in_text<span class="classifier">list</span></dt><dd><p>Contains the input text for training.</p>
+</dd>
+<dt>out_text<span class="classifier">list</span></dt><dd><p>Corresponding output for the input text.</p>
+</dd>
+<dt>reference_dict<span class="classifier">dict</span></dt><dd><p>Mapping of the word to its space-stripped version used for training.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>get_batches(in_text, out_text, batch_size, seq_size):</strong></p>
+<blockquote>
+<div><p>Returns a batch each for the input sequence and the expected output word.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>in_text<span class="classifier">list</span></dt><dd><p>Label Encoded strings of text.</p>
+</dd>
+<dt>out_text<span class="classifier">list</span></dt><dd><p>Label Encoded Output for each each input sequence.</p>
+</dd>
+<dt>batch_size<span class="classifier">int</span></dt><dd><p>Parameter to signify the size of each batch.</p>
+</dd>
+<dt>seq_size<span class="classifier">int</span></dt><dd><p>Parameter to signify length of each sequence. In our case we are considering 2 chains, one of length 3 and the other of length 6.</p>
+</dd>
+</dl>
+<p>Yields:</p>
+<dl class="simple">
+<dt>list</dt><dd><p>batch of input text sequence each of seq_size.</p>
+</dd>
+<dt>list</dt><dd><p>batch of output text corresponding to each input.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>get_loss_and_train_op(net, lr=0.001):</strong></p>
+<blockquote>
+<div><p>We are using CrossEntropy as a Loss Function for this RNN Model since this is a Multi-class classification kind of problem.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>net<span class="classifier">neural network instance</span></dt><dd><p>Loss function is set for the Neural Network.</p>
+</dd>
+<dt>lr<span class="classifier">float, optional</span></dt><dd><p>Defines the learning rate for the neural network. The default is 0.001.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>criterion<span class="classifier">Loss function instance</span></dt><dd><p>Loss Function instance for the neural network.</p>
+</dd>
+<dt>optimizer<span class="classifier">Optimizing function instance</span></dt><dd><p>Optimizer used for the neural network.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>print_save_loss_curve(loss_value_list, chain):</strong></p>
+<blockquote>
+<div><p>Method to save the plot for the training loss curve.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>loss_value_list<span class="classifier">list</span></dt><dd><p>List with the training loss values.</p>
+</dd>
+<dt>chain<span class="classifier">str</span></dt><dd><p>To differentiate between the proxyObservationTypeUnits chain from the proxyObservationType &amp; interpretation/variable chain.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<p>None.</p>
+</div></blockquote>
+<p><strong>train_RNN(int_to_vocab, vocab_to_int, n_vocab, in_text, out_text, seq_size, for_units = False):</strong></p>
+<blockquote>
+<div><p>Method to train an lstm model on in_text and out_text.
+This method will save the model for the last epoch.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>int_to_vocab<span class="classifier">dict</span></dt><dd><p>Mapping of the Label Encoding int to text.</p>
+</dd>
+<dt>vocab_to_int<span class="classifier">dict</span></dt><dd><p>Mapping of the Label Encoding text to int.</p>
+</dd>
+<dt>n_vocab<span class="classifier">int</span></dt><dd><p>Size of the Label Encoding Dict.</p>
+</dd>
+<dt>in_text<span class="classifier">list</span></dt><dd><p>Contains the input text for training.</p>
+</dd>
+<dt>out_text<span class="classifier">list</span></dt><dd><p>Corresponding output for the input text.</p>
+</dd>
+<dt>for_units<span class="classifier">boolean, optional</span></dt><dd><p>Flag to signify if model is training for the chain archiveType -&gt; proxyObservationType -&gt; units. The default is False.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<p>None.</p>
+</div></blockquote>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Please change the directory to /training/lstm/</p></li>
+<li><p>The commandline takes as input 2 arguments ‘-e’ for the number of epochs we want to train the model and ‘-l’ the learning rate for the Recurrent Neural Network.</p></li>
+<li><p>To understand the training loss, this module also generates a loss curve. Depending on where the training file is executed from i.e. from jupyter notebook or commandline, the file will be saved or displayed on the GUI.</p></li>
+</ol>
+<p>To run the code execute the following command:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd /training/lstm/
+python train_lstm.py -e 100 -l 0.01
+python train_lstm.py -e 100 -l 0.01 -u (For Units)
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><p>Alternatively, to execute from the jupyter notebook, launch the <a class="reference external" href="https://mybinder.org/v2/gh/paleopresto/paleorec/HEAD">binder</a>.</p>
+<ol class="loweralpha simple">
+<li><p>Navigate to the <strong>training</strong> folder.</p></li>
+<li><p>Within that open the <strong>lstm</strong> folder.</p></li>
+<li><p>Click on the <strong>run_train_lstm.ipynb</strong>.</p></li>
+<li><p>You can scroll down past to the end and run the latest commands in the last 2 cells.</p></li>
+<li><p>Going over the output of the other cells will show the training loss for other epochs and learning rates.</p></li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="extensions">
+<h2>Extensions<a class="headerlink" href="#extensions" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Introduction of new fieldTypes to the sequence</p>
+<blockquote>
+<div><p>The only changes will be to the flags.seq_size field to indicate the new sequence size.
+The model will now be trained on the new sentence length.</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="RNNmodule.html" class="btn btn-neutral float-right" title="RNN module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../train.html" class="btn btn-neutral float-left" title="Training the Models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Shravya Manety, Deborah Khider
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

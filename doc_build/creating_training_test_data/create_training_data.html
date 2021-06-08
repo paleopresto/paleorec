@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Creating Training and Test Data &mdash; PaleoRec 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Training the Models" href="../train.html" />
+    <link rel="prev" title="Creating Training and Test Data" href="../create_train_test.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> PaleoRec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../clean.html">Cleaning the data</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../create_train_test.html">Creating Training and Test Data</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../create_train_test.html#routines">Routines</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Creating Training and Test Data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../create_train_test.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../create_train_test.html#extensions">Extensions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../train.html">Training the Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../predict.html">Making predictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accuracy_calc.html">Accuracy Calculation for the PaleoClimate Recommendation System</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaleoRec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../create_train_test.html">Creating Training and Test Data</a> &raquo;</li>
+        
+      <li>Creating Training and Test Data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/creating_training_test_data/create_training_data.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="creating-training-and-test-data">
+<h1>Creating Training and Test Data<a class="headerlink" href="#creating-training-and-test-data" title="Permalink to this headline">¶</a></h1>
+<p>This module consists of following subroutines:</p>
+<p><strong>read_latest_data_for_training():</strong></p>
+<blockquote>
+<div><p>Method to read the latest file cleaned using utilities in cleaning_wiki_data/clean_data.py
+The latest data is picked up using the utilities file which uses os.ctime
+Reads the csv and stores the data into the common_lipdverse_df dataframe.</p>
+<p>Returns:
+None.</p>
+</div></blockquote>
+<p><strong>manually_clean_data_by_replacing_incorrect_values():</strong></p>
+<blockquote>
+<div><p>Manual task to replace the following data in the dataframe with its alternative text.
+Could not eliminate these errors while reading lipd files using code in cleaning_wiki_files/clean_data.py
+Replace the data in place within the dataframe.</p>
+<p>Returns:
+None.</p>
+</div></blockquote>
+<p><strong>write_autocomplete_data_file():</strong></p>
+<blockquote>
+<div><p>Writes the data to autocomplete_file used for autocomplete suggestions on the UI</p>
+<p>Returns:
+None.</p>
+</div></blockquote>
+<p><strong>discard_less_frequent_values_from_data():</strong></p>
+<blockquote>
+<div><p>This method reduces the subset of data to the fields in the chain,
+i.e archiveType, proxyObservationType, units, interpretation/variable, interpretation/variableDetail, inferredVariable, inferredVarUnits.
+There are various tasks perfomed in this function.</p>
+<p>Create a dict to store autocomplete information for each fieldType.</p>
+<p>Generate a counter for the values in each column to understand the distribution of each individual field.
+Manually decide whether to eliminate any co 1 values within each field.
+Uncomment the code to print each of the counter fields to make the decision.</p>
+<p>Update the dataframe by discarding those values from there as well.</p>
+<p>Returns:
+None.</p>
+</div></blockquote>
+<p><strong>downsample_archives_create_final_train_test_data():</strong></p>
+<blockquote>
+<div><p>Manually decide based on the counter for archiveTypes which archiveTypes need to be downsampled.
+Currently we are downsampling Wood and Marine Sediment to include 350 samples of each.
+We are including all samples for all the other archiveTypes.</p>
+<p>Simulataneously creating a test dataset by resampling from the training data.
+Since we do not even distribution of data across each class, we have used ‘stratify’ during resample.
+This will help us even out the distribution of data across all classess in the provided dataset.</p>
+<p>Returns:
+None.</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../train.html" class="btn btn-neutral float-right" title="Training the Models" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../create_train_test.html" class="btn btn-neutral float-left" title="Creating Training and Test Data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Shravya Manety, Deborah Khider
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

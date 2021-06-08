@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Prediction using Markov Chain &mdash; PaleoRec 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Accuracy Calculation for Markov Chains" href="../accuracy_calculation/calc_accuracy_mc.html" />
+    <link rel="prev" title="Evaluation Metrics for LSTM" href="../accuracy_calculation/fang_metrics.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> PaleoRec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../clean.html">Cleaning the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../create_train_test.html">Creating Training and Test Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../train.html">Training the Models</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../predict.html">Making predictions</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../predict.html#routines">Routines</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="LSTMpredict.html">Prediction using LSTM</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Prediction using Markov Chain</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#functions">Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#class">Class</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#usage">Usage</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../accuracy_calc.html">Accuracy Calculation for the PaleoClimate Recommendation System</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaleoRec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../predict.html">Making predictions</a> &raquo;</li>
+        
+      <li>Prediction using Markov Chain</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/prediction/MCpredict.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="prediction-using-markov-chain">
+<h1>Prediction using Markov Chain<a class="headerlink" href="#prediction-using-markov-chain" title="Permalink to this headline">¶</a></h1>
+<p>This module contains the code necessary to make a recommendation based on a Markov Chain.</p>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<p><strong>get_latest_file_with_path(path, *paths):</strong></p>
+<blockquote>
+<div><p>Method to get the full path name for the latest file for the input parameter in paths.
+This method uses the os.path.getctime function to get the most recently created file that matches the filename pattern in the provided path.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>path<span class="classifier">string</span></dt><dd><p>Root pathname for the files.</p>
+</dd>
+<dt>*paths<span class="classifier">string list</span></dt><dd><p>These are the var args field, the optional set of strings to denote the full path to the file names.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>latest_file<span class="classifier">string</span></dt><dd><p>Full path name for the latest file provided in the paths parameter.</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="class">
+<h2>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mcpredict">
+<h3>MCpredict<a class="headerlink" href="#mcpredict" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Functions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p><strong>get_inner_list(self, in_list):</strong></p>
+<blockquote>
+<div><p>Backtracking code to recursively obtain the item name from the hierachial output list.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>in_list<span class="classifier">list/ tuple</span></dt><dd><p>Either a list object or tuple whose data is retreived.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>list</dt><dd><p>Condensed hierarchial version of the list without probabilities.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>pretty_output(self, output_list):</strong></p>
+<blockquote>
+<div><p>Get the item list without the probabilities.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>output_list<span class="classifier">list</span></dt><dd><p>Output List after complete processing..</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>out_dict<span class="classifier">dict</span></dt><dd><p>Ordered Dict with level as the key and value as the condensed list for each level.</p>
+</dd>
+</dl>
+<p>Example:</p>
+<blockquote>
+<div><dl class="simple">
+<dt>input: [[(-1.0286697494934511, ‘Wood’)], [(-1.8312012012793524, ‘Trsgi’)],</dt><dd><p>[[(-2.5411555001556785, ‘NA’), (-6.618692944061398, ‘Wood’), (-6.618692944061398, ‘MXD’), (-6.618692944061398, ‘LakeSediment’), (-6.618692944061398, ‘Composite’)]]]</p>
+</dd>
+</dl>
+<p>output: {‘0’: [‘Wood’], ‘1’: [‘Trsgi’], ‘2’: [‘NA’, ‘Wood’, ‘MXD’, ‘LakeSediment’, ‘Composite’]}</p>
+</div></blockquote>
+</div></blockquote>
+<p><strong>get_max_prob(self, temp_names_set, trans_dict_for_word, prob):</strong></p>
+<blockquote>
+<div><p>Find the maximimum items from a list stream using heapq.
+We will only pick those items that belong to the category we are interested in.
+Example : only recommend values in Units for Units.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>temp_names_set<span class="classifier">set</span></dt><dd><p>Set containing the items in the category.</p>
+</dd>
+<dt>trans_dict_for_word<span class="classifier">dict</span></dt><dd><p>Transition probability dict for the start word.</p>
+</dd>
+<dt>prob<span class="classifier">float</span></dt><dd><p>The probability of the start word.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>list</dt><dd><p>Contains the top 5 recommendation for the start word.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>back_track(self, data, name_list_ind, sentence = None):</strong></p>
+<blockquote>
+<div><p>Function to get top 5 items for each item in sequence</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>data<span class="classifier">list/str</span></dt><dd><p>Input sequence.</p>
+</dd>
+<dt>name_list_ind: int</dt><dd><p>Index for names_list dict.
+Used to predict only proxyObservationType after Archive,
+and not give recommendations from other category.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>list</dt><dd><p>Output list for the input sequence.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>get_ini_prob(self, sentence):</strong></p>
+<blockquote>
+<div><p>Method to find the transition probability for the given sentence.
+For the first word we use the initial probability and for the rest of the sentence we use the transition probability for getting the next word.</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>sentence<span class="classifier">str</span></dt><dd><p>Input string sequence for which we have to predict the next sequence.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>output_list<span class="classifier">list</span></dt><dd><p>Output list containing the probability and word for each stage of the sequence.</p>
+</dd>
+<dt>sentence<span class="classifier">list</span></dt><dd><p>Sentence strip and split on space and returned for further use.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>predict_seq(self, sentence, isInferred = False):</strong></p>
+<blockquote>
+<div><p>Predict the top 5 elements at each stage for every item in the chain
+There are 2 chain types:</p>
+<blockquote>
+<div><p>archive -&gt; proxyObservationType -&gt; units,</p>
+<p>archive -&gt; proxyObservationType -&gt; interpretation/variable, interpretation/variableDetail
+-&gt;inferredVariable -&gt; inferredVarUnits</p>
+</div></blockquote>
+<p>We do not include inferredVariableType and inferredVarUnits in the sequential prediction,
+but provide the recommendation after the interpretation/variableDetail has been selected.</p>
+<p>If isInferred == True, then we will choose the top value in prediction for the chain given the archiveType
+example:</p>
+<blockquote>
+<div><p>archiveType = MarineSediment</p>
+<p>proxy = D180</p>
+<p>interpretation/variable = NA</p>
+<p>interpretation/variableDetail = NA</p>
+</div></blockquote>
+<p>then based on this generate the top 5 predictions for inferredVariable</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>sentence<span class="classifier">str</span></dt><dd><p>Input sequence.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>output_list<span class="classifier">dict</span></dt><dd><p>Dict in hierarchial fashion containing top 5 predictions for value at each level.</p>
+</dd>
+</dl>
+<p>Example:</p>
+<p>input: ‘Wood’
+intermediate output:</p>
+<blockquote>
+<div><p>[[(-1.0286697494934511, ‘Wood’)],
+[[(-2.8598709507728035, ‘Trsgi’), (-3.519116579657067, ‘ARS’), (-3.588109451144019, ‘EPS’), (-3.701438136451022, ‘SD’), (-3.701438136451022, ‘Core’)]],
+[[
+[(-3.5698252496491296, ‘NA’), (-7.647362693554849, ‘Wood’), (-7.647362693554849, ‘MXD’), (-7.647362693554849, ‘LakeSediment’), (-7.647362693554849, ‘Composite’)],
+[(-4.628778704511761, ‘NA’), (-8.029976086173917, ‘Wood’), (-8.029976086173917, ‘MXD’), (-8.029976086173917, ‘LakeSediment’), (-8.029976086173917, ‘Composite’)],
+[(-4.744541310700955, ‘NA’), (-8.076745820876159, ‘Wood’), (-8.076745820876159, ‘MXD’), (-8.076745820876159, ‘LakeSediment’), (-8.076745820876159, ‘Composite’)],
+[(-4.936909607836329, ‘NA’), (-8.15578543270453, ‘Wood’), (-8.15578543270453, ‘MXD’), (-8.15578543270453, ‘LakeSediment’), (-8.15578543270453, ‘Composite’)],
+[(-4.971198681314961, ‘NA’), (-6.803780145063271, ‘NotApplicable’), (-8.190074506183162, ‘Wood’), (-8.190074506183162, ‘MXD’), (-8.190074506183162, ‘Composite’)]
+]]]</p>
+</div></blockquote>
+<p>final output: {‘0’: [‘Trsgi’, ‘ARS’, ‘EPS’, ‘SD’, ‘Core’]}</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>MCpredict.py module is used for accuracy calculation in the /accuracy_calc/markovchain directory. For more information check out the documentation for Accuracy Calculation.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../accuracy_calculation/calc_accuracy_mc.html">Accuracy Calculation for Markov Chains</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../accuracy_calculation/calc_accuracy_mc.html" class="btn btn-neutral float-right" title="Accuracy Calculation for Markov Chains" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../accuracy_calculation/fang_metrics.html" class="btn btn-neutral float-left" title="Evaluation Metrics for LSTM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Shravya Manety, Deborah Khider
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

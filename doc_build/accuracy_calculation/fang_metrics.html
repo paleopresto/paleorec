@@ -1,0 +1,290 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Evaluation Metrics for LSTM &mdash; PaleoRec 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Prediction using Markov Chain" href="../prediction/MCpredict.html" />
+    <link rel="prev" title="Prediction using LSTM" href="../prediction/LSTMpredict.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> PaleoRec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../clean.html">Cleaning the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../create_train_test.html">Creating Training and Test Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../train.html">Training the Models</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../predict.html">Making predictions</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../predict.html#routines">Routines</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../prediction/LSTMpredict.html">Prediction using LSTM</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../prediction/LSTMpredict.html#functions">Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../prediction/LSTMpredict.html#class">Class</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../prediction/LSTMpredict.html#usage">Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../prediction/MCpredict.html">Prediction using Markov Chain</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../accuracy_calc.html">Accuracy Calculation for the PaleoClimate Recommendation System</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PaleoRec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../predict.html">Making predictions</a> &raquo;</li>
+        
+          <li><a href="../prediction/LSTMpredict.html">Prediction using LSTM</a> &raquo;</li>
+        
+      <li>Evaluation Metrics for LSTM</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/accuracy_calculation/fang_metrics.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="evaluation-metrics-for-lstm">
+<h1>Evaluation Metrics for LSTM<a class="headerlink" href="#evaluation-metrics-for-lstm" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<p><strong>get_mrr_score(grnd_truth_i,hxi):</strong></p>
+<blockquote>
+<div><p>Formula from <a class="reference external" href="https://arxiv.org/pdf/1808.06414.pdf">https://arxiv.org/pdf/1808.06414.pdf</a> ‘Next Item Recommendation with Self-Attention’ pg 6</p>
+</div></blockquote>
+<p><strong>get_recall_score(grnd_truth_i, hxi):</strong></p>
+<blockquote>
+<div><p>Formula from <a class="reference external" href="https://arxiv.org/pdf/1808.06414.pdf">https://arxiv.org/pdf/1808.06414.pdf</a> ‘Next Item Recommendation with Self-Attention’ pg 5</p>
+</div></blockquote>
+<p><strong>mean_recall(val):</strong></p>
+<blockquote>
+<div><p>Method to calculate the average recall for all the examples in the test data for a particular chain length across all the recommendation set size.(3, 5, 7, 10 ,12, 14, 16)</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>val<span class="classifier">int</span></dt><dd><p>Chain length across which mean is calculated.</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>res<span class="classifier">list</span></dt><dd><p>List containing the average recall across a particular chain size for different recommendation set sizes.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>mean_mrr(val):</strong></p>
+<blockquote>
+<div><p>Method to calculate the MRR for a chain sizes across different recommendation set sizes.(3, 5, 7, 10)</p>
+<p>Parameters:</p>
+<dl class="simple">
+<dt>val<span class="classifier">int</span></dt><dd><p>Chain length across which mean is calculated</p>
+</dd>
+</dl>
+<p>Returns:</p>
+<dl class="simple">
+<dt>res<span class="classifier">list</span></dt><dd><p>list containing the average MRR across a particular chain length for different recommendation set sizes.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>calculate_score_for_test_data_chain():</strong></p>
+<blockquote>
+<div><p>Calculates the evaluation metrics for the provided test data by generating different length chains from the input.
+Generates a line chart of the average recall and MRR across different recommednation set sizes.</p>
+<p>Returns:</p>
+<p>None.</p>
+</div></blockquote>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>To run the code execute the following command:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd /accuracy_calculation/lstm
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><p>Open the <strong>run_fang_metrics.ipynb</strong> file.</p></li>
+<li><p>Choose ‘Kernel’ drop down and the ‘Restart and Run all’ option within it.</p></li>
+<li><p>The output will show you the line plot for Recall and MRR for different chain lengths across different recommendation set sizes.</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../prediction/MCpredict.html" class="btn btn-neutral float-right" title="Prediction using Markov Chain" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../prediction/LSTMpredict.html" class="btn btn-neutral float-left" title="Prediction using LSTM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Shravya Manety, Deborah Khider
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

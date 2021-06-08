@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Creating Training and Test Data &mdash; PaleoRec 0.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Creating Training and Test Data" href="creating_training_test_data/create_training_test_data.html" />
+    <link rel="prev" title="Cleaning the data" href="cleaning_data/clean_data.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> PaleoRec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="clean.html">Cleaning the data</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Creating Training and Test Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#routines">Routines</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="creating_training_test_data/create_training_test_data.html">Creating Training and Test Data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#extensions">Extensions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="train.html">Training the Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="predict.html">Making predictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accuracy_calc.html">Accuracy Calculation for the PaleoClimate Recommendation System</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PaleoRec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Creating Training and Test Data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/create_train_test.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="creating-training-and-test-data">
+<h1>Creating Training and Test Data<a class="headerlink" href="#creating-training-and-test-data" title="Permalink to this headline">¶</a></h1>
+<p>The data collected from <a class="reference external" href="http://wiki.linked.earth">The LinkedEarth Wiki</a> and <a class="reference external" href="http://lipdverse.org">LiPDverse</a> have imbalance in data across each archiveType. Following is the distribution of the archives across the available compilations in LiPDverse.</p>
+<p>Data As of 03/19/2021</p>
+<p>PAGES2k:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;speleothem&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+<span class="s1">&#39;lake sediment&#39;</span><span class="p">:</span> <span class="mi">37</span><span class="p">,</span>
+<span class="s1">&#39;glacier ice&#39;</span><span class="p">:</span> <span class="mi">70</span><span class="p">,</span>
+<span class="s1">&#39;tree&#39;</span><span class="p">:</span> <span class="mi">1777</span><span class="p">,</span>
+<span class="s1">&#39;marine sediment&#39;</span><span class="p">:</span> <span class="mi">31</span><span class="p">,</span>
+<span class="s1">&#39;hybrid&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="s1">&#39;documents&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="s1">&#39;coral&#39;</span><span class="p">:</span> <span class="mi">141</span><span class="p">,</span>
+<span class="s1">&#39;bivalve&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="s1">&#39;sclerosponge&#39;</span><span class="p">:</span> <span class="mi">6</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Temp12k:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;MarineSediment&#39;</span><span class="p">:</span> <span class="mi">62</span><span class="p">,</span>
+<span class="s1">&#39;GlacierIce&#39;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+<span class="s1">&#39;LakeSediment&#39;</span><span class="p">:</span> <span class="mi">23</span><span class="p">,</span>
+<span class="s1">&#39;Ice-other&#39;</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+<span class="s1">&#39;Speleothem&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+<span class="s1">&#39;Midden&#39;</span><span class="p">:</span> <span class="mi">27</span><span class="p">,</span>
+<span class="s1">&#39;Peat&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>iso2k:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;Coral&#39;</span><span class="p">:</span> <span class="mi">52</span><span class="p">,</span>
+<span class="s1">&#39;GroundIce&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+<span class="s1">&#39;GlacierIce&#39;</span><span class="p">:</span> <span class="mi">198</span><span class="p">,</span>
+<span class="s1">&#39;LakeSediment&#39;</span><span class="p">:</span> <span class="mi">132</span><span class="p">,</span>
+<span class="s1">&#39;MarineSediment&#39;</span><span class="p">:</span> <span class="mi">62</span><span class="p">,</span>
+<span class="s1">&#39;MolluskShells&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="s1">&#39;TerrestrialSediment&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+<span class="s1">&#39;Speleothem&#39;</span><span class="p">:</span> <span class="mi">56</span><span class="p">,</span>
+<span class="s1">&#39;Sclerosponge&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+<span class="s1">&#39;Wood&#39;</span><span class="p">:</span> <span class="mi">68</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>PalMod:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;marine sediment&#39;</span><span class="p">:</span> <span class="mi">924</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>As more compilations are added to LiPDverse, this distribution will change. Since we are modeling the recommendation system as a sequential prediction model, the training data should contain nearly equal number of samples for each archive to have an unbiased model.
+To balance out the disribution of the archiveTypes, we downsample the data for the archiveTypes which have abundant samples.</p>
+<p>The input to this module is the latest file ‘merged_common_lipdverse_inferred_timestamp.csv’ created by the clean_data.py module.</p>
+<p>There are many proxyObservationTypes, interpretation/variable and interpretation/variableDetail that appear only a few times. Since they do not contribute heavily to the recommendation system, we considered it best to remove them from the data as they are outliers. The user is presented with the count of samples for each of the proxyObservationType. The user is then requested for a number 'k' to eliminate any-co-k occurances in the data. Similarly user is requested to enter the value of ‘k’ for interpretation/variable and interpretation/variableDetail.</p>
+<p>Running this module will list a number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of archiveTypes they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled.</p>
+<div class="section" id="routines">
+<h2>Routines<a class="headerlink" href="#routines" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="creating_training_test_data/create_training_test_data.html">Creating Training and Test Data</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>Please change the directory to 'creating_training_test_data'
+To run the code execute the following command:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd creating_training_test_data
+python create_training_test_data.py
+
+Please enter the value of &#39;k&#39; to replace any-co-k instances : 5
+
+Please enter a list of archive Types to downsample separated by &#39;,&#39; : wood, MarineSediment
+Please enter the numeric value to downsampled the above list of Archive Types in same order :350,350
+</pre></div>
+</div>
+</div>
+<div class="section" id="extensions">
+<h2>Extensions<a class="headerlink" href="#extensions" title="Permalink to this headline">¶</a></h2>
+<p>As more compilations are added, running this file will help in understanding the distribution of archiveTypes.</p>
+<p>Expert advise from the users of LiPD data is required to complete this module. User input is required to eliminate any-co-k values from proxyObservationType, interpretation/variable and interpretation/variableDetail.</p>
+<p>Apart from this user needs to ensure that the data is class-balanced by downsampling the archiveTypes that have abundant samples.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="creating_training_test_data/create_training_test_data.html" class="btn btn-neutral float-right" title="Creating Training and Test Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="cleaning_data/clean_data.html" class="btn btn-neutral float-left" title="Cleaning the data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Shravya Manety, Deborah Khider
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
