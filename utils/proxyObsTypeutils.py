@@ -1,6 +1,7 @@
 import json
 import re
 from sys import platform as _platform
+import os
 
 named_individuals, q_proxy_obs = None, None
 periodic_table_elements, periodic_table_name = [], []
@@ -196,8 +197,8 @@ def get_periodic_elements():
 
     global periodic_table_elements, periodic_table_name
     if _platform == "win32":
-        # periodic_table_path = '..\PeriodicTableJSON.json'
-        periodic_table_path = 'D:\\annotating_paleoclimate_data\\paleorec\\utils\\PeriodicTableJSON.json'
+        print(os.getcwd())
+        periodic_table_path = '..\utils\PeriodicTableJSON.json'
     else:
         periodic_table_path = '../utils/PeriodicTableJSON.json'
 

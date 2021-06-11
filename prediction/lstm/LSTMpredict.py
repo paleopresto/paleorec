@@ -142,6 +142,8 @@ class LSTMpredict:
         
         net.eval()
         top_k = 10
+        if words[-1] in self.ground_truth['ground_truth']:
+            top_k = len(self.ground_truth['ground_truth'][words[-1]])
         state_h, state_c = net.zero_state(1)
         state_h = state_h.to(device)
         state_c = state_c.to(device)
@@ -159,7 +161,7 @@ class LSTMpredict:
             name = int_to_vocab[val]
             if name in names_set:
                 output.append(name)
-            if len(output) == self.topk:
+            if len(output) == top_k:
                 break
         
         return output
@@ -235,9 +237,11 @@ class LSTMpredict:
         
         names_set_ind = len(input_sent_list) + 1 if len(input_sent_list) >= 2 else len(input_sent_list)
         if len(input_sent_list) == 2:
+            # print('input sent len 2', input_sent_list)
             results_units =  self.predict(self.device, self.model_u, input_sent_list, self.vocab_to_int_u, self.int_to_vocab_u, self.names_set[len(input_sent_list)])
             results = self.predict(self.device, self.model, input_sent_list, self.vocab_to_int, self.int_to_vocab, self.names_set[names_set_ind])
             return {'0':results_units, '1':results}
         else:
+            # print('input sent len not 2', input_sent_list)
             results = self.predict(self.device, self.model, input_sent_list, self.vocab_to_int, self.int_to_vocab, self.names_set[names_set_ind])
             return {'0':results}

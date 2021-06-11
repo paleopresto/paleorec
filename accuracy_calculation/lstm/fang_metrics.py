@@ -14,6 +14,7 @@ from sys import platform as _platform
 import math
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
+import seaborn as sns
 
 
 if _platform == "win32":
@@ -21,8 +22,7 @@ if _platform == "win32":
 else:
     sys.path.insert(1, '../../prediction/lstm//')    
 
-# from LSTMpredict import LSTMpredict
-from LSTMpredict_copy import LSTMpredict
+from LSTMpredict import LSTMpredict
 
 if _platform == "win32":
     sys.path.insert(1, '..\..\\')
@@ -65,6 +65,9 @@ avg_mrr_3 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
 avg_mrr_5 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
 avg_mrr_7 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
 avg_mrr_10 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
+avg_mrr_12 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
+avg_mrr_14 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
+avg_mrr_16 = {"2": [], "3": [], "3_units": [], "4": [], "5": [], "6": []}
 
 # Yi = ground truth set for input
 # hxi = predicted set for the input
@@ -80,15 +83,8 @@ def get_mrr_score(grnd_truth_i,hxi):
     if hxi[0] == 'NA' or hxi[0] == 'NotApplicable':
             hxi = hxi[:1]
 
-    # if grnd_truth_i == hxi[0]:
-    #     return 1
-    # elif grnd_truth_i in hxi:
-    #     return 1/(hxi.index(grnd_truth_i)+1)
-    # else:
-    #     return 0
-
     res = []
-    for lim in [3,5,7,10]:
+    for lim in [3,5,7,10,12,14,16]:
         temp_hxi = hxi[:lim]
         if grnd_truth_i == temp_hxi[0]:
             res.append(1)
@@ -113,11 +109,6 @@ def get_recall_score(grnd_truth_i, hxi):
     r12 = 1 if grnd_truth_i in hxi[:12] else 0
     r14 = 1 if grnd_truth_i in hxi[:14] else 0
     r16 = 1 if grnd_truth_i in hxi[:16] else 0
-
-    # if grnd_truth_i in hxi:
-    #     return 1
-    # else:
-    #     return 0
 
     return r3, r5, r7, r10, r12, r14, r16
 
@@ -158,7 +149,7 @@ def mean_mrr(val):
 
     '''
     
-    objs_list = [avg_mrr_3[val], avg_mrr_5[val], avg_mrr_7[val], avg_mrr_10[val]]
+    objs_list = [avg_mrr_3[val], avg_mrr_5[val], avg_mrr_7[val], avg_mrr_10[val], avg_mrr_12[val], avg_mrr_14[val], avg_mrr_16[val]]
     res = []
     for obj in objs_list:
         res.append(sum(obj)/len(obj))
@@ -195,13 +186,16 @@ def calculate_score_for_test_data_chain():
                     results = ['NA']
 
                 r3, r5, r7, r10, r12, r14, r16 = get_recall_score(lis[i], results)
-                m3, m5, m7, m10 = get_mrr_score(lis[i], results)
+                m3, m5, m7, m10, m12, m14, m16 = get_mrr_score(lis[i], results)
 
                 # avg_mrr['2'].append(get_mrr_score(lis[i], results))
                 avg_mrr_3['2'].append(m3)
                 avg_mrr_5['2'].append(m5)
                 avg_mrr_7['2'].append(m7)
                 avg_mrr_10['2'].append(m10)
+                avg_mrr_12['2'].append(m12)
+                avg_mrr_14['2'].append(m14)
+                avg_mrr_16['2'].append(m16)
 
                 # avg_rec['2'].append(get_recall_score(lis[i], results))
                 avg_rec_3['2'].append(r3)
@@ -230,13 +224,16 @@ def calculate_score_for_test_data_chain():
                     results = ['NA']
 
                 r3, r5, r7, r10, r12, r14, r16 = get_recall_score(lis[i], results_units)
-                m3, m5, m7, m10 = get_mrr_score(lis[i], results_units)
+                m3, m5, m7, m10, m12, m14, m16 = get_mrr_score(lis[i], results_units)
 
                 # avg_mrr['3_units'].append(get_mrr_score(lis[i], results_units))
                 avg_mrr_3['3_units'].append(m3)
                 avg_mrr_5['3_units'].append(m5)
                 avg_mrr_7['3_units'].append(m7)
                 avg_mrr_10['3_units'].append(m10)
+                avg_mrr_12['3_units'].append(m12)
+                avg_mrr_14['3_units'].append(m14)
+                avg_mrr_16['3_units'].append(m16)
 
                 # avg_rec['3_units'].append(get_recall_score(lis[i], results_units))
                 avg_rec_3['3_units'].append(r3)
@@ -254,13 +251,17 @@ def calculate_score_for_test_data_chain():
                 chain_count += 1
 
                 r3, r5, r7, r10, r12, r14, r16 = get_recall_score(lis[i+1], results)
-                m3, m5, m7, m10 = get_mrr_score(lis[i], results)
+                m3, m5, m7, m10, m12, m14, m16 = get_mrr_score(lis[i], results)
 
                 # avg_mrr['3'].append(get_mrr_score(lis[i+1], results))
                 avg_mrr_3['3'].append(m3)
                 avg_mrr_5['3'].append(m5)
                 avg_mrr_7['3'].append(m7)
                 avg_mrr_10['3'].append(m10)
+                avg_mrr_12['3'].append(m12)
+                avg_mrr_14['3'].append(m14)
+                avg_mrr_16['3'].append(m16)
+
                 # avg_rec['3'].append(get_recall_score(lis[i+1], results))
                 avg_rec_3['3'].append(r3)
                 avg_rec_5['3'].append(r5)
@@ -286,13 +287,17 @@ def calculate_score_for_test_data_chain():
                     results = ['NA']
 
                 r3, r5, r7, r10, r12, r14, r16 = get_recall_score(lis[i], results)
-                m3, m5, m7, m10 = get_mrr_score(lis[i], results)
+                m3, m5, m7, m10, m12, m14, m16 = get_mrr_score(lis[i], results)
 
                 # avg_mrr[str(i)].append(get_mrr_score(lis[i], results))
                 avg_mrr_3[str(i)].append(m3)
                 avg_mrr_5[str(i)].append(m5)
                 avg_mrr_7[str(i)].append(m7)
                 avg_mrr_10[str(i)].append(m10)
+                avg_mrr_12[str(i)].append(m12)
+                avg_mrr_14[str(i)].append(m14)
+                avg_mrr_16[str(i)].append(m16)
+
                 # avg_rec[str(i)].append(get_recall_score(lis[i], results))
                 avg_rec_3[str(i)].append(r3)
                 avg_rec_5[str(i)].append(r5)
@@ -325,10 +330,7 @@ def calculate_score_for_test_data_chain():
     df = df.replace(np.nan, '', regex=True)
     df.to_csv(accuracy_data_path, sep = ',', encoding = 'utf-8',index = False)
 
-
-    # plotting the data
-    plt.figure(num=1, figsize=(8, 6), dpi=80)
-    # create data
+    # seaborn plotting data
     x = [3,5,7,10,12,14,16]
     y2 = mean_recall('2')
     y3 = mean_recall('3')
@@ -336,64 +338,55 @@ def calculate_score_for_test_data_chain():
     y4 = mean_recall('4')
     y5 = mean_recall('5')
     y6 = mean_recall('6')
+
+    num_rows = 7
+    a4_dims = (8, 6)
+    fig, ax = plt.subplots(figsize=a4_dims)
     
-    # plot lines
-    plt.plot(x, y2, '-o', label = "Chain till Proxy(len = 2)")
-    plt.plot(x, y3, '-o', label = "Chain till Interp Var(len = 3)")
-    plt.plot(x, y3_u, '-o', label = "Chain till Proxy Units(len = 3)")
-    plt.plot(x, y4, '-o', label = "Chain till Interp Var Det(len = 4)")
-    plt.plot(x, y5, '-o', label = "Chain till Inf Var(len = 5)")
-    plt.plot(x, y6, '-o', label = "Chain till Inf Var Units(len = 6)")
-    plt.xlabel('Recommendation Set Sizes(3,5,7,10,12,14,16)', fontsize = 12)
-    plt.title('Recall/Hit Ratio for Recommendation Set Size(3,5,7,10,12,14,16)', fontsize=14)
-    plt.ylim(0,1.1)
-    plt.legend()
-    plt.show()
+    data_preproc = pd.DataFrame({
+        'Recommendation Set Size(3,5,7,10,12,14,16)': x, 
+        'Proxy Observation(chain len = 2)': y2,
+        'Interpretation Var(chain len = 3)': y3,
+        'Proxy Units(chain len = 3)': y3_u,
+        'Interpretation Var Detail(chain len = 4)': y4,
+        'Inferred Var(chain len = 5)': y5,
+        'Inferred Var Units(chain len = 6)': y6})
+    
+    sns.lineplot(ax=ax, x='Recommendation Set Size(3,5,7,10,12,14,16)', y='value', hue='variable', style="variable",
+             data=pd.melt(data_preproc, ['Recommendation Set Size(3,5,7,10,12,14,16)']), markers=True, dashes=False, markersize=10)
+    sns.set_style("white")
+    ax.set(ylabel='Hit Ratio')
+    lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
+    plt.ylim(0, 1.1)
+    fig.savefig('hr_06_07.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     print('*************************************************************************************************')
 
-    plt.figure(num=2, figsize=(8, 6), dpi=80)
-    x = [3,5,7,10]
+    fig, ax = plt.subplots(figsize=a4_dims)
+    x = [3,5,7,10,12,14,16]
     y2 = mean_mrr('2')
     y3 = mean_mrr('3')
     y3_u = mean_mrr('3_units')
     y4 = mean_mrr('4')
     y5 = mean_mrr('5')
     y6 = mean_mrr('6')
+    data_preproc = pd.DataFrame({
+        'Recommendation Set Size(3,5,7,10,12,14,16)': x, 
+        'Proxy Observation(chain len = 2)': y2,
+        'Interpretation Var(chain len = 3)': y3,
+        'Proxy Units(chain len = 3)': y3_u,
+        'Interpretation Var Detail(chain len = 4)': y4,
+        'Inferred Var(chain len = 5)': y5,
+        'Inferred Var Units(chain len = 6)': y6})
 
-    # plot lines
-    plt.plot(x, y2, '-o', label = "Chain till Proxy(len = 2)")
-    plt.plot(x, y3, '-o', label = "Chain till Interp Var(len = 3)")
-    plt.plot(x, y3_u, '-o', label = "Chain till Proxy Units(len = 3)")
-    plt.plot(x, y4, '-o', label = "Chain till Interp Var Det(len = 4)")
-    plt.plot(x, y5, '-o', label = "Chain till Inf Var(len = 5)")
-    plt.plot(x, y6, '-o', label = "Chain till Inf Var Units(len = 6)")
-    plt.xlabel('Recommendation Set Sizes(3,5,7,10)', fontsize = 12)
-    plt.title('MRR for Recommendation Set Size(3,5,7,10)', fontsize=14)
-    plt.ylim(0,1.1)
-    plt.legend()
-    plt.show()
+    sns.set_style("white")
+    sns.lineplot(ax=ax, x='Recommendation Set Size(3,5,7,10,12,14,16)', y='value', hue='variable', style="variable", 
+             data=pd.melt(data_preproc, ['Recommendation Set Size(3,5,7,10,12,14,16)']), markers=True, dashes=False, markersize = 10)
+    ax.set(ylabel='MRR')
+    plt.ylim(0, 1.1) 
+    lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
+    fig.savefig('mrr_06_07.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
-
-
-def store_results_to_csv():
-    '''
-    Append the accuracy score for each row.
-    Also append the information which signifies whether LSTM is a fit for predictions for this archiveType.
-    Store this information back to a csv file.
-
-    Returns
-    -------
-    None.
-
-    '''
-    global df_test
-    
-    accuracy_data_path = os.path.join(test_data_path, 'accuracy_prediction_fang_metrics.csv')
-    df_test = df_test.assign(accuracy_score=pd.Series(accuracy_list).values)
-    df_test = df_test.assign(precision_score=pd.Series(precision_list).values)
-    df_test = df_test.assign(recall_score=pd.Series(recall_list).values)
-    df_test.to_csv(accuracy_data_path, sep = ',', encoding = 'utf-8',index = False)
     
 if __name__ == "__main__":
     calculate_score_for_test_data_chain()

@@ -202,6 +202,8 @@ def store_data_as_csv():
     table2 = table2.filter(['filename','inferredVariable', 'inferredVarUnits'], axis=1)
     
     merged = pd.merge(table1, table2, on=["filename"],how='right')
+    merged = merged.replace(np.nan, 'NA', regex=True)
+    merged = merged[merged.archiveType != 'NA']
     
     table1 = copy.deepcopy(table_com)
     common_lipdverse_df = table1.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)

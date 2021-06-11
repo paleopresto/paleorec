@@ -38,10 +38,8 @@ predLSTM = LSTMpredict(model_file_path=flask_dir, ground_truth_file_path=flask_d
 archives_for_MC = {}
 autocomplete_file_path = None
 
-time_map = {'age' : ['year BP', 'cal year BP'], 
-    'kage' : ['ka BP'],
-    'year' : ['year CE','year AD'],
-    'mage' : ['my BP']}
+time_map = {'age' : ['year BP', 'cal year BP', 'ky BP', 'my BP'], 
+    'year' : ['year CE','year AD']}
 
 # other units for 
 # 'age' : ['year B.P.','yr B.P.','yr BP','BP','yrs BP','years B.P.', 'yr. BP','yr. B.P.', 'cal. BP', 'cal B.P.', 'year BP','years BP']
