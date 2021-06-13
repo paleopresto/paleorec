@@ -310,7 +310,6 @@ def read_lipd_files_list(lipd_files_list):
                             elif intVariable.title() in interp_map:
                                 intVariable = interp_map[intVariable.title()]
                             else:
-                                print('Couldn\'t find in map, {}'.format(intVariable))
                                 for name in intVariable.split(' '):
                                     if name in interp_ignore_set:
                                         accept = True
@@ -419,7 +418,6 @@ def read_lipd_files_list(lipd_files_list):
                             elif intVariable.title() in interp_map:
                                 intVariable = interp_map[intVariable.title()]
                             else:
-                                print('Couldn\'t find in map, {}'.format(intVariable))
                                 for name in intVariable.split(' '):
                                     if name in interp_ignore_set:
                                         accept = True

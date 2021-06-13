@@ -381,10 +381,19 @@ def predict_using_lstm(variabletype, sentence):
         result_list = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype=='inferred' else False))['1']
         result_list_units = [(inverse_ref_dict_u[val] if val in inverse_ref_dict_u else val) for val in result_list_units]
         result_list = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list]
+        if 'NA' in result_list_units:
+            result_list_units.remove('NA')
+            result_list_units.append('Unitless')
+        if len(result_list) > 1 and 'NA' in result_list:
+            result_list.remove('NA')
         output = {0: result_list_units, 1: result_list}
     else:
         result_list = predLSTM.predictForSentence(sentence, isInferred=(True if variabletype=='inferred' else False))['0']
         result_list = [(inverse_ref_dict[val] if val in inverse_ref_dict else val) for val in result_list]
+        if len(inputs) == 1 and 'NA' in result_list:
+            result_list.remove('NA')
+        elif len(result_list) > 1 and 'NA' in result_list:
+            result_list.remove('NA')
         output = {0: result_list}        
         
     return make_response(jsonify({'result': output}), 200)

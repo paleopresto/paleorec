@@ -80,7 +80,7 @@ Check your work
 """"""""""""""""
 
 After you executed the code, go to the `data/csv` and check that the follwing files have been added:
-* common_lipdverse_table_timestamp.csv
+*common_lipdverse_table_timestamp.csv
 *common_lipdverse_inferred_timestamp.csv
 *merged_common_lipdverse_inferred_timestamp.csv
 

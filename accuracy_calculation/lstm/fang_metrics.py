@@ -11,10 +11,10 @@ import sys
 import os
 import json
 from sys import platform as _platform
-import math
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import seaborn as sns
+import time
 
 
 if _platform == "win32":
@@ -326,7 +326,9 @@ def calculate_score_for_test_data_chain():
 
     print('**************************************************************************************')
 
-    accuracy_data_path = os.path.join(test_data_path, 'accuracy_prediction_fang_metrics_1.csv')
+    timestr = time.strftime("%Y%m%d_%H%M%S")
+
+    accuracy_data_path = os.path.join(test_data_path, 'accuracy_prediction_fang_metrics_'+timestr+'.csv')
     df = df.replace(np.nan, '', regex=True)
     df.to_csv(accuracy_data_path, sep = ',', encoding = 'utf-8',index = False)
 
@@ -358,7 +360,7 @@ def calculate_score_for_test_data_chain():
     ax.set(ylabel='Hit Ratio')
     lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
     plt.ylim(0, 1.1)
-    fig.savefig('hr_06_07.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
+    fig.savefig('hr_'+timestr+'.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     print('*************************************************************************************************')
 
@@ -385,7 +387,7 @@ def calculate_score_for_test_data_chain():
     ax.set(ylabel='MRR')
     plt.ylim(0, 1.1) 
     lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
-    fig.savefig('mrr_06_07.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
+    fig.savefig('mrr_'+timestr+'.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     
 if __name__ == "__main__":

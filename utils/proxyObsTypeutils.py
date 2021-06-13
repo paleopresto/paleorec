@@ -198,7 +198,7 @@ def get_periodic_elements():
     global periodic_table_elements, periodic_table_name
     if _platform == "win32":
         print(os.getcwd())
-        periodic_table_path = '..\utils\PeriodicTableJSON.json'
+        periodic_table_path = '..\\utils\\PeriodicTableJSON.json'
     else:
         periodic_table_path = '../utils/PeriodicTableJSON.json'
 
@@ -435,18 +435,20 @@ def predict_proxy_obs_type_from_variable_name(vname):
 
 def validate_proxyObsType(proxyObsType):
 
-    if 'error' in proxyObsType.lower():
-        return 'NA'
+    if type(proxyObsType) != list:
+        
+        if 'error' in proxyObsType.lower():
+            return 'NA'
 
 
-    if 'Depth' in proxyObsType.title() or 'Latitude' in proxyObsType.title() or 'Longitude' in proxyObsType.title():
-        return 'NA'
-    elif proxyObsType in ignore_set or proxyObsType.title() in ignore_set:
-        return 'NA'
-    elif proxyObsType in proxy_obs_map:
-        return proxy_obs_map[proxyObsType]
-    elif proxyObsType.title() in proxy_obs_map:
-        return proxy_obs_map[proxyObsType.title()]
+        if 'Depth' in proxyObsType.title() or 'Latitude' in proxyObsType.title() or 'Longitude' in proxyObsType.title():
+            return 'NA'
+        elif proxyObsType in ignore_set or proxyObsType.title() in ignore_set:
+            return 'NA'
+        elif proxyObsType in proxy_obs_map:
+            return proxy_obs_map[proxyObsType]
+        elif proxyObsType.title() in proxy_obs_map:
+            return proxy_obs_map[proxyObsType.title()]
 
     return proxyObsType
 

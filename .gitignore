@@ -4,6 +4,7 @@ build
 debug.log
 benchmark.log
 __pycache__
+.vscode
 
 ./**/debug.log
 ./**/benchmark.log

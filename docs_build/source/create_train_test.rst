@@ -52,7 +52,7 @@ The input to this module is the latest file 'merged_common_lipdverse_inferred_ti
 
 There are many proxyObservationTypes, interpretation/variable and interpretation/variableDetail that appear only a few times. Since they do not contribute heavily to the recommendation system, we considered it best to remove them from the data as they are outliers. The user is presented with the count of samples for each of the proxyObservationType. The user is then requested for a number \'k\' to eliminate any-co-k occurances in the data. Similarly user is requested to enter the value of 'k' for interpretation/variable and interpretation/variableDetail.
 
-Running this module will list a number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of archiveTypes they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled to.
+Running this module will list the number of samples for each archiveType in the input data. The user is requested to enter a comma-separated string of number for each archiveType they wish to downsample. This is followed by a request to enter a numeric value to which each archiveType needs to be downsampled to.
 
 Routines
 """"""""
@@ -74,7 +74,24 @@ To run the code execute the following command:
 
     Please enter the value of 'k' to replace any-co-k instances : 5
 
-    Please enter a list of archive Types to downsample separated by ',' : wood, MarineSediment
+    Count for each instance of Archive Type:
+    1. Speleothem = 159
+    2. LakeSediment = 538
+    3. GlacierIce = 487
+    4. Wood = 1942
+    5. MarineSediment = 1573
+    6. Hybrid = 2
+    7. Documents = 2
+    8. Coral = 314
+    9. MolluskShell = 3
+    10. Sclerosponge = 16
+    11. Peat = 8
+    12. Ice-other = 16
+    13. Midden = 54
+    14. GroundIce = 22
+    15. TerrestrialSediment = 34
+
+    Using the item number beside the archive type, list the archive types to be downsampled separated by ',' or enter none: 4,5
     Please enter the numeric value to downsampled the above list of Archive Types in same order :350,350
 
 Extensions
@@ -92,5 +109,11 @@ Check your work
 You will be creating two files that can be found in `data/csv`:
 * lipdverse_downsampled_timestamp.csv
 * lipdverse_test_timestamp.csv
+
+You will be creating one file that can be found in `data/autocomplete`:
+* autocomplete_file_timestamp.csv
+
+You will be creating one file that can be found in `data/ground_truth_info`:
+* ground_truth_label_timestamp.csv
 
 where  `timestamp` takes the form: mmddyyyy_hhmmss (e.g., 05252021_143300 for a file created on May 25th 2021 at 2:33pm).

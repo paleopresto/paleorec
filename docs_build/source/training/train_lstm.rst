@@ -193,6 +193,12 @@ Extensions
 Check your work: Learning curves
 --------------------------------
 
+The model files created after training are stored at data/model_lstm:
+* model_lstm_interp_timestamp.pth
+* model_lstm_units_timestamp.pth
+* model_token_info_timestamp.txt
+* model_token_units_info_timestamp.txt
+
 If you did not perform this step in a Jupyter Notebook, the learning curves were saved at data/loss:
 * proxy_interp_training_loss_e_100_l_0.01_timestamp.png
 * proxy_units_training_loss_e_100_l_0.01_timestamp.png

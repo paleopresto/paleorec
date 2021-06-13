@@ -191,39 +191,28 @@ def discard_less_frequent_values_from_data():
     global final_df, names_set_dict, counter_arch, final_ground_truth_dict
     
     
-    final_df = common_lipdverse_df.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
+    final_df = common_lipdverse_df.filter(['filename','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
     archives_map = {"marine sediment": "MarineSediment", "lake sediment": "LakeSediment", "glacier ice": "GlacierIce", "documents": "Documents", "borehole": "Rock", "tree": "Wood", "bivalve": "MolluskShell", "mollusk shell": "MolluskShell", "coral": "Coral", "speleothem": "Speleothem", "sclerosponge": "Sclerosponge", "hybrid": "Hybrid", "Sclerosponge": "Sclerosponge", "Speleothem": "Speleothem", "Coral": "Coral", "MarineSediment": "MarineSediment", "LakeSediment": "LakeSediment", "GlacierIce": "GlacierIce", "Documents": "Documents", "Hybrid": "Hybrid", "MolluskShell": "MolluskShell", "Lake": "Lake", "molluskshell": "MolluskShell", "Wood": "Wood", "Rock": "Rock", "MollusckShell": "MolluskShell", "MolluskShells": "MolluskShell", "TerrestrialSediment": "TerrestrialSediment", "Midden": "Midden", "Peat": "Peat", "GroundIce": "GroundIce", "Ice-other": "Ice-other", "Marine Sediment" : "MarineSediment", "Lake Sediment" : "LakeSediment", "Mollusk Shell" : "MolluskShell", "Glacier Ice" : "GlacierIce", "Ground Ice" : "GroundIce", "Terrestrial Sediment" : "TerrestrialSediment"}
     new_archives = set()
     for i, row in final_df.iterrows():
-        if row[0] in archives_map: 
-            final_df.at[i,'archiveType'] = archives_map[row[0]]
+        if row[1] in archives_map: 
+            final_df.at[i,'archiveType'] = archives_map[row[1]]
         else:
             for w in archives_map.keys():
-                if editDistDP(w, row[0], len(w), len(row[0])) <=5:
+                if editDistDP(w, row[1], len(w), len(row[1])) <=5:
                     final_df.at[i,'archiveType'] = archives_map[w]
                 else:
-                    new_archives.add(row[0])
-        if row[5] == 'Na':
+                    new_archives.add(row[1])
+        if row[6] == 'Na':
             final_df.at[i,'interpretation/variableDetail'] = 'NA'
-        if row[4] in {'Pdo', 'Amo', 'Pdsi'}:
-            final_df.at[i,'interpretation/variable'] = row[4].upper()
+        if row[5] in {'Pdo', 'Amo', 'Pdsi'}:
+            final_df.at[i,'interpretation/variable'] = row[5].upper()
             
     for arch in new_archives:
         archives_map[arch] = arch
-        
-    # if new_archives:
-    #     print('Archives:{}'.format(new_archives))
-    #     take_new_archives = input('Please enter \'Y\' if you want to add the following new archives to the data for recommendation:\n')
-    #     take_new_archives = take_new_archives.lower()
-    #     if take_new_archives == 'y' or take_new_archives == 'yes':
-    #         for arch in new_archives:
-    #             archives_map[arch] = arch
-    #     else:
-    #         print('\nRemoving corresponding data for the new Archive Types.')
-    #         final_df = final_df[~final_df['archiveType'].isin(new_archives)]
-
-    del archives_map['NA']
+    if 'NA' in archives_map:
+        del archives_map['NA']
     final_ground_truth_dict['archives_map'] = archives_map
 
     final_df = final_df[final_df.units != 'Mg/Ca']
@@ -267,9 +256,7 @@ def discard_less_frequent_values_from_data():
                       'interpretation/variable' : list(counter_int_var.keys()), 'interpretation/variableDetail' : list(counter_int_det.keys()), 
                       'inferredVariable' : list(counter_inf_var.keys()), 'inferredVariableUnits' : list(counter_inf_var_units.keys())}
     write_autocomplete_data_file()
-    
-    # MANAUL TASK - SCAN THROUGH ALL THE COUNTER VARIABLES TO CHECK IF WE NEED TO OMIT ANY-CO-k( WHERE K CAN BE 1-5, DEPENDING ON THE FIELD)
-    
+         
     # PROXY OBSERVATION TYPE
     print('\nSamples per instance of proxyObservationType : ',counter_proxy)
     k = take_user_input()  
@@ -309,7 +296,7 @@ def discard_less_frequent_values_from_data():
 
 def get_label_set_for_input(dataframe_obj, col1, col2):
     '''
-    Calculate the get items in col2 for each item in column 1.
+    Calculate the items in col2 for each item in column 1.
     
 
     Parameters
@@ -531,24 +518,24 @@ def downsample_archives_create_final_train_test_data():
     counter_arch = dict(collections.Counter(final_df['archiveType']))
     if 'NA' in counter_arch:
         del counter_arch['NA']
-    print('\nCount for each instance of Archive Type: ', counter_arch)
+    print('\nCount for each instance of Archive Type: ')
+    cnt = 1
+    counter_arch_list = [(key,val) for key,val in dict(counter_arch).items()]
+    for key, value in counter_arch_list:
+        print('{}. {} = {}'.format(str(cnt), key, str(value)))
+        cnt += 1
     
     discard_set = set()
-    archives = input('\nPlease enter a list of archive Types to downsample separated by \',\' or enter none: ') 
+    archives = input('\nUsing the item number beside the archive type, list the archive types to be downsampled separated by \',\' or enter none: ') 
     archives = archives.lower()
     if archives != 'none':
         
         archives_list = archives.split(',')
-        for i,arch in enumerate(archives_list):
-            arch = arch.strip()
-
-            if arch not in counter_arch.keys() and arch.title() not in counter_arch.keys():
-                print('{} is not available in the list of Archive Types'.format(arch))
-                print('Please run the program again and enter the values from the displayed list of archive Types')
-                sys.exit()
-            archives_list[i] = arch if arch in counter_arch.keys() else arch.title()
-            discard_set.add(archives_list[i])
-        
+        for i,arch_num in enumerate(archives_list):
+            arch_num = arch_num.strip()
+            discard_set.add(counter_arch_list[int(arch_num)-1][0])
+            archives_list[i] = counter_arch_list[int(arch_num)-1][0]
+            
         downsampled = input('\nPlease enter the numeric value to downsampled the above list of Archive Types in same order :')
         downsampled_list = downsampled.split(',')
         for i, n in enumerate(downsampled_list):
@@ -566,12 +553,24 @@ def downsample_archives_create_final_train_test_data():
                 sys.exit('Please run the program with a valid integer.')
     
     df_rest = final_df[~final_df['archiveType'].isin(discard_set)]
-    test_sample_size_rest = len(df_rest)//5
-    # df_rest_test = resample(df_rest, 
-    #                         replace=False,    # sample without replacement
-    #                         n_samples=test_sample_size_rest,
-    #                         random_state=123,  # reproducibility
-    #                         stratify=df_rest)
+
+    # creating graph for count of datasets for proxyObsType and InfVarType 
+
+    # Code to get data for proxyObsType and InferredVar
+    # dataset_proxy = get_label_set_for_input(df_rest, 'proxyObservationType', 'filename')
+    # for k,v in dataset_proxy.items():
+    #     dataset_proxy[k] = len(v)
+    #     print('{} = {}'.format(k, str(len(v))))
+
+    # print('*****************************************************')
+    # dataset_infvar = get_label_set_for_input(df_rest, 'inferredVariable', 'filename')
+    # for k,v in dataset_infvar.items():
+    #     dataset_infvar[k] = len(v)
+    #     print('{} = {}'.format(k, str(len(v))))
+    
+
+
+    df_rest = df_rest.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     df_rest_test = df_rest.sample( 
                             replace=False,    # sample without replacement
                             frac=0.2,     # to match minority class

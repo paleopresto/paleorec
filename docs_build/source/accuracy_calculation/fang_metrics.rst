@@ -66,3 +66,14 @@ To run the code execute the following command:
 2. Choose 'Kernel' drop down and the 'Restart and Run all' option within it.
 3. The output will show you the line plot for Recall and MRR for different chain lengths across different recommendation set sizes.
 
+Check your work:
+----------------
+
+The Hit Ratio and MRR graphs are stored in the same folder.
+* hr_timestamp.png
+* mrr_timestamp.png
+
+A file listing the Hit Ratio and MRR for each chain in the testing data is created at data/csv:
+* accuracy_prediction_fang_metrics_timestamp.csv
+
+where `timestamp` takes the form: mmddyyyy_hhmmss (e.g., 05252021_143300 for a file created on May 25th 2021 at 2:33pm).

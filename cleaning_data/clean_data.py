@@ -206,9 +206,9 @@ def store_data_as_csv():
     merged = merged[merged.archiveType != 'NA']
     
     table1 = copy.deepcopy(table_com)
-    common_lipdverse_df = table1.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
+    common_lipdverse_df = table1.filter(['filename','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
-    merged_filter = merged.filter(['archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
+    merged_filter = merged.filter(['filename','archiveType','proxyObservationType', 'units', 'interpretation/variable', 'interpretation/variableDetail', 'inferredVariable', 'inferredVarUnits'], axis=1)
     
     frames = [common_lipdverse_df, merged_filter]
     common_lipdverse_df = pd.concat(frames)

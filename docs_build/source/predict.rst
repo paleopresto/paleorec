@@ -15,10 +15,10 @@ Contact : linkedearth@gmail.com
 Instructions for use in the flask_app.py server code:
 
 1. If there is a change in data and the model has been retrained on it, then new model files will be created.
-2. After changes to LSTMpredict.py/ MCpredict.py please upload the latest model files and the updated LSTMpredict.py and MCpredict.py files to pythonanywhere. 
+2. After changes to LSTMpredict.py please upload the latest model files and the updated LSTMpredict.py file to pythonanywhere. 
 3. The flask_app.py code and the predict.py files will pick up the latest model files to work on.
 
-We have implemented Average Accuracy Calculation for the Recommendation System, the predict logic is used for the same.
+The evalution metrics for the Recommendation System uses the predict logic. 
 
 
 Routines

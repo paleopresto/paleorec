@@ -9,9 +9,13 @@ We have modeled our use case as follows:
    archiveType -> proxyObservationType -> proxyObservationTypeUnits
    archiveType -> proxyObservationType -> interpretation/variable -> interpretation/variableDetail -> inferredVariable -> inferredVarUnits
 
-Since this can be viewed as a text generation problem, we have implemented the solution as a Sequential Recommendation System Problem.
-The two most suitable candidates that have proven to be effective are Markov Chains and LSTM.
-We have implemented both the algorithms for our use case.
+We are implementing Sequential Recommendation System to annotate paleoclimate data. Since the data we are working with is in textual format, this can be viewed as a text generation problem. Traditionally frequent pattern mining, k-nearest neighbors, markov chains were used for this kind of problem. 
+
+We have implemented a combination of First-order Markov Chains and Higher-order Markov Chains.
+The code is available at `markov_chain in <https://github.com/paleopresto/recommender/tree/main/paleorec_research>`_.
+
+In the recent times Recurrent Neural Networks have shown immense performance gains. Gated Recurrent Units(GRUs) are a type of RNN which effectively combat the fading/exploding gradient problem. Long Short Term Memory(LSTMs) are another type of RNN which are similar to GRUs, built of a different architecture but achieving the same results. We have chosen LSTM over GRUs for performance reasons.
+
 
 Routines
 --------

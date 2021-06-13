@@ -13,3 +13,4 @@ dependencies:
     - LiPD
     - matplotlib
     - xlsxwriter
+    - seaborn>=0.11

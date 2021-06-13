@@ -100,7 +100,7 @@ Functions
 Usage
 -----
 
-LSTMpredict.py module is used for accuracy calculation in the /accuracy_calc/lstm directory. For more information check out the documentation for Accuracy Calculation.
+LSTMpredict.py module is used for accuracy calculation in the /accuracy_calc/lstm directory. For more information check out the documentation for Metrics Calculation.
 
 .. toctree::
     :maxdepth: 1
