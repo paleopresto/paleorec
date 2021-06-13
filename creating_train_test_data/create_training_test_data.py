@@ -480,7 +480,10 @@ def downsample_archive(archiveType, downsample_val):
         else:
             wood_inferred_path = '../data/csv/wood_inferred_data.csv'
         
-        wood_inferred_df = pd.read_csv(wood_inferred_path)
+        try:
+            wood_inferred_df = pd.read_csv(wood_inferred_path)
+        except RuntimeError:
+            print("Couldn't find the required file : wood_inferred_data.csv")
         wood_inferred_df = wood_inferred_df.replace(np.nan, 'NA', regex=True)
         
         wood_inferred_test = resample(wood_inferred_df, 
