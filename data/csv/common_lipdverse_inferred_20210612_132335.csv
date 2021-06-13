@@ -1,0 +1,254 @@
+coordinates,publication,filename,archiveType,variableType,description,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits,rank
+"[34.2883, -10.0033, 477]",PAGES2kv2,Afr-LakeMalawi.Powers.2011.lpd,lake sediment,inferred,inferred lake surface temperature,NA,Lake Surface,Temperature,degC,1.0
+"[28.53, -6.03, 905]",PAGES2kv2,Afr-LakeTanganyika.Tierney.2010.lpd,lake sediment,inferred,inferred lake surface temperature,NA,Lake Surface,Temperature,degC,1.0
+"[44.3, 11.955, -869]",PAGES2kv2,Afr-P178-15P.Tierney.2015.lpd,marine sediment,inferred,"median calibrated ssts from tex86, using BAYSPAR-NRS (Tierney & Tingley, 2014, GCA)",NA,Sea Surface,Temperature,degC,1.0
+"[112.807, -66.77, 1370]",PAGES2kv2,Ant-DSS.DahlJensen.1999.lpd,borehole,inferred,surface temperature,NA,Ice Surface,Temperature,degC,1.0
+"[-112.125, -79.463, 1766]",PAGES2kv2,Ant-WAIS-Divide.Severinghaus.2012.lpd,borehole,inferred,surface temperature,NA,Ice Surface,Temperature,degC,1.0
+"[-68.83, 69.87, 180]",PAGES2kv2,Arc-BigRoundLake.Thomas.2009.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-50.7, 67, 170]",PAGES2kv2,Arc-BrayaS.DAndrea.2011.lpd,lake sediment,inferred,inferred temperature,NA,Lake Surface,Temperature,degC,1.0
+"[-146.59, 61.03, 230]",PAGES2kv2,Arc-GulfofAlaska.Wilson.2014.lpd,tree,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-146.2, 61.5, 1128]",PAGES2kv2,Arc-HalletLake.McKay.2008.lpd,lake sediment,inferred,JJA Temperature Anomalies,NA,Air Surface,Temperature,degC,1.0
+"[-145.66, 61.9, 657]",PAGES2kv2,Arc-HudsonLake.Clegg.2011.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-18.37, 64.77, 0]",PAGES2kv2,Arc-Iceland.Bergthorsson.1969.lpd,documents,inferred,annual mean temperature,NA,Air Surface,Temperature,degC,1.0
+"[13.9311, 78.0217, 94]",PAGES2kv2,Arc-Kongressvatnet.DAndrea.2012.lpd,lake sediment,inferred,inferred temperature,NA,Lake Surface,Temperature,degC,1.0
+"[-83.79, 65.1, 100]",PAGES2kv2,Arc-Lake4.Rolland.2009.lpd,lake sediment,inferred,chironomid assemblages derived temperature,NA,Air Surface,Temperature,degC,1.0
+"[-50.7, 67, 170]",PAGES2kv2,Arc-LakeE.DAndrea.2011.lpd,lake sediment,inferred,inferred temperature,NA,Lake Surface,Temperature,degC,1.0
+"[25.42, 60.28, 29]",PAGES2kv2,Arc-LakeHamptrsk.Luoto.2009.lpd,lake sediment,inferred,chironomid assemblages derived temperature,NA,Air Surface,Temperature,degC,1.0
+"[30.12, 64.28, 188.4]",PAGES2kv2,Arc-LakePieni-Kauro.Luoto.2010.lpd,lake sediment,inferred,chironomid assemblages derived temperature,NA,Air Surface,Temperature,degC,1.0
+"[17.425, 78.8647, 1250]",PAGES2kv2,Arc-Lomonosovfonna.Divine.2011.lpd,glacier ice,inferred,Temperature,NA,Air Condensationlevel,Temperature,degC,1.0
+"[-133.87, 68.625, 5]",PAGES2kv2,Arc-MackenzieDelta.Porter.2013.lpd,tree,inferred,regional intrumental temperature record,NA,NA,Temperature,degC,1.0
+"[-17.7, 66.55, -470]",PAGES2kv2,Arc-MD992275.Jiang.2005.lpd,marine sediment,inferred,"Diatoms, tranfers function",NA,Sea Surface,Temperature,degC,1.0
+"[-143.6, 61.35, 437]",PAGES2kv2,Arc-MooseLake.Clegg.2010.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-145.4, 66.07, 223]",PAGES2kv2,Arc-ScreamingLynxLake.Clegg.2011.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-69.883, 62.917, 14]",PAGES2kv2,Arc-SoperLake.Hughen.2000.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[19.6, 68.26, 320]",PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,from TRW,NA,Air Surface,Temperature,degC,1.0
+"[19.6, 68.26, 320]",PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,from MXD,NA,Air Surface,Temperature,degC,1.0
+"[7.64, 66.97, -1048]",PAGES2kv2,Arc-VringPlateau.Berner.2011.lpd,marine sediment,inferred,NA,NA,Sea Surface,Temperature,degC,1.0
+"[68, 66.8, 30]",PAGES2kv2,Arc-Yamalia.Briffa.2013.lpd,tree,inferred,air temperature,NA,Air Surface,Temperature,degC,1.0
+"[113, 29, 3000]",PAGES2kv2,Asi-CentralChina.Wang.1998.lpd,documents,inferred,"Cold/warm descriptions, annual temperature",NA,Air Surface,Temperature,index,1.0
+"[117.5, 30, 2600]",PAGES2kv2,Asi-EastChina.Wang.1990.lpd,documents,inferred,"Winter cold index, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[120, 34, 3300]",PAGES2kv2,Asi-EastChina.Wang.1998.lpd,documents,inferred,"Cold/warm descriptions, annual temperature",NA,Air Surface,Temperature,index,1.0
+"[121, 24, 3700]",PAGES2kv2,Asi-Fujian.Wang.1998.lpd,documents,inferred,"Cold/warm description, annual temperature",NA,Air Surface,Temperature,index,1.0
+"[113.23, 23.16, 3900]",PAGES2kv2,Asi-Guangdong.Zheng.1982.lpd,documents,inferred,"Cold winter record pieces in every ten years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[112.5, 23.5, 2480]",PAGES2kv2,Asi-GuangdongAndGuangxi.Zhang.1980.lpd,documents,inferred,"Frequency of cold/warm years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[116.5, 28, 2300]",PAGES2kv2,Asi-Hunan-Jiangsu.Zhang.1980.lpd,documents,inferred,"Frequency of cold/warm years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[145.725, 43.955, 2400]",PAGES2kv2,Asi-KunashirIsland.Demezhko.2009.lpd,hybrid,inferred,synthesized ground surface temperatures,NA,Ground Surface,Temperature,degC,1.0
+"[118.8, 32.1, 2200]",PAGES2kv2,Asi-LowerYangtzeRiver.Zhang.1980.lpd,documents,inferred,"Frequency of cold/warm years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[114.5, 30.5, 1900]",PAGES2kv2,Asi-MiddleYangtzeRiver.Zhang.1980.lpd,documents,inferred,"Frequency of cold/warm years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[126.36, 42.17, 1000]",PAGES2kv2,Asi-SihailongwaLake.Chu.2011.lpd,lake sediment,inferred,inferred temperature,NA,Lake Surface,Temperature,degC,1.0
+"[65.9167, 24.8333, -695]",PAGES2kv2,Asi-SO90-39KGSO130-275KL.Munz.2015.lpd,marine sediment,inferred,inferred temperature,NA,Sea Surface,Temperature,degC,1.0
+"[59.5, 55, 1900]",PAGES2kv2,Asi-SourthAndMiddleUrals.Demezhko.2007.lpd,borehole,inferred,inferred ground surface temperature (GST) anomaly,NA,Ground Surface,Temperature,degC,1.0
+"[114, 23, 2200]",PAGES2kv2,Asi-SouthChina.Wang.1998.lpd,documents,inferred,"Cold/warm description, annual temperature",NA,Air Surface,Temperature,index,1.0
+"[118, 25, 2400]",PAGES2kv2,Asi-ZhejiangAndFujian.Zhang.1980.lpd,documents,inferred,"Frequency of cold/warm years, winter temperature",NA,Air Surface,Temperature,index,1.0
+"[145.53, -41.83, 900]",PAGES2kv2,Aus-MtRead.Cook.2006.lpd,tree,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[170.28, -43.23, 110]",PAGES2kv2,Aus-Oroko.Cook.2002.lpd,tree,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[0.75, 42.5, 2280]",PAGES2kv2,Eur-CentralandEasternPyrenees.Pla.2004.lpd,lake sediment,inferred,Chrysophyte cyst derived temperature anomaly,NA,Air Surface,Temperature,degC,1.0
+"[13, 49, 0]",PAGES2kv2,Eur-CentralEurope.Dobrovoln.2009.lpd,documents,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-8.9, 41.1, -80]",PAGES2kv2,Eur-CoastofPortugal.Abrantes.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[28.325, 62, 130]",PAGES2kv2,Eur-FinnishLakelands.Helama.2014.lpd,tree,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[9.8, 46.5, 1791]",PAGES2kv2,Eur-LakeSilvaplana.Larocque-Tobler.2010.lpd,lake sediment,inferred,Chironomid-inferred Temperature 50-year filter,NA,Air Surface,Temperature,degC,1.0
+"[9.8, 46.5, 1791]",PAGES2kv2,Eur-LakeSilvaplana.Trachsel.2010.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[7.5, 46.15, 1830]",PAGES2kv2,Eur-Seebergsee.Larocque-Tobler.2012.lpd,lake sediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[18.06, 59.32, 10]",PAGES2kv2,Eur-Stockholm.Leijonhufvud.2009.lpd,documents,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[24.75, 59.4, 10]",PAGES2kv2,Eur-Tallinn.Tarand.2001.lpd,documents,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[-70.1, 44.5, 124]",PAGES2kv2,NAm-BasinPond.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-79, 33.8, 513]",PAGES2kv2,NAm-ClearPond.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-67.9, 46.3, 140]",PAGES2kv2,NAm-ConroyLake.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-91.5, 45.3, 334]",PAGES2kv2,NAm-DarkLake.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-89.7, 46.2, 488]",PAGES2kv2,NAm-HellsKitchenLake.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-75.1, 45.8, 176]",PAGES2kv2,NAm-LacNoir.Paquette.2013.lpd,lake sediment,inferred,Mean temperature of JJA,NA,Air Surface,Temperature,degC,1.0
+"[-95.478, 45.89, 415]",PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Pollen-based winter temperature reconstruction,NA,Air Surface,Temperature,degC,1.0
+"[-95.478, 45.89, 415]",PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Pollen-based summer temperature reconstruction,NA,Air Surface,Temperature,degC,1.0
+"[-91, 48, 462]",PAGES2kv2,NAm-LakeoftheClouds.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of July,NA,Air Surface,Temperature,degC,1.0
+"[-91.5, 45.3, 330]",PAGES2kv2,NAm-LittlePineLake.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-91.5, 45.3, 335]",PAGES2kv2,NAm-RubyLake.Gajewski.1988.lpd,lake sediment,inferred,Mean temperature of the warmest month,NA,Air Surface,Temperature,degC,1.0
+"[-4.7496, 35.986, -1022]",PAGES2kv2,Ocn-AlboranSea384B.Nieto-Moreno.2013.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-4.3133, 36.2053, -1108]",PAGES2kv2,Ocn-AlboranSea436B.Nieto-Moreno.2013.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[65.92, 24.83, -695]",PAGES2kv2,Ocn-ArabianSea.Doose-Rolinski.2001.lpd,marine sediment,inferred,sea surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-10.2685, 30.85, -900]",PAGES2kv2,Ocn-CapeGhir.Doose-Rolinski.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-10.0983, 30.845, -355]",PAGES2kv2,Ocn-CapeGhir.McGregor.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-75.201, 34.973, -620]",PAGES2kv2,Ocn-CapeHatteras.Cleroux.2008.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-64.77, 10.77, -450]",PAGES2kv2,Ocn-CariacoBasin.Black.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-64.94, 10.7, -790]",PAGES2kv2,Ocn-CariacoBasin.Lea.2003.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-76.276, 32.784, -1895]",PAGES2kv2,Ocn-CH07-98-MC-22.Saenger.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-74.45, -41, -852]",PAGES2kv2,Ocn-ChileanMargin.Lamy.2002.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-83.58, 24.59, -530]",PAGES2kv2,Ocn-DryTortugas.Lund.2006.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-83.26, 24.33, -547]",PAGES2kv2,Ocn-DryTortugasA.Lund.2006.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-16.7327, 16.8402, -330]",PAGES2kv2,Ocn-EasternTropicalNorthAtlantic.Kuhnert.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-62.8, 45.89, -250]",PAGES2kv2,Ocn-EmeraldBasin.Keigwin.2003.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-62.48, 43.53, -250]",PAGES2kv2,Ocn-EmeraldBasin.Keigwin.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-13.9, 55.5, -2543]",PAGES2kv2,Ocn-FeniDrift.Richter.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-93.93, 27.55, -817]",PAGES2kv2,Ocn-FiskBasin.Richey.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-93.93, 26.68, -1570]",PAGES2kv2,Ocn-GarrisonBasin.Richey.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-79.29, 24.765, -694]",PAGES2kv2,Ocn-GreatBahamaBank.Lund.2006.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-79.26, 24.58, -531]",PAGES2kv2,Ocn-GreatBahamaBank.Richter.2006.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[146.595, -18.315, -10]",PAGES2kv2,Ocn-GreatBarrierReef.Hendy.2002.lpd,coral,inferred,inferred sea-surface temperature anomaly (mean-subtracted only),NA,Sea Surface,Temperature,degC,1.0
+"[9.38, 2.5, -1295]",PAGES2kv2,Ocn-GulfofGuinea.Weldeab.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-72.97, -44.33, -510]",PAGES2kv2,Ocn-JacafFjord.Seplveda.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-76.316, 32.977, -1205]",PAGES2kv2,Ocn-KNR140259GGC.Saenger.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[141.78, 36.03, -2224]",PAGES2kv2,Ocn-KuroshioCurrent.Isono.2009.lpd,marine sediment,inferred,sea surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-54.87, 43.48, -3975]",PAGES2kv2,Ocn-LaurentianFan.Keigwin.2005.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[115.2, -7.4, -594]",PAGES2kv2,Ocn-MakassarStrait.Linsley.2010.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[119.2, -3.53, -503]",PAGES2kv2,Ocn-MakassarStrait.Oppo.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[7.63, 66.97, -1048]",PAGES2kv2,Ocn-MD95-2011.Grimalt.2002.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[117.4867, -5.2012, -1185]",PAGES2kv2,Ocn-MD98-2160.Newton.2010.lpd,marine sediment,inferred,Makassar Strait WEq Pacific marine sediment Mg/Ca SST,NA,Sea Surface,Temperature,degC,1.0
+"[119.078, 1.4033, -968]",PAGES2kv2,Ocn-MD98-2177.Newton.2010.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[4.03, 40.5, -2394]",PAGES2kv2,Ocn-MinorcaContourite.Moreno.2012.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-17.42, 66.55, -470]",PAGES2kv2,Ocn-NorthIceland.Sicre.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[152.53, 46.32, -2793]",PAGES2kv2,Ocn-NorthwestPacificOcean.Harada.2004.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-24.085, 61.43, -1648]",PAGES2kv2,Ocn-ODP984.Came.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[122.5, 24.8, -1274]",PAGES2kv2,Ocn-OkinawaTrough.Wu.2012.lpd,marine sediment,inferred,sea surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[125.82, 6.3, -2114]",PAGES2kv2,Ocn-Philippines.Stott.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-91.42, 27.2, -2259]",PAGES2kv2,Ocn-PigmyBasin.Richey.2015.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-17.82, 62.08, -1938]",PAGES2kv2,Ocn-RAPiD-12-1K.Thornalley.2009.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-120.02, 34.23, -590]",PAGES2kv2,Ocn-SantaBarbaraBasin.Zhao.2000.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[16.72, -29.14, -97]",PAGES2kv2,Ocn-SouthAtlanticWestAfrica.Leduc.2010.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[109.869, 8.73, -1598]",PAGES2kv2,Ocn-SouthChinaSea.Zhao.2006.lpd,marine sediment,inferred,sea surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-75.16, -44.15, -1169]",PAGES2kv2,Ocn-SouthernChileMargin.Mohtadi.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-27.91, 57.45, -2630]",PAGES2kv2,Ocn-SouthIceland.Sicre.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-18.5833, 20.75, -2263]",PAGES2kv2,Ocn-SubTropicalEasternNorthAtlantic.deMenocal.2000.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[74.9993, 10.98, -1245]",PAGES2kv2,Ocn-SWCoastOfIndia.Saraswat.2013.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-9.3498, 38.556, -96]",PAGES2kv2,Ocn-TagusMudPatch.Abrantes.2005.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[133.44, -5, -2382]",PAGES2kv2,Ocn-WEqPacific.Stott.2007.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[-64.2, -64.87, -1011]",PAGES2kv2,Ocn-WesternAntarcticPeninsula.Shevenell.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[6.77, 78.91, -1491]",PAGES2kv2,Ocn-WesternSvalbard.Spielhagen.2011.lpd,marine sediment,inferred,inferred sea-surface temperature,NA,Sea Surface,Temperature,degC,1.0
+"[5.885, 78.96, -1497]",PAGES2kv2,Ocn-WestSpitzberg.Bonnet.2010.lpd,marine sediment,inferred,inferred sea-surface temperature (mean),NA,Sea Surface,Temperature,degC,1.0
+"[-70.92, -33.85, 355]",PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,inferred temperature,NA,NA,Temperature,degC,1.0
+"[-70.92, -33.85, 355]",PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,"smooth: 5-year triangular filters were applied to account for resampling, dating uncertainties and possible bioturbation.",NA,NA,Temperature,degC,1.0
+"[-70.92, -33.85, 355]",PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,"smooth: 3-year triangular filters were applied to account for resampling, dating uncertainties and possible bioturbation. Scaling",NA,NA,Temperature,degC,1.0
+"[-70.92, -33.85, 355]",PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,"smooth: 3-year triangular filters were applied to account for resampling, dating uncertainties and possible bioturbation. Regression",NA,Air Surface,Temperature,degC,1.0
+"[-70.5, -32.2667, 3050]",PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,NDJF reconstructed temperature,NA,Air Surface,Temperature,degC,1.0
+"[-70.5, -32.2667, 3050]",PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,NDJF temperature scaled to 20th century mean,NA,NA,Temperature,degC,1.0
+"[-71.8167, -45.5167, 725]",PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,surface temperature anomaly Sep-Feb,NA,Air Surface,Temperature,degC,1.0
+"[-4.3127, 36.2054, -1108]",Temp12k1_0_1,161_976.Martrat.2014.lpd,MarineSediment,inferred,SST_degC,NA,Sea Surface,Temperature,degC,1.0
+"[-65.1694, 10.7061, -892.6]",Temp12k1_0_1,165_1002C.Herbert.2000.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1.0
+"[172.5333, -40.9333, 1250]",Temp12k1_0_1,AdelaideTarn.Jara.2015.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1.0
+"[81.67, 32.75, 4427]",Temp12k1_0_1,AwengCo.Li.2017.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-51.0333, 66.9875, 170]",Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,NA,NA,Lake Surface,Temperature,degC,1
+"[-130.65, 61.68, 1040]",Temp12k1_0_1,CandelabraLake.Cwynar.1995.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-58.0365, 61.4639, -2674]",Temp12k1_0_1,CC04.Gibb.2015.lpd,MarineSediment,inferred,SST_winter,NA,Sea Surface,Temperature,degC,1
+"[-58.0365, 61.4639, -2674]",Temp12k1_0_1,CC04.Gibb.2015.lpd,MarineSediment,inferred,SST_summer,NA,Sea Surface,Temperature,degC,1
+"[37.7, -3.3167, 880]",Temp12k1_0_1,ChallaLake.Damst.2012.lpd,LakeSediment,inferred,"mean annual air temperature, inferred from Tierney et al., 2010 calibration 10.1016/j.gca.2010.06.002",NA,Air Surface,Temperature,degC,1
+"[91.1778, 30.5619, 4280]",Temp12k1_0_1,CN01.Cheung.2017.lpd,Peat,inferred,digitized temperature record from Figure 3,NA,Air Surface,Temperature,degC,1
+"[110, 31.4667, 1700]",Temp12k1_0_1,DajiuhuPeatland.Huang.2013.lpd,Peat,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-20.7027, 61.6089, -2120]",Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,Winter SST,NA,NA,Temperature,degC,NA
+"[-20.7027, 61.6089, -2120]",Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,Summer SST,NA,NA,Temperature,degC,NA
+"[-20.7027, 61.6089, -2120]",Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,annualSST,NA,Sea Surface,Temperature,degC,1
+"[-138.32, 65.21, 740]",Temp12k1_0_1,DempsterPeatland.Porter.2019.lpd,Ice-other,inferred,Reconstructed summer temperature anomalies expressed relative to the Holocene mean.,NA,Air Surface,Temperature,degC,1
+"[-43.8248, 65.1857, 2490]",Temp12k1_0_1,DYE3.Dahl-Jensen.1998.lpd,GlacierIce,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[0.0683, -75.0025, 2892]",Temp12k1_0_1,EDML.Stenni.2010.lpd,GlacierIce,inferred,"Column F: T anomalies (°C) at EDML site after correction for past d18O seawater changes, moisture source T through deuterium excess and for elevation changes (upstream effects+local elevation changes).",NA,Air Surface,Temperature,degC,1
+"[123.3953, -75.1019, 3233]",Temp12k1_0_1,EPICADomeC.Stenni.2010.lpd,GlacierIce,inferred,Column C: T anomalies (°C) at EDC site after correction for moisture source tempertature through deuterium excess and site elevation changes.,NA,Air Surface,Temperature,degC,1
+"[-37.053, -54.497, 94]",Temp12k1_0_1,FanLake.Foster.2016.lpd,LakeSediment,inferred,Foster et al (2016) ANT-GDGT Calibrated Temp (°C). MSAT = 18.7+ (80.3×GDGT-Ib) −(25.3 ×GDGT-II)−(19.4×GDGT-III) +(369.9×GDGT-IIIb),NA,Air Surface,Temperature,degC,1
+"[104.6425, -7.1135, -2460]",Temp12k1_0_1,GeoB10042_1.Setiawan.2015.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[105.0587, -7.3092, -2172]",Temp12k1_0_1,GeoB10043_3.Setiawan.2015.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[39.1082, -5.5732, -195]",Temp12k1_0_1,GeoB12605_3.Kuhnert.2014.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[-72.0333, -32.75, -2545]",Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,NA,NA,NA,Sedimentation Rate,cm/kyr,NA
+"[-72.0333, -32.75, -2545]",Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,NA,NA,NA,Sea Surface Temperature,degC,1
+"[119.36, -3.6298, -688]",Temp12k1_0_1,GiK18515_3.lpd,MarineSediment,inferred,SST (1-12) [C],NA,Sea Surface,Temperature,degC,1
+"[14, 75, -1768]",Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Temperature,degC,1
+"[14, 75, -1768]",Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,"this is a composite of the Artificial Neural Network calibration, to estimate annual (from Summer and winter)",NA,Sea Surface,Temperature,degC,1
+"[177.4392, -36.9225, -2045]",Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,sst_cold_mat,NA,Sea Surface,Temperature,degC,1
+"[177.4392, -36.9225, -2045]",Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,sst_warm_mat,NA,Sea Surface,Temperature,degC,1
+"[126.517, 42.2167, 910]",Temp12k1_0_1,Hani.Zheng.2017.lpd,Peat,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[110.4167, 30.45, 294]",Temp12k1_0_1,HeshangCave.Wang.2018.lpd,Speleothem,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-6.07, 60.11, 1156]",Temp12k1_0_1,HM03_133_25.Solignac.2008.lpd,MarineSediment,inferred,temperature_winter,NA,Sea Surface,Temperature,degC,1
+"[-6.07, 60.11, 1156]",Temp12k1_0_1,HM03_133_25.Solignac.2008.lpd,MarineSediment,inferred,temperature_summer,NA,Sea Surface,Temperature,degC,1
+"[-138.4, 64.63, 1160]",Temp12k1_0_1,Honeymoon.Cwynar.1991.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[96.91, 37.28, 2817]",Temp12k1_0_1,HurlegLake.Zhao.2013.lpd,LakeSediment,inferred,Digitized temperature from figure 7a,NA,Air Surface,Temperature,degC,1
+"[126.37, 42.33, 600]",Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,Proxy inverse modeling of the stable carbon and oxygen isotopes using a mechanistic model that governs the fractionation of these isotopic species in peat cellulose,NA,Air Surface,Temperature,degC,1
+"[-69.4632, -54.3199, -297]",Temp12k1_0_1,JPC67.Bertrand.2017.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Temperature,degC,1
+"[97.4833, -74.083, 3499]",Temp12k1_0_1,Komosomolskaia.Ciais.1992.lpd,GlacierIce,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[140.7667, 41, -61]",Temp12k1_0_1,KT05_7_PC_02.Kawahata.2009.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[11.23, -5.7, -816]",Temp12k1_0_1,KZAI_01.Hardy.2018.lpd,MarineSediment,inferred,SST_Annual,NA,Sea Surface,Temperature,degC,1
+"[-45.2, -25.84, -827]",Temp12k1_0_1,LaPAS_KF02.Pivel.2013.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[-135.4, 59.2, 230]",Temp12k1_0_1,Lily.Cwynar.1990.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-61.2437, 12.0897, -1299]",Temp12k1_0_1,M35003_4.R_hlemann.1999.lpd,MarineSediment,inferred,sst_uk37,NA,NA,Temperature,degC,1
+"[37.8685, -18.2412, -1339]",Temp12k1_0_1,M75_3_137_3.Wang.2013.lpd,MarineSediment,inferred,SST_degC,NA,Sea Surface,Temperature,degC,1
+"[-81.1247, -3.7498, -355]",Temp12k1_0_1,M77_2_056_5.Neurnberg.2015.lpd,MarineSediment,inferred,SST_degC,NA,Sea Surface,Temperature,degC,1
+"[-81.1247, -3.7498, -355]",Temp12k1_0_1,M77_2_056_5.Neurnberg.2015.lpd,MarineSediment,inferred,SubT_degC,NA,NA,Temperature,degC,1
+"[-81.3205, -3.9502, -997]",Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,SST_degC_Calculated_from_Mg_Ca_ratios,NA,Sea Surface,Temperature,degC,1
+"[-81.3205, -3.9502, -997]",Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,SubT_degC,NA,NA,Temperature,degC,1
+"[-81.3205, -3.9502, -997]",Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,SST_degC_Calculated_from_UK'37_Prahl,NA,Sea Surface,Temperature,degC,1
+"[153.0533, -25.4475, 90]",Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,a
+"[34.4372, -11.2939, 500]",Temp12k1_0_1,Malawi.Johnson.2016.lpd,LakeSediment,inferred,NA,NA,Lake Surface,Temperature,degC,1
+"[138.5572, -66.0512, -746]",Temp12k1_0_1,MD03-2601.Kim.2012.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Subsurface Temperature,degC,1
+"[137.4065, -36.9607, -865]",Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,SST_1_12_degC_Calculated_from_UK'37_Prahl,NA,NA,Temperature,degC,1
+"[137.4065, -36.9607, -865]",Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,SST_1_12_degC_Calculated_from_TEX86_Kim_et,NA,NA,Temperature,degC,1
+"[137.4065, -36.9607, -865]",Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,SST_1_12_degC_Calculated_from_LDI_Rampen_e,NA,NA,Temperature,degC,1
+"[126.4977, 6.5143, -1575]",Temp12k1_0_1,MD06_3067.Bolliet.2011.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[126.4977, 6.5143, -1575]",Temp12k1_0_1,MD06_3067.Bolliet.2011.lpd,MarineSediment,inferred,TT_degC,NA,Sea Thermocline,Temperature,degC,1
+"[-8.5338, 47.452, -2174]",Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,SST_Winter,NA,Sea Surface,Temperature,degC,1
+"[-8.5338, 47.452, -2174]",Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,SST_summer,NA,Sea Surface,Temperature,degC,1
+"[-8.5338, 47.452, -2174]",Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,SST_annual,NA,Sea Surface,Temperature,degC,1
+"[7.6393, 66.9697, -1048]",Temp12k1_0_1,MD95_2011Assemblage.Risebrobakken.2003.lpd,MarineSediment,inferred,SST_sum_degC,NA,Sea Surface,Temperature,degC,1
+"[174.9308, -45.5344, -1210]",Temp12k1_0_1,MD97_2120.Pahnke.2006.lpd,MarineSediment,inferred,sst_uk37_p,NA,Sea Surface,Temperature,degC,1
+"[123.49, 14.82, -730]",Temp12k1_0_1,MD98_2188.Dang.2012.lpd,MarineSediment,inferred,SST_Anand,NA,Sea Surface,Temperature,degC,1
+"[123.49, 14.82, -730]",Temp12k1_0_1,MD98_2188.Dang.2012.lpd,MarineSediment,inferred,TWT_Anand,NA,Sea Subsurface,Temperature,degC,1
+"[-110.1304, 37.9049, 1835]",Temp12k1_0_1,MiddenCluster1.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-115.1879, 36.3806, 1297]",Temp12k1_0_1,MiddenCluster2.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-108.0819, 36.0589, 1848]",Temp12k1_0_1,MiddenCluster3.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-112.7451, 43.6488, 1517]",Temp12k1_0_1,MiddenCluster4.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-106.0203, 32.4659, 1760]",Temp12k1_0_1,MiddenCluster5.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-106.0203, 32.4659, 1237]",Temp12k1_0_1,MiddenCluster6.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-116.0048, 34.1548, 573]",Temp12k1_0_1,MiddenCluster7.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-109.0977, 32.3106, 1339]",Temp12k1_0_1,MiddenCluster8.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[-115.5548, 31.6387, 782]",Temp12k1_0_1,MiddenCluster9.Harbert.2018.lpd,Midden,inferred,Mean annual temperature reconstruction,NA,Air Surface,Temperature,degC,1
+"[7.02, 47.49, 491]",Temp12k1_0_1,MilandreCave.Affolter.2019.lpd,Speleothem,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[175.37, -37.92, 60]",Temp12k1_0_1,Moanatuatua.Jara.2017.lpd,Peat,inferred,Estimated MAT by cross-validation by average of 10 closest analogues,NA,Air Surface,Temperature,degC,1
+"[-54.002, 68.4719, -519]",Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,SST_Winter,NA,Sea Surface,Temperature,degC,1
+"[-54.002, 68.4719, -519]",Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,SST_summer,NA,Sea Surface,Temperature,degC,1
+"[-54.002, 68.4719, -519]",Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,SST_annual,NA,Sea Surface,Temperature,degC,1
+"[-42.32, 75.1, 2925]",Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,200 years low pass filtered,NA,Air Surface,Temperature,degC,1
+"[-42.32, 75.1, 2925]",Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,NA,NA,NA,Temperature,degC,NA
+"[43, -84, 3330]",Temp12k1_0_1,PlateauRemote.MosleyThompson.1996.lpd,GlacierIce,inferred,NA,NA,Air Condensation,D18O,permil,1
+"[145.6703, -4.4939, -712]",Temp12k1_0_1,RR1313_23PC.MoffaSanchez.2019.lpd,MarineSediment,inferred,SST,NA,Sea Surface,Temperature,degC,1
+"[57.347, 14.321, -3212]",Temp12k1_0_1,SO42_74KL.Huguet.2006.lpd,MarineSediment,inferred,SST_1_12_degC,NA,NA,Temperature,unitless,1
+"[65.916, 24.833, -695]",Temp12k1_0_1,SO90_56KA.Doose-Rolinski.2001.lpd,MarineSediment,inferred,SST_1_12_degC,NA,Sea Surface,Temperature,degC,1
+"[14.05, 66.44, 243]",Temp12k1_0_1,Svanavatnet.Bjune.2008.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[29.83, -6.72, 773]",Temp12k1_0_1,Tanganyika.Tierney.2008.lpd,LakeSediment,inferred,Composite of cores KH3 and KH4,NA,Lake Surface,Temperature,degC,1
+"[6, -50, -3700]",Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Temperature,degC,1
+"[6, -50, -3700]",Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Temperature,degC,1
+"[6, -50, -3700]",Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,NA,NA,Sea Surface,Temperature,degC,1
+"[33.1983, -1.2317, 1133]",Temp12k1_0_1,Victoria.Berke.2012.lpd,LakeSediment,inferred,NA,NA,Lake Surface,Temperature,degC,1
+"[-112.08, -79.4676, 1806]",Temp12k1_0_1,WAISDivide.Cuffey.2016.lpd,GlacierIce,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-112.08, -79.4676, 1806]",Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,Modeled Equivalent Temperatures (C),NA,Air Surface,Temperature,degC,1
+"[-80.7767, 34.168, 1.5]",Temp12k1_0_1,WhitePond.Krause.2019.lpd,LakeSediment,inferred,NA,NA,Air Surface,Temperature,degC,1
+"[-159.2859, 3.9062, -11]",iso2k1_0_0,CO09NUTB.lpd,Coral,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,1
+"[-162.13, 5.87, -10]",iso2k1_0_0,CO11NUPM.lpd,Coral,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,1
+"[110.656, 19.287, -4]",iso2k1_0_0,CO13DESC01A.lpd,Coral,inferred,carbonate,D18O Seawater,NA,D18O,permil,1
+"[172.7469, 3.0731, -5]",iso2k1_0_0,CO14CABT.lpd,Coral,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,1
+"[172.7469, 3.0731, -5]",iso2k1_0_0,CO14CABT.lpd,Coral,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,1
+"[123.5167, -10.2, -3]",iso2k1_0_0,CO14CATI.lpd,Coral,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,1
+"[110.667, 19.308, -6]",iso2k1_0_0,CO17DESC01A.lpd,Coral,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[110.662, 19.301, -6]",iso2k1_0_0,CO17DESC02A.lpd,Coral,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[110.656, 19.287, -6]",iso2k1_0_0,CO17DESC03A.lpd,Coral,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[110.692, 19.3198, -6]",iso2k1_0_0,CO17DESC04A.lpd,Coral,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[110.7531, 19.395]",iso2k1_0_0,CO17XISC01A.lpd,Coral,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[-138.32, 65.21, 740]",iso2k1_0_0,GI19POYU.lpd,GroundIce,inferred,pore ice,NA,NA,Temperature,degC,1
+"[-43.83, 65.1833]",iso2k1_0_0,IC10VIP1.lpd,GlacierIce,inferred,principle component analysis of  d18O of glacier ice,Precipitation Isotope,Air Surface,D18O,NA,1
+"[-43.83, 65.1833]",iso2k1_0_0,IC10VIP1.lpd,GlacierIce,inferred,principle component (PC) analysis of  d18O of glacier ice,Precipitation Isotope,Air Surface,D18O,PC,1
+"[-43.83, 65.1833]",iso2k1_0_0,IC10VIP2.lpd,GlacierIce,inferred,principle component analysis of  d18O of glacier ice,Precipitation Isotope,Air Surface,D18O,NA,1
+"[-43.83, 65.1833]",iso2k1_0_0,IC10VIP2.lpd,GlacierIce,inferred,principle component (PC) analysis of  d18O of glacier ice,Precipitation Isotope,Air Surface,D18O,PC,1
+"[-74.45, -41, -852]",iso2k1_0_0,MS02FLPC.lpd,MarineSediment,inferred,inferred seawater,NA,Subsurface  30M ,D18O,permil,2
+"[11.2217, -5.5883, 962]",iso2k1_0_0,MS05ESCR.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-54.87, 43.48, -3975]",iso2k1_0_0,MS05LKLF.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Near Sea Surface,D18O,permil,2
+"[-83.26, 24.33, -547]",iso2k1_0_0,MS06DLDS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-79.29, 24.76, -694]",iso2k1_0_0,MS06DLGN.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-79.27, 24.59, -531]",iso2k1_0_0,MS06DLGS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[9.38, 2.5, -1295]",iso2k1_0_0,MS07SWGG.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[119.2, -3.53, -503]",iso2k1_0_0,MS09DOIP.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-17.82, 62.08, 1938]",iso2k1_0_0,MS09DTNA.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[-17.82, 62.08, 1938]",iso2k1_0_0,MS09DTNA.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,NA,D18O,permil,1
+"[115.2, -7.4, -594]",iso2k1_0_0,MS10BLMS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[117.48, -5.2, -1185]",iso2k1_0_0,MS11ANMS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-76.32, 32.98, -1205]",iso2k1_0_0,MS11CSCN.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-76.28, 32.78, -1895]",iso2k1_0_0,MS11CSCS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[-75.201, 34.973, -620]",iso2k1_0_0,MS12CCCH.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[74.9993, 10.98, -1245]",iso2k1_0_0,MS13RSAS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Sea Surface,D18O,permil,2
+"[120.917, -9.5948, -1250]",iso2k1_0_0,MS14GFSS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Surface,D18O,permil,2
+"[120.917, -9.5948, -1250]",iso2k1_0_0,MS14GFSS.lpd,MarineSediment,inferred,mean annual SSt from G. ruber Mg/Ca,NA,NA,Temperature,degC,NA
+"[-48.7223, 57.5042, 3486]",iso2k1_0_0,MS14MOLS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Surface,D18O,permil,2
+"[-48.7223, 57.5042, 3486]",iso2k1_0_0,MS14MOLS.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Subsurface,D18O,permil,2
+"[-19.536, 61.4817, 2303]",iso2k1_0_0,MS14MORR.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Base Of Thermocline,D18O,permil,2
+"[-50.2427, -32.5052, -657]",iso2k1_0_0,MS15VIBC.lpd,MarineSediment,inferred,inferred seawater,D18O Seawater,Surface,D18O,permil,2
+"[-50.2427, -32.5052, -657]",iso2k1_0_0,MS15VIBC.lpd,MarineSediment,inferred,Mg/Ca derived annual mean SST,NA,NA,Temperature,degC,NA

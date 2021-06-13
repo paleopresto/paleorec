@@ -1,0 +1,4137 @@
+archiveType,proxyObservationType,units,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits
+Wood,D18O,permil,NA,Surface,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,BIT,unitless,NA,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface  300 400M ,D18O,permil
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Air Temperature,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Seawater Isotope,Near Surface,Near Surface Seawater Isotope,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,D18O,permil
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,Na,ng/g,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  60 80M ,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,D18O,permil,Water Temperature,Near Surface,Near Surface  Temperature,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  30M ,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Water Temperature,Subsurface  136 M,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  300 400M ,D18O,permil
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Ice-other,D-Excess,permil,NA,NA,Temperature,degC
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface  50M ,NA,NA
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,D18O,permil,Evapotranspiration,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,TEX86,unitless,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Peat,NA,m,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Relative Humidity,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,Biogenic Silica,mg/cm2/yr,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil,Seawater Isotope,Near Sea Surface,Near Sea Surface Seawater Isotope,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,Mg,ppb,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Peat,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,Air Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Amount,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,m,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+GlacierIce,Thickness,mwe,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Thermocline,Thermocline Temperature And D18O Of Seawater,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface,Subsurface Carbonate Ion Concentration,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Sclerosponge,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  50M ,D18O,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,Melt,percent,NA,Air Surface,NA,NA
+Coral,Calcification,mm/yr,NA,Sea Surface,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Surface,Temperature,degC
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Near Surface,Near Surface  Temperature,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Near Sea Surface,Near Sea Surface  Temperature,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Surface,Surface Seawater Isotope,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  300 400M ,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Near Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Water Temperature,Subsurface   50 M ,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Ice-other,D-Excess,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,Subsurface  Temperature,NA
+MarineSediment,Notes,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  300 400M ,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GroundIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+GlacierIce,Ca,ppb,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,degC,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GroundIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GroundIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Water Temperature,Near Sea Surface,Near Sea Surface  Temperature,NA
+MarineSediment,Notes,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Ice-other,D18O,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Ice-other,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+Wood,Density,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,Temperature,degC
+LakeSediment,NA,degC,NA,NA,Temperature,degC
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,TEX86,unitless,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GroundIce,D18O,permil,NA,Air Surface,NA,NA
+Sclerosponge,D18O,permil,NA,Subsurface  143 M,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Surface,Near Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,D18O,NA,Precipitation And Evaporation,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,mm,NA,NA,Temperature,degC
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GroundIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dust,permil,NA,NA,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+Wood,Density,count,NA,NA,Temperature,degC
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,microg/g,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,NA,bubbles/cm3,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,NA,mm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,Subsurface Seawater Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Seawater Isotope,Near Surface,Near Surface Seawater Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Water Temperature,Subsurface  143 M,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,NA,m,NA,NA,Temperature,degC
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,Dust,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Peat,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,D18O,permil,Evapotranspiration,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,Temperature,degC
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Ice-other,D18O,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+LakeSediment,Layer Thickness,mm,NA,Air Surface,Temperature,degC
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+LakeSediment,Effective Moisture,cm,NA,Eff,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,NA,mm,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Midden,NA,decimal degrees,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Layer Thickness,mm,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,NA,D18O,permil
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Sea Surface,Near Sea Surface Carbonate Ion Concentration,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,percent,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Sclerosponge,D18O,permil,NA,Subsurface  136 M,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Seawater Isotope,Surface,D18O,permil
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Near Sea Surface,D18O,permil
+Coral,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Air Temperature,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+Speleothem,D18O,permil,Air Temperature,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+TerrestrialSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface,Subsurface Carbonate Ion Concentration,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface Mixed Layer,Surface Mixed Layer  Temperature,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  300 400M ,D18O,permil
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,Temperature,degC
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GroundIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,MBT',NA,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GroundIce,D18O,permil,NA,Air Surface,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Cl,ppb,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,Notes,NA,NA,NA,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Sclerosponge,D18O,permil,D18O Seawater,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GroundIce,Dd,permil,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,D18O Of Precipitation,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,TEX86,NA,NA,Lake Surface,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,D18O Of Precipitation,Lake Water,Precipitation D18O,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,Uk37',unitless,NA,NA,Sedimentation Rate,cm/kyr
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Density,g/cm3,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mode Grain Size,microm,NA,NA,Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Coral,Calcification,cm/yr,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface  300 400M ,Temperature,degC
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,m,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,NA,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,D18O,permil,Air Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,TEX86,unitless,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+Wood,Segment,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,Thickness,mwe,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Surface,Near Surface Temperature And D18O Of Seawater,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Wood,D18O,permil,Air Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+LakeSediment,Thickness,cm,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,RAN15,NA,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Thermocline,Thermocline Seawater Isotope,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Uk37,unitless,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Surface,Near Surface Temperature And D18O Of Seawater,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Thermocline,Thermocline  Temperature,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Sea Surface,Near Sea Surface Temperature And D18O Of Seawater,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Thickness,mm,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,percent,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+LakeSediment,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Thermocline,Thermocline Carbonate Ion Concentration,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+MarineSediment,Notes,NA,NA,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,D18O,permil,Air Temperature,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,Chloride,ppb,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+Peat,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  300 400M ,D18O,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,D18O,permil
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+Peat,NA,cm,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Thickness,mm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Nitrate,ppb,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+Coral,D18O,permil,Temperature And Precipitation,Sea Surface,Sea Surface Temperature And Precipitation,NA
+Ice-other,D18O,permil,NA,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Speleothem,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,D18O,permil,Air Temperature,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,NA,D18O,permil
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Notes,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Thickness,mm,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,D18O,permil
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+LakeSediment,NA,cm,NA,NA,NA,NA
+Speleothem,NA,mm,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+GlacierIce,Bubblenumberdensity,bubbles/cm3,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,D18O,permil
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GroundIce,D-Excess,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Near Surface,Near Surface  Temperature,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,Ca,ppb,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,BIT,unitless,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,Biogenic Silica,mg/cm2/yr,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Sclerosponge,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,Subsurface  Temperature,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Ice-other,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,TEX86,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Temperature And Precipitation,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Wood,D18O,permil,Precipitation Amount,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Effective Moisture,cm,NA,Eff,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,Subsurface  Temperature,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GroundIce,D18O,permil,Precipitation Isotope,Air Surface,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,Air Condensationlevel,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,permil
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,Temperature,degC
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+LakeSediment,BIT,unitless,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,Lake Water,Precipitation Isotope,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Lake Temperature,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+GroundIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,Melt,percent,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,Lake Water,Lake Water Temperature,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Surface,Near Surface Carbonate Ion Concentration,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+LakeSediment,TEX86,degC,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Sclerosponge,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,NA,NA,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface,Subsurface Carbonate Ion Concentration,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+TerrestrialSediment,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Ice-other,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Thermocline,Thermocline Seawater Isotope,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+GlacierIce,NA,NA,NA,Air Surface,NA,NA
+MarineSediment,Uk37',unitless,NA,NA,Sea Surface Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,Lake Water,Lake Water Temperature,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,CBT,NA,NA,NA,Temperature,degC
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+GlacierIce,Na,ppb,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,NA,mm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Thermocline,Thermocline  Temperature,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface,Subsurface Carbonate Ion Concentration,NA
+MarineSediment,NA,mm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,D18O,permil
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Thickness,cm,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Near Surface,Near Surface  Temperature,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,NA,m,NA,NA,Temperature,degC
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Surface,Surface Seawater Isotope,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Core,NA,NA,NA,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface   50 M ,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  30M ,D18O,permil
+Wood,Core,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Near Surface,Near Surface Seawater Isotope,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,C/N,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Hybrid,Tree Ring Standardized Growth Index,NA,NA,NA,Temperature,degC
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+TerrestrialSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  300 400M ,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  300 400M ,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,NA,Sea Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,Nitrate,ppb,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Sclerosponge,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface,Subsurface Carbonate Ion Concentration,NA
+Speleothem,RAN15,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  300 400M ,D18O,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Amount,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Surface,Surface Seawater Isotope,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Surface,Near Surface Temperature And D18O Of Seawater,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,K,ppb,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Speleothem,NA,mm,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  60 80M ,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,Temperature,degC
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,D18O,permil
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+GroundIce,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+GlacierIce,Sulfate,ppb,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,Subsurface Seawater Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Evapotranspiration,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,BIT,unitless,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Sea Surface,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,NA,Air Surface,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MolluskShell,D18O,permil,D18O Seawater,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And Salinity,Sea Surface,Sea Surface Temperature And Salinity,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,NA,mm,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Ice-other,Dd,permil,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Amount,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+TerrestrialSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Subsurface  50M ,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+LakeSediment,MBT',NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+GroundIce,D-Excess,permil,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,Biogenic Silica,mg/g,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,Laminathickenss,mm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,D18O,permil
+Peat,NA,cm,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,BIT,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Hybrid,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,D18O,permil
+GlacierIce,Ammonium,ppb,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,NA,Temperature,degC
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,D18O,permil,Lake Temperature,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Caco3,percent,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,D18O,permil,Precipitation Amount,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,Ammonium,ppb,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Dd,permil,Precipitation Amount,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  50M ,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,Subsurface Seawater Isotope,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,K,ppb,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,TEX86,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,D18O,permil
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Core,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+Midden,NA,decimal degrees,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface  30M ,D18O,permil
+LakeSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,Dust,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,Sulfate,ppb,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface  30M ,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Composite,percent,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Precipitation,mm,NA,Surface,Temperature,degC
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D-Excess,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Amount,Air Surface,Precipitation Amount,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+GroundIce,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,Thickness,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+Coral,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+Ice-other,Dd,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Surface,Surface Seawater Isotope,NA
+LakeSediment,Layer Thickness,mm,NA,Air Surface,Temperature,degC
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+Wood,D18O,permil,Evapotranspiration,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Core,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Near Surface,Near Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D18O,permil,Water Temperature,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation Isotope,Lake Water,Precipitation Isotope,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,MBT,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  300 400M ,D18O,permil
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Subsurface  300 400M ,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,Sulfate,ppb,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+LakeSediment,TEX86,NA,NA,Lake Surface,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,D18O,permil,Air Temperature,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Peat,NA,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,NA,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Surface,Sea Surface  Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Thickness,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,NA,degC,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+GroundIce,NA,cm,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,NA,NA,NA,NA,Temperature,degC
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Density,count,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,Core,NA,NA,NA,Temperature,degC
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,D18O,NA,Palmer Drought Severity Index,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Salinity,Subsurface  143 M,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,D18O,permil
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,D18O,permil
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Chloride,ppb,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Ice-other,NA,cm,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Surface,Near Surface Carbonate Ion Concentration,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,D18O Of Precipitation,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Surface,Near Surface Carbonate Ion Concentration,NA
+GlacierIce,Dd,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+LakeSediment,TEX86,degC,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,NA,BP,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+LakeSediment,Thickness,mm,NA,Air Surface,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+LakeSediment,NA,mm,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GroundIce,Dd,permil,NA,Air Surface,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+LakeSediment,NA,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,Temperature,degC
+TerrestrialSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface  30M ,D18O,NA
+LakeSediment,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  300 400M ,NA,NA
+GlacierIce,NA,cm,NA,NA,NA,NA
+GlacierIce,D-Excess,permil,NA,NA,NA,NA
+GlacierIce,NA,m,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,Sea Surface,D18O,permil
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Groundwater,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+Wood,Residual,NA,NA,NA,NA,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,Sea Surface Seawater Isotope,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And Salinity,Sea Surface,D18O,permil
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Dry Bulk Density,g/cm3,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,Nitrate,ppb,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,NA,m,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,D18O,permil
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+Midden,NA,decimal degrees,NA,NA,Temperature,degC
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,degC,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,NA,NA,NA,Temperature,degC
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Seawater Isotope,Sea Surface,D18O,permil
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,Sea Surface,D18O,permil
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Coral,NA,cm,NA,NA,D18O,permil
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface Mixed Layer,Surface Mixed Layer Temperature And D18O Of Seawater,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface,Sea Surface Carbonate Ion Concentration,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,D18O,permil,Evapotranspiration,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Surface,Surface Temperature And D18O Of Seawater,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GroundIce,D-Excess,permil,NA,NA,Temperature,degC
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface   50 M ,D18O,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,Air Surface,Precipitation And Evaporation,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Surface Mixed Layer,Surface Mixed Layer Carbonate Ion Concentration,NA
+LakeSediment,Sample Count,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Wood,Core,NA,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Density,g/cm3,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,NA,cm,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil,NA,NA,Temperature,degC
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Amount,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,Subsurface  Temperature,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,Air Surface,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Thermocline,Thermocline Temperature And D18O Of Seawater,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+Wood,D18O,permil,Relative Humidity,Surface,Relative Humidity,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Amount,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,NA,D18O,permil
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,Subsurface Seawater Isotope,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,Brgdgt,peak area,NA,NA,Temperature,degC
+LakeSediment,Biogenic Silica,mg/g,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Notes,NA,NA,NA,Temperature,degC
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,NA,D18O,permil
+LakeSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,D18O,permil
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Sea Surface,Near Sea Surface Carbonate Ion Concentration,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Speleothem,D18O,permil,Air Temperature,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,Thickness,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,NA,AD,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,Subsurface  Temperature,NA
+Wood,Tree Ring Width,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Midden,NA,m,NA,NA,Temperature,degC
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Near Sea Surface,D18O,permil
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Coral,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,NA,D18O,permil
+MarineSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Ice-other,D-Excess,permil,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Water Temperature,Near Surface,Near Surface  Temperature,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+GlacierIce,Sulfate,ppb,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+LakeSediment,Uk37,NA,NA,NA,Temperature,degC
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,no/g,NA,NA,NA,NA
+GlacierIce,D18O,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,Thickness,cm,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Ice-Rafted Debris,percent,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+GlacierIce,Dust,count/mL,NA,NA,NA,NA
+MarineSediment,NA,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Coral,NA,cm,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,Air Condensationlevel,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Sclerosponge,D18O,permil,Salinity,Subsurface  136 M,NA,NA
+MarineSediment,Notes,NA,NA,NA,Temperature,degC
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Documents,Julian Day,days,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,Lake Water,Precipitation And Evaporation,NA
+MarineSediment,NA,m,NA,NA,Sea Surface Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,D18O,permil
+GlacierIce,D18O,permil,NA,Air Condensationlevel,NA,NA
+LakeSediment,NA,cm,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,Lake Water,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Near Surface,Near Surface Seawater Isotope,NA
+Wood,NA,NA,NA,NA,NA,NA
+Ice-other,D-Excess,permil,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+GlacierIce,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Wood,D18O,permil,Palmer Drought Severity Index,NA,NA,NA
+LakeSediment,Dd,permil,Evapotranspiration,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,D13C,permil,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+LakeSediment,BIT,NA,NA,NA,NA,NA
+Ice-other,D18O,permil,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,counts,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Speleothem,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Speleothem,NA,cm,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Midden,NA,m,NA,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Surface,Surface Seawater Isotope,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+LakeSediment,NA,NA,NA,NA,NA,NA
+Coral,D18O,permil,D18O Seawater,Sea Surface,Sea Surface D18O Seawater,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Condensationlevel,Precipitation Isotope,NA
+Wood,Core,NA,NA,NA,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,37:2Alkenoneconcentration,g,NA,NA,Temperature,degC
+GlacierIce,D18O,permil,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,NA,m,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Wood,Maximum Latewood Density,NA,NA,Air Surface,NA,NA
+GlacierIce,D18O,permil,NA,Air Surface,Temperature,degC
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Coral,D18O,permil,NA,Sea Surface,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Sea Surface,Sea Surface Temperature And D18O Of Seawater,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Caco3,percent,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+MarineSediment,NA,m,NA,NA,Subsurface Temperature,degC
+Coral,D18O,permil,D18O Seawater,NA,D18O,permil
+MarineSediment,NA,cm,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,NA,NA,NA,NA
+LakeSediment,NA,cm,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Water Temperature,Subsurface,D18O,permil
+Speleothem,NA,cm,NA,NA,NA,NA
+MarineSediment,NA,cm,NA,NA,D18O,permil
+GroundIce,D-Excess,permil,NA,NA,Temperature,degC
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,Foraminifera Abundance,percent,NA,NA,NA,NA
+LakeSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Segment,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Density,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Thermocline,Thermocline Carbonate Ion Concentration,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+TerrestrialSediment,Dd,permil,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,NA,NA,NA
+MarineSediment,37:2Alkenoneconcentration,ng/g,NA,NA,NA,NA
+Wood,Tree Ring Width,cm,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Rbar (Mean Pair Correlation),NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+MarineSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+GlacierIce,Dd,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,Temperature,degC
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Coral,Calcification,g/cm/yr,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,NA,degC,NA,NA,Temperature,degC
+LakeSediment,Dd,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+Speleothem,D13C,permil,NA,NA,NA,NA
+MarineSediment,Total Organic Carbon,percent,NA,NA,NA,NA
+GlacierIce,D18O,permil,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface,Subsurface Seawater Isotope,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Core,NA,NA,NA,NA,NA
+MarineSediment,Biogenic Silica,percent,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+Wood,Arstan Chronology,NA,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Speleothem,D18O,permil,NA,NA,NA,NA
+Coral,D18O,permil,Water Temperature,NA,D18O,permil
+Wood,NA,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,Water Temperature,NA,NA,NA
+LakeSediment,D18O,permil,Precipitation And Evaporation,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,NA,NA,NA,NA,NA,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+GlacierIce,D18O,NA,Precipitation Isotope,Air Surface,Precipitation Isotope,NA
+Coral,D18O,permil,Water Temperature,Sea Surface,Sea Surface  Temperature,NA
+Wood,Residual,NA,NA,NA,NA,NA
+Coral,Sr/Ca,mmol/mol,NA,Sea Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,NA,NA,NA
+Wood,D18O,permil,Precipitation Isotope,NA,NA,NA
+Midden,NA,decimal degrees,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+MarineSediment,Mg/Ca,mmol/mol,NA,NA,NA,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+MarineSediment,D18O,permil,Seawater Isotope,Subsurface  300 400M ,Temperature,degC
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+MarineSediment,Dd,permil,Precipitation Isotope,NA,NA,NA
+Wood,Corrs,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,Temperature And D18O Of Seawater,Subsurface,D18O,NA
+MarineSediment,Uk37,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,D18O,permil,NA,NA,NA,NA
+Wood,Segment,NA,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+GlacierIce,NA,m,NA,NA,NA,NA
+MarineSediment,D13C,permil PDB,NA,NA,NA,NA
+Wood,Tree Ring Standardized Growth Index,NA,NA,Air Surface,NA,NA
+LakeSediment,D18O,permil,NA,NA,NA,NA
+Wood,Residual,NA,NA,NA,NA,NA
+MarineSediment,D18O,permil,NA,NA,Temperature,degC
+MarineSediment,D18O,permil,Carbonate Ion Concentration,Sea Surface,Sea Surface Carbonate Ion Concentration,NA
+Wood,Sample Count,count,NA,NA,NA,NA
+MarineSediment,D18O,permil PDB,NA,NA,NA,NA
+Wood,Expressed Population Signal,NA,NA,NA,NA,NA

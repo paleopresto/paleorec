@@ -1,0 +1,487 @@
+publication,filename,archiveType,variableType,interpretation/variable,interpretation/variableDetail,inferredVariable,inferredVarUnits,rank
+PAGES2kv2,Afr-LakeMalawi.Powers.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1.0
+PAGES2kv2,Afr-LakeTanganyika.Tierney.2010.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1.0
+PAGES2kv2,Afr-P178-15P.Tierney.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-DSS.DahlJensen.1999.lpd,borehole,inferred,Temperature,Ice Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-WAIS-Divide.Severinghaus.2012.lpd,borehole,inferred,Temperature,Ice Surface,Temperature,degC,1.0
+PAGES2kv2,Ant-WAIS-Divide.Severinghaus.2012.lpd,borehole,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Arc-BigRoundLake.Thomas.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-BrayaS.DAndrea.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+PAGES2kv2,Arc-GulfofAlaska.Wilson.2014.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-HalletLake.McKay.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-HalletLake.McKay.2008.lpd,lake sediment,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Arc-HudsonLake.Clegg.2011.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Iceland.Bergthorsson.1969.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Kongressvatnet.DAndrea.2012.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+PAGES2kv2,Arc-Lake4.Rolland.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-LakeE.DAndrea.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+PAGES2kv2,Arc-LakeHamptrsk.Luoto.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-LakePieni-Kauro.Luoto.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Lomonosovfonna.Divine.2011.lpd,glacier ice,inferred,Temperature,Air Condensationlevel,Temperature,degC,1
+PAGES2kv2,Arc-MackenzieDelta.Porter.2013.lpd,tree,inferred,N/A,NA,Temperature,degC,1
+PAGES2kv2,Arc-MD992275.Jiang.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Arc-MooseLake.Clegg.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-ScreamingLynxLake.Clegg.2011.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-SoperLake.Hughen.2000.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Tornetrask.Melvin.2012.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-VringPlateau.Berner.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Arc-Yamalia.Briffa.2013.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Arc-Yamalia.Briffa.2013.lpd,tree,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Asi-CentralChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-EastChina.Wang.1990.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-EastChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Fujian.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Guangdong.Zheng.1982.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-GuangdongAndGuangxi.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-Hunan-Jiangsu.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-KunashirIsland.Demezhko.2009.lpd,hybrid,inferred,Temperature,Ground Surface,Temperature,degC,1
+PAGES2kv2,Asi-LowerYangtzeRiver.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-MiddleYangtzeRiver.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-SihailongwaLake.Chu.2011.lpd,lake sediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+PAGES2kv2,Asi-SO90-39KGSO130-275KL.Munz.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Asi-SourthAndMiddleUrals.Demezhko.2007.lpd,borehole,inferred,Temperature,Ground Surface,Temperature,degC,1
+PAGES2kv2,Asi-SouthChina.Wang.1998.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Asi-ZhejiangAndFujian.Zhang.1980.lpd,documents,inferred,Temperature,Air Surface,Temperature,index,1
+PAGES2kv2,Aus-MtRead.Cook.2006.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Aus-Oroko.Cook.2002.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-CentralandEasternPyrenees.Pla.2004.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-CentralandEasternPyrenees.Pla.2004.lpd,lake sediment,inferred,NA,NA,uncertainty_temperature,degC,NA
+PAGES2kv2,Eur-CentralEurope.Dobrovoln.2009.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-CoastofPortugal.Abrantes.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Eur-FinnishLakelands.Helama.2014.lpd,tree,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-LakeSilvaplana.Larocque-Tobler.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-LakeSilvaplana.Trachsel.2010.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Seebergsee.Larocque-Tobler.2012.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Stockholm.Leijonhufvud.2009.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Eur-Tallinn.Tarand.2001.lpd,documents,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-BasinPond.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-ClearPond.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-ConroyLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-DarkLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-HellsKitchenLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LacNoir.Paquette.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeMina.St.Jacques.2008.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LakeoftheClouds.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-LittlePineLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,NAm-RubyLake.Gajewski.1988.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,Ocn-AlboranSea384B.Nieto-Moreno.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-AlboranSea436B.Nieto-Moreno.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ArabianSea.Doose-Rolinski.2001.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeGhir.Doose-Rolinski.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeGhir.McGregor.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CapeHatteras.Cleroux.2008.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CariacoBasin.Black.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CariacoBasin.Lea.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-CH07-98-MC-22.Saenger.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ChileanMargin.Lamy.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-DryTortugas.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-DryTortugasA.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-EasternTropicalNorthAtlantic.Kuhnert.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-EmeraldBasin.Keigwin.2003.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-EmeraldBasin.Keigwin.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-FeniDrift.Richter.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-FiskBasin.Richey.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GarrisonBasin.Richey.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBahamaBank.Lund.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBahamaBank.Richter.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GreatBarrierReef.Hendy.2002.lpd,coral,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-GulfofGuinea.Weldeab.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-JacafFjord.Seplveda.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-KNR140259GGC.Saenger.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-KuroshioCurrent.Isono.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-LaurentianFan.Keigwin.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MakassarStrait.Linsley.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MakassarStrait.Oppo.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD95-2011.Grimalt.2002.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD98-2160.Newton.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MD98-2177.Newton.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-MinorcaContourite.Moreno.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-NorthIceland.Sicre.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-NorthwestPacificOcean.Harada.2004.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-ODP984.Came.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-OkinawaTrough.Wu.2012.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-Philippines.Stott.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-PigmyBasin.Richey.2015.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-RAPiD-12-1K.Thornalley.2009.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SantaBarbaraBasin.Zhao.2000.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthAtlanticWestAfrica.Leduc.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthChinaSea.Zhao.2006.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthernChileMargin.Mohtadi.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SouthIceland.Sicre.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SubTropicalEasternNorthAtlantic.deMenocal.2000.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-SWCoastOfIndia.Saraswat.2013.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-TagusMudPatch.Abrantes.2005.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WEqPacific.Stott.2007.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WesternAntarcticPeninsula.Shevenell.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WesternSvalbard.Spielhagen.2011.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,Ocn-WestSpitzberg.Bonnet.2010.lpd,marine sediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaAculeo.vonGunten.2009.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+PAGES2kv2,SAm-LagunaChepical.deJong.2013.lpd,lake sediment,inferred,Temperature,Air,Temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air,uncertainty_temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air,uncertainty_temperature,degC,1
+PAGES2kv2,SAm-LagunaEscondida.Elbert.2013.lpd,lake sediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,161_976.Martrat.2014.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,165_1002C.Herbert.2000.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,AdelaideTarn.Jara.2015.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,AdelaideTarn.Jara.2015.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,Agassiz.Lecavalier.2017.lpd,GlacierIce,inferred,NA,NA,meltUncertaintyHigh,percent,NA
+Temp12k1_0_1,Agassiz.Lecavalier.2017.lpd,GlacierIce,inferred,NA,NA,meltUncertaintyLow,percent,NA
+Temp12k1_0_1,Ammersee.vonGrafenstein.1996.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,AwengCo.Li.2017.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,AwengCo.Li.2017.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,AwengCo.Li.2017.lpd,LakeSediment,inferred,Temperature,NA,tempErrorPlus,degC,1
+Temp12k1_0_1,AwengCo.Li.2017.lpd,LakeSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,BloodPond.Marsicek.2013.lpd,LakeSediment,inferred,M,Precipitation Surface,precipitation,mm,1
+Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,NA,NA,Year,year ce,NA
+Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,BrayaSo.vonGunten.2012.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,CandelabraLake.Cwynar.1995.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,CC04.Gibb.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,CC04.Gibb.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,CC04.Gibb.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,temperatureComposite,degC,1
+Temp12k1_0_1,CF8.Axford.2011.lpd,LakeSediment,inferred,NA,NA,nonReliableTemperature 1,degC,NA
+Temp12k1_0_1,ChallaLake.Damst.2012.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,CN01.Cheung.2017.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,CN01.Cheung.2017.lpd,Peat,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,DajiuhuPeatland.Huang.2013.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,DajiuhuPeatland.Huang.2013.lpd,Peat,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,NA,NA,Temperature,degC,NA
+Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,NA,NA,Temperature,degC,NA
+Temp12k1_0_1,DANA12_11_2_GC01.VanNieuwenhove.2018.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,DempsterPeatland.Porter.2019.lpd,Ice-other,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,DempsterPeatland.Porter.2019.lpd,Ice-other,inferred,NA,NA,uncertainty temperature1,degC,NA
+Temp12k1_0_1,DempsterPeatland.Porter.2019.lpd,Ice-other,inferred,NA,NA,uncertainty temperature1,degC,NA
+Temp12k1_0_1,DYE3.Dahl-Jensen.1998.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,DYE3.Dahl-Jensen.1998.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,EDML.Stenni.2010.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,ElGygytgynCrater.Schwamborn.2006.lpd,Ice-other,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,EPICADomeC.Stenni.2010.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,EPICADomeC.Stenni.2010.lpd,GlacierIce,inferred,NA,NA,tempSource,degC,NA
+Temp12k1_0_1,FanLake.Foster.2016.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,GeoB10042_1.Setiawan.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GeoB10043_3.Setiawan.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GeoB12605_3.Kuhnert.2014.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,NA,NA,Sedimentation Rate,cm/kyr,NA
+Temp12k1_0_1,GIK17748-2.Kim.2002.lpd,MarineSediment,inferred,Temperature,NA,Sea Surface Temperature,degC,1
+Temp12k1_0_1,GiK18515_3.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,GIK23258.Sarnthein.2003.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,H214.Samson.2005.lpd,MarineSediment,inferred,Temperature,Sea Surface,temperatureComposite,degC,1
+Temp12k1_0_1,Hani.Zheng.2017.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Hani.Zheng.2017.lpd,Peat,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,Hani.Zheng.2017.lpd,Peat,inferred,NA,NA,uncertainty_plus,degC,NA
+Temp12k1_0_1,Hani.Zheng.2017.lpd,Peat,inferred,NA,NA,undertainty_minus,degC,NA
+Temp12k1_0_1,HeshangCave.Wang.2018.lpd,Speleothem,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,HeshangCave.Wang.2018.lpd,Speleothem,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,HjortSo.Wagner.2008.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,HM03_133_25.Solignac.2008.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,HM03_133_25.Solignac.2008.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,HM03_133_25.Solignac.2008.lpd,MarineSediment,inferred,Temperature,Sea Surface,temperatureComposite,degC,1
+Temp12k1_0_1,Honeymoon.Cwynar.1991.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,HurlegLake.Zhao.2013.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,JamesRossIsland.Mulvaney.2012.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,NA,NA,ageMin,BP,NA
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,NA,NA,ageDuplicate,BP,NA
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,NA,NA,uncertaintyHigh,degC,NA
+Temp12k1_0_1,JinchueanBog.Yu.2013.lpd,Peat,inferred,NA,NA,uncertaintyLow,degC,NA
+Temp12k1_0_1,JPC67.Bertrand.2017.lpd,MarineSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,JPC67.Bertrand.2017.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,KinderlinskayaCave.Baker.2017.lpd,Speleothem,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Komosomolskaia.Ciais.1992.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Komosomolskaia.Ciais.1992.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,KT05_7_PC_02.Kawahata.2009.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,KZAI_01.Hardy.2018.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,LakeoftheWoods.Palmer.2002.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,LaPAS_KF02.Pivel.2013.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,LaPAS_KF02.Pivel.2013.lpd,MarineSediment,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,Lily.Cwynar.1990.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,M35003_4.R_hlemann.1999.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,M75_3_137_3.Wang.2013.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,M77_2_056_5.Neurnberg.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,M77_2_056_5.Neurnberg.2015.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,M77_2_059_1.N_rnberg.2015.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,NA,NA,ageError,yr,NA
+Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,a
+Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,NA,NA,uncertaintyHigh,degC,NA
+Temp12k1_0_1,Mackenzie.Woltering.2014.lpd,LakeSediment,inferred,NA,NA,uncertaintyLow,degC,NA
+Temp12k1_0_1,Malawi.Johnson.2016.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Malawi.Johnson.2016.lpd,LakeSediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+Temp12k1_0_1,Malawi.Johnson.2016.lpd,LakeSediment,inferred,Temperature,NA,smoothedTemp,degC,1
+Temp12k1_0_1,MD03-2601.Kim.2012.lpd,MarineSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MD03-2601.Kim.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Subsurface Temperature,degC,1
+Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,MD03_2607-Assemblage.LopesdosSantos.2013.lpd,MarineSediment,inferred,Temperature,NA,Temperature,degC,1
+Temp12k1_0_1,MD06_3067.Bolliet.2011.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD06_3067.Bolliet.2011.lpd,MarineSediment,inferred,Temperature,Sea Thermocline,Temperature,degC,1
+Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD95_2002.Eynaud.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD95_2011Assemblage.Risebrobakken.2003.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD97_2120.Pahnke.2006.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD98_2188.Dang.2012.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MD98_2188.Dang.2012.lpd,MarineSediment,inferred,Temperature,Sea Subsurface,Temperature,degC,1
+Temp12k1_0_1,MiddenCluster1.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster1.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster2.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster2.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster3.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster3.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster4.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster4.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster5.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster5.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster6.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster6.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster7.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster7.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster8.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster8.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MiddenCluster9.Harbert.2018.lpd,Midden,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MiddenCluster9.Harbert.2018.lpd,Midden,inferred,Temperature,Air Surface,temperature1,degC,1
+Temp12k1_0_1,MilandreCave.Affolter.2019.lpd,Speleothem,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,MilandreCave.Affolter.2019.lpd,Speleothem,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,MilandreCave.Affolter.2019.lpd,Speleothem,inferred,NA,NA,tempError,degC,NA
+Temp12k1_0_1,Moanatuatua.Jara.2017.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Moanatuatua.Jara.2017.lpd,Peat,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,MSM343300.Ouellet-Bernier.2014.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,NA,NA,uncertainty.temperature,NA,NA
+Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,NA,NA,Temperature,degC,NA
+Temp12k1_0_1,NorthGRIP.Gkinis.2014.lpd,GlacierIce,inferred,NA,NA,uncertainty.temperature,degC,NA
+Temp12k1_0_1,PlateauRemote.MosleyThompson.1996.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,PlateauRemote.MosleyThompson.1996.lpd,GlacierIce,inferred,Temperature,Air Condensation,D18O,permil,1
+Temp12k1_0_1,PolevaCave.Constantin.2007.lpd,Speleothem,inferred,NA,NA,Age,yr bo,NA
+Temp12k1_0_1,RR1313_23PC.MoffaSanchez.2019.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,SaharaSandWetland.Rao.2019.lpd,Peat,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,SipleDomeA.Das.2008.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,SO42_74KL.Huguet.2006.lpd,MarineSediment,inferred,NA,NA,Temperature,unitless,1
+Temp12k1_0_1,SO90_56KA.Doose-Rolinski.2001.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,Svanavatnet.Bjune.2008.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,TALDICE.Mezgec.2017.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Tanganyika.Tierney.2008.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Tanganyika.Tierney.2008.lpd,LakeSediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,TN057-17.Nielsen.2004.lpd,MarineSediment,inferred,Temperature,Sea Surface,Temperature,degC,1
+Temp12k1_0_1,Victoria.Berke.2012.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,Victoria.Berke.2012.lpd,LakeSediment,inferred,Temperature,Lake Surface,Temperature,degC,1
+Temp12k1_0_1,WAISDivide.Cuffey.2016.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,WAISDivide.Cuffey.2016.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,NA,NA,sampleID,unitless,NA
+Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,NA,NA,ageUncertainty,yr,NA
+Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,WAISDivide.Fegyveresi.2016.lpd,GlacierIce,inferred,NA,NA,tempError,degC,NA
+Temp12k1_0_1,WhitePond.Krause.2019.lpd,LakeSediment,inferred,NA,NA,Age,BP,NA
+Temp12k1_0_1,WhitePond.Krause.2019.lpd,LakeSediment,inferred,Temperature,Soil Surface,soilTemp,degC,1
+Temp12k1_0_1,WhitePond.Krause.2019.lpd,LakeSediment,inferred,Temperature,Air Surface,Temperature,degC,1
+Temp12k1_0_1,WhitePond.Krause.2019.lpd,LakeSediment,inferred,NA,NA,pH,pH,NA
+iso2k1_0_0,CO09NUTB.lpd,Coral,inferred,D18O_Seawater,Sea Surface,D18O,permil,1
+iso2k1_0_0,CO11NUPM.lpd,Coral,inferred,D18O_Seawater,Sea Surface,D18O,permil,1
+iso2k1_0_0,CO13DESC01A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,CO14CABT.lpd,Coral,inferred,D18O_Seawater,Sea Surface,D18O,permil,1
+iso2k1_0_0,CO14CABT.lpd,Coral,inferred,D18O_Seawater,Sea Surface,D18O,permil,1
+iso2k1_0_0,CO14CATI.lpd,Coral,inferred,D18O_Seawater,Sea Surface,D18O,permil,1
+iso2k1_0_0,CO17DESC01A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,CO17DESC02A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,CO17DESC03A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,CO17DESC04A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,CO17WUBO1A.lpd,Coral,inferred,NA,NA,Year,AD,NA
+iso2k1_0_0,CO17XISC01A.lpd,Coral,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,GI19POYU.lpd,GroundIce,inferred,NA,NA,temperature1,degC,1
+iso2k1_0_0,GI19POYU.lpd,GroundIce,inferred,NA,NA,uncertainty temperature1,degC,1
+iso2k1_0_0,GI19POYU.lpd,GroundIce,inferred,NA,NA,uncertainty temperature1,degC,1
+iso2k1_0_0,IC10VIP1.lpd,GlacierIce,inferred,P_Isotope,Air Surface,D18O,NA,1
+iso2k1_0_0,IC10VIP1.lpd,GlacierIce,inferred,P_Isotope,Air Surface,D18O,PC,1
+iso2k1_0_0,IC10VIP2.lpd,GlacierIce,inferred,P_Isotope,Air Surface,D18O,NA,1
+iso2k1_0_0,IC10VIP2.lpd,GlacierIce,inferred,P_Isotope,Air Surface,D18O,PC,1
+iso2k1_0_0,LS08STCR.lpd,LakeSediment,inferred,NA,NA,Age BP,AD,NA
+iso2k1_0_0,MS02FLPC.lpd,MarineSediment,inferred,S,Sub Surface  30M ,D18O,permil,2
+iso2k1_0_0,MS05ESCR.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS05LKLF.lpd,MarineSediment,inferred,D18O_Seawater,Near Sea Surface,D18O,permil,2
+iso2k1_0_0,MS06DLDS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS06DLGN.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS06DLGS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS07SWGG.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS09DOIP.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS09DTNA.lpd,MarineSediment,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,MS09DTNA.lpd,MarineSediment,inferred,D18O_Seawater,NA,D18O,permil,1
+iso2k1_0_0,MS10BLMS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS11ANMS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS11CSCN.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS11CSCS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS12CCCH.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS13RSAS.lpd,MarineSediment,inferred,D18O_Seawater,Sea Surface,D18O,permil,2
+iso2k1_0_0,MS14GFSS.lpd,MarineSediment,inferred,D18O_Seawater,Surface,D18O,permil,2
+iso2k1_0_0,MS14GFSS.lpd,MarineSediment,inferred,NA,NA,Temperature,degC,NA
+iso2k1_0_0,MS14MOLS.lpd,MarineSediment,inferred,D18O_Seawater,Surface,D18O,permil,2
+iso2k1_0_0,MS14MOLS.lpd,MarineSediment,inferred,D18O_Seawater,Subsurface,D18O,permil,2
+iso2k1_0_0,MS14MORR.lpd,MarineSediment,inferred,D18O_Seawater,Base Of Thermocline,D18O,permil,2
+iso2k1_0_0,MS15VIBC.lpd,MarineSediment,inferred,D18O_Seawater,Surface,D18O,permil,2
+iso2k1_0_0,MS15VIBC.lpd,MarineSediment,inferred,NA,NA,Temperature,degC,NA
+iso2k1_0_0,SP98KUCN.lpd,Speleothem,inferred,NA,NA,Age,BP,NA
+iso2k1_0_0,TR11SAHU00.lpd,Wood,inferred,NA,NA,Year,AD,NA
+iso2k1_0_0,TR13SAWA00.lpd,Wood,inferred,NA,NA,Year,AD,NA
+iso2k1_0_0,TR17SAMA.lpd,Wood,inferred,NA,NA,Year,AD,NA
+iso2k1_0_0,TR18XUGA00.lpd,Wood,inferred,NA,NA,Year,AD,NA
+iso2k1_0_0,TR18XUJA00.lpd,Wood,inferred,NA,NA,Year,AD,NA
+PalMod1_0_1,323_U1340A.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,CH69_K09.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB12615_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB1711_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB1720_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB5844_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB9508_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB9508_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB9508_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB9508_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GeoB9526_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK15612_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK15612_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK15637_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK15637_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17049_6.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17049_6.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17051_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17051_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17940_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17940_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17961_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17961_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK17961_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK18471_1.lpd,marine sediment,inferred,NA,NA,deep.temp,degC,NA
+PalMod1_0_1,GIK18471_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23258_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23258_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23258_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23258_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23258_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,GIK23415_9.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,H214.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,H214.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,H214.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,H214.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,HU91_045_093.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,KNR159_36.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,LV29_114_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,LV29_114_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,LV29_114_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,LV29_114_3.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M35003_4.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M77_2_056_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M77_2_056_5.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M77_2_059_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M77_2_059_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,M77_2_059_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2378.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD01_2416.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD02_2489.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD02_2575.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD06_3067.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD06_3067.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD06_3075.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD07_3076.lpd,marine sediment,inferred,NA,NA,deep.temp,degC,NA
+PalMod1_0_1,MD73_025.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD73_025.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD88_770.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD95_2024.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD95_2039.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD95_2040.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD95_2040.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD95_2040.lpd,marine sediment,inferred,NA,NA,CaCO3,percent,NA
+PalMod1_0_1,MD95_2043.lpd,marine sediment,inferred,NA,NA,deep.temp,degC,NA
+PalMod1_0_1,MD95_2043.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD97_2120.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD97_2120.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD98_2181.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD98_2181.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD98_2181.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD99_2339.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MD99_2339.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MSM05_5_712_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MSM05_5_712_1.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,MSM05_5_723_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,NA87_22.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,NA87_22.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,ODP1145.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,ODP846.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,ODP980.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,ODP980.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,ODP984C.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,R657.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,R657.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,R657.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,RAPiD_15_4P.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,RAPiD_15_4P.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,RAPiD_15_4P.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,RS147_GC07.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,RS147_GC07.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO164_17_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO164_17_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_12KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_12KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_12KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_12KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_85.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO201_2_85.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO213_2_59_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO213_2_59_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO213_2_59_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO42_74KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO42_74KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO42_74KL.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SO82_5_2.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SU81_18.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SU81_18.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,SU81_18.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SU81_18.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,SU81_18.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,TR163_22.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,V19_27.lpd,marine sediment,inferred,NA,NA,DBD,g/cm3,NA
+PalMod1_0_1,V25_59.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,V25_59.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,V25_59.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,V25_59.lpd,marine sediment,inferred,NA,NA,surface.temp.error,degC,NA
+PalMod1_0_1,V28_14.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,V28_14.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,WIND_28K.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,WIND_28K.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
+PalMod1_0_1,WIND_28K.lpd,marine sediment,inferred,NA,NA,surface.temp,degC,NA
