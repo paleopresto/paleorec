@@ -1,8 +1,9 @@
 # Paleorec [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/paleopresto/paleorec/blob/main/LICENSE)
 
-## Recommender system for paleoclimate data
+## Recommender system for the annotation of paleoclimate data
 
-The <a href="https://lipd.net/playground" target="_blank">lipd.net playground</a> enables climate scientists and users of the lipd data format to create, edit and upload lipd files.
+The <a href="https://lipd.net/playground" target="_blank">lipd.net playground</a> enables paleoclimate scientists to create and edit files in the [LiPD](https://lipd.net) format. PaleoRec is a recommender system that assists these scientists in the recommendation task. 
+
 This is a repository for providing offline recommendation to the users to provide intuitive recommendation for various important fields in Paleo Measurement Table. 
 
 **We have 2 models** <br>
