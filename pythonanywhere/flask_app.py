@@ -187,7 +187,6 @@ def get_archives():
     covered = {'MarineSediment', 'LakeSediment', 'GlacierIce', 'GroundIce', 'TerrestrialSediment', 'MollusckShell','MolluskShell', 'MolluskShells', 'molluskshell'}
     final_arch = set()
     for key,value in archives_map.items():
-        print(key,value)    
         if key in covered:
             continue
         elif key.title() in archives_map:

@@ -322,15 +322,15 @@ def calculate_score_for_test_data_chain():
                 df = df.append(row_to_add)
                 chain_count += 1
 
-            i += 1     
-
-    print('**************************************************************************************')
+            i += 1
 
     timestr = time.strftime("%Y%m%d_%H%M%S")
 
     accuracy_data_path = os.path.join(test_data_path, 'accuracy_prediction_fang_metrics_'+timestr+'.csv')
     df = df.replace(np.nan, '', regex=True)
     df.to_csv(accuracy_data_path, sep = ',', encoding = 'utf-8',index = False)
+
+    output_dict = {'hit_ratio' : {}, 'mrr' : {}}
 
     # seaborn plotting data
     x = [3,5,7,10,12,14,16]
@@ -341,7 +341,7 @@ def calculate_score_for_test_data_chain():
     y5 = mean_recall('5')
     y6 = mean_recall('6')
 
-    num_rows = 7
+    
     a4_dims = (8, 6)
     fig, ax = plt.subplots(figsize=a4_dims)
     
@@ -353,16 +353,16 @@ def calculate_score_for_test_data_chain():
         'Interpretation Var Detail(chain len = 4)': y4,
         'Inferred Var(chain len = 5)': y5,
         'Inferred Var Units(chain len = 6)': y6})
+
+    output_dict['hit_ratio'] = {'y2':y2, 'y3':y3, 'y3_u':y3_u, 'y4':y4, 'y5':y5, 'y6':y6}
     
     sns.lineplot(ax=ax, x='Recommendation Set Size(3,5,7,10,12,14,16)', y='value', hue='variable', style="variable",
              data=pd.melt(data_preproc, ['Recommendation Set Size(3,5,7,10,12,14,16)']), markers=True, dashes=False, markersize=10)
     sns.set_style("white")
     ax.set(ylabel='Hit Ratio')
-    lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
     plt.ylim(0, 1.1)
+    lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
     fig.savefig('hr_'+timestr+'.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
-
-    print('*************************************************************************************************')
 
     fig, ax = plt.subplots(figsize=a4_dims)
     x = [3,5,7,10,12,14,16]
@@ -381,6 +381,8 @@ def calculate_score_for_test_data_chain():
         'Inferred Var(chain len = 5)': y5,
         'Inferred Var Units(chain len = 6)': y6})
 
+    output_dict['mrr'] = {'y2':y2, 'y3':y3, 'y3_u':y3_u, 'y4':y4, 'y5':y5, 'y6':y6}
+
     sns.set_style("white")
     sns.lineplot(ax=ax, x='Recommendation Set Size(3,5,7,10,12,14,16)', y='value', hue='variable', style="variable", 
              data=pd.melt(data_preproc, ['Recommendation Set Size(3,5,7,10,12,14,16)']), markers=True, dashes=False, markersize = 10)
@@ -389,6 +391,8 @@ def calculate_score_for_test_data_chain():
     lgd = ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0)         
     fig.savefig('mrr_'+timestr+'.png', dpi=300, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
-    
+    with open('lstm_metrics_data', 'w') as output_file:
+        json.dump(output_dict, output_file)
+
 if __name__ == "__main__":
     calculate_score_for_test_data_chain()

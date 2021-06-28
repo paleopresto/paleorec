@@ -141,7 +141,11 @@ class LSTMpredict:
         '''
         
         net.eval()
-        top_k = 10
+        top_k = 5
+        self.topk = 5
+        if len(words) == 1:
+            top_k = 12
+            self.topk=12
         state_h, state_c = net.zero_state(1)
         state_h = state_h.to(device)
         state_c = state_c.to(device)
