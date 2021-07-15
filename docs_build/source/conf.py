@@ -39,7 +39,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'matplotlib.sphinxext.plot_directive',
+    #'matplotlib.sphinxext.plot_directive',
     #'gallery_generator',
     'numpydoc',
     #'sphinx_issues',
