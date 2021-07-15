@@ -41,7 +41,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     #'matplotlib.sphinxext.plot_directive',
     #'gallery_generator',
-    'numpydoc',
+    #'numpydoc',
     #'sphinx_issues',
 ]
 
